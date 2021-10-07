@@ -21293,5 +21293,37 @@
       <node concept="l2Vlx" id="4h_5oU0VZMZ" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="4h_5oU10JMf">
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
+    <ref role="1XX52x" to="yjel:4h_5oU10JKu" resolve="PointerTypeReference" />
+    <node concept="3EZMnI" id="4h_5oU10JMh" role="2wV5jI">
+      <node concept="3F1sOY" id="4h_5oU10JMo" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:4h_5oU10JLZ" resolve="typeReference" />
+      </node>
+      <node concept="3F0ifn" id="4h_5oU10JMu" role="3EZMnx">
+        <property role="3F0ifm" value="*" />
+        <node concept="11L4FC" id="4h_5oU155Cw" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="4h_5oU10JMk" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4h_5oU17b15">
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
+    <ref role="1XX52x" to="yjel:4h_5oU17b0P" resolve="ReferenceTypeReference" />
+    <node concept="3EZMnI" id="4h_5oU17b17" role="2wV5jI">
+      <node concept="3F1sOY" id="4h_5oU17b18" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:4h_5oU17b0W" resolve="typeReference" />
+      </node>
+      <node concept="3F0ifn" id="4h_5oU17b19" role="3EZMnx">
+        <property role="3F0ifm" value="&amp;" />
+        <node concept="11L4FC" id="4h_5oU17b1a" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="4h_5oU17b1b" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

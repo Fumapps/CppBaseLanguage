@@ -18743,5 +18743,69 @@
       </node>
     </node>
   </node>
+  <node concept="1TIwiD" id="4h_5oU10JKu">
+    <property role="EcuMT" value="4928369069020871710" />
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
+    <property role="TrG5h" value="PointerTypeReference" />
+    <property role="R4oN_" value="Represents a pointer type reference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3H0Qfr" id="4h_5oU10JKx" role="lGtFl">
+      <node concept="1Pa9Pv" id="4h_5oU10JNq" role="3H0Qfi">
+        <node concept="1PaTwC" id="4h_5oU10JNr" role="1PaQFQ">
+          <node concept="3oM_SD" id="4h_5oU10JNu" role="1PaTwD">
+            <property role="3oM_SC" value="Pointer" />
+          </node>
+          <node concept="3oM_SD" id="4h_5oU10JNw" role="1PaTwD">
+            <property role="3oM_SC" value="Type" />
+          </node>
+          <node concept="3oM_SD" id="4h_5oU10JNz" role="1PaTwD">
+            <property role="3oM_SC" value="Reference" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1TJgyj" id="4h_5oU10JLZ" role="1TKVEi">
+      <property role="IQ2ns" value="4928369069020871807" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="typeReference" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="27q4jmdWYxN" resolve="TypeReference" />
+    </node>
+    <node concept="PrWs8" id="4h_5oU10JNo" role="PzmwI">
+      <ref role="PrY4T" node="5_5a0KJX$kh" resolve="INonArrayType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4h_5oU17b0P">
+    <property role="EcuMT" value="4928369069022556213" />
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
+    <property role="TrG5h" value="ReferenceTypeReference" />
+    <property role="R4oN_" value="Represents a referece type reference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3H0Qfr" id="4h_5oU17b0Q" role="lGtFl">
+      <node concept="1Pa9Pv" id="4h_5oU17b0R" role="3H0Qfi">
+        <node concept="1PaTwC" id="4h_5oU17b0S" role="1PaQFQ">
+          <node concept="3oM_SD" id="4h_5oU17b0T" role="1PaTwD">
+            <property role="3oM_SC" value="Pointer" />
+          </node>
+          <node concept="3oM_SD" id="4h_5oU17b0U" role="1PaTwD">
+            <property role="3oM_SC" value="Type" />
+          </node>
+          <node concept="3oM_SD" id="4h_5oU17b0V" role="1PaTwD">
+            <property role="3oM_SC" value="Reference" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1TJgyj" id="4h_5oU17b0W" role="1TKVEi">
+      <property role="IQ2ns" value="4928369069022556220" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="typeReference" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="27q4jmdWYxN" resolve="TypeReference" />
+    </node>
+    <node concept="PrWs8" id="4h_5oU17b0X" role="PzmwI">
+      <ref role="PrY4T" node="5_5a0KJX$kh" resolve="INonArrayType" />
+    </node>
+  </node>
 </model>
 

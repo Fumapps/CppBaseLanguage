@@ -37,6 +37,12 @@
       <concept id="4928369069019626636" name="CppBaseLanguage.structure.LocalVariableDeclarationWithoutInitialization" flags="ng" index="34yI$2">
         <child id="4928369069019626638" name="identifier" index="34yI$0" />
       </concept>
+      <concept id="4928369069020871710" name="CppBaseLanguage.structure.PointerTypeReference" flags="ng" index="35pYAg">
+        <child id="4928369069020871807" name="typeReference" index="35pYBL" />
+      </concept>
+      <concept id="4928369069022556213" name="CppBaseLanguage.structure.ReferenceTypeReference" flags="ng" index="35uqmV">
+        <child id="4928369069022556220" name="typeReference" index="35uqmM" />
+      </concept>
       <concept id="6209812394072707164" name="CppBaseLanguage.structure.IHaveType" flags="ng" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
       </concept>
@@ -104,6 +110,38 @@
         <node concept="3UfwP1" id="4h_5oU0ZsUV" role="3SE38M">
           <node concept="2Gatwc" id="4h_5oU0ZsV$" role="3UfBpY">
             <ref role="2Gaslz" node="1DC38INDGCW" resolve="MyClass" />
+          </node>
+        </node>
+      </node>
+      <node concept="31KRIa" id="4h_5oU12YAK" role="31Leeq">
+        <node concept="1ux1y" id="4h_5oU12YAM" role="31KRJH">
+          <node concept="34yI$2" id="4h_5oU12YBs" role="1ux1z">
+            <node concept="zF7EM" id="4h_5oU12YBu" role="34yI$0">
+              <property role="TrG5h" value="hello" />
+            </node>
+          </node>
+        </node>
+        <node concept="3UfwP1" id="4h_5oU12YAP" role="3SE38M">
+          <node concept="35pYAg" id="4h_5oU12YBj" role="3UfBpY">
+            <node concept="2Gatwc" id="4h_5oU12YBp" role="35pYBL">
+              <ref role="2Gaslz" node="1DC38INDGCW" resolve="MyClass" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="31KRIa" id="4h_5oU19rbB" role="31Leeq">
+        <node concept="1ux1y" id="4h_5oU19rbD" role="31KRJH">
+          <node concept="34yI$2" id="4h_5oU19rcq" role="1ux1z">
+            <node concept="zF7EM" id="4h_5oU19rcs" role="34yI$0">
+              <property role="TrG5h" value="hello2" />
+            </node>
+          </node>
+        </node>
+        <node concept="3UfwP1" id="4h_5oU19rbG" role="3SE38M">
+          <node concept="35uqmV" id="4h_5oU19rch" role="3UfBpY">
+            <node concept="2Gatwc" id="4h_5oU19rcn" role="35uqmM">
+              <ref role="2Gaslz" node="1DC38INDGCW" resolve="MyClass" />
+            </node>
           </node>
         </node>
       </node>
