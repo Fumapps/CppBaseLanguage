@@ -8848,7 +8848,7 @@
   </node>
   <node concept="WtQ9Q" id="2MD2C43zNiV">
     <property role="3GE5qa" value="Statements.Declaration" />
-    <ref role="WuzLi" to="yjel:1FYNzU$mBmR" resolve="LocalVariableDeclarationStatement" />
+    <ref role="WuzLi" to="yjel:1FYNzU$mBmR" resolve="ForLoopVariableDeclarationStatement" />
     <node concept="11bSqf" id="2MD2C43zNiW" role="11c4hB">
       <node concept="3clFbS" id="2MD2C43zNiX" role="2VODD2">
         <node concept="lc7rE" id="2MD2C43zNj6" role="3cqZAp">
@@ -9427,7 +9427,7 @@
                         </node>
                         <node concept="1mIQ4w" id="2MD2C43zNtT" role="2OqNvi">
                           <node concept="chp4Y" id="2MD2C43zNtU" role="cj9EA">
-                            <ref role="cht4Q" to="yjel:1FYNzU$mBmR" resolve="LocalVariableDeclarationStatement" />
+                            <ref role="cht4Q" to="yjel:1FYNzU$mBmR" resolve="ForLoopVariableDeclarationStatement" />
                           </node>
                         </node>
                       </node>
@@ -9501,7 +9501,7 @@
                         </node>
                         <node concept="1mIQ4w" id="2MD2C43zNux" role="2OqNvi">
                           <node concept="chp4Y" id="2MD2C43zNuy" role="cj9EA">
-                            <ref role="cht4Q" to="yjel:1FYNzU$mBmR" resolve="LocalVariableDeclarationStatement" />
+                            <ref role="cht4Q" to="yjel:1FYNzU$mBmR" resolve="ForLoopVariableDeclarationStatement" />
                           </node>
                         </node>
                       </node>

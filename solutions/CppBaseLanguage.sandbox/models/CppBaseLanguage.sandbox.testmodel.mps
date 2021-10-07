@@ -16,6 +16,9 @@
       </concept>
       <concept id="1902784636718074438" name="CppBaseLanguage.structure.PublicVisibilityScopeDeclaration" flags="ng" index="2DNGrd" />
       <concept id="1902784636718074461" name="CppBaseLanguage.structure.PrivateVisibilityScopeDeclaration" flags="ng" index="2DNGrm" />
+      <concept id="2439281069887047993" name="CppBaseLanguage.structure.NotGenericParameterTypeReference" flags="ng" index="2Gatwc">
+        <reference id="2439281069887050838" name="referencedType" index="2Gaslz" />
+      </concept>
       <concept id="1154422390078291493" name="CppBaseLanguage.structure.CppHeaderFile" flags="ng" index="LmIGD" />
       <concept id="1945218857511602452" name="CppBaseLanguage.structure.LocalVariableDeclarationWithInitialization" flags="ng" index="2YC0sE">
         <child id="1945218857511602455" name="identifier" index="2YC0sD" />
@@ -31,19 +34,18 @@
         <property id="1154422390078326241" name="generatorName" index="Lph3H" />
         <child id="7232527154588304251" name="namespaceMemberDeclaration" index="31LlDr" />
       </concept>
+      <concept id="4928369069019626636" name="CppBaseLanguage.structure.LocalVariableDeclarationWithoutInitialization" flags="ng" index="34yI$2">
+        <child id="4928369069019626638" name="identifier" index="34yI$0" />
+      </concept>
       <concept id="6209812394072707164" name="CppBaseLanguage.structure.IHaveType" flags="ng" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
       </concept>
       <concept id="6843536562190981614" name="CppBaseLanguage.structure.IntLiteral" flags="ng" index="3UcVBg">
         <property id="3129541975290926181" name="value" index="1pzoAX" />
       </concept>
-      <concept id="6843536562190981613" name="CppBaseLanguage.structure.BoolLiteral" flags="ng" index="3UcVBj">
-        <property id="3129541975290490497" name="value" index="1pGRdp" />
-      </concept>
       <concept id="6843536562190757247" name="CppBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
         <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
       </concept>
-      <concept id="6843536562190694844" name="CppBaseLanguage.structure.BoolType" flags="ng" index="3UfLA2" />
       <concept id="6843536562190680504" name="CppBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -75,19 +77,33 @@
         </node>
       </node>
       <node concept="2DNGrm" id="4h_5oU0S$xk" role="31Leeq">
-        <node concept="31KRIa" id="4h_5oU0S$xx" role="2DNGrf">
-          <node concept="1ux1y" id="4h_5oU0S$xz" role="31KRJH">
-            <node concept="2YC0sE" id="4h_5oU0S$xL" role="1ux1z">
-              <node concept="zF7EM" id="4h_5oU0S$xN" role="2YC0sD">
+        <node concept="31KRIa" id="4h_5oU0VZLE" role="2DNGrf">
+          <node concept="1ux1y" id="4h_5oU0VZLF" role="31KRJH">
+            <node concept="2YC0sE" id="4h_5oU0VZM2" role="1ux1z">
+              <node concept="zF7EM" id="4h_5oU0VZM4" role="2YC0sD">
                 <property role="TrG5h" value="a" />
               </node>
-              <node concept="3UcVBj" id="4h_5oU0S$y3" role="2YCihz">
-                <property role="1pGRdp" value="false" />
+              <node concept="3UcVBg" id="4h_5oU0VZMa" role="2YCihz">
+                <property role="1pzoAX" value="0" />
               </node>
             </node>
           </node>
-          <node concept="3UfwP1" id="4h_5oU0S$xA" role="3SE38M">
-            <node concept="3UfLA2" id="4h_5oU0S$xI" role="3UfBpY" />
+          <node concept="3UfwP1" id="4h_5oU0VZLH" role="3SE38M">
+            <node concept="3UfM66" id="4h_5oU0VZLO" role="3UfBpY" />
+          </node>
+        </node>
+      </node>
+      <node concept="31KRIa" id="4h_5oU0ZsUQ" role="31Leeq">
+        <node concept="1ux1y" id="4h_5oU0ZsUS" role="31KRJH">
+          <node concept="34yI$2" id="4h_5oU0ZsVm" role="1ux1z">
+            <node concept="zF7EM" id="4h_5oU0ZsVo" role="34yI$0">
+              <property role="TrG5h" value="b" />
+            </node>
+          </node>
+        </node>
+        <node concept="3UfwP1" id="4h_5oU0ZsUV" role="3SE38M">
+          <node concept="2Gatwc" id="4h_5oU0ZsV$" role="3UfBpY">
+            <ref role="2Gaslz" node="1DC38INDGCW" resolve="MyClass" />
           </node>
         </node>
       </node>
