@@ -1847,27 +1847,6 @@
           <ref role="A1WHt" node="6tzy5CBXJZT" resolve="RightAddWhereClause" />
         </node>
       </node>
-      <node concept="PMmxH" id="6FfQk_SLXg9" role="3EZMnx">
-        <ref role="PMmxG" node="eRR5GN52ht" resolve="WhereClauseComponent" />
-        <node concept="pVoyu" id="6FfQk_SLXga" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="pkWqt" id="6FfQk_SLXgb" role="pqm2j">
-          <node concept="3clFbS" id="6FfQk_SLXgc" role="2VODD2">
-            <node concept="3clFbF" id="6FfQk_SLXgd" role="3cqZAp">
-              <node concept="2OqwBi" id="6FfQk_SLXge" role="3clFbG">
-                <node concept="2OqwBi" id="6FfQk_SLXgf" role="2Oq$k0">
-                  <node concept="pncrf" id="6FfQk_SLXgg" role="2Oq$k0" />
-                  <node concept="3Tsc0h" id="6FfQk_SLXgh" role="2OqNvi">
-                    <ref role="3TtcxE" to="yjel:6hv6i2_AXOR" resolve="typeParameterConstraintsClause" />
-                  </node>
-                </node>
-                <node concept="3GX2aA" id="6FfQk_SLXgi" role="2OqNvi" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="3F1sOY" id="3FP3q7Ki8iv" role="3EZMnx">
         <ref role="1NtTu8" to="yjel:6hv6i2_B6cn" resolve="body" />
       </node>
@@ -1931,6 +1910,9 @@
     <ref role="1XX52x" to="yjel:1FYNzU$qtck" resolve="EmptyBlock" />
     <node concept="PMmxH" id="1FYNzU$qtcv" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <node concept="11L4FC" id="4h_5oU1vSBl" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="1FYNzU$mBna">
@@ -21341,6 +21323,79 @@
     <property role="3GE5qa" value="Class / Struct.Fields" />
     <ref role="1XX52x" to="yjel:4h_5oU1agCy" resolve="EmptyLineMemberDeclaration" />
     <node concept="3F0ifn" id="4h_5oU1agKz" role="2wV5jI" />
+  </node>
+  <node concept="24kQdi" id="4h_5oU1ppai">
+    <property role="3GE5qa" value="Class / Struct.Methods" />
+    <ref role="1XX52x" to="yjel:4h_5oU1nbLo" resolve="MethodDefinition" />
+    <node concept="3EZMnI" id="4h_5oU1ppak" role="2wV5jI">
+      <node concept="l2Vlx" id="4h_5oU1ppal" role="2iSdaV" />
+      <node concept="PMmxH" id="4h_5oU1ppam" role="3EZMnx">
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersComponent" />
+      </node>
+      <node concept="PMmxH" id="4h_5oU1ppan" role="3EZMnx">
+        <ref role="PMmxG" node="5oHFRyIFjtw" resolve="HaveTypeOrVoidComponent" />
+        <ref role="34QXea" node="5oHFRyI_NHg" resolve="CreateModifierOnSpace" />
+      </node>
+      <node concept="3F1sOY" id="4h_5oU1ppvZ" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:4h_5oU1ppon" resolve="surroundingType" />
+      </node>
+      <node concept="3F0ifn" id="4h_5oU1pp$D" role="3EZMnx">
+        <property role="3F0ifm" value="::" />
+        <node concept="11L4FC" id="4h_5oU1ppAd" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="4h_5oU1ppAi" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="4h_5oU1ppao" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="A1WHu" id="4h_5oU1ppap" role="3vIgyS">
+          <ref role="A1WHt" node="2vo5eZuESDh" resolve="GenericTypeListCreation" />
+        </node>
+      </node>
+      <node concept="PMmxH" id="4h_5oU1ppaq" role="3EZMnx">
+        <ref role="PMmxG" node="5moKU4Y5smx" resolve="GenericTypeListComponent" />
+        <node concept="pkWqt" id="4h_5oU1ppar" role="pqm2j">
+          <node concept="3clFbS" id="4h_5oU1ppas" role="2VODD2">
+            <node concept="3clFbF" id="4h_5oU1ppat" role="3cqZAp">
+              <node concept="2OqwBi" id="4h_5oU1ppau" role="3clFbG">
+                <node concept="2OqwBi" id="4h_5oU1ppav" role="2Oq$k0">
+                  <node concept="pncrf" id="4h_5oU1ppaw" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="4h_5oU1ppax" role="2OqNvi">
+                    <ref role="3TtcxE" to="yjel:5moKU4Y5slA" resolve="typeParameter" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="4h_5oU1ppay" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4h_5oU1ppaz" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <node concept="11L4FC" id="4h_5oU1ppa$" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="4h_5oU1ppa_" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="4h_5oU1ppaA" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:6$wrg4AAmgO" resolve="formalParameterList" />
+      </node>
+      <node concept="3F0ifn" id="4h_5oU1ppaB" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="3F1sOY" id="4h_5oU1ppaC" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:4h_5oU1nbLq" resolve="body" />
+      </node>
+    </node>
+  </node>
+  <node concept="22mcaB" id="4h_5oU1yX7D">
+    <property role="3GE5qa" value="Class / Struct.Fields" />
+    <ref role="aqKnT" to="yjel:4h_5oU1agCy" resolve="EmptyLineMemberDeclaration" />
+    <node concept="22hDWj" id="4h_5oU1yX7E" role="22hAXT" />
   </node>
 </model>
 

@@ -13,8 +13,15 @@
       <concept id="7486903154347131562" name="CppBaseLanguage.structure.IncludeDirectiveList" flags="ng" index="1ux1E">
         <child id="7486903154347131563" name="IncludeDirective" index="1ux1F" />
       </concept>
+      <concept id="7486903154347131566" name="CppBaseLanguage.structure.FormalParameterList" flags="ng" index="1ux1I" />
+      <concept id="7486903154347131570" name="CppBaseLanguage.structure.Block" flags="ng" index="1ux1M">
+        <child id="7486903154347131571" name="statement" index="1ux1N" />
+      </concept>
       <concept id="5059844704660991035" name="CppBaseLanguage.structure.SingleLineComment" flags="ng" index="pNo78">
         <property id="5059844704661223944" name="value" index="pKhvV" />
+      </concept>
+      <concept id="3766354144459872182" name="CppBaseLanguage.structure.IFunctionHeader" flags="ng" index="2qBh2l">
+        <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
       </concept>
       <concept id="7769220957754731518" name="CppBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
       <concept id="1902784636718074433" name="CppBaseLanguage.structure.VisibilityScopeDeclaration" flags="ng" index="2DNGra">
@@ -29,11 +36,18 @@
         <child id="2439281069887050840" name="parentType" index="2GaslH" />
         <child id="2439281069887057717" name="genericTypeParameters" index="2GavS0" />
       </concept>
+      <concept id="1154422390078291492" name="CppBaseLanguage.structure.CppSourceFile" flags="ng" index="LmIGC" />
       <concept id="1154422390078291493" name="CppBaseLanguage.structure.CppHeaderFile" flags="ng" index="LmIGD" />
+      <concept id="1945218857512325908" name="CppBaseLanguage.structure.EmptyBlock" flags="ng" index="2Y_LOE" />
+      <concept id="1945218857512325903" name="CppBaseLanguage.structure.MaybeEmptyBlock" flags="ng" index="2Y_LOL" />
       <concept id="1945218857511602452" name="CppBaseLanguage.structure.LocalVariableDeclarationWithInitialization" flags="ng" index="2YC0sE">
         <child id="1945218857511602455" name="identifier" index="2YC0sD" />
         <child id="1945218857511676509" name="variableInitializer" index="2YCihz" />
       </concept>
+      <concept id="7232527154588443410" name="CppBaseLanguage.structure.MethodDeclaration" flags="ng" index="31KRCM">
+        <child id="7232527154588443415" name="body" index="31KRCR" />
+      </concept>
+      <concept id="7232527154588443414" name="CppBaseLanguage.structure.Statement" flags="ng" index="31KRCQ" />
       <concept id="7232527154588443306" name="CppBaseLanguage.structure.FieldDeclaration" flags="ng" index="31KRIa">
         <child id="7232527154588443341" name="variableDeclaratorList" index="31KRJH" />
       </concept>
@@ -55,6 +69,10 @@
       <concept id="4928369069019626636" name="CppBaseLanguage.structure.LocalVariableDeclarationWithoutInitialization" flags="ng" index="34yI$2">
         <child id="4928369069019626638" name="identifier" index="34yI$0" />
       </concept>
+      <concept id="4928369069026753624" name="CppBaseLanguage.structure.MethodDefinition" flags="ng" index="35eqBm">
+        <child id="4928369069027333655" name="surroundingType" index="3508ep" />
+        <child id="4928369069026753626" name="body" index="35eqBk" />
+      </concept>
       <concept id="4928369069023365666" name="CppBaseLanguage.structure.EmptyLineMemberDeclaration" flags="ng" index="35j1YG" />
       <concept id="4928369069020871710" name="CppBaseLanguage.structure.PointerTypeReference" flags="ng" index="35pYAg">
         <child id="4928369069020871807" name="typeReference" index="35pYBL" />
@@ -62,8 +80,12 @@
       <concept id="4928369069022556213" name="CppBaseLanguage.structure.ReferenceTypeReference" flags="ng" index="35uqmV">
         <child id="4928369069022556220" name="typeReference" index="35uqmM" />
       </concept>
+      <concept id="3129541975290303051" name="CppBaseLanguage.structure.VoidType" flags="ng" index="1pH0Yj" />
       <concept id="6167894786982645659" name="CppBaseLanguage.structure.IGenericTypeList" flags="ng" index="1FzkKU">
         <child id="6167894786982659430" name="typeParameter" index="1Fzgr7" />
+      </concept>
+      <concept id="6209812394075305792" name="CppBaseLanguage.structure.IHaveTypeOrVoid" flags="ng" index="3Sw9wS">
+        <child id="6209812394075305793" name="typeOrVoid" index="3Sw9wT" />
       </concept>
       <concept id="6209812394072707164" name="CppBaseLanguage.structure.IHaveType" flags="ng" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
@@ -78,6 +100,7 @@
       <concept id="6843536562190680504" name="CppBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1234971358450" name="jetbrains.mps.lang.core.structure.IType" flags="ng" index="2a1RnH" />
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -85,7 +108,7 @@
   </registry>
   <node concept="LmIGD" id="1DC38INDGCU">
     <property role="Lph3H" value="UseCaseGenerator" />
-    <property role="TrG5h" value="MyClass" />
+    <property role="TrG5h" value="MyClass.h" />
     <node concept="31LiCz" id="1DC38INDGCW" role="31LlDr">
       <property role="TrG5h" value="MyClass" />
       <node concept="2DNGrd" id="4h_5oU0S22x" role="31Leeq">
@@ -215,7 +238,33 @@
         </node>
       </node>
       <node concept="35j1YG" id="4h_5oU1eE0L" role="31Leeq" />
-      <node concept="35j1YG" id="4h_5oU1eE1r" role="31Leeq" />
+      <node concept="31KRCM" id="4h_5oU1sLvd" role="31Leeq">
+        <property role="TrG5h" value="doIt3" />
+        <node concept="1ux1M" id="4h_5oU1sLve" role="31KRCR">
+          <node concept="31KRCQ" id="4h_5oU1sLvf" role="1ux1N" />
+        </node>
+        <node concept="1ux1I" id="4h_5oU1sLvh" role="1fIg$P" />
+        <node concept="1pH0Yj" id="4h_5oU1sLwr" role="3Sw9wT" />
+      </node>
+      <node concept="35j1YG" id="4h_5oU1rE9L" role="31Leeq" />
+      <node concept="31KRCM" id="4h_5oU1vSt7" role="31Leeq">
+        <property role="TrG5h" value="doItEmpty" />
+        <node concept="1ux1I" id="4h_5oU1vStb" role="1fIg$P" />
+        <node concept="1pH0Yj" id="4h_5oU1vSul" role="3Sw9wT" />
+        <node concept="2Y_LOE" id="4h_5oU1vSuq" role="31KRCR" />
+      </node>
+      <node concept="35j1YG" id="4h_5oU1yX4I" role="31Leeq" />
+      <node concept="35j1YG" id="4h_5oU1yX5P" role="31Leeq" />
+    </node>
+    <node concept="35eqBm" id="4h_5oU1_6nt" role="31LlDr">
+      <node concept="2a1RnH" id="4h_5oU1_6nv" role="3508ep" />
+      <node concept="2Y_LOL" id="4h_5oU1_6nw" role="35eqBk" />
+      <node concept="1ux1I" id="4h_5oU1_6ny" role="1fIg$P" />
+      <node concept="3UfwP1" id="4h_5oU1_6oN" role="3Sw9wT">
+        <node concept="2Gatwc" id="4h_5oU1_6oS" role="3UfBpY">
+          <ref role="2Gaslz" node="1DC38INDGCW" resolve="MyClass" />
+        </node>
+      </node>
     </node>
     <node concept="1ux1E" id="4h_5oU1fAIW" role="31LgYG">
       <node concept="31LgYL" id="4h_5oU1fAIX" role="1ux1F">
@@ -233,6 +282,28 @@
         <node concept="31Lcgi" id="4h_5oU1fAKF" role="1Fzgr7">
           <property role="TrG5h" value="T" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LmIGC" id="4h_5oU1_2xR">
+    <property role="Lph3H" value="UseCaseGenerator" />
+    <property role="TrG5h" value="MyClass.cpp" />
+    <node concept="35eqBm" id="4h_5oU1_2xX" role="31LlDr">
+      <property role="TrG5h" value="doIt" />
+      <node concept="3UfwP1" id="4h_5oU1DJ23" role="3508ep">
+        <node concept="2Gatwc" id="4h_5oU1DJ28" role="3UfBpY">
+          <ref role="2Gaslz" node="1DC38INDGCW" resolve="MyClass" />
+        </node>
+      </node>
+      <node concept="1ux1M" id="4h_5oU1_2ye" role="35eqBk">
+        <node concept="31KRCQ" id="4h_5oU1_2yf" role="1ux1N" />
+      </node>
+      <node concept="1ux1I" id="4h_5oU1_2y2" role="1fIg$P" />
+      <node concept="1pH0Yj" id="4h_5oU1_6p9" role="3Sw9wT" />
+    </node>
+    <node concept="1ux1E" id="4h_5oU1_2xT" role="31LgYG">
+      <node concept="31LgYL" id="4h_5oU1_2xU" role="1ux1F">
+        <property role="LpgaM" value="&quot;MyClass.h&quot;" />
       </node>
     </node>
   </node>
