@@ -18807,5 +18807,14 @@
       <ref role="PrY4T" node="5_5a0KJX$kh" resolve="INonArrayType" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4h_5oU1agCy">
+    <property role="EcuMT" value="4928369069023365666" />
+    <property role="3GE5qa" value="Class / Struct.Fields" />
+    <property role="TrG5h" value="EmptyLineMemberDeclaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="4h_5oU1agCz" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
+    </node>
+  </node>
 </model>
 

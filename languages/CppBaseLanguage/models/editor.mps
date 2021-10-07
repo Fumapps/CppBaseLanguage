@@ -1336,7 +1336,6 @@
         </node>
       </node>
       <node concept="3F2HdR" id="6vAOG1ACsSx" role="3EZMnx">
-        <property role="2czwfO" value=" " />
         <ref role="1NtTu8" to="yjel:6hv6i2_AZEU" resolve="classMemberDeclaration" />
         <node concept="pVoyu" id="6vAOG1ACsTs" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -1345,6 +1344,19 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="2iRkQZ" id="6vAOG1ACYYl" role="2czzBx" />
+        <node concept="4$FPG" id="4h_5oU1agXY" role="4_6I_">
+          <node concept="3clFbS" id="4h_5oU1agXZ" role="2VODD2">
+            <node concept="3clFbF" id="4h_5oU1agZV" role="3cqZAp">
+              <node concept="2ShNRf" id="4h_5oU1agZT" role="3clFbG">
+                <node concept="3zrR0B" id="4h_5oU1aidx" role="2ShVmc">
+                  <node concept="3Tqbb2" id="4h_5oU1aidz" role="3zrR0E">
+                    <ref role="ehGHo" to="yjel:4h_5oU1agCy" resolve="EmptyLineMemberDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="6vAOG1ACsSc" role="3EZMnx">
         <property role="3F0ifm" value="}" />
@@ -6797,12 +6809,12 @@
         <ref role="1NtTu8" to="yjel:27q4jmdWXho" resolve="parentType" />
       </node>
       <node concept="2iRfu4" id="27q4jmdWZQM" role="2iSdaV" />
-      <node concept="3F0ifn" id="27q4jmdX5kC" role="3EZMnx">
-        <property role="3F0ifm" value="." />
-        <node concept="11L4FC" id="27q4jme5K6T" role="3F10Kt">
+      <node concept="3F0ifn" id="4h_5oU1fAXY" role="3EZMnx">
+        <property role="3F0ifm" value="::" />
+        <node concept="11L4FC" id="4h_5oU1hGvb" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="11LMrY" id="27q4jme5K6Y" role="3F10Kt">
+        <node concept="11LMrY" id="4h_5oU1hGvg" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -21324,6 +21336,11 @@
       </node>
       <node concept="2iRfu4" id="4h_5oU17b1b" role="2iSdaV" />
     </node>
+  </node>
+  <node concept="24kQdi" id="4h_5oU1agKx">
+    <property role="3GE5qa" value="Class / Struct.Fields" />
+    <ref role="1XX52x" to="yjel:4h_5oU1agCy" resolve="EmptyLineMemberDeclaration" />
+    <node concept="3F0ifn" id="4h_5oU1agKz" role="2wV5jI" />
   </node>
 </model>
 
