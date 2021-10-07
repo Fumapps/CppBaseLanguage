@@ -2507,5 +2507,25 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="4h_5oU0S22D">
+    <property role="3GE5qa" value="Class / Struct.Visibility" />
+    <ref role="1M2myG" to="yjel:1DC38INDGD6" resolve="PublicVisibilityScopeDeclaration" />
+    <node concept="9S07l" id="4h_5oU0S22E" role="9Vyp8">
+      <node concept="3clFbS" id="4h_5oU0S22F" role="2VODD2">
+        <node concept="3cpWs6" id="4h_5oU0S3$W" role="3cqZAp">
+          <node concept="3fqX7Q" id="4h_5oU0S52D" role="3cqZAk">
+            <node concept="2OqwBi" id="4h_5oU0S52F" role="3fr31v">
+              <node concept="nLn13" id="4h_5oU0S52G" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="4h_5oU0S52H" role="2OqNvi">
+                <node concept="chp4Y" id="4h_5oU0S52I" role="cj9EA">
+                  <ref role="cht4Q" to="yjel:1DC38INDGD1" resolve="VisibilityScopeDeclaration" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

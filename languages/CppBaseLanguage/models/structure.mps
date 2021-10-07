@@ -18630,5 +18630,43 @@
     <property role="34LRSv" value=".h" />
     <ref role="1TJDcQ" node="6hv6i2_AqOA" resolve="File" />
   </node>
+  <node concept="1TIwiD" id="1DC38INDGD1">
+    <property role="EcuMT" value="1902784636718074433" />
+    <property role="3GE5qa" value="Class / Struct.Visibility" />
+    <property role="TrG5h" value="VisibilityScopeDeclaration" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1DC38INDGD4" role="1TKVEi">
+      <property role="IQ2ns" value="1902784636718074436" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20kJfa" value="classMemberDeclaration" />
+      <ref role="20lvS9" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="1DC38INDGD2" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1DC38INDGD6">
+    <property role="EcuMT" value="1902784636718074438" />
+    <property role="3GE5qa" value="Class / Struct.Visibility" />
+    <property role="TrG5h" value="PublicVisibilityScopeDeclaration" />
+    <property role="34LRSv" value="public:" />
+    <ref role="1TJDcQ" node="1DC38INDGD1" resolve="VisibilityScopeDeclaration" />
+  </node>
+  <node concept="1TIwiD" id="1DC38INDGDt">
+    <property role="EcuMT" value="1902784636718074461" />
+    <property role="3GE5qa" value="Class / Struct.Visibility" />
+    <property role="TrG5h" value="PrivateVisibilityScopeDeclaration" />
+    <property role="34LRSv" value="private:" />
+    <ref role="1TJDcQ" node="1DC38INDGD1" resolve="VisibilityScopeDeclaration" />
+  </node>
+  <node concept="1TIwiD" id="1DC38INDGDv">
+    <property role="EcuMT" value="1902784636718074463" />
+    <property role="3GE5qa" value="Class / Struct.Visibility" />
+    <property role="TrG5h" value="ProtectedVisibilityScopeDeclaration" />
+    <property role="34LRSv" value="protected:" />
+    <ref role="1TJDcQ" node="1DC38INDGD1" resolve="VisibilityScopeDeclaration" />
+  </node>
 </model>
 

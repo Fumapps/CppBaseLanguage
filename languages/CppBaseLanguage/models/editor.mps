@@ -21269,5 +21269,19 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="1DC38INDGD9">
+    <property role="3GE5qa" value="Class / Struct.Visibility" />
+    <ref role="1XX52x" to="yjel:1DC38INDGD1" resolve="VisibilityScopeDeclaration" />
+    <node concept="3EZMnI" id="1DC38INDGDb" role="2wV5jI">
+      <node concept="PMmxH" id="1DC38INDGDi" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F2HdR" id="1DC38INDGDn" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:1DC38INDGD4" resolve="classMemberDeclaration" />
+        <node concept="2iRkQZ" id="1DC38INDGDp" role="2czzBx" />
+      </node>
+      <node concept="2iRkQZ" id="1DC38INDGDe" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

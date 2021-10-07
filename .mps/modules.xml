@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/CppBaseLanguage/CppBaseLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/CppBaseLanguage/sandbox/CppBaseLanguage.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/CppBaseLanguage.sandbox/CppBaseLanguage.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>
