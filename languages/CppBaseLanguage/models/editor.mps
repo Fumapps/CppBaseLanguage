@@ -1917,7 +1917,7 @@
   </node>
   <node concept="24kQdi" id="1FYNzU$mBna">
     <property role="3GE5qa" value="Statements.Declaration" />
-    <ref role="1XX52x" to="yjel:1FYNzU$mBmR" resolve="ForLoopVariableDeclarationStatement" />
+    <ref role="1XX52x" to="yjel:1FYNzU$mBmR" resolve="LocalVariableDeclarationStatement" />
     <node concept="3EZMnI" id="1FYNzU$mBnc" role="2wV5jI">
       <node concept="3F1sOY" id="1FYNzU$mBnj" role="3EZMnx">
         <ref role="1NtTu8" to="yjel:1FYNzU$mBmS" resolve="type" />
@@ -2061,7 +2061,7 @@
                   </node>
                   <node concept="1mIQ4w" id="2e5scIOB9To" role="2OqNvi">
                     <node concept="chp4Y" id="2e5scIOBaJk" role="cj9EA">
-                      <ref role="cht4Q" to="yjel:1FYNzU$mBmR" resolve="ForLoopVariableDeclarationStatement" />
+                      <ref role="cht4Q" to="yjel:1FYNzU$mBmR" resolve="LocalVariableDeclarationStatement" />
                     </node>
                   </node>
                 </node>
@@ -2102,7 +2102,7 @@
     <ref role="1XX52x" to="yjel:1FYNzU$vKkh" resolve="ForeachStatement" />
     <node concept="3EZMnI" id="1FYNzU$vKkJ" role="2wV5jI">
       <node concept="3F0ifn" id="1FYNzU$vKkQ" role="3EZMnx">
-        <property role="3F0ifm" value="foreach" />
+        <property role="3F0ifm" value="for" />
       </node>
       <node concept="3F0ifn" id="1FYNzU$vKkW" role="3EZMnx">
         <property role="3F0ifm" value="(" />
@@ -2116,8 +2116,8 @@
       <node concept="3F1sOY" id="1FYNzU$vKls" role="3EZMnx">
         <ref role="1NtTu8" to="yjel:1FYNzU$vKkk" resolve="identifier" />
       </node>
-      <node concept="3F0ifn" id="1FYNzU$vKlC" role="3EZMnx">
-        <property role="3F0ifm" value="in" />
+      <node concept="3F0ifn" id="4h_5oU1F2Rj" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
       </node>
       <node concept="3F1sOY" id="1FYNzU$vKlQ" role="3EZMnx">
         <ref role="1NtTu8" to="yjel:1FYNzU$vKkn" resolve="expression" />
@@ -19595,19 +19595,19 @@
     <node concept="3VyMlK" id="3eIapyQb07O" role="3ft7WO" />
     <node concept="3VyMlK" id="1cVzXePjhqP" role="3ft7WO" />
     <node concept="3eGOop" id="1cVzXePjitO" role="3ft7WO">
-      <ref role="3EoQqy" to="yjel:1FYNzU$mBmR" resolve="ForLoopVariableDeclarationStatement" />
+      <ref role="3EoQqy" to="yjel:1FYNzU$mBmR" resolve="LocalVariableDeclarationStatement" />
       <node concept="ucgPf" id="1cVzXePjitQ" role="3aKz83">
         <node concept="3clFbS" id="1cVzXePjitS" role="2VODD2">
           <node concept="3cpWs8" id="1cVzXePHuEZ" role="3cqZAp">
             <node concept="3cpWsn" id="1cVzXePHuF2" role="3cpWs9">
               <property role="TrG5h" value="variableDeclaration" />
               <node concept="3Tqbb2" id="1cVzXePHuEX" role="1tU5fm">
-                <ref role="ehGHo" to="yjel:1FYNzU$mBmR" resolve="ForLoopVariableDeclarationStatement" />
+                <ref role="ehGHo" to="yjel:1FYNzU$mBmR" resolve="LocalVariableDeclarationStatement" />
               </node>
               <node concept="2OqwBi" id="1cVzXePHx6f" role="33vP2m">
                 <node concept="1yR$tW" id="1cVzXePHwAy" role="2Oq$k0" />
                 <node concept="1_qnLN" id="1cVzXePHxtA" role="2OqNvi">
-                  <ref role="1_rbq0" to="yjel:1FYNzU$mBmR" resolve="ForLoopVariableDeclarationStatement" />
+                  <ref role="1_rbq0" to="yjel:1FYNzU$mBmR" resolve="LocalVariableDeclarationStatement" />
                 </node>
               </node>
             </node>
@@ -21396,6 +21396,13 @@
     <property role="3GE5qa" value="Class / Struct.Fields" />
     <ref role="aqKnT" to="yjel:4h_5oU1agCy" resolve="EmptyLineMemberDeclaration" />
     <node concept="22hDWj" id="4h_5oU1yX7E" role="22hAXT" />
+  </node>
+  <node concept="24kQdi" id="4h_5oU1Ifoq">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="yjel:4h_5oU1F2Rb" resolve="AutoType" />
+    <node concept="PMmxH" id="4h_5oU1Ifoy" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
   </node>
 </model>
 

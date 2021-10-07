@@ -4776,8 +4776,9 @@
   <node concept="1TIwiD" id="1FYNzU$mBmR">
     <property role="EcuMT" value="1945218857511318967" />
     <property role="3GE5qa" value="Statements.Declaration" />
-    <property role="TrG5h" value="ForLoopVariableDeclarationStatement" />
-    <property role="R4oN_" value="For-loop variable declaration" />
+    <property role="TrG5h" value="LocalVariableDeclarationStatement" />
+    <property role="R4oN_" value="Local variable declaration as a statement" />
+    <property role="34LRSv" value="variable" />
     <ref role="1TJDcQ" node="1FYNzU$mBmN" resolve="DeclarationStatement" />
     <node concept="1TJgyj" id="1FYNzU$mBmS" role="1TKVEi">
       <property role="IQ2ns" value="1945218857511318968" />
@@ -18904,6 +18905,14 @@
     <node concept="PrWs8" id="4h_5oU1nbMZ" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="4h_5oU1F2Rb">
+    <property role="EcuMT" value="4928369069031960011" />
+    <property role="TrG5h" value="AutoType" />
+    <property role="34LRSv" value="auto" />
+    <property role="R4oN_" value="auto" />
+    <property role="3GE5qa" value="Types" />
+    <ref role="1TJDcQ" node="2HIntxMH_qO" resolve="BuiltInClassType" />
   </node>
 </model>
 

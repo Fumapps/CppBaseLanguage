@@ -38,11 +38,21 @@
       </concept>
       <concept id="1154422390078291492" name="CppBaseLanguage.structure.CppSourceFile" flags="ng" index="LmIGC" />
       <concept id="1154422390078291493" name="CppBaseLanguage.structure.CppHeaderFile" flags="ng" index="LmIGD" />
+      <concept id="1945218857513714961" name="CppBaseLanguage.structure.ForeachStatement" flags="ng" index="2YwsGJ">
+        <child id="1945218857513714971" name="embeddedStatement" index="2YwsG_" />
+        <child id="1945218857513714967" name="expression" index="2YwsGD" />
+        <child id="1945218857513714964" name="identifier" index="2YwsGE" />
+        <child id="1945218857513714962" name="type" index="2YwsGG" />
+      </concept>
       <concept id="1945218857512325908" name="CppBaseLanguage.structure.EmptyBlock" flags="ng" index="2Y_LOE" />
       <concept id="1945218857512325903" name="CppBaseLanguage.structure.MaybeEmptyBlock" flags="ng" index="2Y_LOL" />
       <concept id="1945218857511602452" name="CppBaseLanguage.structure.LocalVariableDeclarationWithInitialization" flags="ng" index="2YC0sE">
         <child id="1945218857511602455" name="identifier" index="2YC0sD" />
         <child id="1945218857511676509" name="variableInitializer" index="2YCihz" />
+      </concept>
+      <concept id="1945218857511318967" name="CppBaseLanguage.structure.LocalVariableDeclarationStatement" flags="ng" index="2YDbI9">
+        <child id="1945218857511318970" name="variableDeclarator" index="2YDbI4" />
+        <child id="1945218857511318968" name="type" index="2YDbI6" />
       </concept>
       <concept id="7232527154588443410" name="CppBaseLanguage.structure.MethodDeclaration" flags="ng" index="31KRCM">
         <child id="7232527154588443415" name="body" index="31KRCR" />
@@ -80,6 +90,7 @@
       <concept id="4928369069022556213" name="CppBaseLanguage.structure.ReferenceTypeReference" flags="ng" index="35uqmV">
         <child id="4928369069022556220" name="typeReference" index="35uqmM" />
       </concept>
+      <concept id="4928369069031960011" name="CppBaseLanguage.structure.AutoType" flags="ng" index="35Mjx5" />
       <concept id="3129541975290303051" name="CppBaseLanguage.structure.VoidType" flags="ng" index="1pH0Yj" />
       <concept id="6167894786982645659" name="CppBaseLanguage.structure.IGenericTypeList" flags="ng" index="1FzkKU">
         <child id="6167894786982659430" name="typeParameter" index="1Fzgr7" />
@@ -98,6 +109,9 @@
       </concept>
       <concept id="6843536562190680508" name="CppBaseLanguage.structure.CharType" flags="ng" index="3UfM62" />
       <concept id="6843536562190680504" name="CppBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
+      <concept id="6531566641162929002" name="CppBaseLanguage.structure.MemberReference" flags="ng" index="1VUwCF">
+        <reference id="7783118190387115239" name="memberDeclaration" index="2aT8gA" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1234971358450" name="jetbrains.mps.lang.core.structure.IType" flags="ng" index="2a1RnH" />
@@ -283,6 +297,18 @@
           <property role="TrG5h" value="T" />
         </node>
       </node>
+      <node concept="31LiCz" id="4h_5oU1Kna2" role="31LkaE">
+        <property role="TrG5h" value="vector" />
+        <node concept="31Lcgi" id="4h_5oU1Kna3" role="1Fzgr7">
+          <property role="TrG5h" value="T" />
+        </node>
+      </node>
+      <node concept="31LiCz" id="4h_5oU1Knae" role="31LkaE">
+        <property role="TrG5h" value="list" />
+        <node concept="31Lcgi" id="4h_5oU1Knaf" role="1Fzgr7">
+          <property role="TrG5h" value="T" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="LmIGC" id="4h_5oU1_2xR">
@@ -296,7 +322,30 @@
         </node>
       </node>
       <node concept="1ux1M" id="4h_5oU1_2ye" role="35eqBk">
-        <node concept="31KRCQ" id="4h_5oU1_2yf" role="1ux1N" />
+        <node concept="2YDbI9" id="4h_5oU1Ifje" role="1ux1N">
+          <node concept="3UfwP1" id="4h_5oU1Ifjg" role="2YDbI6">
+            <node concept="35Mjx5" id="4h_5oU1Ifjv" role="3UfBpY" />
+          </node>
+          <node concept="34yI$2" id="4h_5oU1Ifok" role="2YDbI4">
+            <node concept="zF7EM" id="4h_5oU1Ifom" role="34yI$0">
+              <property role="TrG5h" value="lol" />
+            </node>
+          </node>
+        </node>
+        <node concept="2YwsGJ" id="4h_5oU1F2P6" role="1ux1N">
+          <node concept="3UfwP1" id="4h_5oU1F2P7" role="2YwsGG">
+            <node concept="3UfM66" id="4h_5oU1F2Pi" role="3UfBpY" />
+          </node>
+          <node concept="zF7EM" id="4h_5oU1F2P9" role="2YwsGE">
+            <property role="TrG5h" value="hello" />
+          </node>
+          <node concept="1VUwCF" id="4h_5oU1F2Pl" role="2YwsGD">
+            <ref role="2aT8gA" node="4h_5oU1jLEI" resolve="myOptionalChar" />
+          </node>
+          <node concept="1ux1M" id="4h_5oU1F2Q4" role="2YwsG_">
+            <node concept="31KRCQ" id="4h_5oU1F2Q5" role="1ux1N" />
+          </node>
+        </node>
       </node>
       <node concept="1ux1I" id="4h_5oU1_2y2" role="1fIg$P" />
       <node concept="1pH0Yj" id="4h_5oU1_6p9" role="3Sw9wT" />
