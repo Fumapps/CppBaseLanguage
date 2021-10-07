@@ -737,7 +737,7 @@
     <ref role="1XX52x" to="yjel:5VT83U$N0Bi" resolve="ArgumentsList" />
     <node concept="3F2HdR" id="5VT83U$N0Bw" role="2wV5jI">
       <property role="2czwfO" value="," />
-      <ref role="1NtTu8" to="yjel:5VT83U$N0Bk" resolve="argument" />
+      <ref role="1NtTu8" to="yjel:5VT83U$N0Bk" resolve="arguments" />
       <node concept="3F0ifn" id="5VT83U$N0Bz" role="2czzBI">
         <property role="3F0ifm" value="" />
       </node>
@@ -21292,7 +21292,7 @@
     <ref role="1XX52x" to="yjel:4h_5oU10JKu" resolve="PointerTypeReference" />
     <node concept="3EZMnI" id="4h_5oU10JMh" role="2wV5jI">
       <node concept="3F1sOY" id="4h_5oU10JMo" role="3EZMnx">
-        <ref role="1NtTu8" to="yjel:4h_5oU10JLZ" resolve="typeReference" />
+        <ref role="1NtTu8" to="yjel:4h_5oU10JLZ" resolve="type" />
       </node>
       <node concept="3F0ifn" id="4h_5oU10JMu" role="3EZMnx">
         <property role="3F0ifm" value="*" />
@@ -21308,7 +21308,7 @@
     <ref role="1XX52x" to="yjel:4h_5oU17b0P" resolve="ReferenceTypeReference" />
     <node concept="3EZMnI" id="4h_5oU17b17" role="2wV5jI">
       <node concept="3F1sOY" id="4h_5oU17b18" role="3EZMnx">
-        <ref role="1NtTu8" to="yjel:4h_5oU17b0W" resolve="typeReference" />
+        <ref role="1NtTu8" to="yjel:4h_5oU1SirL" resolve="type" />
       </node>
       <node concept="3F0ifn" id="4h_5oU17b19" role="3EZMnx">
         <property role="3F0ifm" value="&amp;" />
@@ -21402,6 +21402,83 @@
     <ref role="1XX52x" to="yjel:4h_5oU1F2Rb" resolve="AutoType" />
     <node concept="PMmxH" id="4h_5oU1Ifoy" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4h_5oU1LLDe">
+    <property role="3GE5qa" value="Statements.Lambda" />
+    <ref role="1XX52x" to="yjel:4h_5oU1LLCS" resolve="CaptureExpressionArgument" />
+    <node concept="3EZMnI" id="4h_5oU1LLDg" role="2wV5jI">
+      <node concept="3F0A7n" id="4h_5oU1LLDx" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:4h_5oU1LLLM" resolve="mode" />
+        <node concept="11LMrY" id="4h_5oU1ZNHN" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="4h_5oU1LLDB" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:4h_5oU1LLCU" resolve="expression" />
+      </node>
+      <node concept="2iRfu4" id="4h_5oU1LLDj" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4h_5oU1LLK6">
+    <property role="3GE5qa" value="Statements.Lambda" />
+    <ref role="1XX52x" to="yjel:4h_5oU1LFYV" resolve="LambdaStatement" />
+    <node concept="3EZMnI" id="4h_5oU1P41n" role="2wV5jI">
+      <node concept="2iRkQZ" id="4h_5oU1P41o" role="2iSdaV" />
+      <node concept="3EZMnI" id="4h_5oU1LLK8" role="3EZMnx">
+        <node concept="3F0ifn" id="4h_5oU1LLKi" role="3EZMnx">
+          <property role="3F0ifm" value="[" />
+          <node concept="11LMrY" id="4h_5oU1Wtml" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="4h_5oU1LLKo" role="3EZMnx">
+          <ref role="1NtTu8" to="yjel:4h_5oU1LLCK" resolve="capturedArgumentsList" />
+        </node>
+        <node concept="3F0ifn" id="4h_5oU1LLK_" role="3EZMnx">
+          <property role="3F0ifm" value="]" />
+          <node concept="11L4FC" id="4h_5oU1Wtmn" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="4h_5oU1LLKP" role="3EZMnx">
+          <property role="3F0ifm" value="(" />
+          <node concept="11LMrY" id="4h_5oU1Wtmh" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="4h_5oU1LLL1" role="3EZMnx">
+          <ref role="1NtTu8" to="yjel:4h_5oU1LLCA" resolve="formalParameterList" />
+        </node>
+        <node concept="3F0ifn" id="4h_5oU1LLLn" role="3EZMnx">
+          <property role="3F0ifm" value=")" />
+          <node concept="11L4FC" id="4h_5oU1Wtmj" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="2iRfu4" id="4h_5oU1LLKb" role="2iSdaV" />
+      </node>
+      <node concept="3F1sOY" id="4h_5oU1LLLB" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:4h_5oU1LFYY" resolve="block" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4h_5oU1LLLN">
+    <property role="3GE5qa" value="Statements.Lambda" />
+    <ref role="1XX52x" to="yjel:4h_5oU1LLLK" resolve="CaptureArgument" />
+    <node concept="3F0A7n" id="4h_5oU1LLLT" role="2wV5jI">
+      <ref role="1NtTu8" to="yjel:4h_5oU1LLLM" resolve="mode" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4h_5oU1Wtmp">
+    <property role="3GE5qa" value="Statements.Lambda" />
+    <ref role="1XX52x" to="yjel:4h_5oU1LLCV" resolve="CaptureArgumentsList" />
+    <node concept="3F2HdR" id="4h_5oU1Wtmr" role="2wV5jI">
+      <property role="2czwfO" value="," />
+      <ref role="1NtTu8" to="yjel:4h_5oU1LLCW" resolve="arguments" />
+      <node concept="3F0ifn" id="4h_5oU1Wtms" role="2czzBI">
+        <property role="3F0ifm" value="" />
+      </node>
     </node>
   </node>
 </model>
