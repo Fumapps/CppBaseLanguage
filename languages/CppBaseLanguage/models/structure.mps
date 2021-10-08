@@ -16445,5 +16445,221 @@
     <property role="34LRSv" value="#include &quot;?&quot;" />
     <ref role="1TJDcQ" node="4h_5oU2Ibvs" resolve="IncludeDirective" />
   </node>
+  <node concept="1TIwiD" id="6pgO1wrv2is">
+    <property role="EcuMT" value="7372621391964415132" />
+    <property role="3GE5qa" value="Class / Struct.Alias" />
+    <property role="TrG5h" value="UsingAlias" />
+    <property role="34LRSv" value="using" />
+    <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
+    <node concept="PrWs8" id="6pgO1wrv2it" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="6pgO1wr$Avr" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="6pgO1wrv2ix" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="6pgO1wrv2i$" role="1TKVEi">
+      <property role="IQ2ns" value="7372621391964415140" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="targetType" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6pgO1wrxMoc">
+    <property role="EcuMT" value="7372621391965136396" />
+    <property role="TrG5h" value="ClassForwardDeclaration" />
+    <property role="34LRSv" value="class forward declaration" />
+    <property role="3GE5qa" value="Class / Struct.ForwardDeclarations" />
+    <property role="R4oN_" value="Class type" />
+    <ref role="1TJDcQ" node="6hv6i2_Azc2" resolve="TypeDeclaration" />
+    <node concept="3H0Qfr" id="6pgO1wrxMoe" role="lGtFl">
+      <node concept="1Pa9Pv" id="6pgO1wrxMof" role="3H0Qfi">
+        <node concept="1PaTwC" id="6pgO1wrxMog" role="1PaQFQ">
+          <node concept="3oM_SD" id="6pgO1wrxMoh" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMoi" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMoj" role="1PaTwD">
+            <property role="3oM_SC" value="class" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMok" role="1PaTwD">
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMol" role="1PaTwD">
+            <property role="3oM_SC" value="definition." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6pgO1wrxMom" role="1PaQFQ">
+          <node concept="3oM_SD" id="6pgO1wrxMon" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6pgO1wrxMoo" role="1PaQFQ">
+          <node concept="3oM_SD" id="6pgO1wrxMop" role="1PaTwD">
+            <property role="3oM_SC" value="Original" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMoq" role="1PaTwD">
+            <property role="3oM_SC" value="name" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMor" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMos" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMot" role="1PaTwD">
+            <property role="3oM_SC" value="C#" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMou" role="1PaTwD">
+            <property role="3oM_SC" value="grammar:" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMov" role="1PaTwD">
+            <property role="3oM_SC" value="class-declaration" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6pgO1wrxMAd">
+    <property role="EcuMT" value="7372621391965137293" />
+    <property role="TrG5h" value="StructForwardDeclaration" />
+    <property role="34LRSv" value="struct forward declaration" />
+    <property role="3GE5qa" value="Class / Struct.ForwardDeclarations" />
+    <property role="R4oN_" value="Struct type" />
+    <ref role="1TJDcQ" node="6hv6i2_Azc2" resolve="TypeDeclaration" />
+    <node concept="3H0Qfr" id="6pgO1wrxMAe" role="lGtFl">
+      <node concept="1Pa9Pv" id="6pgO1wrxMAf" role="3H0Qfi">
+        <node concept="1PaTwC" id="6pgO1wrxMAg" role="1PaQFQ">
+          <node concept="3oM_SD" id="6pgO1wrxMAh" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMAi" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMAj" role="1PaTwD">
+            <property role="3oM_SC" value="class" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMAk" role="1PaTwD">
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMAl" role="1PaTwD">
+            <property role="3oM_SC" value="definition." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6pgO1wrxMAm" role="1PaQFQ">
+          <node concept="3oM_SD" id="6pgO1wrxMAn" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6pgO1wrxMAo" role="1PaQFQ">
+          <node concept="3oM_SD" id="6pgO1wrxMAp" role="1PaTwD">
+            <property role="3oM_SC" value="Original" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMAq" role="1PaTwD">
+            <property role="3oM_SC" value="name" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMAr" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMAs" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMAt" role="1PaTwD">
+            <property role="3oM_SC" value="C#" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMAu" role="1PaTwD">
+            <property role="3oM_SC" value="grammar:" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrxMAv" role="1PaTwD">
+            <property role="3oM_SC" value="class-declaration" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6pgO1wrAEyT">
+    <property role="EcuMT" value="7372621391966415033" />
+    <property role="3GE5qa" value="Namespace" />
+    <property role="TrG5h" value="EmptyNamespaceMemberDeclaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="6pgO1wrAEyU" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6pgO1wrEfCZ">
+    <property role="EcuMT" value="7372621391967353407" />
+    <property role="TrG5h" value="DestructorDeclaration" />
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
+    <property role="R4oN_" value="Constructor definition" />
+    <property role="34LRSv" value="dtor" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6pgO1wrEfD0" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="6pgO1wrEfD1" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="6pgO1wrEfD3" role="1TKVEi">
+      <property role="IQ2ns" value="7372621391967353411" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1FYNzU$qtcf" resolve="MaybeEmptyBlock" />
+    </node>
+    <node concept="3H0Qfr" id="6pgO1wrEfD5" role="lGtFl">
+      <node concept="1Pa9Pv" id="6pgO1wrEfD6" role="3H0Qfi">
+        <node concept="1PaTwC" id="6pgO1wrEfD7" role="1PaQFQ">
+          <node concept="3oM_SD" id="6pgO1wrEfD8" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrEfD9" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrEfDa" role="1PaTwD">
+            <property role="3oM_SC" value="constructor" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrEfDb" role="1PaTwD">
+            <property role="3oM_SC" value="definition." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6pgO1wrEfDc" role="1PaQFQ">
+          <node concept="3oM_SD" id="6pgO1wrEfDd" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6pgO1wrEfDe" role="1PaQFQ">
+          <node concept="3oM_SD" id="6pgO1wrEfDf" role="1PaTwD">
+            <property role="3oM_SC" value="Original" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrEfDg" role="1PaTwD">
+            <property role="3oM_SC" value="name" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrEfDh" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrEfDi" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrEfDj" role="1PaTwD">
+            <property role="3oM_SC" value="C#" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrEfDk" role="1PaTwD">
+            <property role="3oM_SC" value="grammar:" />
+          </node>
+          <node concept="3oM_SD" id="6pgO1wrEfDl" role="1PaTwD">
+            <property role="3oM_SC" value="constructor-declaration" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="PrWs8" id="6pgO1wrEfDm" role="PzmwI">
+      <ref role="PrY4T" node="5oHFRyIxp1o" resolve="IHaveModifiers" />
+    </node>
+  </node>
 </model>
 
