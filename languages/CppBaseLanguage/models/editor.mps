@@ -120,12 +120,14 @@
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
         <child id="5991739802479788259" name="type" index="22hAXT" />
       </concept>
+      <concept id="1182191800432" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeListFilter" flags="in" index="107P5z" />
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1081293058843" name="jetbrains.mps.lang.editor.structure.CellKeyMapDeclaration" flags="ig" index="325Ffw">
         <reference id="1139445935125" name="applicableConcept" index="1chiOs" />
         <child id="1136930944870" name="item" index="2QnnpI" />
       </concept>
+      <concept id="1182233249301" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_childNode" flags="nn" index="12_Ws6" />
       <concept id="8998492695583109601" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_CanSubstitute" flags="ig" index="16Na2f" />
       <concept id="8998492695583129991" name="jetbrains.mps.lang.editor.structure.SubstituteFeature_CanSubstitute" flags="ng" index="16NL3D">
         <child id="8998492695583129992" name="query" index="16NL3A" />
@@ -192,6 +194,7 @@
       </concept>
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR">
         <reference id="1173177718857" name="elementActionMap" index="APP_o" />
+        <child id="1182233390675" name="filter" index="12AuX0" />
       </concept>
       <concept id="5624877018226900666" name="jetbrains.mps.lang.editor.structure.TransformationMenu" flags="ng" index="3ICUPy" />
       <concept id="5624877018228267058" name="jetbrains.mps.lang.editor.structure.ITransformationMenu" flags="ng" index="3INCJE">
@@ -484,6 +487,7 @@
       <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
       <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
       <concept id="1225730411176" name="jetbrains.mps.baseLanguage.collections.structure.FindLastOperation" flags="nn" index="1zesIP" />
+      <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
@@ -1131,6 +1135,9 @@
           </node>
         </node>
       </node>
+      <node concept="PMmxH" id="6pgO1wrLa_J" role="3EZMnx">
+        <ref role="PMmxG" node="6pgO1wrL92d" resolve="HaveModifiersSuffixComponent" />
+      </node>
       <node concept="3F0ifn" id="x$3LfZbRRC" role="3EZMnx">
         <node concept="A1WHu" id="x$3LfZdqpP" role="3vIgyS">
           <ref role="A1WHt" node="2wJFJXFOSf" resolve="EmptyConstantMenu" />
@@ -1143,7 +1150,7 @@
                   <node concept="2OqwBi" id="7TfmMh1DNu4" role="2Oq$k0">
                     <node concept="pncrf" id="7TfmMh1DNbQ" role="2Oq$k0" />
                     <node concept="3Tsc0h" id="7TfmMh1DOyg" role="2OqNvi">
-                      <ref role="3TtcxE" to="yjel:3grCvve1Pjx" resolve="inheritedType" />
+                      <ref role="3TtcxE" to="yjel:3grCvve1Pjx" resolve="inheritedTypes" />
                     </node>
                   </node>
                   <node concept="1v1jN8" id="7TfmMh1EuE4" role="2OqNvi" />
@@ -1340,6 +1347,9 @@
           </node>
         </node>
       </node>
+      <node concept="PMmxH" id="6pgO1wrLbhx" role="3EZMnx">
+        <ref role="PMmxG" node="6pgO1wrL92d" resolve="HaveModifiersSuffixComponent" />
+      </node>
       <node concept="3F0ifn" id="6tzy5CC4eIb" role="3EZMnx">
         <node concept="A1WHu" id="6tzy5CC4eIc" role="3vIgyS">
           <ref role="A1WHt" node="2wJFJXFOSf" resolve="EmptyConstantMenu" />
@@ -1352,7 +1362,7 @@
                   <node concept="2OqwBi" id="6tzy5CC4eIi" role="2Oq$k0">
                     <node concept="pncrf" id="6tzy5CC4eIj" role="2Oq$k0" />
                     <node concept="3Tsc0h" id="6tzy5CC4eIk" role="2OqNvi">
-                      <ref role="3TtcxE" to="yjel:3grCvve1Pjx" resolve="inheritedType" />
+                      <ref role="3TtcxE" to="yjel:3grCvve1Pjx" resolve="inheritedTypes" />
                     </node>
                   </node>
                   <node concept="1v1jN8" id="6tzy5CC4eIl" role="2OqNvi" />
@@ -1452,6 +1462,9 @@
         <node concept="11L4FC" id="7g1lbrSFBcw" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+      </node>
+      <node concept="PMmxH" id="6pgO1wrLaJG" role="3EZMnx">
+        <ref role="PMmxG" node="6pgO1wrL92d" resolve="HaveModifiersSuffixComponent" />
       </node>
       <node concept="3F1sOY" id="3FP3q7Ki8iv" role="3EZMnx">
         <ref role="1NtTu8" to="yjel:6hv6i2_B6cn" resolve="body" />
@@ -2316,8 +2329,8 @@
   <node concept="24kQdi" id="3h4LMeIS_3p">
     <property role="3GE5qa" value="Modifiers" />
     <ref role="1XX52x" to="yjel:3h4LMeIRWw7" resolve="Final" />
-    <node concept="3F0ifn" id="c1dsm9xIN_" role="2wV5jI">
-      <property role="3F0ifm" value="sealed" />
+    <node concept="PMmxH" id="6pgO1ws5tcs" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIUOoI">
@@ -2653,6 +2666,9 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="PMmxH" id="6pgO1wrLa1i" role="3EZMnx">
+        <ref role="PMmxG" node="6pgO1wrL92d" resolve="HaveModifiersSuffixComponent" />
+      </node>
       <node concept="3F0ifn" id="2a8$IxLSS_E" role="3EZMnx">
         <property role="3F0ifm" value=" :" />
         <node concept="pkWqt" id="2a8$IxLY8uz" role="pqm2j">
@@ -2849,7 +2865,7 @@
       </node>
       <node concept="3F2HdR" id="eRR5GNdyep" role="3EZMnx">
         <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="yjel:3grCvve1Pjx" resolve="inheritedType" />
+        <ref role="1NtTu8" to="yjel:3grCvve1Pjx" resolve="inheritedTypes" />
         <node concept="l2Vlx" id="eRR5GNdyer" role="2czzBx" />
       </node>
       <node concept="2iRfu4" id="eRR5GNdyev" role="2iSdaV" />
@@ -2860,7 +2876,7 @@
               <node concept="2OqwBi" id="eRR5GNe37T" role="2Oq$k0">
                 <node concept="pncrf" id="eRR5GNe2Vy" role="2Oq$k0" />
                 <node concept="3Tsc0h" id="eRR5GNe3rv" role="2OqNvi">
-                  <ref role="3TtcxE" to="yjel:3grCvve1Pjx" resolve="inheritedType" />
+                  <ref role="3TtcxE" to="yjel:3grCvve1Pjx" resolve="inheritedTypes" />
                 </node>
               </node>
               <node concept="3GX2aA" id="eRR5GNeb4m" role="2OqNvi" />
@@ -3043,7 +3059,7 @@
               <node concept="2OqwBi" id="5oHFRyI_NRW" role="2Oq$k0">
                 <node concept="0GJ7k" id="5oHFRyI_NH_" role="2Oq$k0" />
                 <node concept="3Tsc0h" id="5oHFRyI_Oyf" role="2OqNvi">
-                  <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="iModifier" />
+                  <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="modifiers" />
                 </node>
               </node>
               <node concept="WFELt" id="5oHFRyI_T2M" role="2OqNvi" />
@@ -3070,22 +3086,64 @@
   </node>
   <node concept="PKFIW" id="5oHFRyIxpDG">
     <property role="3GE5qa" value="Modifiers" />
-    <property role="TrG5h" value="HaveModifiersComponent" />
+    <property role="TrG5h" value="HaveModifiersPrefixComponent" />
     <ref role="1XX52x" to="yjel:5oHFRyIxp1o" resolve="IHaveModifiers" />
     <node concept="3F2HdR" id="5oHFRyIxpDI" role="2wV5jI">
-      <ref role="1NtTu8" to="yjel:5oHFRyIxp1p" resolve="iModifier" />
+      <ref role="1NtTu8" to="yjel:5oHFRyIxp1p" resolve="modifiers" />
       <ref role="34QXea" node="5oHFRyIKght" resolve="AddAnotherModifierOnSpace" />
       <node concept="pkWqt" id="5oHFRyIABz2" role="pqm2j">
         <node concept="3clFbS" id="5oHFRyIABz3" role="2VODD2">
           <node concept="3clFbF" id="5oHFRyIACDD" role="3cqZAp">
             <node concept="2OqwBi" id="5oHFRyIAEOx" role="3clFbG">
-              <node concept="2OqwBi" id="5oHFRyIACPZ" role="2Oq$k0">
-                <node concept="pncrf" id="5oHFRyIACDC" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="5oHFRyIAD9I" role="2OqNvi">
-                  <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="iModifier" />
+              <node concept="2OqwBi" id="6pgO1wrOuQW" role="2Oq$k0">
+                <node concept="2OqwBi" id="5oHFRyIACPZ" role="2Oq$k0">
+                  <node concept="pncrf" id="5oHFRyIACDC" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="5oHFRyIAD9I" role="2OqNvi">
+                    <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="modifiers" />
+                  </node>
+                </node>
+                <node concept="3zZkjj" id="6pgO1wrOwoe" role="2OqNvi">
+                  <node concept="1bVj0M" id="6pgO1wrOwog" role="23t8la">
+                    <node concept="3clFbS" id="6pgO1wrOwoh" role="1bW5cS">
+                      <node concept="3clFbF" id="6pgO1wrOwID" role="3cqZAp">
+                        <node concept="3fqX7Q" id="6pgO1wrOwIF" role="3clFbG">
+                          <node concept="2OqwBi" id="6pgO1wrOwIG" role="3fr31v">
+                            <node concept="37vLTw" id="6pgO1wrOwT4" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6pgO1wrOwoi" resolve="it" />
+                            </node>
+                            <node concept="1mIQ4w" id="6pgO1wrOwII" role="2OqNvi">
+                              <node concept="chp4Y" id="6pgO1wrOwIJ" role="cj9EA">
+                                <ref role="cht4Q" to="yjel:6pgO1wrJD5t" resolve="ISuffixModifier" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="6pgO1wrOwoi" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="6pgO1wrOwoj" role="1tU5fm" />
+                    </node>
+                  </node>
                 </node>
               </node>
               <node concept="3GX2aA" id="5oHFRyIAI2O" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="107P5z" id="6pgO1wrL78F" role="12AuX0">
+        <node concept="3clFbS" id="6pgO1wrL78G" role="2VODD2">
+          <node concept="3clFbF" id="6pgO1wrL7fr" role="3cqZAp">
+            <node concept="3fqX7Q" id="6pgO1wrL8Qb" role="3clFbG">
+              <node concept="2OqwBi" id="6pgO1wrL8Qd" role="3fr31v">
+                <node concept="12_Ws6" id="6pgO1wrL8Qe" role="2Oq$k0" />
+                <node concept="1mIQ4w" id="6pgO1wrL8Qf" role="2OqNvi">
+                  <node concept="chp4Y" id="6pgO1wrL8Qg" role="cj9EA">
+                    <ref role="cht4Q" to="yjel:6pgO1wrJD5t" resolve="ISuffixModifier" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -3119,7 +3177,7 @@
                 <node concept="2OqwBi" id="c1dsm9CCOA" role="2Oq$k0">
                   <node concept="0GJ7k" id="c1dsm9CCOB" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="5oHFRyIKdXV" role="2OqNvi">
-                    <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="iModifier" />
+                    <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="modifiers" />
                   </node>
                 </node>
                 <node concept="1v1jN8" id="c1dsm9CCOD" role="2OqNvi" />
@@ -3132,7 +3190,7 @@
               <node concept="2OqwBi" id="c1dsm9CCOH" role="2Oq$k0">
                 <node concept="0GJ7k" id="c1dsm9CCOI" role="2Oq$k0" />
                 <node concept="3Tsc0h" id="5oHFRyIKe8U" role="2OqNvi">
-                  <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="iModifier" />
+                  <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="modifiers" />
                 </node>
               </node>
               <node concept="WFELt" id="c1dsm9CCOK" role="2OqNvi" />
@@ -3180,7 +3238,7 @@
                   <node concept="2OqwBi" id="7TfmMh1BfIx" role="2Oq$k0">
                     <node concept="0GJ7k" id="7TfmMh1BfyR" role="2Oq$k0" />
                     <node concept="3Tsc0h" id="5oHFRyIKex9" role="2OqNvi">
-                      <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="iModifier" />
+                      <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="modifiers" />
                     </node>
                   </node>
                   <node concept="1sK_Qi" id="7TfmMh1BkH$" role="2OqNvi">
@@ -3190,7 +3248,7 @@
                     <node concept="2OqwBi" id="7TfmMh1z2gl" role="1sKFgg">
                       <node concept="2OqwBi" id="7TfmMh1yZJX" role="2Oq$k0">
                         <node concept="3Tsc0h" id="5oHFRyIKeJp" role="2OqNvi">
-                          <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="iModifier" />
+                          <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="modifiers" />
                         </node>
                         <node concept="0GJ7k" id="7TfmMh1zS$C" role="2Oq$k0" />
                       </node>
@@ -3224,7 +3282,7 @@
                 <node concept="2OqwBi" id="c1dsm9CyJd" role="2Oq$k0">
                   <node concept="0GJ7k" id="c1dsm9CywZ" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="5oHFRyIKfo8" role="2OqNvi">
-                    <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="iModifier" />
+                    <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="modifiers" />
                   </node>
                 </node>
                 <node concept="1v1jN8" id="c1dsm9CBUM" role="2OqNvi" />
@@ -3237,7 +3295,7 @@
               <node concept="2OqwBi" id="7TfmMh1BeXi" role="2Oq$k0">
                 <node concept="0GJ7k" id="7TfmMh1BeXj" role="2Oq$k0" />
                 <node concept="3Tsc0h" id="5oHFRyIKfz7" role="2OqNvi">
-                  <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="iModifier" />
+                  <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="modifiers" />
                 </node>
               </node>
               <node concept="WFELt" id="7TfmMh1BeXl" role="2OqNvi" />
@@ -3290,7 +3348,7 @@
                     <node concept="2OqwBi" id="7TfmMh1BeXv" role="HtI8F">
                       <node concept="2OqwBi" id="7TfmMh1BeXw" role="2Oq$k0">
                         <node concept="3Tsc0h" id="5oHFRyIKfVm" role="2OqNvi">
-                          <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="iModifier" />
+                          <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="modifiers" />
                         </node>
                         <node concept="0GJ7k" id="7TfmMh1BeXy" role="2Oq$k0" />
                       </node>
@@ -6258,7 +6316,7 @@
                 <node concept="2OqwBi" id="x$3LfZfxqe" role="2Oq$k0">
                   <node concept="7Obwk" id="x$3LfZfxqf" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="x$3LfZgNpl" role="2OqNvi">
-                    <ref role="3TtcxE" to="yjel:3grCvve1Pjx" resolve="inheritedType" />
+                    <ref role="3TtcxE" to="yjel:3grCvve1Pjx" resolve="inheritedTypes" />
                   </node>
                 </node>
                 <node concept="1v1jN8" id="x$3LfZgRkL" role="2OqNvi" />
@@ -6283,7 +6341,7 @@
                   <node concept="2OqwBi" id="x$3LfZfxqu" role="2Oq$k0">
                     <node concept="7Obwk" id="x$3LfZfxqv" role="2Oq$k0" />
                     <node concept="3Tsc0h" id="x$3LfZgRVp" role="2OqNvi">
-                      <ref role="3TtcxE" to="yjel:3grCvve1Pjx" resolve="inheritedType" />
+                      <ref role="3TtcxE" to="yjel:3grCvve1Pjx" resolve="inheritedTypes" />
                     </node>
                   </node>
                   <node concept="WFELt" id="27q4jmdY1sH" role="2OqNvi" />
@@ -20012,6 +20070,9 @@
       <node concept="3F0ifn" id="4h_5oU1ppaB" role="3EZMnx">
         <property role="3F0ifm" value=")" />
       </node>
+      <node concept="PMmxH" id="6pgO1wrLaXJ" role="3EZMnx">
+        <ref role="PMmxG" node="6pgO1wrL92d" resolve="HaveModifiersSuffixComponent" />
+      </node>
       <node concept="3F1sOY" id="4h_5oU1ppaC" role="3EZMnx">
         <ref role="1NtTu8" to="yjel:4h_5oU1nbLq" resolve="body" />
       </node>
@@ -20326,6 +20387,57 @@
         <ref role="1NtTu8" to="yjel:6pgO1wrEfD3" resolve="body" />
       </node>
       <node concept="l2Vlx" id="6pgO1wrEfOh" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="6pgO1wrL92d">
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="HaveModifiersSuffixComponent" />
+    <ref role="1XX52x" to="yjel:5oHFRyIxp1o" resolve="IHaveModifiers" />
+    <node concept="3F2HdR" id="6pgO1wrL92e" role="2wV5jI">
+      <ref role="1NtTu8" to="yjel:5oHFRyIxp1p" resolve="modifiers" />
+      <ref role="34QXea" node="5oHFRyIKght" resolve="AddAnotherModifierOnSpace" />
+      <node concept="pkWqt" id="6pgO1wrL92f" role="pqm2j">
+        <node concept="3clFbS" id="6pgO1wrL92g" role="2VODD2">
+          <node concept="3clFbF" id="6pgO1wrL92h" role="3cqZAp">
+            <node concept="2OqwBi" id="6pgO1wrL92i" role="3clFbG">
+              <node concept="2OqwBi" id="6pgO1wrL92j" role="2Oq$k0">
+                <node concept="pncrf" id="6pgO1wrL92k" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="6pgO1wrL92l" role="2OqNvi">
+                  <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="modifiers" />
+                </node>
+              </node>
+              <node concept="3GX2aA" id="6pgO1wrL92m" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="107P5z" id="6pgO1wrL92n" role="12AuX0">
+        <node concept="3clFbS" id="6pgO1wrL92o" role="2VODD2">
+          <node concept="3clFbF" id="6pgO1wrL92p" role="3cqZAp">
+            <node concept="2OqwBi" id="6pgO1wrL92r" role="3clFbG">
+              <node concept="12_Ws6" id="6pgO1wrL92s" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="6pgO1wrL92t" role="2OqNvi">
+                <node concept="chp4Y" id="6pgO1wrL92u" role="cj9EA">
+                  <ref role="cht4Q" to="yjel:6pgO1wrJD5t" resolve="ISuffixModifier" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6pgO1wrQvmK">
+    <property role="3GE5qa" value="Inheritance" />
+    <ref role="1XX52x" to="yjel:6pgO1wrQuRP" resolve="InheritedType" />
+    <node concept="3EZMnI" id="6pgO1wrQvmM" role="2wV5jI">
+      <node concept="PMmxH" id="6pgO1wrQvmT" role="3EZMnx">
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
+      </node>
+      <node concept="3F1sOY" id="6pgO1wrQvzJ" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:6pgO1wrQvz_" resolve="typeReference" />
+      </node>
+      <node concept="2iRfu4" id="6pgO1wrQvmP" role="2iSdaV" />
     </node>
   </node>
 </model>

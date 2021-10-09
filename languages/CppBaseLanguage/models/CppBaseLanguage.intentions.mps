@@ -55,6 +55,7 @@
       <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
         <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
       </concept>
+      <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt" />
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
@@ -66,6 +67,9 @@
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
       <concept id="5779574625830813396" name="jetbrains.mps.lang.smodel.structure.EnumerationIdRefExpression" flags="ng" index="1XH99k">
         <reference id="5779574625830813397" name="enumDeclaration" index="1XH99l" />
@@ -134,6 +138,36 @@
                 <ref role="3TsBF5" to="yjel:5LVVOtEMxfL" resolve="value" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="6pgO1wrXdJ9">
+    <property role="TrG5h" value="AddVisibilityModifier" />
+    <property role="2ZfUl0" value="true" />
+    <property role="3GE5qa" value="ParameterModifiers" />
+    <ref role="2ZfgGC" to="yjel:6pgO1wrQuRP" resolve="InheritedType" />
+    <node concept="2S6ZIM" id="6pgO1wrXdJa" role="2ZfVej">
+      <node concept="3clFbS" id="6pgO1wrXdJb" role="2VODD2">
+        <node concept="3clFbF" id="6pgO1wrXdJc" role="3cqZAp">
+          <node concept="Xl_RD" id="6pgO1wrXdJd" role="3clFbG">
+            <property role="Xl_RC" value="Use Visibility Modifier" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="6pgO1wrXdJe" role="2ZfgGD">
+      <node concept="3clFbS" id="6pgO1wrXdJf" role="2VODD2">
+        <node concept="3clFbF" id="6pgO1wrXdJg" role="3cqZAp">
+          <node concept="2OqwBi" id="6pgO1wrXgeQ" role="3clFbG">
+            <node concept="2OqwBi" id="6pgO1wrXesY" role="2Oq$k0">
+              <node concept="2Sf5sV" id="6pgO1wrXesZ" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="6pgO1wrXet0" role="2OqNvi">
+                <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="modifiers" />
+              </node>
+            </node>
+            <node concept="WFELt" id="6pgO1wrXhpO" role="2OqNvi" />
           </node>
         </node>
       </node>

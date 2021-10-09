@@ -26,6 +26,8 @@
       <concept id="5059844704660991035" name="CppBaseLanguage.structure.SingleLineComment" flags="ng" index="pNo78">
         <property id="5059844704661223944" name="value" index="pKhvV" />
       </concept>
+      <concept id="3766354144460199614" name="CppBaseLanguage.structure.Public" flags="ng" index="2qAx6t" />
+      <concept id="3766354144460261383" name="CppBaseLanguage.structure.Final" flags="ng" index="2qAKW$" />
       <concept id="3766354144459872182" name="CppBaseLanguage.structure.IFunctionHeader" flags="ng" index="2qBh2l">
         <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
       </concept>
@@ -43,6 +45,9 @@
       <concept id="2439281069887055987" name="CppBaseLanguage.structure.TypeReference" flags="ng" index="2Gav_6">
         <child id="2439281069887050840" name="parentType" index="2GaslH" />
         <child id="2439281069887057717" name="genericTypeParameters" index="2GavS0" />
+      </concept>
+      <concept id="267924987110481430" name="CppBaseLanguage.structure.IInheritedTypeList" flags="ng" index="KB09d">
+        <child id="3754772800029021409" name="inheritedTypes" index="3U7fkm" />
       </concept>
       <concept id="1154422390078291492" name="CppBaseLanguage.structure.CppSourceFile" flags="ng" index="LmIGC" />
       <concept id="1154422390078291493" name="CppBaseLanguage.structure.CppHeaderFile" flags="ng" index="LmIGD" />
@@ -74,9 +79,7 @@
         <child id="6190096177244677895" name="parameterModifier" index="1JMSiE" />
       </concept>
       <concept id="7232527154588409138" name="CppBaseLanguage.structure.TypeParameter" flags="ng" index="31Lcgi" />
-      <concept id="7232527154588292753" name="CppBaseLanguage.structure.BracketIncludeDirective" flags="ng" index="31LgYL">
-        <property id="1154422390078330814" name="includeName" index="LpgaM" />
-      </concept>
+      <concept id="7232527154588292753" name="CppBaseLanguage.structure.BracketIncludeDirective" flags="ng" index="31LgYL" />
       <concept id="7232527154588302801" name="CppBaseLanguage.structure.NamespaceDeclaration" flags="ng" index="31LijL">
         <child id="7232527154588310410" name="namespaceMemberDeclaration" index="31LkaE" />
       </concept>
@@ -138,7 +141,7 @@
         <child id="6209812394075305793" name="typeOrVoid" index="3Sw9wT" />
       </concept>
       <concept id="6209812394072707160" name="CppBaseLanguage.structure.IHaveModifiers" flags="ng" index="3SE3Ww">
-        <child id="6209812394072707161" name="iModifier" index="3SE3Wx" />
+        <child id="6209812394072707161" name="modifiers" index="3SE3Wx" />
       </concept>
       <concept id="6209812394072707164" name="CppBaseLanguage.structure.IHaveType" flags="ng" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
@@ -161,6 +164,9 @@
       </concept>
       <concept id="7372621391964415132" name="CppBaseLanguage.structure.UsingAlias" flags="ng" index="1Xbfi4">
         <child id="7372621391964415140" name="targetType" index="1XbfiW" />
+      </concept>
+      <concept id="7372621391970561525" name="CppBaseLanguage.structure.InheritedType" flags="ng" index="1XyjRH">
+        <child id="7372621391970564325" name="typeReference" index="1XyizX" />
       </concept>
       <concept id="7372621391966415033" name="CppBaseLanguage.structure.EmptyNamespaceMemberDeclaration" flags="ng" index="1XMByx" />
       <concept id="7372621391965136396" name="CppBaseLanguage.structure.ClassForwardDeclaration" flags="ng" index="1XPZok" />
@@ -578,8 +584,8 @@
       <node concept="1pH0Yj" id="4h_5oU1_6p9" role="3Sw9wT" />
     </node>
     <node concept="1ux1E" id="4h_5oU1_2xT" role="31LgYG">
-      <node concept="31LgYL" id="4h_5oU1_2xU" role="1ux1F">
-        <property role="LpgaM" value="&quot;MyClass.h&quot;" />
+      <node concept="31LgYL" id="6pgO1wsacHq" role="1ux1F">
+        <property role="36Rq9j" value="vector" />
       </node>
     </node>
   </node>
@@ -657,7 +663,7 @@
         </node>
         <node concept="35j1YG" id="4h_5oU2Pz1A" role="31Leeq" />
         <node concept="pNo78" id="4h_5oU2Pz0C" role="31Leeq">
-          <property role="pKhvV" value="override / = 0 / Shorter Class Names" />
+          <property role="pKhvV" value="= 0 / Shorter Class Names" />
         </node>
         <node concept="31KRCM" id="4h_5oU2Pz01" role="31Leeq">
           <property role="TrG5h" value="ProcessAddElementResponse" />
@@ -671,9 +677,9 @@
                     <node concept="2Gatwc" id="4h_5oU2Pz4y" role="3UfBpY">
                       <ref role="2Gaslz" node="4h_5oU2Pz1R" resolve="VResponseModel" />
                       <node concept="2Gatwc" id="4h_5oU2Pz4$" role="2GaslH">
-                        <ref role="2Gaslz" node="4h_5oU2PyWl" resolve="IUseDtcSpecificDataForIndividualSnapshotDataUseCaseOutput" />
+                        <ref role="2Gaslz" node="4h_5oU2PyWl" resolve="IAddElementUseCaseOutput" />
                         <node concept="2Gatwc" id="4h_5oU2Pz4A" role="2GaslH">
-                          <ref role="2Gaslz" node="4h_5oU2PyVW" resolve="FaultMemoryBusinessRules" />
+                          <ref role="2Gaslz" node="4h_5oU2PyVW" resolve="ElementBusinessRules" />
                         </node>
                       </node>
                     </node>
@@ -684,6 +690,7 @@
           </node>
           <node concept="1pH0Yj" id="4h_5oU2Pz0m" role="3Sw9wT" />
           <node concept="2Y_LOE" id="4h_5oU2Pz4G" role="31KRCR" />
+          <node concept="2qJN2g" id="6pgO1wrQtp1" role="3SE3Wx" />
         </node>
         <node concept="35j1YG" id="4h_5oU2PyZC" role="31Leeq" />
         <node concept="31LiC_" id="4h_5oU2Pz60" role="31Leeq">
@@ -728,9 +735,9 @@
                     <node concept="2Gatwc" id="4h_5oU2Pz7Q" role="3UfBpY">
                       <ref role="2Gaslz" node="4h_5oU2Pz60" resolve="VErrorModel" />
                       <node concept="2Gatwc" id="4h_5oU2Pz7S" role="2GaslH">
-                        <ref role="2Gaslz" node="4h_5oU2PyWl" resolve="IUseDtcSpecificDataForIndividualSnapshotDataUseCaseOutput" />
+                        <ref role="2Gaslz" node="4h_5oU2PyWl" resolve="IAddElementUseCaseOutput" />
                         <node concept="2Gatwc" id="4h_5oU2Pz7U" role="2GaslH">
-                          <ref role="2Gaslz" node="4h_5oU2PyVW" resolve="FaultMemoryBusinessRules" />
+                          <ref role="2Gaslz" node="4h_5oU2PyVW" resolve="ElementBusinessRules" />
                         </node>
                       </node>
                     </node>
@@ -743,6 +750,20 @@
           <node concept="1pH0Yj" id="4h_5oU2Pz43" role="3Sw9wT" />
           <node concept="2Y_LOE" id="4h_5oU2Pz7p" role="31KRCR" />
         </node>
+        <node concept="1XyjRH" id="6pgO1wrV8lU" role="3U7fkm">
+          <node concept="2Gatwc" id="6pgO1wrV8lW" role="1XyizX">
+            <ref role="2Gaslz" node="4h_5oU2Pz60" resolve="VErrorModel" />
+            <node concept="2Gatwc" id="6pgO1wrV8lX" role="2GaslH">
+              <ref role="2Gaslz" node="4h_5oU2PyWl" resolve="IAddElementUseCaseOutput" />
+              <node concept="2Gatwc" id="6pgO1wrV8lZ" role="2GaslH">
+                <ref role="2Gaslz" node="4h_5oU2PyVW" resolve="ElementBusinessRules" />
+              </node>
+            </node>
+          </node>
+          <node concept="2qAx6t" id="6pgO1ws3f8y" role="3SE3Wx" />
+          <node concept="2qJFh3" id="6pgO1ws3fSZ" role="3SE3Wx" />
+        </node>
+        <node concept="2qAKW$" id="6pgO1ws5tcp" role="3SE3Wx" />
       </node>
     </node>
     <node concept="1ux1E" id="4h_5oU2Ibvj" role="31LgYG">
