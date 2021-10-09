@@ -14514,5 +14514,74 @@
       <ref role="PrY4T" node="5oHFRyIxp1o" resolve="IHaveModifiers" />
     </node>
   </node>
+  <node concept="1TIwiD" id="oxQ9D1hqT7">
+    <property role="EcuMT" value="441872395490668103" />
+    <property role="TrG5h" value="PureVirtualMethodDeclaration" />
+    <property role="3GE5qa" value="Class / Struct.Methods" />
+    <property role="R4oN_" value="Class pure virtual method declaration" />
+    <property role="34LRSv" value="pure virtual method declaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3H0Qfr" id="oxQ9D1hqTa" role="lGtFl">
+      <node concept="1Pa9Pv" id="oxQ9D1hqTb" role="3H0Qfi">
+        <node concept="1PaTwC" id="oxQ9D1hqTc" role="1PaQFQ">
+          <node concept="3oM_SD" id="oxQ9D1hqTd" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="oxQ9D1hqTe" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="oxQ9D1hqTf" role="1PaTwD">
+            <property role="3oM_SC" value="method" />
+          </node>
+          <node concept="3oM_SD" id="oxQ9D1hqTg" role="1PaTwD">
+            <property role="3oM_SC" value="definition" />
+          </node>
+          <node concept="3oM_SD" id="oxQ9D1hqTh" role="1PaTwD">
+            <property role="3oM_SC" value="inside" />
+          </node>
+          <node concept="3oM_SD" id="oxQ9D1hqTi" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="oxQ9D1hqTj" role="1PaTwD">
+            <property role="3oM_SC" value="class." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="oxQ9D1hqTk" role="1PaQFQ">
+          <node concept="3oM_SD" id="oxQ9D1hqTl" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="oxQ9D1hqTm" role="1PaQFQ">
+          <node concept="3oM_SD" id="oxQ9D1hqTn" role="1PaTwD">
+            <property role="3oM_SC" value="Original" />
+          </node>
+          <node concept="3oM_SD" id="oxQ9D1hqTo" role="1PaTwD">
+            <property role="3oM_SC" value="name" />
+          </node>
+          <node concept="3oM_SD" id="oxQ9D1hqTp" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="oxQ9D1hqTq" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="oxQ9D1hqTr" role="1PaTwD">
+            <property role="3oM_SC" value="C#" />
+          </node>
+          <node concept="3oM_SD" id="oxQ9D1hqTs" role="1PaTwD">
+            <property role="3oM_SC" value="grammar:" />
+          </node>
+          <node concept="3oM_SD" id="oxQ9D1hqTt" role="1PaTwD">
+            <property role="3oM_SC" value="method-declaration" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="PrWs8" id="oxQ9D1l7ne" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIQtuQ" resolve="IFunctionHeader" />
+    </node>
+    <node concept="PrWs8" id="oxQ9D1l7ng" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
+    </node>
+  </node>
 </model>
 

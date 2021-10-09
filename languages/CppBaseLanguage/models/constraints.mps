@@ -9,15 +9,17 @@
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
-    <import index="yjel" ref="r:dab63655-c42b-4e25-8556-f957cf01259a(CppBaseLanguage.structure)" implicit="true" />
+    <import index="prp3" ref="r:52ea8481-08b2-4cbd-ad9d-1b42825f7d09(jetbrains.mps.lang.constraints.rules.kinds.constraints)" />
+    <import index="yjel" ref="r:dab63655-c42b-4e25-8556-f957cf01259a(CppBaseLanguage.structure)" />
+    <import index="puek" ref="r:03a797f3-b1c3-43e1-9876-f0bc46d94082(CppBaseLanguage.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="puek" ref="r:03a797f3-b1c3-43e1-9876-f0bc46d94082(CppBaseLanguage.behavior)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
@@ -36,6 +38,9 @@
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
+      <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <child id="1068431790190" name="initializer" index="33vP2m" />
+      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -66,10 +71,15 @@
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
+      <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
+        <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
+      </concept>
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
+      <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
@@ -128,6 +138,12 @@
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
+      </concept>
+    </language>
+    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -1176,6 +1192,215 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="oxQ9D1hAZx">
+    <property role="3GE5qa" value="Class / Struct.Methods" />
+    <ref role="1M2myG" to="yjel:oxQ9D1hqT7" resolve="PureVirtualMethodDeclaration" />
+    <node concept="9S07l" id="oxQ9D1shWC" role="9Vyp8">
+      <node concept="3clFbS" id="oxQ9D1shWD" role="2VODD2">
+        <node concept="3SKdUt" id="oxQ9D1si9U" role="3cqZAp">
+          <node concept="1PaTwC" id="oxQ9D1si9V" role="1aUNEU">
+            <node concept="3oM_SD" id="oxQ9D1si9W" role="1PaTwD">
+              <property role="3oM_SC" value="ensure" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1si9X" role="1PaTwD">
+              <property role="3oM_SC" value="that" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1si9Y" role="1PaTwD">
+              <property role="3oM_SC" value="PureVirtualMethodDeclaration" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1si9Z" role="1PaTwD">
+              <property role="3oM_SC" value="has" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sia0" role="1PaTwD">
+              <property role="3oM_SC" value="one" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sia1" role="1PaTwD">
+              <property role="3oM_SC" value="Virtual" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sia2" role="1PaTwD">
+              <property role="3oM_SC" value="modifier" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="oxQ9D1sib9" role="3cqZAp">
+          <node concept="1PaTwC" id="oxQ9D1siba" role="1aUNEU">
+            <node concept="3oM_SD" id="oxQ9D1sibb" role="1PaTwD">
+              <property role="3oM_SC" value="our" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibc" role="1PaTwD">
+              <property role="3oM_SC" value="design" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibd" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibe" role="1PaTwD">
+              <property role="3oM_SC" value="modifiers" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibf" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibg" role="1PaTwD">
+              <property role="3oM_SC" value="based" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibh" role="1PaTwD">
+              <property role="3oM_SC" value="on" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibi" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibj" role="1PaTwD">
+              <property role="3oM_SC" value="flexible" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibk" role="1PaTwD">
+              <property role="3oM_SC" value="base" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibl" role="1PaTwD">
+              <property role="3oM_SC" value="IModifier" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibm" role="1PaTwD">
+              <property role="3oM_SC" value="interface" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibn" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibo" role="1PaTwD">
+              <property role="3oM_SC" value="restricts" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibp" role="1PaTwD">
+              <property role="3oM_SC" value="usages" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibq" role="1PaTwD">
+              <property role="3oM_SC" value="by" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibr" role="1PaTwD">
+              <property role="3oM_SC" value="constraints." />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibs" role="1PaTwD">
+              <property role="3oM_SC" value="Here" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibt" role="1PaTwD">
+              <property role="3oM_SC" value="we" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibu" role="1PaTwD">
+              <property role="3oM_SC" value="need" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibv" role="1PaTwD">
+              <property role="3oM_SC" value="an" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibw" role="1PaTwD">
+              <property role="3oM_SC" value="invariant," />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibx" role="1PaTwD">
+              <property role="3oM_SC" value="but" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1siby" role="1PaTwD">
+              <property role="3oM_SC" value="don't" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibz" role="1PaTwD">
+              <property role="3oM_SC" value="know" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sib$" role="1PaTwD">
+              <property role="3oM_SC" value="another" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sib_" role="1PaTwD">
+              <property role="3oM_SC" value="way" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibA" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibB" role="1PaTwD">
+              <property role="3oM_SC" value="restrict" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibC" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibD" role="1PaTwD">
+              <property role="3oM_SC" value="simple" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibE" role="1PaTwD">
+              <property role="3oM_SC" value="class" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibF" role="1PaTwD">
+              <property role="3oM_SC" value="invariant." />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibG" role="1PaTwD">
+              <property role="3oM_SC" value="Hence" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibH" role="1PaTwD">
+              <property role="3oM_SC" value="simply" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibI" role="1PaTwD">
+              <property role="3oM_SC" value="use" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibJ" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibK" role="1PaTwD">
+              <property role="3oM_SC" value="&quot;can" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibL" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibM" role="1PaTwD">
+              <property role="3oM_SC" value="child&quot;" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibN" role="1PaTwD">
+              <property role="3oM_SC" value="block" />
+            </node>
+            <node concept="3oM_SD" id="oxQ9D1sibO" role="1PaTwD">
+              <property role="3oM_SC" value="" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="oxQ9D1sPnh" role="3cqZAp">
+          <node concept="3cpWsn" id="oxQ9D1sPni" role="3cpWs9">
+            <property role="TrG5h" value="isValid" />
+            <node concept="10P_77" id="oxQ9D1sP5k" role="1tU5fm" />
+            <node concept="22lmx$" id="oxQ9D1sPnj" role="33vP2m">
+              <node concept="3clFbC" id="oxQ9D1sPnk" role="3uHU7B">
+                <node concept="10Nm6u" id="oxQ9D1sPnl" role="3uHU7w" />
+                <node concept="EsrRn" id="oxQ9D1sPnm" role="3uHU7B" />
+              </node>
+              <node concept="2OqwBi" id="oxQ9D1sPnn" role="3uHU7w">
+                <node concept="1PxgMI" id="oxQ9D1sPno" role="2Oq$k0">
+                  <node concept="chp4Y" id="oxQ9D1sPnp" role="3oSUPX">
+                    <ref role="cht4Q" to="yjel:oxQ9D1hqT7" resolve="PureVirtualMethodDeclaration" />
+                  </node>
+                  <node concept="EsrRn" id="oxQ9D1sPnq" role="1m5AlR" />
+                </node>
+                <node concept="2qgKlT" id="oxQ9D1sPnr" role="2OqNvi">
+                  <ref role="37wK5l" to="puek:oxQ9D1hHS7" resolve="checkHasVirtualModifier" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="oxQ9D1sPVt" role="3cqZAp">
+          <node concept="3clFbS" id="oxQ9D1sPVv" role="3clFbx">
+            <node concept="2xdQw9" id="oxQ9D1sQb1" role="3cqZAp">
+              <property role="2xdLsb" value="gZ5fh_4/error" />
+              <node concept="3cpWs3" id="oxQ9D1sRbu" role="9lYJi">
+                <node concept="EsrRn" id="oxQ9D1sRm1" role="3uHU7w" />
+                <node concept="Xl_RD" id="oxQ9D1sQb3" role="3uHU7B">
+                  <property role="Xl_RC" value="Every PureVirtualMethodDeclaration needs a virtual modifier, which is missing at " />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="oxQ9D1sPY1" role="3clFbw">
+            <node concept="37vLTw" id="oxQ9D1sQ9x" role="3fr31v">
+              <ref role="3cqZAo" node="oxQ9D1sPni" resolve="isValid" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="oxQ9D1si7M" role="3cqZAp">
+          <node concept="37vLTw" id="oxQ9D1sPns" role="3cqZAk">
+            <ref role="3cqZAo" node="oxQ9D1sPni" resolve="b" />
           </node>
         </node>
       </node>

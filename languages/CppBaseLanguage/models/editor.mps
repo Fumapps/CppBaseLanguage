@@ -20399,14 +20399,38 @@
       <node concept="pkWqt" id="6pgO1wrL92f" role="pqm2j">
         <node concept="3clFbS" id="6pgO1wrL92g" role="2VODD2">
           <node concept="3clFbF" id="6pgO1wrL92h" role="3cqZAp">
-            <node concept="2OqwBi" id="6pgO1wrL92i" role="3clFbG">
-              <node concept="2OqwBi" id="6pgO1wrL92j" role="2Oq$k0">
-                <node concept="pncrf" id="6pgO1wrL92k" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="6pgO1wrL92l" role="2OqNvi">
-                  <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="modifiers" />
+            <node concept="2OqwBi" id="oxQ9D1nZuJ" role="3clFbG">
+              <node concept="2OqwBi" id="oxQ9D1nZuK" role="2Oq$k0">
+                <node concept="2OqwBi" id="oxQ9D1nZuL" role="2Oq$k0">
+                  <node concept="pncrf" id="oxQ9D1nZuM" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="oxQ9D1nZuN" role="2OqNvi">
+                    <ref role="3TtcxE" to="yjel:5oHFRyIxp1p" resolve="modifiers" />
+                  </node>
+                </node>
+                <node concept="3zZkjj" id="oxQ9D1nZuO" role="2OqNvi">
+                  <node concept="1bVj0M" id="oxQ9D1nZuP" role="23t8la">
+                    <node concept="3clFbS" id="oxQ9D1nZuQ" role="1bW5cS">
+                      <node concept="3clFbF" id="oxQ9D1nZuR" role="3cqZAp">
+                        <node concept="2OqwBi" id="oxQ9D1nZuT" role="3clFbG">
+                          <node concept="37vLTw" id="oxQ9D1nZuU" role="2Oq$k0">
+                            <ref role="3cqZAo" node="oxQ9D1nZuX" resolve="it" />
+                          </node>
+                          <node concept="1mIQ4w" id="oxQ9D1nZuV" role="2OqNvi">
+                            <node concept="chp4Y" id="oxQ9D1nZuW" role="cj9EA">
+                              <ref role="cht4Q" to="yjel:6pgO1wrJD5t" resolve="ISuffixModifier" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="oxQ9D1nZuX" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="oxQ9D1nZuY" role="1tU5fm" />
+                    </node>
+                  </node>
                 </node>
               </node>
-              <node concept="3GX2aA" id="6pgO1wrL92m" role="2OqNvi" />
+              <node concept="3GX2aA" id="oxQ9D1nZuZ" role="2OqNvi" />
             </node>
           </node>
         </node>
@@ -20438,6 +20462,68 @@
         <ref role="1NtTu8" to="yjel:6pgO1wrQvz_" resolve="typeReference" />
       </node>
       <node concept="2iRfu4" id="6pgO1wrQvmP" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="oxQ9D1hz3T">
+    <property role="3GE5qa" value="Class / Struct.Methods" />
+    <ref role="1XX52x" to="yjel:oxQ9D1hqT7" resolve="PureVirtualMethodDeclaration" />
+    <node concept="3EZMnI" id="oxQ9D1hz3V" role="2wV5jI">
+      <node concept="l2Vlx" id="oxQ9D1hz3W" role="2iSdaV" />
+      <node concept="PMmxH" id="oxQ9D1hz3X" role="3EZMnx">
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
+      </node>
+      <node concept="PMmxH" id="oxQ9D1hz3Y" role="3EZMnx">
+        <ref role="34QXea" node="5oHFRyI_NHg" resolve="CreateModifierOnSpace" />
+        <ref role="PMmxG" node="5oHFRyIFjtw" resolve="HaveTypeOrVoidComponent" />
+      </node>
+      <node concept="3F0A7n" id="oxQ9D1hz3Z" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="A1WHu" id="oxQ9D1hz40" role="3vIgyS">
+          <ref role="A1WHt" node="2vo5eZuESDh" resolve="GenericTypeListCreation" />
+        </node>
+      </node>
+      <node concept="PMmxH" id="oxQ9D1hz41" role="3EZMnx">
+        <ref role="PMmxG" node="5moKU4Y5smx" resolve="GenericTypeListComponent" />
+        <node concept="pkWqt" id="oxQ9D1hz42" role="pqm2j">
+          <node concept="3clFbS" id="oxQ9D1hz43" role="2VODD2">
+            <node concept="3clFbF" id="oxQ9D1hz44" role="3cqZAp">
+              <node concept="2OqwBi" id="oxQ9D1hz45" role="3clFbG">
+                <node concept="2OqwBi" id="oxQ9D1hz46" role="2Oq$k0">
+                  <node concept="pncrf" id="oxQ9D1hz47" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="oxQ9D1hz48" role="2OqNvi">
+                    <ref role="3TtcxE" to="yjel:5moKU4Y5slA" resolve="typeParameter" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="oxQ9D1hz49" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="oxQ9D1hz4a" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <node concept="11L4FC" id="oxQ9D1hz4b" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="oxQ9D1hz4c" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="oxQ9D1hz4d" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:6$wrg4AAmgO" resolve="formalParameterList" />
+      </node>
+      <node concept="3F0ifn" id="oxQ9D1hz4e" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <node concept="11L4FC" id="oxQ9D1hz4f" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="PMmxH" id="oxQ9D1hz4g" role="3EZMnx">
+        <ref role="PMmxG" node="6pgO1wrL92d" resolve="HaveModifiersSuffixComponent" />
+      </node>
+      <node concept="3F0ifn" id="oxQ9D1l4tH" role="3EZMnx">
+        <property role="3F0ifm" value="= 0;" />
+      </node>
     </node>
   </node>
 </model>

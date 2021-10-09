@@ -133,6 +133,7 @@
       </concept>
       <concept id="4928369069049559002" name="CppBaseLanguage.structure.EmptyIncludeDirective" flags="ng" index="36Rq9k" />
       <concept id="4928369069049559945" name="CppBaseLanguage.structure.QuotedIncludeDirective" flags="ng" index="36RqS7" />
+      <concept id="441872395490668103" name="CppBaseLanguage.structure.PureVirtualMethodDeclaration" flags="ng" index="17p7rt" />
       <concept id="3129541975290303051" name="CppBaseLanguage.structure.VoidType" flags="ng" index="1pH0Yj" />
       <concept id="6167894786982645659" name="CppBaseLanguage.structure.IGenericTypeList" flags="ng" index="1FzkKU">
         <child id="6167894786982659430" name="typeParameter" index="1Fzgr7" />
@@ -663,10 +664,36 @@
         </node>
         <node concept="35j1YG" id="4h_5oU2Pz1A" role="31Leeq" />
         <node concept="pNo78" id="4h_5oU2Pz0C" role="31Leeq">
-          <property role="pKhvV" value="= 0 / Shorter Class Names" />
+          <property role="pKhvV" value="Shorter Class Names" />
+        </node>
+        <node concept="17p7rt" id="oxQ9D1sPdJ" role="31Leeq">
+          <property role="TrG5h" value="ProcessAddElementResponse" />
+          <node concept="1ux1I" id="oxQ9D1sPdM" role="1fIg$P">
+            <node concept="31KZC3" id="oxQ9D1t8dI" role="1ux1J">
+              <property role="TrG5h" value="response" />
+              <node concept="31KREs" id="oxQ9D1t8dJ" role="1JMSiE" />
+              <node concept="3UfwP1" id="oxQ9D1t8dK" role="2UegB9">
+                <node concept="35uqmV" id="oxQ9D1t8dL" role="3UfBpY">
+                  <node concept="3UfwP1" id="oxQ9D1t8dM" role="35x3dZ">
+                    <node concept="2Gatwc" id="oxQ9D1t8dN" role="3UfBpY">
+                      <ref role="2Gaslz" node="4h_5oU2Pz1R" resolve="VResponseModel" />
+                      <node concept="2Gatwc" id="oxQ9D1t8dO" role="2GaslH">
+                        <ref role="2Gaslz" node="4h_5oU2PyWl" resolve="IAddElementUseCaseOutput" />
+                        <node concept="2Gatwc" id="oxQ9D1t8dP" role="2GaslH">
+                          <ref role="2Gaslz" node="4h_5oU2PyVW" resolve="ElementBusinessRules" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1pH0Yj" id="oxQ9D1sPeS" role="3Sw9wT" />
+          <node concept="2qJFh3" id="oxQ9D1t8d_" role="3SE3Wx" />
         </node>
         <node concept="31KRCM" id="4h_5oU2Pz01" role="31Leeq">
-          <property role="TrG5h" value="ProcessAddElementResponse" />
+          <property role="TrG5h" value="ProcessAddElementResponse2" />
           <node concept="1ux1I" id="4h_5oU2Pz05" role="1fIg$P">
             <node concept="31KZC3" id="4h_5oU2Pz46" role="1ux1J">
               <property role="TrG5h" value="response" />
