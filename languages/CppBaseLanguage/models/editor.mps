@@ -1399,6 +1399,19 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="2iRkQZ" id="6$wrg4A_JoN" role="2czzBx" />
+        <node concept="4$FPG" id="oxQ9D1ueLC" role="4_6I_">
+          <node concept="3clFbS" id="oxQ9D1ueLD" role="2VODD2">
+            <node concept="3clFbF" id="oxQ9D1ueN_" role="3cqZAp">
+              <node concept="2ShNRf" id="oxQ9D1ueNz" role="3clFbG">
+                <node concept="3zrR0B" id="oxQ9D1uf5e" role="2ShVmc">
+                  <node concept="3Tqbb2" id="oxQ9D1uf5g" role="3zrR0E">
+                    <ref role="ehGHo" to="yjel:4h_5oU1agCy" resolve="EmptyLineMemberDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="6$wrg4A_JoO" role="3EZMnx">
         <property role="3F0ifm" value="};" />
@@ -2945,8 +2958,8 @@
   <node concept="24kQdi" id="2F2RyEHTSIO">
     <property role="3GE5qa" value="Types" />
     <ref role="1XX52x" to="yjel:5VT83U$Lw6T" resolve="UnsignedType" />
-    <node concept="3F0ifn" id="7kLnf9USGuD" role="2wV5jI">
-      <property role="3F0ifm" value="uint" />
+    <node concept="PMmxH" id="oxQ9D1w6bH" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
   <node concept="24kQdi" id="2F2RyEHTSJh">

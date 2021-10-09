@@ -658,8 +658,30 @@
               </node>
             </node>
           </node>
-          <node concept="pNo78" id="4h_5oU2Pz2I" role="2qBxSn">
-            <property role="pKhvV" value="use vector with type imported from VElementDataDto" />
+          <node concept="31KRIa" id="oxQ9D1xXJK" role="2qBxSn">
+            <node concept="1ux1y" id="oxQ9D1xXJL" role="31KRJH">
+              <node concept="34yI$2" id="oxQ9D1xXJM" role="1ux1z">
+                <node concept="zF7EM" id="oxQ9D1xXJN" role="34yI$0">
+                  <property role="TrG5h" value="UpdatedNumbers" />
+                </node>
+              </node>
+            </node>
+            <node concept="3UfwP1" id="oxQ9D1xXJO" role="3SE38M">
+              <node concept="2Gatwc" id="oxQ9D1xXJP" role="3UfBpY">
+                <ref role="2Gaslz" node="4h_5oU1Kna2" resolve="vector" />
+                <node concept="2Gatwc" id="oxQ9D1xXJQ" role="2GaslH">
+                  <ref role="2Gaslz" node="4h_5oU1fAKM" resolve="std" />
+                </node>
+                <node concept="3UfwP1" id="oxQ9D1xXJR" role="2GavS0">
+                  <node concept="2Gatwc" id="oxQ9D1xXKd" role="3UfBpY">
+                    <ref role="2Gaslz" node="oxQ9D1xXHa" resolve="VElementDataDto" />
+                    <node concept="2Gatwc" id="oxQ9D1xXKf" role="2GaslH">
+                      <ref role="2Gaslz" node="oxQ9D1xXHg" resolve="ElementBusinessRules" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
         <node concept="35j1YG" id="4h_5oU2Pz1A" role="31Leeq" />
@@ -722,9 +744,6 @@
         <node concept="35j1YG" id="4h_5oU2PyZC" role="31Leeq" />
         <node concept="31LiC_" id="4h_5oU2Pz60" role="31Leeq">
           <property role="TrG5h" value="VErrorModel" />
-          <node concept="pNo78" id="4h_5oU2Pz7a" role="2qBxSn">
-            <property role="pKhvV" value="unsigned &amp; space in structs" />
-          </node>
           <node concept="31KRIa" id="4h_5oU2Pz61" role="2qBxSn">
             <node concept="1ux1y" id="4h_5oU2Pz62" role="31KRJH">
               <node concept="34yI$2" id="4h_5oU2Pz63" role="1ux1z">
@@ -745,12 +764,25 @@
               </node>
             </node>
           </node>
-          <node concept="pNo78" id="4h_5oU2Pz6a" role="2qBxSn">
-            <property role="pKhvV" value="imported from VElementDataDto" />
+          <node concept="31KRIa" id="oxQ9D1xXH$" role="2qBxSn">
+            <node concept="1ux1y" id="oxQ9D1xXHA" role="31KRJH">
+              <node concept="34yI$2" id="oxQ9D1xXI0" role="1ux1z">
+                <node concept="zF7EM" id="oxQ9D1xXI2" role="34yI$0">
+                  <property role="TrG5h" value="dto" />
+                </node>
+              </node>
+            </node>
+            <node concept="3UfwP1" id="oxQ9D1xXHD" role="3SE38M">
+              <node concept="2Gatwc" id="oxQ9D1xXHV" role="3UfBpY">
+                <ref role="2Gaslz" node="oxQ9D1xXHa" resolve="VElementDataDto" />
+                <node concept="2Gatwc" id="oxQ9D1xXHX" role="2GaslH">
+                  <ref role="2Gaslz" node="oxQ9D1xXHg" resolve="ElementBusinessRules" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
         <node concept="35j1YG" id="4h_5oU2Pz4J" role="31Leeq" />
-        <node concept="35j1YG" id="4h_5oU2Pz5n" role="31Leeq" />
         <node concept="31KRCM" id="4h_5oU2Pz3m" role="31Leeq">
           <property role="TrG5h" value="HandleAddElementError" />
           <node concept="1ux1I" id="4h_5oU2Pz3q" role="1fIg$P">
@@ -810,6 +842,16 @@
       <node concept="36Rq9k" id="4h_5oU2PyVq" role="1ux1F" />
       <node concept="36RqS7" id="4h_5oU2PyVF" role="1ux1F">
         <property role="36Rq9j" value="ElementBusinessRules/UseCases/ErrorDto.h" />
+      </node>
+    </node>
+  </node>
+  <node concept="LmIGD" id="oxQ9D1xXH8">
+    <property role="Lph3H" value="UseCaseGenerator" />
+    <property role="TrG5h" value="ElementDataDto.h" />
+    <node concept="31LijL" id="oxQ9D1xXHg" role="31LlDr">
+      <property role="TrG5h" value="ElementBusinessRules" />
+      <node concept="31LiC_" id="oxQ9D1xXHa" role="31LkaE">
+        <property role="TrG5h" value="VElementDataDto" />
       </node>
     </node>
   </node>
