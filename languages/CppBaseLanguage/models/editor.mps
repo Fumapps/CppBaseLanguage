@@ -9,9 +9,9 @@
   </languages>
   <imports>
     <import index="yjel" ref="r:dab63655-c42b-4e25-8556-f957cf01259a(CppBaseLanguage.structure)" />
+    <import index="puek" ref="r:03a797f3-b1c3-43e1-9876-f0bc46d94082(CppBaseLanguage.behavior)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="puek" ref="r:03a797f3-b1c3-43e1-9876-f0bc46d94082(CppBaseLanguage.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
   </imports>
@@ -379,6 +379,9 @@
         <child id="1163670677455" name="expression" index="3Kbmr1" />
         <child id="1163670683720" name="body" index="3Kbo56" />
       </concept>
+      <concept id="5497648299878491908" name="jetbrains.mps.baseLanguage.structure.BaseVariableReference" flags="nn" index="1M0zk4">
+        <reference id="5497648299878491909" name="baseVariableDeclaration" index="1M0zk5" />
+      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
@@ -409,6 +412,14 @@
       </concept>
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
+        <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
+        <child id="1883223317721008709" name="body" index="Jncv$" />
+        <child id="1883223317721008711" name="variable" index="JncvA" />
+        <child id="1883223317721008710" name="nodeExpression" index="JncvB" />
+      </concept>
+      <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
+      <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
@@ -6090,6 +6101,65 @@
         </node>
         <node concept="11LMrY" id="4h_5oU1hGvg" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="pkWqt" id="oxQ9D1yUVs" role="pqm2j">
+        <node concept="3clFbS" id="oxQ9D1yUVt" role="2VODD2">
+          <node concept="Jncv_" id="oxQ9D1TpiI" role="3cqZAp">
+            <ref role="JncvD" to="yjel:27q4jmdWW$T" resolve="NotGenericParameterTypeReference" />
+            <node concept="pncrf" id="oxQ9D1TpTi" role="JncvB" />
+            <node concept="3clFbS" id="oxQ9D1TpiM" role="Jncv$">
+              <node concept="3cpWs8" id="oxQ9D1TuhV" role="3cqZAp">
+                <node concept="3cpWsn" id="oxQ9D1TuhW" role="3cpWs9">
+                  <property role="TrG5h" value="parentTypeReferenceChain" />
+                  <node concept="17QB3L" id="oxQ9D1TuhX" role="1tU5fm" />
+                  <node concept="2OqwBi" id="oxQ9D1TuhY" role="33vP2m">
+                    <node concept="Jnkvi" id="oxQ9D1Tvl4" role="2Oq$k0">
+                      <ref role="1M0zk5" node="oxQ9D1TpiO" resolve="notGenericParameterTypeReference" />
+                    </node>
+                    <node concept="2qgKlT" id="oxQ9D1Tui0" role="2OqNvi">
+                      <ref role="37wK5l" to="puek:oxQ9D1QduE" resolve="parentTypeChainAsString" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs8" id="oxQ9D1Tui1" role="3cqZAp">
+                <node concept="3cpWsn" id="oxQ9D1Tui2" role="3cpWs9">
+                  <property role="TrG5h" value="ancestorChain" />
+                  <node concept="17QB3L" id="oxQ9D1Tui3" role="1tU5fm" />
+                  <node concept="2YIFZM" id="oxQ9D1Tui4" role="33vP2m">
+                    <ref role="37wK5l" to="puek:oxQ9D1QJzc" resolve="ancestorTypeChainAsStringForTypeReference" />
+                    <ref role="1Pybhc" to="puek:oxQ9D1QJwN" resolve="ReferenceableAncestorChainUtil" />
+                    <node concept="pncrf" id="oxQ9D1Tui5" role="37wK5m" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="oxQ9D1Tuiw" role="3cqZAp">
+                <node concept="3fqX7Q" id="oxQ9D1X_wC" role="3cqZAk">
+                  <node concept="2OqwBi" id="oxQ9D1ZuPW" role="3fr31v">
+                    <node concept="37vLTw" id="oxQ9D1ZulB" role="2Oq$k0">
+                      <ref role="3cqZAo" node="oxQ9D1Tui2" resolve="ancestorChain" />
+                    </node>
+                    <node concept="liA8E" id="oxQ9D1Zvq0" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
+                      <node concept="37vLTw" id="oxQ9D1ZvDQ" role="37wK5m">
+                        <ref role="3cqZAo" node="oxQ9D1TuhW" resolve="parentTypeReferenceChain" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="JncvC" id="oxQ9D1TpiO" role="JncvA">
+              <property role="TrG5h" value="notGenericParameterTypeReference" />
+              <node concept="2jxLKc" id="oxQ9D1TpiP" role="1tU5fm" />
+            </node>
+          </node>
+          <node concept="3clFbF" id="oxQ9D1yV3n" role="3cqZAp">
+            <node concept="3clFbT" id="oxQ9D1ALFT" role="3clFbG">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
         </node>
       </node>
     </node>

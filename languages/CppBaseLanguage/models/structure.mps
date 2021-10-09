@@ -13473,6 +13473,7 @@
     <property role="3GE5qa" value="References.MemberReferences" />
     <property role="TrG5h" value="AmbiguousMemberReference" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="A technical holder for retaining input if the user typed an invalid string" />
     <ref role="1TJDcQ" node="5E$Mk4xjGdE" resolve="MemberReference" />
     <node concept="3H0Qfr" id="1fX_MJerWT4" role="lGtFl">
       <node concept="1Pa9Pv" id="1fX_MJerWT5" role="3H0Qfi">
@@ -13707,6 +13708,7 @@
     <property role="3GE5qa" value="References.TypeRelatedReferences" />
     <property role="TrG5h" value="AmbiguousTypeReference" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="A technical holder for retaining input if the user typed an invalid string" />
     <ref role="1TJDcQ" node="27q4jmdWYxN" resolve="TypeReference" />
     <node concept="PrWs8" id="5gskHI0ff0Z" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
