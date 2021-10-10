@@ -188,6 +188,26 @@
     <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="MyClass.h" />
     <property role="14CC_8" value="My Company" />
+    <node concept="31LiCz" id="5omPgnN1fp3" role="31LlDr">
+      <property role="TrG5h" value="NoModifier" />
+    </node>
+    <node concept="31LiCz" id="5omPgnN1frT" role="31LlDr">
+      <property role="TrG5h" value="PrefixModifier" />
+      <node concept="14i8DX" id="5omPgnN1ftn" role="3SE3Wx">
+        <property role="TrG5h" value="DLL_EXPORT" />
+      </node>
+    </node>
+    <node concept="31LiCz" id="5omPgnN1fuR" role="31LlDr">
+      <property role="TrG5h" value="SuffixModifier" />
+      <node concept="2qAKW$" id="5omPgnN1fwn" role="3SE3Wx" />
+    </node>
+    <node concept="31LiCz" id="5omPgnN1fxT" role="31LlDr">
+      <property role="TrG5h" value="PrefixAndSuffixModifier" />
+      <node concept="2qAKW$" id="5omPgnN1fzr" role="3SE3Wx" />
+      <node concept="14i8DX" id="5omPgnN1fzx" role="3SE3Wx">
+        <property role="TrG5h" value="DLL_EXPORT" />
+      </node>
+    </node>
     <node concept="31LiCz" id="1DC38INDGCW" role="31LlDr">
       <property role="TrG5h" value="MyClass" />
       <node concept="2DNGrd" id="4h_5oU0S22x" role="31Leeq">
