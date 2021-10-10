@@ -2346,6 +2346,11 @@
       <property role="TrG5h" value="generatorName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="oxQ9D2wP7i" role="1TKVEl">
+      <property role="IQ2nx" value="441872395511484882" />
+      <property role="TrG5h" value="companyName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_Becz">
     <property role="EcuMT" value="7232527154588476195" />
@@ -14585,6 +14590,23 @@
     <node concept="25R33" id="oxQ9D29j_O" role="25R1y">
       <property role="3tVfz5" value="441872395505318260" />
       <property role="TrG5h" value="class" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="oxQ9D2qlbB">
+    <property role="EcuMT" value="441872395509781223" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="ApiModifier" />
+    <property role="34LRSv" value="API Modifier" />
+    <property role="R4oN_" value="Adds an export/import modifier to the class" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="oxQ9D2qlbC" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIRHr3" resolve="IClassModifier" />
+    </node>
+    <node concept="PrWs8" id="oxQ9D2uPMj" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
+    </node>
+    <node concept="PrWs8" id="oxQ9D2qlbE" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

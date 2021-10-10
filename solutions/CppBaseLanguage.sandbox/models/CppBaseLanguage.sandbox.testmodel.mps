@@ -91,9 +91,11 @@
       </concept>
       <concept id="7232527154588265766" name="CppBaseLanguage.structure.File" flags="ng" index="31LFg6">
         <property id="1154422390078326241" name="generatorName" index="Lph3H" />
+        <property id="441872395511484882" name="companyName" index="14CC_8" />
         <child id="7232527154588292748" name="includeDirectiveList" index="31LgYG" />
         <child id="7232527154588304251" name="namespaceMemberDeclaration" index="31LlDr" />
       </concept>
+      <concept id="441872395509781223" name="CppBaseLanguage.structure.ApiModifier" flags="ng" index="14i8DX" />
       <concept id="4928369069019626636" name="CppBaseLanguage.structure.LocalVariableDeclarationWithoutInitialization" flags="ng" index="34yI$2">
         <child id="4928369069019626638" name="identifier" index="34yI$0" />
       </concept>
@@ -147,6 +149,7 @@
       <concept id="6209812394072707164" name="CppBaseLanguage.structure.IHaveType" flags="ng" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
       </concept>
+      <concept id="6843536562190981624" name="CppBaseLanguage.structure.NullLiteral" flags="ng" index="3UcVB6" />
       <concept id="6843536562190981614" name="CppBaseLanguage.structure.IntLiteral" flags="ng" index="3UcVBg">
         <property id="3129541975290926181" name="value" index="1pzoAX" />
       </concept>
@@ -184,6 +187,7 @@
   <node concept="LmIGD" id="1DC38INDGCU">
     <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="MyClass.h" />
+    <property role="14CC_8" value="My Company" />
     <node concept="31LiCz" id="1DC38INDGCW" role="31LlDr">
       <property role="TrG5h" value="MyClass" />
       <node concept="2DNGrd" id="4h_5oU0S22x" role="31Leeq">
@@ -373,6 +377,7 @@
   <node concept="LmIGD" id="4h_5oU1fAKz">
     <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="StdLib" />
+    <property role="14CC_8" value="My Company" />
     <node concept="31LijL" id="4h_5oU1fAKM" role="31LlDr">
       <property role="TrG5h" value="std" />
       <node concept="31LiCz" id="4h_5oU1fAK_" role="31LkaE">
@@ -404,6 +409,7 @@
   <node concept="LmIGC" id="4h_5oU1_2xR">
     <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="MyClass.cpp" />
+    <property role="14CC_8" value="My Company" />
     <node concept="35eqBm" id="4h_5oU1_2xX" role="31LlDr">
       <property role="TrG5h" value="doIt" />
       <node concept="3UfwP1" id="4h_5oU1DJ23" role="3508ep">
@@ -414,12 +420,13 @@
       <node concept="1ux1M" id="4h_5oU1_2ye" role="35eqBk">
         <node concept="2YDbI9" id="4h_5oU1Ifje" role="1ux1N">
           <node concept="3UfwP1" id="4h_5oU1Ifjg" role="2YDbI6">
-            <node concept="35Mjx5" id="4h_5oU1Ifjv" role="3UfBpY" />
+            <node concept="35Mjx5" id="oxQ9D2uPMp" role="3UfBpY" />
           </node>
-          <node concept="34yI$2" id="4h_5oU1Ifok" role="2YDbI4">
-            <node concept="zF7EM" id="4h_5oU1Ifom" role="34yI$0">
-              <property role="TrG5h" value="lol" />
+          <node concept="2YC0sE" id="oxQ9D2uPMs" role="2YDbI4">
+            <node concept="zF7EM" id="oxQ9D2uPMt" role="2YC0sD">
+              <property role="TrG5h" value="myObject" />
             </node>
+            <node concept="3UcVB6" id="oxQ9D2uPMy" role="2YCihz" />
           </node>
         </node>
         <node concept="2YwsGJ" id="4h_5oU1F2P6" role="1ux1N">
@@ -530,7 +537,7 @@
                     <node concept="35CwYQ" id="4h_5oU240Ij" role="35CwYM">
                       <property role="35CwBW" value="4h_5oU1LLD7/ByReference" />
                       <node concept="1VUwCF" id="4h_5oU240Ik" role="35CwYO">
-                        <ref role="2aT8gA" node="4h_5oU1Ifom" resolve="lol" />
+                        <ref role="2aT8gA" node="oxQ9D2uPMt" resolve="myObject" />
                       </node>
                     </node>
                   </node>
@@ -573,7 +580,7 @@
                 <node concept="35CwYQ" id="4h_5oU22U5N" role="35CwYM">
                   <property role="35CwBW" value="4h_5oU1LLD7/ByReference" />
                   <node concept="1VUwCF" id="4h_5oU22U5W" role="35CwYO">
-                    <ref role="2aT8gA" node="4h_5oU1Ifom" resolve="lol" />
+                    <ref role="2aT8gA" node="oxQ9D2uPMt" resolve="myObject" />
                   </node>
                 </node>
               </node>
@@ -594,6 +601,7 @@
   <node concept="LmIGD" id="4h_5oU2Ibvh">
     <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="IAddElementUseCaseOutput.h" />
+    <property role="14CC_8" value="My Company" />
     <node concept="31LijL" id="4h_5oU2PyVW" role="31LlDr">
       <property role="TrG5h" value="ElementBusinessRules" />
       <node concept="1XPZok" id="6pgO1wrxUbL" role="31LkaE">
@@ -794,6 +802,9 @@
           <node concept="2qJFh3" id="6pgO1ws3fSZ" role="3SE3Wx" />
         </node>
         <node concept="2qAKW$" id="6pgO1ws5tcp" role="3SE3Wx" />
+        <node concept="14i8DX" id="oxQ9D2qvkx" role="3SE3Wx">
+          <property role="TrG5h" value="DLL_API" />
+        </node>
       </node>
     </node>
     <node concept="1ux1E" id="4h_5oU2Ibvj" role="31LgYG">
@@ -819,6 +830,7 @@
   <node concept="LmIGD" id="oxQ9D1xXH8">
     <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="ElementDataDto.h" />
+    <property role="14CC_8" value="My Company" />
     <node concept="31LijL" id="oxQ9D1xXHg" role="31LlDr">
       <property role="TrG5h" value="ElementBusinessRules" />
       <node concept="31LiC_" id="oxQ9D1xXHa" role="31LkaE">
