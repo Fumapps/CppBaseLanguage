@@ -6,6 +6,7 @@
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="6" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -14,6 +15,8 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="yjel" ref="r:dab63655-c42b-4e25-8556-f957cf01259a(CppBaseLanguage.structure)" />
     <import index="ws0f" ref="r:ca9175a4-0b4d-4321-96a3-42d92ff99c93(CppBaseLanguage.constraints)" />
+    <import index="n93o" ref="r:07f020a6-72cb-4ae0-bc28-3cb4cfcc0726(CppBaseLanguage.editor)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -104,6 +107,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
@@ -1697,6 +1701,74 @@
       </node>
       <node concept="3Tm1VV" id="oxQ9D1QJyf" role="1B3o_S" />
       <node concept="17QB3L" id="oxQ9D1QJz0" role="3clF45" />
+    </node>
+    <node concept="2YIFZL" id="5omPgnN5pcB" role="jymVt">
+      <property role="TrG5h" value="parentTypeMatchesAncestorChain" />
+      <node concept="37vLTG" id="5omPgnN5pda" role="3clF46">
+        <property role="TrG5h" value="typeReference" />
+        <node concept="3Tqbb2" id="5omPgnN5pdy" role="1tU5fm">
+          <ref role="ehGHo" to="yjel:27q4jmdWYxN" resolve="TypeReference" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="5omPgnN5pcE" role="3clF47">
+        <node concept="Jncv_" id="oxQ9D1TpiI" role="3cqZAp">
+          <ref role="JncvD" to="yjel:27q4jmdWW$T" resolve="NotGenericParameterTypeReference" />
+          <node concept="37vLTw" id="5omPgnN70nQ" role="JncvB">
+            <ref role="3cqZAo" node="5omPgnN5pda" resolve="typeReference" />
+          </node>
+          <node concept="3clFbS" id="oxQ9D1TpiM" role="Jncv$">
+            <node concept="3cpWs8" id="5omPgnN70uR" role="3cqZAp">
+              <node concept="3cpWsn" id="5omPgnN70uS" role="3cpWs9">
+                <property role="TrG5h" value="parentTypeReferenceChain" />
+                <node concept="17QB3L" id="5omPgnN70uT" role="1tU5fm" />
+                <node concept="2OqwBi" id="5omPgnN70uU" role="33vP2m">
+                  <node concept="Jnkvi" id="5omPgnN70Wk" role="2Oq$k0">
+                    <ref role="1M0zk5" node="oxQ9D1TpiO" resolve="notGenericParameterTypeReference" />
+                  </node>
+                  <node concept="2qgKlT" id="5omPgnN70uW" role="2OqNvi">
+                    <ref role="37wK5l" node="oxQ9D1QduE" resolve="parentTypeChainAsString" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="5omPgnN70uX" role="3cqZAp">
+              <node concept="3cpWsn" id="5omPgnN70uY" role="3cpWs9">
+                <property role="TrG5h" value="ancestorChain" />
+                <node concept="17QB3L" id="5omPgnN70uZ" role="1tU5fm" />
+                <node concept="2YIFZM" id="5omPgnN70v0" role="33vP2m">
+                  <ref role="1Pybhc" node="oxQ9D1QJwN" resolve="ReferenceableAncestorChainUtil" />
+                  <ref role="37wK5l" node="oxQ9D1QJzc" resolve="ancestorTypeChainAsStringForTypeReference" />
+                  <node concept="37vLTw" id="5omPgnN70v1" role="37wK5m">
+                    <ref role="3cqZAo" node="5omPgnN5pda" resolve="typeReference" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="5omPgnN70v2" role="3cqZAp">
+              <node concept="2OqwBi" id="5omPgnN70v3" role="3cqZAk">
+                <node concept="37vLTw" id="5omPgnN70v4" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5omPgnN70uY" resolve="ancestorChain" />
+                </node>
+                <node concept="liA8E" id="5omPgnN70v5" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
+                  <node concept="37vLTw" id="5omPgnN70v6" role="37wK5m">
+                    <ref role="3cqZAo" node="5omPgnN70uS" resolve="parentTypeReferenceChain" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="JncvC" id="oxQ9D1TpiO" role="JncvA">
+            <property role="TrG5h" value="notGenericParameterTypeReference" />
+            <node concept="2jxLKc" id="oxQ9D1TpiP" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="oxQ9D1Tuiw" role="3cqZAp">
+          <node concept="3clFbT" id="5omPgnN70TV" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5omPgnN5pbT" role="1B3o_S" />
+      <node concept="10P_77" id="5omPgnN5pcr" role="3clF45" />
     </node>
     <node concept="3Tm1VV" id="oxQ9D1QJwO" role="1B3o_S" />
   </node>
