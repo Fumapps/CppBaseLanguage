@@ -78,7 +78,7 @@
         <child id="8700838527816343363" name="type" index="2UegB9" />
         <child id="6190096177244677895" name="parameterModifier" index="1JMSiE" />
       </concept>
-      <concept id="7232527154588409138" name="CppBaseLanguage.structure.TypeParameter" flags="ng" index="31Lcgi" />
+      <concept id="7232527154588409138" name="CppBaseLanguage.structure.TemplateTypeParameter" flags="ng" index="31Lcgi" />
       <concept id="7232527154588292753" name="CppBaseLanguage.structure.BracketIncludeDirective" flags="ng" index="31LgYL" />
       <concept id="7232527154588302801" name="CppBaseLanguage.structure.NamespaceDeclaration" flags="ng" index="31LijL">
         <child id="7232527154588310410" name="namespaceMemberDeclaration" index="31LkaE" />
@@ -135,7 +135,7 @@
       <concept id="4928369069049559945" name="CppBaseLanguage.structure.QuotedIncludeDirective" flags="ng" index="36RqS7" />
       <concept id="441872395490668103" name="CppBaseLanguage.structure.PureVirtualMethodDeclaration" flags="ng" index="17p7rt" />
       <concept id="3129541975290303051" name="CppBaseLanguage.structure.VoidType" flags="ng" index="1pH0Yj" />
-      <concept id="6167894786982645659" name="CppBaseLanguage.structure.IGenericTypeList" flags="ng" index="1FzkKU">
+      <concept id="6167894786982645659" name="CppBaseLanguage.structure.ITemplatedTypeList" flags="ng" index="1FzkKU">
         <child id="6167894786982659430" name="typeParameter" index="1Fzgr7" />
       </concept>
       <concept id="6209812394075305792" name="CppBaseLanguage.structure.IHaveTypeOrVoid" flags="ng" index="3Sw9wS">
@@ -345,6 +345,7 @@
       </node>
       <node concept="35j1YG" id="4h_5oU1yX4I" role="31Leeq" />
       <node concept="35j1YG" id="4h_5oU1yX5P" role="31Leeq" />
+      <node concept="2qAKW$" id="oxQ9D29jzM" role="3SE3Wx" />
     </node>
     <node concept="35eqBm" id="4h_5oU1_6nt" role="31LlDr">
       <property role="TrG5h" value="doSomething" />
@@ -376,7 +377,7 @@
       <property role="TrG5h" value="std" />
       <node concept="31LiCz" id="4h_5oU1fAK_" role="31LkaE">
         <property role="TrG5h" value="optional" />
-        <node concept="31Lcgi" id="4h_5oU1fAKF" role="1Fzgr7">
+        <node concept="31Lcgi" id="oxQ9D2fOWq" role="1Fzgr7">
           <property role="TrG5h" value="T" />
         </node>
       </node>
@@ -622,6 +623,9 @@
       <node concept="31LiCz" id="4h_5oU2PyWl" role="31LkaE">
         <property role="TrG5h" value="IAddElementUseCaseOutput" />
         <node concept="2DNGrd" id="4h_5oU2PyWq" role="31Leeq">
+          <node concept="pNo78" id="oxQ9D27pGu" role="2DNGrf">
+            <property role="pKhvV" value="TODO: No Intendation of public:" />
+          </node>
           <node concept="1XY2CB" id="6pgO1wrIlUA" role="2DNGrf">
             <property role="TrG5h" value="IAddElementUseCaseOutput" />
             <node concept="2Y_LOE" id="6pgO1wrIlUL" role="1XY2Dr" />
@@ -685,9 +689,6 @@
           </node>
         </node>
         <node concept="35j1YG" id="4h_5oU2Pz1A" role="31Leeq" />
-        <node concept="pNo78" id="4h_5oU2Pz0C" role="31Leeq">
-          <property role="pKhvV" value="Shorter Class Names" />
-        </node>
         <node concept="17p7rt" id="oxQ9D1sPdJ" role="31Leeq">
           <property role="TrG5h" value="ProcessAddElementResponse" />
           <node concept="1ux1I" id="oxQ9D1sPdM" role="1fIg$P">
@@ -713,33 +714,6 @@
           </node>
           <node concept="1pH0Yj" id="oxQ9D1sPeS" role="3Sw9wT" />
           <node concept="2qJFh3" id="oxQ9D1t8d_" role="3SE3Wx" />
-        </node>
-        <node concept="31KRCM" id="4h_5oU2Pz01" role="31Leeq">
-          <property role="TrG5h" value="ProcessAddElementResponse2" />
-          <node concept="1ux1I" id="4h_5oU2Pz05" role="1fIg$P">
-            <node concept="31KZC3" id="4h_5oU2Pz46" role="1ux1J">
-              <property role="TrG5h" value="response" />
-              <node concept="31KREs" id="4h_5oU2Pz4k" role="1JMSiE" />
-              <node concept="3UfwP1" id="4h_5oU2Pz4m" role="2UegB9">
-                <node concept="35uqmV" id="4h_5oU2Pz4q" role="3UfBpY">
-                  <node concept="3UfwP1" id="4h_5oU2Pz4s" role="35x3dZ">
-                    <node concept="2Gatwc" id="4h_5oU2Pz4y" role="3UfBpY">
-                      <ref role="2Gaslz" node="4h_5oU2Pz1R" resolve="VResponseModel" />
-                      <node concept="2Gatwc" id="4h_5oU2Pz4$" role="2GaslH">
-                        <ref role="2Gaslz" node="4h_5oU2PyWl" resolve="IAddElementUseCaseOutput" />
-                        <node concept="2Gatwc" id="4h_5oU2Pz4A" role="2GaslH">
-                          <ref role="2Gaslz" node="4h_5oU2PyVW" resolve="ElementBusinessRules" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="1pH0Yj" id="4h_5oU2Pz0m" role="3Sw9wT" />
-          <node concept="2Y_LOE" id="4h_5oU2Pz4G" role="31KRCR" />
-          <node concept="2qJN2g" id="6pgO1wrQtp1" role="3SE3Wx" />
         </node>
         <node concept="35j1YG" id="4h_5oU2PyZC" role="31Leeq" />
         <node concept="31LiC_" id="4h_5oU2Pz60" role="31Leeq">

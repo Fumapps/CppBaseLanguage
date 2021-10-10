@@ -344,7 +344,7 @@
   </node>
   <node concept="1M2fIO" id="7TfmMh1Hzft">
     <property role="3GE5qa" value="Generics" />
-    <ref role="1M2myG" to="yjel:6hv6i2_AXOM" resolve="TypeParameter" />
+    <ref role="1M2myG" to="yjel:6hv6i2_AXOM" resolve="TemplateTypeParameter" />
     <node concept="EnEH3" id="7TfmMh1HzfQ" role="1MhHOB">
       <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
       <node concept="QB0g5" id="7TfmMh1Hzg4" role="QCWH9">
@@ -361,50 +361,6 @@
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="2wJFJXStep">
-    <property role="3GE5qa" value="Generics" />
-    <ref role="1M2myG" to="yjel:2wJFJXMYm4" resolve="IHaveGenericsArguments" />
-    <node concept="9SLcT" id="2wJFJXSteq" role="9SGkU">
-      <node concept="3clFbS" id="2wJFJXSter" role="2VODD2">
-        <node concept="3clFbJ" id="2wJFJXStlJ" role="3cqZAp">
-          <node concept="2OqwBi" id="2wJFJXSutE" role="3clFbw">
-            <node concept="2H4GUG" id="2wJFJXSueo" role="2Oq$k0" />
-            <node concept="1mIQ4w" id="2wJFJXSvBu" role="2OqNvi">
-              <node concept="chp4Y" id="2wJFJXSvKz" role="cj9EA">
-                <ref role="cht4Q" to="yjel:5VT83U$LMPZ" resolve="Type" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbS" id="2wJFJXStlL" role="3clFbx">
-            <node concept="3cpWs6" id="2wJFJXSGWj" role="3cqZAp">
-              <node concept="3clFbC" id="2wJFJXSymS" role="3cqZAk">
-                <node concept="2OqwBi" id="2wJFJXSApe" role="3uHU7w">
-                  <node concept="2OqwBi" id="2wJFJXSzbV" role="2Oq$k0">
-                    <node concept="EsrRn" id="2wJFJXSyQL" role="2Oq$k0" />
-                    <node concept="3Tsc0h" id="2wJFJXSzMm" role="2OqNvi">
-                      <ref role="3TtcxE" to="yjel:2wJFJXOjSw" resolve="genericsArguments" />
-                    </node>
-                  </node>
-                  <node concept="34oBXx" id="2wJFJXSE8$" role="2OqNvi" />
-                </node>
-                <node concept="2OqwBi" id="2wJFJXSwlk" role="3uHU7B">
-                  <node concept="EsrRn" id="2wJFJXSwax" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="2wJFJXSwKp" role="2OqNvi">
-                    <ref role="37wK5l" to="puek:2wJFJXO$Li" resolve="numberOfDeclaredGenericParameters" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2wJFJXSw2T" role="3cqZAp">
-          <node concept="3clFbT" id="2wJFJXSw2S" role="3clFbG">
-            <property role="3clFbU" value="true" />
           </node>
         </node>
       </node>
@@ -546,7 +502,7 @@
   </node>
   <node concept="1M2fIO" id="2wJFJY1mJS">
     <property role="3GE5qa" value="Generics" />
-    <ref role="1M2myG" to="yjel:5moKU4Y5oYr" resolve="IGenericTypeList" />
+    <ref role="1M2myG" to="yjel:5moKU4Y5oYr" resolve="ITemplatedTypeList" />
     <node concept="9SLcT" id="2wJFJY1mJT" role="9SGkU">
       <node concept="3clFbS" id="2wJFJY1mJU" role="2VODD2">
         <node concept="3clFbH" id="2wJFJY6Fse" role="3cqZAp" />
@@ -620,7 +576,7 @@
           <node concept="2OqwBi" id="2wJFJY1mRg" role="3clFbw">
             <node concept="2H4GUG" id="2wJFJY1mRh" role="2Oq$k0" />
             <node concept="1BlSNk" id="2wJFJY1mRi" role="2OqNvi">
-              <ref role="1BmUXE" to="yjel:5moKU4Y5oYr" resolve="IGenericTypeList" />
+              <ref role="1BmUXE" to="yjel:5moKU4Y5oYr" resolve="ITemplatedTypeList" />
               <ref role="1Bn3mz" to="yjel:5moKU4Y5slA" resolve="typeParameter" />
             </node>
           </node>
@@ -1137,7 +1093,7 @@
                 <node concept="1PxgMI" id="vzGOjTTIY2" role="2Oq$k0">
                   <property role="1BlNFB" value="true" />
                   <node concept="chp4Y" id="vzGOjTTIYV" role="3oSUPX">
-                    <ref role="cht4Q" to="yjel:5moKU4Y5oYr" resolve="IGenericTypeList" />
+                    <ref role="cht4Q" to="yjel:5moKU4Y5oYr" resolve="ITemplatedTypeList" />
                   </node>
                   <node concept="2OqwBi" id="vzGOjTTIzc" role="1m5AlR">
                     <node concept="3kakTB" id="vzGOjTTIly" role="2Oq$k0" />

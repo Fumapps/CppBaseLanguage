@@ -2631,14 +2631,14 @@
   </node>
   <node concept="1TIwiD" id="6hv6i2_AXOM">
     <property role="EcuMT" value="7232527154588409138" />
-    <property role="TrG5h" value="TypeParameter" />
+    <property role="TrG5h" value="TemplateTypeParameter" />
     <property role="3GE5qa" value="Generics" />
-    <property role="R4oN_" value="Generic type parameter" />
+    <property role="R4oN_" value="Template type parameter" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="7TfmMh1NVbn" role="1TKVEl">
-      <property role="IQ2nx" value="9101593583220142807" />
-      <property role="TrG5h" value="isVarianceAnnotatable" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    <node concept="1TJgyi" id="oxQ9D29j_R" role="1TKVEl">
+      <property role="IQ2nx" value="441872395505318263" />
+      <property role="TrG5h" value="mode" />
+      <ref role="AX2Wp" node="oxQ9D29j_M" resolve="TemplateTypeParameterMode" />
     </node>
     <node concept="PrWs8" id="1HkqSaCLqwX" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -6423,7 +6423,7 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="5moKU4Y5snP" role="PrDN$">
-      <ref role="PrY4T" node="5moKU4Y5oYr" resolve="IGenericTypeList" />
+      <ref role="PrY4T" node="5moKU4Y5oYr" resolve="ITemplatedTypeList" />
     </node>
   </node>
   <node concept="PlHQZ" id="3h4LMeIQ_DR">
@@ -11535,14 +11535,14 @@
   </node>
   <node concept="PlHQZ" id="5moKU4Y5oYr">
     <property role="EcuMT" value="6167894786982645659" />
-    <property role="TrG5h" value="IGenericTypeList" />
+    <property role="TrG5h" value="ITemplatedTypeList" />
     <property role="3GE5qa" value="Generics" />
     <node concept="1TJgyj" id="5moKU4Y5slA" role="1TKVEi">
       <property role="IQ2ns" value="6167894786982659430" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="typeParameter" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6hv6i2_AXOM" resolve="TypeParameter" />
+      <ref role="20lvS9" node="6hv6i2_AXOM" resolve="TemplateTypeParameter" />
     </node>
     <node concept="3H0Qfr" id="2vo5eZuHBgd" role="lGtFl">
       <node concept="1Pa9Pv" id="2vo5eZuHBge" role="3H0Qfi">
@@ -12384,18 +12384,6 @@
       <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
     </node>
   </node>
-  <node concept="PlHQZ" id="2wJFJXMYm4">
-    <property role="EcuMT" value="45245710899864964" />
-    <property role="TrG5h" value="IHaveGenericsArguments" />
-    <property role="3GE5qa" value="Generics" />
-    <node concept="1TJgyj" id="2wJFJXOjSw" role="1TKVEi">
-      <property role="IQ2ns" value="45245710900215328" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="genericsArguments" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
-    </node>
-  </node>
   <node concept="PlHQZ" id="2wJFJXyG7B">
     <property role="EcuMT" value="45245710895596007" />
     <property role="TrG5h" value="IInheritedTypeListAndGenericTypeList" />
@@ -12403,7 +12391,7 @@
       <ref role="PrY4T" node="eRR5GNaXSm" resolve="IInheritedTypeList" />
     </node>
     <node concept="PrWs8" id="2wJFJXyG7P" role="PrDN$">
-      <ref role="PrY4T" node="5moKU4Y5oYr" resolve="IGenericTypeList" />
+      <ref role="PrY4T" node="5moKU4Y5oYr" resolve="ITemplatedTypeList" />
     </node>
   </node>
   <node concept="PlHQZ" id="5oHFRyIFjt0">
@@ -12453,7 +12441,7 @@
       <property role="IQ2ns" value="45245710896469199" />
       <property role="20kJfa" value="typeParameter" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6hv6i2_AXOM" resolve="TypeParameter" />
+      <ref role="20lvS9" node="6hv6i2_AXOM" resolve="TemplateTypeParameter" />
     </node>
     <node concept="3H0Qfr" id="1HkqSaCLqK8" role="lGtFl">
       <node concept="1Pa9Pv" id="1HkqSaCLqK9" role="3H0Qfi">
@@ -14583,6 +14571,20 @@
     </node>
     <node concept="PrWs8" id="oxQ9D1l7ng" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="25R3W" id="oxQ9D29j_M">
+    <property role="3F6X1D" value="441872395505318258" />
+    <property role="3GE5qa" value="Generics" />
+    <property role="TrG5h" value="TemplateTypeParameterMode" />
+    <ref role="1H5jkz" node="oxQ9D29j_N" resolve="typename" />
+    <node concept="25R33" id="oxQ9D29j_N" role="25R1y">
+      <property role="3tVfz5" value="441872395505318259" />
+      <property role="TrG5h" value="typename" />
+    </node>
+    <node concept="25R33" id="oxQ9D29j_O" role="25R1y">
+      <property role="3tVfz5" value="441872395505318260" />
+      <property role="TrG5h" value="class" />
     </node>
   </node>
 </model>
