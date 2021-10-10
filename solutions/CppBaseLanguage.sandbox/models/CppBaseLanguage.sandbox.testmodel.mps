@@ -623,9 +623,6 @@
       <node concept="31LiCz" id="4h_5oU2PyWl" role="31LkaE">
         <property role="TrG5h" value="IAddElementUseCaseOutput" />
         <node concept="2DNGrd" id="4h_5oU2PyWq" role="31Leeq">
-          <node concept="pNo78" id="oxQ9D27pGu" role="2DNGrf">
-            <property role="pKhvV" value="TODO: No Intendation of public:" />
-          </node>
           <node concept="1XY2CB" id="6pgO1wrIlUA" role="2DNGrf">
             <property role="TrG5h" value="IAddElementUseCaseOutput" />
             <node concept="2Y_LOE" id="6pgO1wrIlUL" role="1XY2Dr" />
