@@ -14287,6 +14287,9 @@
     <node concept="PrWs8" id="6pgO1wrv2ix" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="5tEqanR$fWt" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLg9k" resolve="IReferencableTypeDeclaration" />
+    </node>
     <node concept="1TJgyj" id="6pgO1wrv2i$" role="1TKVEi">
       <property role="IQ2ns" value="7372621391964415140" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

@@ -53,6 +53,7 @@
       </concept>
       <concept id="1154422390078291492" name="CppBaseLanguage.structure.CppSourceFile" flags="ng" index="LmIGC" />
       <concept id="1154422390078291493" name="CppBaseLanguage.structure.CppHeaderFile" flags="ng" index="LmIGD" />
+      <concept id="1945218857514060490" name="CppBaseLanguage.structure.ReturnStatement" flags="ng" index="2YuCjO" />
       <concept id="1945218857513714961" name="CppBaseLanguage.structure.ForeachStatement" flags="ng" index="2YwsGJ">
         <child id="1945218857513714971" name="embeddedStatement" index="2YwsG_" />
         <child id="1945218857513714967" name="expression" index="2YwsGD" />
@@ -420,12 +421,32 @@
           <property role="TrG5h" value="T" />
         </node>
       </node>
+      <node concept="31LiCz" id="5tEqanR$wjm" role="31LkaE">
+        <property role="TrG5h" value="queue" />
+        <node concept="31Lcgi" id="5tEqanR$wjn" role="1Fzgr7">
+          <property role="TrG5h" value="T" />
+        </node>
+      </node>
       <node concept="31LiCz" id="6pgO1wr$Iab" role="31LkaE">
         <property role="TrG5h" value="shared_ptr" />
         <node concept="31Lcgi" id="6pgO1wr$Ial" role="1Fzgr7">
           <property role="TrG5h" value="T" />
         </node>
       </node>
+      <node concept="31LiCz" id="5tEqanR$fW4" role="31LkaE">
+        <property role="TrG5h" value="unique_ptr" />
+        <node concept="31Lcgi" id="5tEqanR$fW5" role="1Fzgr7">
+          <property role="TrG5h" value="T" />
+        </node>
+      </node>
+      <node concept="31LiCz" id="5tEqanR$w1N" role="31LkaE">
+        <property role="TrG5h" value="function" />
+        <node concept="31Lcgi" id="5tEqanR$w1O" role="1Fzgr7">
+          <property role="TrG5h" value="T" />
+        </node>
+      </node>
+      <node concept="1XMByx" id="5tEqanR$w1A" role="31LkaE" />
+      <node concept="1XMByx" id="5tEqanR$fVU" role="31LkaE" />
     </node>
   </node>
   <node concept="LmIGC" id="4h_5oU1_2xR">
@@ -608,6 +629,21 @@
               </node>
             </node>
             <node concept="31KRCQ" id="4h_5oU240IC" role="1ux1N" />
+            <node concept="pNo78" id="5tEqanR$vGO" role="1ux1N">
+              <property role="pKhvV" value="TODO: here the parent prefix should be added" />
+            </node>
+            <node concept="2YDbI9" id="5tEqanR$vEg" role="1ux1N">
+              <node concept="3UfwP1" id="5tEqanR$vEi" role="2YDbI6">
+                <node concept="2Gatwc" id="5tEqanR$vFv" role="3UfBpY">
+                  <ref role="2Gaslz" node="5tEqanR$vzV" resolve="VRequestModel" />
+                </node>
+              </node>
+              <node concept="34yI$2" id="5tEqanR$vFy" role="2YDbI4">
+                <node concept="zF7EM" id="5tEqanR$vF$" role="34yI$0">
+                  <property role="TrG5h" value="request" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -868,6 +904,11 @@
       <property role="TrG5h" value="MyUseCaseModule" />
       <node concept="31LiCz" id="m1jUWoURVI" role="31LkaE">
         <property role="TrG5h" value="MyUseCaseFactoryFake" />
+        <node concept="2DNGrd" id="5tEqanR$wky" role="31Leeq">
+          <node concept="pNo78" id="5tEqanR$wkM" role="2DNGrf">
+            <property role="pKhvV" value="Make-method with if(StubbedMyUseCaseErrorModels.empty()) {...}" />
+          </node>
+        </node>
         <node concept="1XyjRH" id="m1jUWoURVN" role="3U7fkm">
           <node concept="2Gatwc" id="m1jUWoURVZ" role="1XyizX">
             <ref role="2Gaslz" node="m1jUWoURVW" resolve="ICompareUseCaseFactory" />
@@ -876,6 +917,35 @@
             </node>
           </node>
           <node concept="2qAx6t" id="m1jUWoURW5" role="3SE3Wx" />
+        </node>
+        <node concept="35j1YG" id="5tEqanR$wjC" role="31Leeq" />
+        <node concept="31KRIa" id="5tEqanR$wjJ" role="31Leeq">
+          <node concept="1ux1y" id="5tEqanR$wjL" role="31KRJH">
+            <node concept="34yI$2" id="5tEqanR$wkd" role="1ux1z">
+              <node concept="zF7EM" id="5tEqanR$wkf" role="34yI$0">
+                <property role="TrG5h" value="StubbedMyUseCaseErrorModels" />
+              </node>
+            </node>
+          </node>
+          <node concept="3UfwP1" id="5tEqanR$wjO" role="3SE38M">
+            <node concept="2Gatwc" id="5tEqanR$wjY" role="3UfBpY">
+              <ref role="2Gaslz" node="5tEqanR$wjm" resolve="queue" />
+              <node concept="2Gatwc" id="5tEqanR$wk0" role="2GaslH">
+                <ref role="2Gaslz" node="4h_5oU1fAKM" resolve="std" />
+              </node>
+              <node concept="3UfwP1" id="5tEqanR$wk4" role="2GavS0">
+                <node concept="2Gatwc" id="5tEqanR$wk6" role="3UfBpY">
+                  <ref role="2Gaslz" node="5tEqanR$vTm" resolve="VErrorModel" />
+                  <node concept="2Gatwc" id="5tEqanR$wk7" role="2GaslH">
+                    <ref role="2Gaslz" node="5tEqanR$v$a" resolve="IMyUseCaseOutput" />
+                    <node concept="2Gatwc" id="5tEqanR$wk9" role="2GaslH">
+                      <ref role="2Gaslz" node="5tEqanR$vxa" resolve="MyUseCaseModule" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -890,16 +960,16 @@
   </node>
   <node concept="LmIGD" id="m1jUWoURVP">
     <property role="Lph3H" value="UseCaseGenerator" />
-    <property role="TrG5h" value="ICompareUseCaseFactory.h" />
+    <property role="TrG5h" value="IMyFeatureUseCaseFactory.h" />
     <property role="14CC_8" value="My Company" />
     <node concept="31LijL" id="m1jUWoURVR" role="31LlDr">
       <property role="TrG5h" value="MyUseCaseModule" />
       <node concept="1XPZok" id="m1jUWp0GMs" role="31LkaE">
-        <property role="TrG5h" value="ICompareUseCaseFactory" />
+        <property role="TrG5h" value="IMyFeatureUseCaseFactory" />
       </node>
       <node concept="1XMByx" id="m1jUWp0GME" role="31LkaE" />
       <node concept="31LiCz" id="m1jUWoURVW" role="31LkaE">
-        <property role="TrG5h" value="ICompareUseCaseFactory" />
+        <property role="TrG5h" value="IMyFeatureUseCaseFactory" />
         <node concept="14i8DX" id="m1jUWoURWa" role="3SE3Wx">
           <property role="TrG5h" value="LIBRARY_API" />
         </node>
@@ -911,6 +981,496 @@
           </node>
         </node>
         <node concept="35j1YG" id="m1jUWp0GLM" role="31Leeq" />
+        <node concept="17p7rt" id="5tEqanR$fVi" role="31Leeq">
+          <property role="TrG5h" value="MakeMyUseCase" />
+          <node concept="2qJFh3" id="5tEqanR$fVj" role="3SE3Wx" />
+          <node concept="1ux1I" id="5tEqanR$fVl" role="1fIg$P">
+            <node concept="31KZC3" id="5tEqanR$vx3" role="1ux1J">
+              <property role="TrG5h" value="pUseCaseOutput" />
+              <node concept="3UfwP1" id="5tEqanR$vx4" role="2UegB9">
+                <node concept="2Gatwc" id="5tEqanR$vxl" role="3UfBpY">
+                  <ref role="2Gaslz" node="5tEqanR$vxd" resolve="IMyUseCaseOutputUPtr" />
+                  <node concept="2Gatwc" id="5tEqanR$vxn" role="2GaslH">
+                    <ref role="2Gaslz" node="5tEqanR$vxa" resolve="MyUseCaseModule" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3UfwP1" id="5tEqanR$vwT" role="3Sw9wT">
+            <node concept="2Gatwc" id="5tEqanR$vwY" role="3UfBpY">
+              <ref role="2Gaslz" node="5tEqanR$fVK" resolve="IMyUseCaseUPtr" />
+              <node concept="2Gatwc" id="5tEqanR$vx0" role="2GaslH">
+                <ref role="2Gaslz" node="5tEqanR$fV$" resolve="MyUseCaseModule" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="tnfB3" id="5tEqanR$fV9">
+    <property role="Lph3H" value="UseCaseGenerator" />
+    <property role="TrG5h" value="MyUseCaseMock.hpp" />
+    <property role="14CC_8" value="My Company" />
+    <node concept="pNo78" id="5tEqanR$w67" role="31LlDr">
+      <property role="pKhvV" value="Nested Namespace" />
+    </node>
+    <node concept="31LijL" id="5tEqanR$vxU" role="31LlDr">
+      <property role="TrG5h" value="MyUseCaseModule" />
+      <node concept="31LiCz" id="5tEqanR$vxX" role="31LkaE">
+        <property role="TrG5h" value="VMyUseCaseMock" />
+        <node concept="1XyjRH" id="5tEqanR$vy0" role="3U7fkm">
+          <node concept="2Gatwc" id="5tEqanR$vy2" role="1XyizX">
+            <ref role="2Gaslz" node="5tEqanR$fVB" resolve="IMyUseCase" />
+            <node concept="2Gatwc" id="5tEqanR$vy3" role="2GaslH">
+              <ref role="2Gaslz" node="5tEqanR$fV$" resolve="MyUseCaseModule" />
+            </node>
+          </node>
+          <node concept="2qAx6t" id="5tEqanR$vy8" role="3SE3Wx" />
+        </node>
+        <node concept="2DNGrd" id="5tEqanR$vyb" role="31Leeq">
+          <node concept="35j1YG" id="5tEqanR$vyd" role="2DNGrf" />
+          <node concept="31LiC_" id="5tEqanR$vym" role="2DNGrf">
+            <property role="TrG5h" value="VReceivedInputCalls" />
+            <node concept="31KRIa" id="5tEqanR$vys" role="2qBxSn">
+              <node concept="1ux1y" id="5tEqanR$vyt" role="31KRJH">
+                <node concept="2YC0sE" id="5tEqanR$vyD" role="1ux1z">
+                  <node concept="zF7EM" id="5tEqanR$vyF" role="2YC0sD">
+                    <property role="TrG5h" value="Count" />
+                  </node>
+                  <node concept="3UcVBg" id="5tEqanR$vyL" role="2YCihz">
+                    <property role="1pzoAX" value="0" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3UfwP1" id="5tEqanR$vyv" role="3SE38M">
+                <node concept="3UfM67" id="5tEqanR$vyA" role="3UfBpY" />
+              </node>
+            </node>
+            <node concept="31KRIa" id="5tEqanR$vyW" role="2qBxSn">
+              <node concept="1ux1y" id="5tEqanR$vyY" role="31KRJH">
+                <node concept="34yI$2" id="5tEqanR$vzo" role="1ux1z">
+                  <node concept="zF7EM" id="5tEqanR$vzq" role="34yI$0">
+                    <property role="TrG5h" value="RequestModels" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3UfwP1" id="5tEqanR$vz1" role="3SE38M">
+                <node concept="2Gatwc" id="5tEqanR$vzg" role="3UfBpY">
+                  <ref role="2Gaslz" node="4h_5oU1Kna2" resolve="vector" />
+                  <node concept="2Gatwc" id="5tEqanR$vzi" role="2GaslH">
+                    <ref role="2Gaslz" node="4h_5oU1fAKM" resolve="std" />
+                  </node>
+                  <node concept="3UfwP1" id="5tEqanR$vzm" role="2GavS0">
+                    <node concept="2Gatwc" id="5tEqanR$v$r" role="3UfBpY">
+                      <ref role="2Gaslz" node="5tEqanR$vzV" resolve="VRequestModel" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="35j1YG" id="5tEqanR$vAH" role="31Leeq" />
+        <node concept="31KRCM" id="5tEqanR$vIn" role="31Leeq">
+          <property role="TrG5h" value="Execute" />
+          <node concept="1ux1M" id="5tEqanR$vIo" role="31KRCR">
+            <node concept="pNo78" id="5tEqanR$vJy" role="1ux1N">
+              <property role="pKhvV" value="ReceivedCalls-&gt;Count++" />
+            </node>
+          </node>
+          <node concept="1ux1I" id="5tEqanR$vIr" role="1fIg$P">
+            <node concept="31KZC3" id="5tEqanR$vIV" role="1ux1J">
+              <property role="TrG5h" value="request" />
+              <node concept="3UfwP1" id="5tEqanR$vIW" role="2UegB9">
+                <node concept="35uqmV" id="5tEqanR$vJi" role="3UfBpY">
+                  <node concept="3UfwP1" id="5tEqanR$vJk" role="35x3dZ">
+                    <node concept="2Gatwc" id="5tEqanR$vJq" role="3UfBpY">
+                      <ref role="2Gaslz" node="5tEqanR$vzV" resolve="VRequestModel" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="31KREs" id="5tEqanR$vJg" role="1JMSiE" />
+            </node>
+          </node>
+          <node concept="1pH0Yj" id="5tEqanR$vIS" role="3Sw9wT" />
+          <node concept="2qJN2g" id="5tEqanR$vJv" role="3SE3Wx" />
+        </node>
+        <node concept="35j1YG" id="5tEqanR$vO$" role="31Leeq" />
+        <node concept="pNo78" id="5tEqanR$vNP" role="31Leeq">
+          <property role="pKhvV" value="/*request*/" />
+        </node>
+        <node concept="31KRCM" id="5tEqanR$vQ3" role="31Leeq">
+          <property role="TrG5h" value="Validate" />
+          <node concept="1ux1M" id="5tEqanR$vQ4" role="31KRCR">
+            <node concept="2YuCjO" id="5tEqanR$vT3" role="1ux1N" />
+            <node concept="31KRCQ" id="5tEqanR$vT7" role="1ux1N" />
+            <node concept="pNo78" id="5tEqanR$vQ5" role="1ux1N">
+              <property role="pKhvV" value="ReceivedCalls-&gt;Count++" />
+            </node>
+          </node>
+          <node concept="1ux1I" id="5tEqanR$vQ6" role="1fIg$P">
+            <node concept="31KZC3" id="5tEqanR$vQ7" role="1ux1J">
+              <property role="TrG5h" value="request" />
+              <node concept="3UfwP1" id="5tEqanR$vQ8" role="2UegB9">
+                <node concept="35uqmV" id="5tEqanR$vQ9" role="3UfBpY">
+                  <node concept="3UfwP1" id="5tEqanR$vQa" role="35x3dZ">
+                    <node concept="2Gatwc" id="5tEqanR$vQb" role="3UfBpY">
+                      <ref role="2Gaslz" node="5tEqanR$vzV" resolve="VRequestModel" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="31KREs" id="5tEqanR$vQc" role="1JMSiE" />
+            </node>
+          </node>
+          <node concept="1pH0Yj" id="5tEqanR$vQd" role="3Sw9wT" />
+          <node concept="2qJN2g" id="5tEqanR$vQe" role="3SE3Wx" />
+        </node>
+        <node concept="35j1YG" id="5tEqanR$vPj" role="31Leeq" />
+        <node concept="35j1YG" id="5tEqanR$vJ_" role="31Leeq" />
+        <node concept="pNo78" id="5tEqanR$vMn" role="31Leeq">
+          <property role="pKhvV" value="= std::make_shared&lt;VReceivedInputCalls&gt;();" />
+        </node>
+        <node concept="31KRIa" id="5tEqanR$vKE" role="31Leeq">
+          <node concept="1ux1y" id="5tEqanR$vKG" role="31KRJH">
+            <node concept="2YC0sE" id="5tEqanR$vLy" role="1ux1z">
+              <node concept="zF7EM" id="5tEqanR$vL$" role="2YC0sD">
+                <property role="TrG5h" value="ReceivedCalls" />
+              </node>
+              <node concept="3UcVB6" id="5tEqanR$vN5" role="2YCihz" />
+            </node>
+          </node>
+          <node concept="3UfwP1" id="5tEqanR$vKJ" role="3SE38M">
+            <node concept="2Gatwc" id="5tEqanR$vLo" role="3UfBpY">
+              <ref role="2Gaslz" node="6pgO1wr$Iab" resolve="shared_ptr" />
+              <node concept="2Gatwc" id="5tEqanR$vLq" role="2GaslH">
+                <ref role="2Gaslz" node="4h_5oU1fAKM" resolve="std" />
+              </node>
+              <node concept="3UfwP1" id="5tEqanR$vLu" role="2GavS0">
+                <node concept="2Gatwc" id="5tEqanR$vLw" role="3UfBpY">
+                  <ref role="2Gaslz" node="5tEqanR$vym" resolve="VReceivedInputCalls" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="31KRIa" id="5tEqanR$vWG" role="31Leeq">
+          <node concept="1ux1y" id="5tEqanR$vWI" role="31KRJH">
+            <node concept="34yI$2" id="5tEqanR$vXY" role="1ux1z">
+              <node concept="zF7EM" id="5tEqanR$vY0" role="34yI$0">
+                <property role="TrG5h" value="StubbedValidationResult" />
+              </node>
+            </node>
+          </node>
+          <node concept="3UfwP1" id="5tEqanR$vWL" role="3SE38M">
+            <node concept="2Gatwc" id="5tEqanR$wa6" role="3UfBpY">
+              <ref role="2Gaslz" node="5tEqanR$w9Z" resolve="VValidationResult" />
+              <node concept="2Gatwc" id="5tEqanR$wa7" role="2GaslH">
+                <ref role="2Gaslz" node="5tEqanR$vzE" resolve="IMyUseCase" />
+                <node concept="2Gatwc" id="5tEqanR$wa9" role="2GaslH">
+                  <ref role="2Gaslz" node="5tEqanR$fV$" resolve="MyUseCaseModule" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="35j1YG" id="5tEqanR$vY4" role="31Leeq" />
+        <node concept="pNo78" id="5tEqanR$w3q" role="31Leeq">
+          <property role="pKhvV" value="&lt;void(const VRequestModel&amp;)&gt;" />
+        </node>
+        <node concept="31KRIa" id="5tEqanR$w0j" role="31Leeq">
+          <node concept="1ux1y" id="5tEqanR$w0l" role="31KRJH">
+            <node concept="34yI$2" id="5tEqanR$w4E" role="1ux1z">
+              <node concept="zF7EM" id="5tEqanR$w4G" role="34yI$0">
+                <property role="TrG5h" value="OnExecute" />
+              </node>
+            </node>
+          </node>
+          <node concept="3UfwP1" id="5tEqanR$w0o" role="3SE38M">
+            <node concept="2Gatwc" id="5tEqanR$w23" role="3UfBpY">
+              <ref role="2Gaslz" node="5tEqanR$w1N" resolve="function" />
+              <node concept="2Gatwc" id="5tEqanR$w25" role="2GaslH">
+                <ref role="2Gaslz" node="4h_5oU1fAKM" resolve="std" />
+              </node>
+              <node concept="3UfwP1" id="5tEqanR$w29" role="2GavS0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1ux1E" id="5tEqanR$vxq" role="31LgYG">
+      <node concept="31LgYL" id="5tEqanR$vxu" role="1ux1F">
+        <property role="36Rq9j" value="memory" />
+      </node>
+      <node concept="31LgYL" id="5tEqanR$vxx" role="1ux1F">
+        <property role="36Rq9j" value="vector" />
+      </node>
+      <node concept="31LgYL" id="5tEqanR$vx$" role="1ux1F">
+        <property role="36Rq9j" value="functional" />
+      </node>
+      <node concept="36Rq9k" id="5tEqanR$vxC" role="1ux1F" />
+      <node concept="36RqS7" id="5tEqanR$vxN" role="1ux1F">
+        <property role="36Rq9j" value="MyUseCaseModule/UseCases/IMyUseCase.h" />
+      </node>
+    </node>
+  </node>
+  <node concept="LmIGD" id="5tEqanR$fVy">
+    <property role="Lph3H" value="UseCaseGenerator" />
+    <property role="TrG5h" value="IMyUseCase.h" />
+    <property role="14CC_8" value="My Company" />
+    <node concept="31LijL" id="5tEqanR$fV$" role="31LlDr">
+      <property role="TrG5h" value="MyUseCaseModule" />
+      <node concept="1XPZok" id="5tEqanR$fVB" role="31LkaE">
+        <property role="TrG5h" value="IMyUseCase" />
+      </node>
+      <node concept="1XMByx" id="5tEqanR$fVD" role="31LkaE" />
+      <node concept="1Xbfi4" id="5tEqanR$fVK" role="31LkaE">
+        <property role="TrG5h" value="IMyUseCaseUPtr" />
+        <node concept="3UfwP1" id="5tEqanR$fVM" role="1XbfiW">
+          <node concept="2Gatwc" id="5tEqanR$fWh" role="3UfBpY">
+            <ref role="2Gaslz" node="5tEqanR$fW4" resolve="unique_ptr" />
+            <node concept="2Gatwc" id="5tEqanR$fWj" role="2GaslH">
+              <ref role="2Gaslz" node="4h_5oU1fAKM" resolve="std" />
+            </node>
+            <node concept="3UfwP1" id="5tEqanR$fWn" role="2GavS0">
+              <node concept="2Gatwc" id="5tEqanR$fWp" role="3UfBpY">
+                <ref role="2Gaslz" node="5tEqanR$fVB" resolve="IMyUseCase" />
+                <node concept="2Gatwc" id="5tEqanR$fWq" role="2GaslH">
+                  <ref role="2Gaslz" node="5tEqanR$fV$" resolve="MyUseCaseModule" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1XMByx" id="5tEqanR$nIc" role="31LkaE" />
+      <node concept="31LiCz" id="5tEqanR$vzE" role="31LkaE">
+        <property role="TrG5h" value="IMyUseCase" />
+        <node concept="2DNGrd" id="5tEqanR$vzR" role="31Leeq">
+          <node concept="35j1YG" id="5tEqanR$vCN" role="2DNGrf" />
+          <node concept="31LiC_" id="5tEqanR$vzV" role="2DNGrf">
+            <property role="TrG5h" value="VRequestModel" />
+          </node>
+        </node>
+        <node concept="35j1YG" id="5tEqanR$w9O" role="31Leeq" />
+        <node concept="31LiC_" id="5tEqanR$w9Z" role="31Leeq">
+          <property role="TrG5h" value="VValidationResult" />
+        </node>
+        <node concept="35j1YG" id="5tEqanR$w9T" role="31Leeq" />
+      </node>
+    </node>
+  </node>
+  <node concept="LmIGD" id="5tEqanR$vx9">
+    <property role="Lph3H" value="UseCaseGenerator" />
+    <property role="TrG5h" value="IMyUseCaseOutput.h" />
+    <property role="14CC_8" value="My Company" />
+    <node concept="31LijL" id="5tEqanR$vxa" role="31LlDr">
+      <property role="TrG5h" value="MyUseCaseModule" />
+      <node concept="1XPZok" id="5tEqanR$vxb" role="31LkaE">
+        <property role="TrG5h" value="IMyUseCaseOutput" />
+      </node>
+      <node concept="1XMByx" id="5tEqanR$vxc" role="31LkaE" />
+      <node concept="1Xbfi4" id="5tEqanR$vxd" role="31LkaE">
+        <property role="TrG5h" value="IMyUseCaseOutputUPtr" />
+        <node concept="3UfwP1" id="5tEqanR$vxe" role="1XbfiW">
+          <node concept="2Gatwc" id="5tEqanR$vxf" role="3UfBpY">
+            <ref role="2Gaslz" node="5tEqanR$fW4" resolve="unique_ptr" />
+            <node concept="2Gatwc" id="5tEqanR$vxg" role="2GaslH">
+              <ref role="2Gaslz" node="4h_5oU1fAKM" resolve="std" />
+            </node>
+            <node concept="3UfwP1" id="5tEqanR$vxh" role="2GavS0">
+              <node concept="2Gatwc" id="5tEqanR$vxi" role="3UfBpY">
+                <ref role="2Gaslz" node="5tEqanR$vxb" resolve="IMyUseCase" />
+                <node concept="2Gatwc" id="5tEqanR$vxj" role="2GaslH">
+                  <ref role="2Gaslz" node="5tEqanR$vxa" resolve="MyUseCaseModule" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1XMByx" id="5tEqanR$vxk" role="31LkaE" />
+      <node concept="31LiCz" id="5tEqanR$v$a" role="31LkaE">
+        <property role="TrG5h" value="IMyUseCaseOutput" />
+        <node concept="2DNGrd" id="5tEqanR$v$n" role="31Leeq">
+          <node concept="35j1YG" id="5tEqanR$vCY" role="2DNGrf" />
+          <node concept="31LiC_" id="5tEqanR$v$p" role="2DNGrf">
+            <property role="TrG5h" value="VResponseModel" />
+          </node>
+        </node>
+        <node concept="35j1YG" id="5tEqanR$vTb" role="31Leeq" />
+        <node concept="31LiC_" id="5tEqanR$vTm" role="31Leeq">
+          <property role="TrG5h" value="VErrorModel" />
+        </node>
+        <node concept="35j1YG" id="5tEqanR$vTg" role="31Leeq" />
+      </node>
+    </node>
+  </node>
+  <node concept="tnfB3" id="5tEqanR$w7v">
+    <property role="Lph3H" value="UseCaseGenerator" />
+    <property role="TrG5h" value="MyUseCaseOutputMock.hpp" />
+    <property role="14CC_8" value="My Company" />
+    <node concept="pNo78" id="5tEqanR$w7w" role="31LlDr">
+      <property role="pKhvV" value="Nested Namespace" />
+    </node>
+    <node concept="31LijL" id="5tEqanR$w7x" role="31LlDr">
+      <property role="TrG5h" value="MyUseCaseModule" />
+      <node concept="31LiCz" id="5tEqanR$w7y" role="31LkaE">
+        <property role="TrG5h" value="VMyUseCaseOutputMock" />
+        <node concept="1XyjRH" id="5tEqanR$w7z" role="3U7fkm">
+          <node concept="2Gatwc" id="5tEqanR$w7$" role="1XyizX">
+            <ref role="2Gaslz" node="5tEqanR$v$a" resolve="IMyUseCaseOutput" />
+            <node concept="2Gatwc" id="5tEqanR$w8W" role="2GaslH">
+              <ref role="2Gaslz" node="5tEqanR$vxa" resolve="MyUseCaseModule" />
+            </node>
+          </node>
+          <node concept="2qAx6t" id="5tEqanR$w7A" role="3SE3Wx" />
+        </node>
+        <node concept="2DNGrd" id="5tEqanR$w7B" role="31Leeq">
+          <node concept="35j1YG" id="5tEqanR$w7C" role="2DNGrf" />
+          <node concept="31LiC_" id="5tEqanR$w7D" role="2DNGrf">
+            <property role="TrG5h" value="VReceivedOutputCalls" />
+            <node concept="31KRIa" id="5tEqanR$w7E" role="2qBxSn">
+              <node concept="1ux1y" id="5tEqanR$w7F" role="31KRJH">
+                <node concept="2YC0sE" id="5tEqanR$w7G" role="1ux1z">
+                  <node concept="zF7EM" id="5tEqanR$w7H" role="2YC0sD">
+                    <property role="TrG5h" value="Count" />
+                  </node>
+                  <node concept="3UcVBg" id="5tEqanR$w7I" role="2YCihz">
+                    <property role="1pzoAX" value="0" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3UfwP1" id="5tEqanR$w7J" role="3SE38M">
+                <node concept="3UfM67" id="5tEqanR$w7K" role="3UfBpY" />
+              </node>
+            </node>
+            <node concept="31KRIa" id="5tEqanR$w7L" role="2qBxSn">
+              <node concept="1ux1y" id="5tEqanR$w7M" role="31KRJH">
+                <node concept="34yI$2" id="5tEqanR$w7N" role="1ux1z">
+                  <node concept="zF7EM" id="5tEqanR$w7O" role="34yI$0">
+                    <property role="TrG5h" value="ResponseModels" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3UfwP1" id="5tEqanR$w7P" role="3SE38M">
+                <node concept="2Gatwc" id="5tEqanR$w7Q" role="3UfBpY">
+                  <ref role="2Gaslz" node="4h_5oU1Kna2" resolve="vector" />
+                  <node concept="2Gatwc" id="5tEqanR$w7R" role="2GaslH">
+                    <ref role="2Gaslz" node="4h_5oU1fAKM" resolve="std" />
+                  </node>
+                  <node concept="3UfwP1" id="5tEqanR$w95" role="2GavS0">
+                    <node concept="2Gatwc" id="5tEqanR$w97" role="3UfBpY">
+                      <ref role="2Gaslz" node="5tEqanR$v$p" resolve="VResponseModel" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="31KRIa" id="5tEqanR$w99" role="2qBxSn">
+              <node concept="1ux1y" id="5tEqanR$w9a" role="31KRJH">
+                <node concept="34yI$2" id="5tEqanR$w9b" role="1ux1z">
+                  <node concept="zF7EM" id="5tEqanR$w9c" role="34yI$0">
+                    <property role="TrG5h" value="ErrorModels" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3UfwP1" id="5tEqanR$w9d" role="3SE38M">
+                <node concept="2Gatwc" id="5tEqanR$w9e" role="3UfBpY">
+                  <ref role="2Gaslz" node="4h_5oU1Kna2" resolve="vector" />
+                  <node concept="2Gatwc" id="5tEqanR$w9f" role="2GaslH">
+                    <ref role="2Gaslz" node="4h_5oU1fAKM" resolve="std" />
+                  </node>
+                  <node concept="3UfwP1" id="5tEqanR$w9M" role="2GavS0">
+                    <node concept="2Gatwc" id="5tEqanR$wak" role="3UfBpY">
+                      <ref role="2Gaslz" node="5tEqanR$vTm" resolve="VErrorModel" />
+                      <node concept="2Gatwc" id="5tEqanR$wal" role="2GaslH">
+                        <ref role="2Gaslz" node="5tEqanR$v$a" resolve="IMyUseCaseOutput" />
+                        <node concept="2Gatwc" id="5tEqanR$wan" role="2GaslH">
+                          <ref role="2Gaslz" node="5tEqanR$vxa" resolve="MyUseCaseModule" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="35j1YG" id="5tEqanR$w7U" role="31Leeq" />
+        <node concept="31KRCM" id="5tEqanR$w7V" role="31Leeq">
+          <property role="TrG5h" value="ProcessMyUseCase" />
+          <node concept="1ux1M" id="5tEqanR$w7W" role="31KRCR">
+            <node concept="pNo78" id="5tEqanR$w7X" role="1ux1N">
+              <property role="pKhvV" value="ReceivedCalls-&gt;Count++" />
+            </node>
+            <node concept="pNo78" id="5tEqanR$war" role="1ux1N">
+              <property role="pKhvV" value="ReceivedCalls-&gt;ResponseModels-&gt;push_back(std::move(response));" />
+            </node>
+          </node>
+          <node concept="1ux1I" id="5tEqanR$w7Y" role="1fIg$P">
+            <node concept="31KZC3" id="5tEqanR$w7Z" role="1ux1J">
+              <property role="TrG5h" value="response" />
+              <node concept="3UfwP1" id="5tEqanR$w80" role="2UegB9">
+                <node concept="35uqmV" id="5tEqanR$w81" role="3UfBpY">
+                  <node concept="3UfwP1" id="5tEqanR$w82" role="35x3dZ">
+                    <node concept="2Gatwc" id="5tEqanR$w83" role="3UfBpY">
+                      <ref role="2Gaslz" node="5tEqanR$v$p" resolve="VResponseModel" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="31KREs" id="5tEqanR$w84" role="1JMSiE" />
+            </node>
+          </node>
+          <node concept="1pH0Yj" id="5tEqanR$w85" role="3Sw9wT" />
+          <node concept="2qJN2g" id="5tEqanR$w86" role="3SE3Wx" />
+        </node>
+        <node concept="35j1YG" id="5tEqanR$w87" role="31Leeq" />
+        <node concept="pNo78" id="5tEqanR$w8p" role="31Leeq">
+          <property role="pKhvV" value="= std::make_shared&lt;VReceivedOutputCalls&gt;();" />
+        </node>
+        <node concept="31KRIa" id="5tEqanR$w8q" role="31Leeq">
+          <node concept="1ux1y" id="5tEqanR$w8r" role="31KRJH">
+            <node concept="2YC0sE" id="5tEqanR$w8s" role="1ux1z">
+              <node concept="zF7EM" id="5tEqanR$w8t" role="2YC0sD">
+                <property role="TrG5h" value="ReceivedCalls" />
+              </node>
+              <node concept="3UcVB6" id="5tEqanR$w8u" role="2YCihz" />
+            </node>
+          </node>
+          <node concept="3UfwP1" id="5tEqanR$w8v" role="3SE38M">
+            <node concept="2Gatwc" id="5tEqanR$w8w" role="3UfBpY">
+              <ref role="2Gaslz" node="6pgO1wr$Iab" resolve="shared_ptr" />
+              <node concept="2Gatwc" id="5tEqanR$w8x" role="2GaslH">
+                <ref role="2Gaslz" node="4h_5oU1fAKM" resolve="std" />
+              </node>
+              <node concept="3UfwP1" id="5tEqanR$w8y" role="2GavS0">
+                <node concept="2Gatwc" id="5tEqanR$w8z" role="3UfBpY">
+                  <ref role="2Gaslz" node="5tEqanR$w7D" resolve="VReceivedInputCalls" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1ux1E" id="5tEqanR$w8Q" role="31LgYG">
+      <node concept="31LgYL" id="5tEqanR$w8R" role="1ux1F">
+        <property role="36Rq9j" value="memory" />
+      </node>
+      <node concept="31LgYL" id="5tEqanR$w8S" role="1ux1F">
+        <property role="36Rq9j" value="vector" />
+      </node>
+      <node concept="31LgYL" id="5tEqanR$w8T" role="1ux1F">
+        <property role="36Rq9j" value="functional" />
+      </node>
+      <node concept="36Rq9k" id="5tEqanR$w8U" role="1ux1F" />
+      <node concept="36RqS7" id="5tEqanR$w8V" role="1ux1F">
+        <property role="36Rq9j" value="MyUseCaseModule/UseCases/IMyUseCaseOutput.h" />
       </node>
     </node>
   </node>
