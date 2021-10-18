@@ -33,6 +33,8 @@
       </concept>
       <concept id="3766354144462009184" name="CppBaseLanguage.structure.Virtual" flags="ng" index="2qJFh3" />
       <concept id="3766354144462108595" name="CppBaseLanguage.structure.Override" flags="ng" index="2qJN2g" />
+      <concept id="396685855640368748" name="CppBaseLanguage.structure.CppHeaderSourceFile" flags="ng" index="tnfB3" />
+      <concept id="396685855641272617" name="CppBaseLanguage.structure.DefaultBlock" flags="ng" index="tqGU6" />
       <concept id="7769220957754731518" name="CppBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
       <concept id="1902784636718074433" name="CppBaseLanguage.structure.VisibilityScopeDeclaration" flags="ng" index="2DNGra">
         <child id="1902784636718074436" name="classMemberDeclaration" index="2DNGrf" />
@@ -855,6 +857,60 @@
       <property role="TrG5h" value="ElementBusinessRules" />
       <node concept="31LiC_" id="oxQ9D1xXHa" role="31LkaE">
         <property role="TrG5h" value="VElementDataDto" />
+      </node>
+    </node>
+  </node>
+  <node concept="tnfB3" id="m1jUWoRFoG">
+    <property role="Lph3H" value="UseCaseGenerator" />
+    <property role="TrG5h" value="MyUseCaseFactoryFake.hpp" />
+    <property role="14CC_8" value="My Company" />
+    <node concept="31LijL" id="m1jUWoURVD" role="31LlDr">
+      <property role="TrG5h" value="MyUseCaseModule" />
+      <node concept="31LiCz" id="m1jUWoURVI" role="31LkaE">
+        <property role="TrG5h" value="MyUseCaseFactoryFake" />
+        <node concept="1XyjRH" id="m1jUWoURVN" role="3U7fkm">
+          <node concept="2Gatwc" id="m1jUWoURVZ" role="1XyizX">
+            <ref role="2Gaslz" node="m1jUWoURVW" resolve="ICompareUseCaseFactory" />
+            <node concept="2Gatwc" id="m1jUWoURW0" role="2GaslH">
+              <ref role="2Gaslz" node="m1jUWoURVR" resolve="MyUseCaseModule" />
+            </node>
+          </node>
+          <node concept="2qAx6t" id="m1jUWoURW5" role="3SE3Wx" />
+        </node>
+      </node>
+    </node>
+    <node concept="1ux1E" id="m1jUWoURVr" role="31LgYG">
+      <node concept="31LgYL" id="m1jUWoURVv" role="1ux1F">
+        <property role="36Rq9j" value="memory" />
+      </node>
+      <node concept="31LgYL" id="m1jUWoURV_" role="1ux1F">
+        <property role="36Rq9j" value="queue" />
+      </node>
+    </node>
+  </node>
+  <node concept="LmIGD" id="m1jUWoURVP">
+    <property role="Lph3H" value="UseCaseGenerator" />
+    <property role="TrG5h" value="ICompareUseCaseFactory.h" />
+    <property role="14CC_8" value="My Company" />
+    <node concept="31LijL" id="m1jUWoURVR" role="31LlDr">
+      <property role="TrG5h" value="MyUseCaseModule" />
+      <node concept="1XPZok" id="m1jUWp0GMs" role="31LkaE">
+        <property role="TrG5h" value="ICompareUseCaseFactory" />
+      </node>
+      <node concept="1XMByx" id="m1jUWp0GME" role="31LkaE" />
+      <node concept="31LiCz" id="m1jUWoURVW" role="31LkaE">
+        <property role="TrG5h" value="ICompareUseCaseFactory" />
+        <node concept="14i8DX" id="m1jUWoURWa" role="3SE3Wx">
+          <property role="TrG5h" value="LIBRARY_API" />
+        </node>
+        <node concept="2DNGrd" id="m1jUWoURWd" role="31Leeq">
+          <node concept="1XY2CB" id="m1jUWoURWh" role="2DNGrf">
+            <property role="TrG5h" value="ICompareUseCaseFactory" />
+            <node concept="2qJFh3" id="m1jUWoURWs" role="3SE3Wx" />
+            <node concept="tqGU6" id="m1jUWoWTbq" role="1XY2Dr" />
+          </node>
+        </node>
+        <node concept="35j1YG" id="m1jUWp0GLM" role="31Leeq" />
       </node>
     </node>
   </node>
