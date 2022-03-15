@@ -81,6 +81,7 @@
         <child id="1945218857511318970" name="variableDeclarator" index="2YDbI4" />
         <child id="1945218857511318968" name="type" index="2YDbI6" />
       </concept>
+      <concept id="1945218857511318979" name="CppBaseLanguage.structure.IVariableDeclarator" flags="ng" index="2YDbJX" />
       <concept id="7232527154588443410" name="CppBaseLanguage.structure.MethodDeclaration" flags="ng" index="31KRCM">
         <child id="7232527154588443415" name="body" index="31KRCR" />
       </concept>
@@ -985,7 +986,7 @@
                 <node concept="2Gatwc" id="4ORvO2Ibh0v" role="3UfBpY">
                   <ref role="2Gaslz" node="5tEqanR$vxd" resolve="IMyUseCaseOutputUPtr" />
                   <node concept="2Gatwc" id="4ORvO2Ibh0x" role="2GaslH">
-                    <ref role="2Gaslz" node="5tEqanR$vxa" resolve="MyUseCaseModule" />
+                    <ref role="2Gaslz" node="m1jUWoURVR" resolve="MyUseCaseModule" />
                   </node>
                 </node>
               </node>
@@ -1354,7 +1355,7 @@
           <node concept="2Gatwc" id="5tEqanR$w7$" role="1XyizX">
             <ref role="2Gaslz" node="5tEqanR$vxb" resolve="IMyUseCaseOutput" />
             <node concept="2Gatwc" id="6LeNfpOcNFj" role="2GaslH">
-              <ref role="2Gaslz" node="5tEqanR$vxa" resolve="MyUseCaseModule" />
+              <ref role="2Gaslz" node="5tEqanR$w7x" resolve="MyUseCaseModule" />
             </node>
           </node>
           <node concept="2qAx6t" id="5tEqanR$w7A" role="3SE3Wx" />
@@ -1528,6 +1529,42 @@
     </node>
     <node concept="31LijL" id="6LeNfpOchhW" role="31LlDr">
       <property role="TrG5h" value="Test" />
+      <node concept="31LiCz" id="4ORvO2IcXBd" role="31LkaE">
+        <property role="TrG5h" value="A" />
+        <node concept="31KRIa" id="4ORvO2IcXBf" role="31Leeq">
+          <node concept="1ux1y" id="4ORvO2IcXBg" role="31KRJH">
+            <node concept="2YC0sE" id="2jM2HzlNA7Z" role="1ux1z">
+              <node concept="zF7EM" id="2jM2HzlNA81" role="2YC0sD">
+                <property role="TrG5h" value="field" />
+              </node>
+              <node concept="3UcVBg" id="2jM2HzlNA87" role="2YCihz">
+                <property role="1pzoAX" value="0" />
+              </node>
+            </node>
+          </node>
+          <node concept="3UfwP1" id="4ORvO2IcXBi" role="3SE38M">
+            <node concept="2Gatwc" id="4ORvO2Id7rZ" role="3UfBpY">
+              <ref role="2Gaslz" node="4ORvO2IcXBd" resolve="A" />
+              <node concept="2Gatwc" id="4ORvO2Id7s1" role="2GaslH">
+                <ref role="2Gaslz" node="6LeNfpOchhW" resolve="Test" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="31KRIa" id="2jM2HzlO5Gn" role="31Leeq">
+          <node concept="1ux1y" id="2jM2HzlO5Gp" role="31KRJH">
+            <node concept="2YDbJX" id="2jM2HzlO5Gr" role="1ux1z" />
+          </node>
+          <node concept="3UfwP1" id="2jM2HzlO5Gs" role="3SE38M">
+            <node concept="2Gatwc" id="2jM2HzlO5GG" role="3UfBpY">
+              <ref role="2Gaslz" node="4ORvO2IcXBd" resolve="A" />
+              <node concept="2Gatwc" id="2jM2HzlO5GL" role="2GaslH">
+                <ref role="2Gaslz" node="6LeNfpOchhW" resolve="Test" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

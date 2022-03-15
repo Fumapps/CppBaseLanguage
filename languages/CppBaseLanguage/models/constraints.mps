@@ -1063,14 +1063,14 @@
             </node>
           </node>
           <node concept="3clFbF" id="3zEy8Nj8iez" role="3cqZAp">
-            <node concept="2YIFZM" id="3zEy8Nj8itH" role="3clFbG">
-              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+            <node concept="2YIFZM" id="2jM2HzlNJNZ" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
               <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-              <node concept="2OqwBi" id="6LeNfpOcB00" role="37wK5m">
-                <node concept="37vLTw" id="6LeNfpOcAMM" role="2Oq$k0">
+              <node concept="2OqwBi" id="2jM2HzlNJO0" role="37wK5m">
+                <node concept="37vLTw" id="2jM2HzlNJO1" role="2Oq$k0">
                   <ref role="3cqZAo" node="3zEy8Nj8sr0" resolve="file" />
                 </node>
-                <node concept="2qgKlT" id="6LeNfpOcBgL" role="2OqNvi">
+                <node concept="2qgKlT" id="2jM2HzlNJO2" role="2OqNvi">
                   <ref role="37wK5l" to="puek:6LeNfpOciTw" resolve="getReferencedTypes" />
                 </node>
               </node>
