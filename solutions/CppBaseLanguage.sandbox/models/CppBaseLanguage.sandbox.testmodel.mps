@@ -25,10 +25,17 @@
         <child id="7486903154347178702" name="formalParameterList" index="1uUwe" />
         <child id="7486903154347178686" name="body" index="1uUxY" />
       </concept>
+      <concept id="7804400563164012607" name="CppBaseLanguage.structure.FunctionDeclaration" flags="ng" index="osiN9">
+        <child id="7804400563164012630" name="body" index="osiMw" />
+      </concept>
+      <concept id="7804400563163672367" name="CppBaseLanguage.structure.FunctionDefinition" flags="ng" index="ot6fp">
+        <child id="7804400563163672373" name="body" index="ot6f3" />
+      </concept>
       <concept id="5059844704660991035" name="CppBaseLanguage.structure.SingleLineComment" flags="ng" index="pNo78">
         <property id="5059844704661223944" name="value" index="pKhvV" />
       </concept>
       <concept id="3766354144460199614" name="CppBaseLanguage.structure.Public" flags="ng" index="2qAx6t" />
+      <concept id="3766354144460261375" name="CppBaseLanguage.structure.Static" flags="ng" index="2qAK3s" />
       <concept id="3766354144460261383" name="CppBaseLanguage.structure.Final" flags="ng" index="2qAKW$" />
       <concept id="3766354144459872182" name="CppBaseLanguage.structure.IFunctionHeader" flags="ng" index="2qBh2l">
         <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
@@ -367,7 +374,8 @@
           </node>
         </node>
         <node concept="1pH0Yj" id="4h_5oU1vSul" role="3Sw9wT" />
-        <node concept="2Y_LOE" id="4h_5oU1vSuq" role="31KRCR" />
+        <node concept="2Y_LOE" id="6LeNfpOeEUS" role="31KRCR" />
+        <node concept="2qAK3s" id="6LeNfpOeEUX" role="3SE3Wx" />
       </node>
       <node concept="35j1YG" id="4h_5oU1yX4I" role="31Leeq" />
       <node concept="35j1YG" id="4h_5oU1yX5P" role="31Leeq" />
@@ -601,6 +609,21 @@
       </node>
       <node concept="1ux1I" id="4h_5oU1_2y2" role="1fIg$P" />
       <node concept="1pH0Yj" id="4h_5oU1_6p9" role="3Sw9wT" />
+    </node>
+    <node concept="osiN9" id="6LeNfpOhhFu" role="31LlDr">
+      <property role="TrG5h" value="foo" />
+      <node concept="2Y_LOE" id="6LeNfpOhhHa" role="osiMw" />
+      <node concept="1ux1I" id="6LeNfpOhhFy" role="1fIg$P" />
+      <node concept="1pH0Yj" id="6LeNfpOhhH7" role="3Sw9wT" />
+      <node concept="2qAK3s" id="6LeNfpOhhK$" role="3SE3Wx" />
+    </node>
+    <node concept="ot6fp" id="6LeNfpOhhIK" role="31LlDr">
+      <property role="TrG5h" value="foo" />
+      <node concept="1ux1M" id="6LeNfpOhhIM" role="ot6f3">
+        <node concept="31KRCQ" id="6LeNfpOhhIN" role="1ux1N" />
+      </node>
+      <node concept="1ux1I" id="6LeNfpOhhIP" role="1fIg$P" />
+      <node concept="1pH0Yj" id="6LeNfpOhhKv" role="3Sw9wT" />
     </node>
     <node concept="1ux1E" id="4h_5oU1_2xT" role="31LgYG">
       <node concept="36RqS7" id="6LeNfpOchhj" role="1ux1F">

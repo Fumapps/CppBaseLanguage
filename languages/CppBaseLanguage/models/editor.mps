@@ -20856,5 +20856,126 @@
       <node concept="2iRfu4" id="m1jUWoUS59" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="6LeNfpOeEX0">
+    <property role="3GE5qa" value="Functions" />
+    <ref role="1XX52x" to="yjel:6LeNfpOeEWJ" resolve="FunctionDefinition" />
+    <node concept="3EZMnI" id="6LeNfpOeF4S" role="2wV5jI">
+      <node concept="l2Vlx" id="6LeNfpOeF4T" role="2iSdaV" />
+      <node concept="PMmxH" id="6LeNfpOeF4U" role="3EZMnx">
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
+      </node>
+      <node concept="PMmxH" id="6LeNfpOeF4V" role="3EZMnx">
+        <ref role="PMmxG" node="5oHFRyIFjtw" resolve="HaveTypeOrVoidComponent" />
+        <ref role="34QXea" node="5oHFRyI_NHg" resolve="CreateModifierOnSpace" />
+      </node>
+      <node concept="3F0A7n" id="6LeNfpOeF50" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="A1WHu" id="6LeNfpOeF51" role="3vIgyS">
+          <ref role="A1WHt" node="2vo5eZuESDh" resolve="GenericTypeListCreation" />
+        </node>
+      </node>
+      <node concept="PMmxH" id="6LeNfpOeF52" role="3EZMnx">
+        <ref role="PMmxG" node="5moKU4Y5smx" resolve="GenericTypeListComponent" />
+        <node concept="pkWqt" id="6LeNfpOeF53" role="pqm2j">
+          <node concept="3clFbS" id="6LeNfpOeF54" role="2VODD2">
+            <node concept="3clFbF" id="6LeNfpOeF55" role="3cqZAp">
+              <node concept="2OqwBi" id="6LeNfpOeF56" role="3clFbG">
+                <node concept="2OqwBi" id="6LeNfpOeF57" role="2Oq$k0">
+                  <node concept="pncrf" id="6LeNfpOeF58" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="6LeNfpOeF59" role="2OqNvi">
+                    <ref role="3TtcxE" to="yjel:5moKU4Y5slA" resolve="typeParameter" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="6LeNfpOeF5a" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6LeNfpOeF5b" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <node concept="11L4FC" id="6LeNfpOeF5c" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="6LeNfpOeF5d" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="6LeNfpOeF5e" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:6$wrg4AAmgO" resolve="formalParameterList" />
+      </node>
+      <node concept="3F0ifn" id="6LeNfpOeF5f" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="PMmxH" id="6LeNfpOeF5g" role="3EZMnx">
+        <ref role="PMmxG" node="6pgO1wrL92d" resolve="HaveModifiersSuffixComponent" />
+      </node>
+      <node concept="3F1sOY" id="6LeNfpOeF5h" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:6LeNfpOeEWP" resolve="body" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6LeNfpOfY1u">
+    <property role="3GE5qa" value="Functions" />
+    <ref role="1XX52x" to="yjel:6LeNfpOfY0Z" resolve="FunctionDeclaration" />
+    <node concept="3EZMnI" id="6LeNfpOfYdE" role="2wV5jI">
+      <node concept="l2Vlx" id="6LeNfpOfYdF" role="2iSdaV" />
+      <node concept="PMmxH" id="6LeNfpOfYdG" role="3EZMnx">
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
+      </node>
+      <node concept="PMmxH" id="6LeNfpOfYdH" role="3EZMnx">
+        <ref role="34QXea" node="5oHFRyI_NHg" resolve="CreateModifierOnSpace" />
+        <ref role="PMmxG" node="5oHFRyIFjtw" resolve="HaveTypeOrVoidComponent" />
+      </node>
+      <node concept="3F0A7n" id="6LeNfpOfYdI" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="A1WHu" id="6LeNfpOfYdJ" role="3vIgyS">
+          <ref role="A1WHt" node="2vo5eZuESDh" resolve="GenericTypeListCreation" />
+        </node>
+      </node>
+      <node concept="PMmxH" id="6LeNfpOfYdK" role="3EZMnx">
+        <ref role="PMmxG" node="5moKU4Y5smx" resolve="GenericTypeListComponent" />
+        <node concept="pkWqt" id="6LeNfpOfYdL" role="pqm2j">
+          <node concept="3clFbS" id="6LeNfpOfYdM" role="2VODD2">
+            <node concept="3clFbF" id="6LeNfpOfYdN" role="3cqZAp">
+              <node concept="2OqwBi" id="6LeNfpOfYdO" role="3clFbG">
+                <node concept="2OqwBi" id="6LeNfpOfYdP" role="2Oq$k0">
+                  <node concept="pncrf" id="6LeNfpOfYdQ" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="6LeNfpOfYdR" role="2OqNvi">
+                    <ref role="3TtcxE" to="yjel:5moKU4Y5slA" resolve="typeParameter" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="6LeNfpOfYdS" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6LeNfpOfYdT" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <node concept="11L4FC" id="6LeNfpOfYdU" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="6LeNfpOfYdV" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="6LeNfpOfYdW" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:6$wrg4AAmgO" resolve="formalParameterList" />
+      </node>
+      <node concept="3F0ifn" id="6LeNfpOfYdX" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <node concept="11L4FC" id="6LeNfpOfYdY" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="PMmxH" id="6LeNfpOfYdZ" role="3EZMnx">
+        <ref role="PMmxG" node="6pgO1wrL92d" resolve="HaveModifiersSuffixComponent" />
+      </node>
+      <node concept="3F1sOY" id="6LeNfpOfYe0" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:6LeNfpOfY1m" resolve="body" />
+      </node>
+    </node>
+  </node>
 </model>
 

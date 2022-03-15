@@ -7742,6 +7742,9 @@
     <node concept="PrWs8" id="3h4LMeIUOob" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIUreI" resolve="IFieldModifier" />
     </node>
+    <node concept="PrWs8" id="6LeNfpOez34" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
+    </node>
     <node concept="3H0Qfr" id="2pqoNIAeaVj" role="lGtFl">
       <node concept="1Pa9Pv" id="2pqoNIAeaVx" role="3H0Qfi">
         <node concept="1PaTwC" id="2pqoNIAeaVy" role="1PaQFQ">
@@ -14774,6 +14777,103 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6LeNfpOeEWJ">
+    <property role="EcuMT" value="7804400563163672367" />
+    <property role="TrG5h" value="FunctionDefinition" />
+    <property role="3GE5qa" value="Functions" />
+    <property role="34LRSv" value="function definition" />
+    <property role="R4oN_" value="free function definition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="6LeNfpOeEWP" role="1TKVEi">
+      <property role="IQ2ns" value="7804400563163672373" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="body" />
+      <ref role="20lvS9" node="6vAOG1ABcaM" resolve="Block" />
+    </node>
+    <node concept="PrWs8" id="6LeNfpOeEWK" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIQtuQ" resolve="IFunctionHeader" />
+    </node>
+    <node concept="PrWs8" id="6LeNfpOeEWL" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6LeNfpOfY0Z">
+    <property role="EcuMT" value="7804400563164012607" />
+    <property role="TrG5h" value="FunctionDeclaration" />
+    <property role="3GE5qa" value="Functions" />
+    <property role="R4oN_" value="free function declaration" />
+    <property role="34LRSv" value="function declaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6LeNfpOfY10" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIQtuQ" resolve="IFunctionHeader" />
+    </node>
+    <node concept="PrWs8" id="6LeNfpOfY11" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
+    </node>
+    <node concept="3H0Qfr" id="6LeNfpOfY12" role="lGtFl">
+      <node concept="1Pa9Pv" id="6LeNfpOfY13" role="3H0Qfi">
+        <node concept="1PaTwC" id="6LeNfpOfY14" role="1PaQFQ">
+          <node concept="3oM_SD" id="6LeNfpOfY15" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="6LeNfpOfY16" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="6LeNfpOfY17" role="1PaTwD">
+            <property role="3oM_SC" value="method" />
+          </node>
+          <node concept="3oM_SD" id="6LeNfpOfY18" role="1PaTwD">
+            <property role="3oM_SC" value="definition" />
+          </node>
+          <node concept="3oM_SD" id="6LeNfpOfY19" role="1PaTwD">
+            <property role="3oM_SC" value="inside" />
+          </node>
+          <node concept="3oM_SD" id="6LeNfpOfY1a" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="6LeNfpOfY1b" role="1PaTwD">
+            <property role="3oM_SC" value="class." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6LeNfpOfY1c" role="1PaQFQ">
+          <node concept="3oM_SD" id="6LeNfpOfY1d" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6LeNfpOfY1e" role="1PaQFQ">
+          <node concept="3oM_SD" id="6LeNfpOfY1f" role="1PaTwD">
+            <property role="3oM_SC" value="Original" />
+          </node>
+          <node concept="3oM_SD" id="6LeNfpOfY1g" role="1PaTwD">
+            <property role="3oM_SC" value="name" />
+          </node>
+          <node concept="3oM_SD" id="6LeNfpOfY1h" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="6LeNfpOfY1i" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="6LeNfpOfY1j" role="1PaTwD">
+            <property role="3oM_SC" value="C#" />
+          </node>
+          <node concept="3oM_SD" id="6LeNfpOfY1k" role="1PaTwD">
+            <property role="3oM_SC" value="grammar:" />
+          </node>
+          <node concept="3oM_SD" id="6LeNfpOfY1l" role="1PaTwD">
+            <property role="3oM_SC" value="method-declaration" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1TJgyj" id="6LeNfpOfY1m" role="1TKVEi">
+      <property role="IQ2ns" value="7804400563164012630" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="body" />
+      <ref role="20lvS9" node="1FYNzU$qtcf" resolve="MaybeEmptyBlock" />
     </node>
   </node>
 </model>
