@@ -130,7 +130,7 @@
       <property role="TrG5h" value="project_home" />
     </node>
     <node concept="2sgV4H" id="4h_5oU0U7hw" role="1l3spa">
-      <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" />
+      <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="4h_5oU0U7hx" role="2JcizS">
         <ref role="398BVh" node="4h_5oU0U7hv" resolve="mps_home" />
       </node>
@@ -177,7 +177,7 @@
         <ref role="m$f5T" node="4h_5oU0U7hP" resolve="CppBaseLanguage" />
       </node>
       <node concept="m$_yC" id="4h_5oU0U7hW" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" />
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="m$_yC" id="4h_5oU0U7mA" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />

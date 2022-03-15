@@ -1416,7 +1416,7 @@
       <property role="IQ2ns" value="7486903154347131563" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="IncludeDirective" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4h_5oU2Ibvs" resolve="IncludeDirective" />
     </node>
   </node>
@@ -2243,6 +2243,7 @@
       <property role="IQ2ns" value="7232527154588292748" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="includeDirectiveList" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6vAOG1ABcaE" resolve="IncludeDirectiveList" />
     </node>
     <node concept="1TJgyj" id="6hv6i2_A$dV" role="1TKVEi">
@@ -13929,7 +13930,7 @@
     <property role="EcuMT" value="4928369069023365666" />
     <property role="3GE5qa" value="Class / Struct.Fields" />
     <property role="TrG5h" value="EmptyLineMemberDeclaration" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4h_5oU1agCz" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
     </node>
@@ -14263,6 +14264,11 @@
       <property role="TrG5h" value="includeName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyj" id="3zEy8Nj8yHa" role="1TKVEi">
+      <property role="IQ2ns" value="4101240549093288778" />
+      <property role="20kJfa" value="targetFile" />
+      <ref role="20lvS9" node="105lgKxnVS_" resolve="CppHeaderFile" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4h_5oU2IbI9">
     <property role="EcuMT" value="4928369069049559945" />
@@ -14416,7 +14422,7 @@
     <property role="EcuMT" value="7372621391966415033" />
     <property role="3GE5qa" value="Namespace" />
     <property role="TrG5h" value="EmptyNamespaceMemberDeclaration" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6pgO1wrAEyU" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
     </node>
@@ -14500,7 +14506,7 @@
     <property role="EcuMT" value="7372621391970561525" />
     <property role="3GE5qa" value="Inheritance" />
     <property role="TrG5h" value="InheritedType" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6pgO1wrQvz_" role="1TKVEi">
       <property role="IQ2ns" value="7372621391970564325" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -14601,7 +14607,7 @@
     <property role="TrG5h" value="ApiModifier" />
     <property role="34LRSv" value="API Modifier" />
     <property role="R4oN_" value="Adds an export/import modifier to the class" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="oxQ9D2qlbC" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIRHr3" resolve="IClassModifier" />
     </node>

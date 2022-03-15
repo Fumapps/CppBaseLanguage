@@ -7,6 +7,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/CppBaseLanguage.build/CppBaseLanguage.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/CppBaseLanguage.plugin/CppBaseLanguage.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/CppBaseLanguage.sandbox/CppBaseLanguage.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/CppStdLib/CppStdLib.msd" folder="" />
     </projectModules>
   </component>
 </project>

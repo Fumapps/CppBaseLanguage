@@ -28,7 +28,9 @@
         <child id="414384289274416996" name="parts" index="3ft7WO" />
       </concept>
       <concept id="2000375450116423800" name="jetbrains.mps.lang.editor.structure.SubstituteMenu" flags="ng" index="22mcaB" />
-      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
+        <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
+      </concept>
       <concept id="1176897764478" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeFactory" flags="in" index="4$FPG" />
       <concept id="1597643335227097138" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_TransformationMenu_node" flags="ng" index="7Obwk" />
       <concept id="6516520003787916624" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_Condition" flags="ig" index="27VH4U" />
@@ -1136,7 +1138,7 @@
         </node>
       </node>
       <node concept="PMmxH" id="5oHFRyIK5Da" role="3EZMnx">
-        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersComponent" />
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
       </node>
       <node concept="3F0ifn" id="6vAOG1ACqLu" role="3EZMnx">
         <property role="3F0ifm" value="class" />
@@ -1228,7 +1230,7 @@
     <ref role="1XX52x" to="yjel:6hv6i2_Azc7" resolve="EnumDeclaration" />
     <node concept="3EZMnI" id="6$wrg4A_Pfn" role="2wV5jI">
       <node concept="PMmxH" id="5oHFRyIJku2" role="3EZMnx">
-        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersComponent" />
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
       </node>
       <node concept="3F0ifn" id="6$wrg4A_Pfo" role="3EZMnx">
         <property role="3F0ifm" value="enum class" />
@@ -1351,7 +1353,7 @@
         </node>
       </node>
       <node concept="PMmxH" id="6tzy5CC4eHY" role="3EZMnx">
-        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersComponent" />
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
       </node>
       <node concept="3F0ifn" id="6tzy5CC4eHZ" role="3EZMnx">
         <property role="3F0ifm" value="struct" />
@@ -1444,7 +1446,7 @@
     <node concept="3EZMnI" id="3x25Ph9Gc_m" role="2wV5jI">
       <node concept="l2Vlx" id="3x25Ph9Gc_p" role="2iSdaV" />
       <node concept="PMmxH" id="5oHFRyIGjKl" role="3EZMnx">
-        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersComponent" />
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
       </node>
       <node concept="PMmxH" id="5oHFRyIGkja" role="3EZMnx">
         <ref role="PMmxG" node="5oHFRyIFjtw" resolve="HaveTypeOrVoidComponent" />
@@ -2638,7 +2640,7 @@
     <ref role="1XX52x" to="yjel:6hv6i2_B47j" resolve="ConstantDeclaration" />
     <node concept="3EZMnI" id="3zXINoFT1Xg" role="2wV5jI">
       <node concept="PMmxH" id="5oHFRyILRjm" role="3EZMnx">
-        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersComponent" />
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
       </node>
       <node concept="3F0ifn" id="3zXINoFT1Xn" role="3EZMnx">
         <property role="3F0ifm" value="const" />
@@ -2674,7 +2676,7 @@
     <ref role="1XX52x" to="yjel:6vAOG1ABnEK" resolve="ConstructorDeclaration" />
     <node concept="3EZMnI" id="2a8$IxLSOpu" role="2wV5jI">
       <node concept="PMmxH" id="5oHFRyIIyJK" role="3EZMnx">
-        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersComponent" />
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
       </node>
       <node concept="3F0A7n" id="2a8$IxLSSz$" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -2859,7 +2861,7 @@
     <ref role="1XX52x" to="yjel:6hv6i2_B6aE" resolve="FieldDeclaration" />
     <node concept="3EZMnI" id="2a8$IxM2NfK" role="2wV5jI">
       <node concept="PMmxH" id="5oHFRyIxHhp" role="3EZMnx">
-        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersComponent" />
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
       </node>
       <node concept="PMmxH" id="5oHFRyILRkL" role="3EZMnx">
         <ref role="PMmxG" node="5oHFRyIxpOR" resolve="HaveTypeComponent" />
@@ -20001,6 +20003,21 @@
       </node>
       <node concept="2iRfu4" id="105lgKxo5uO" role="2iSdaV" />
     </node>
+    <node concept="3EZMnI" id="3zEy8Nj8yHc" role="6VMZX">
+      <node concept="l2Vlx" id="3zEy8Nj8yHd" role="2iSdaV" />
+      <node concept="3F0ifn" id="3zEy8Nj8yHi" role="3EZMnx">
+        <property role="3F0ifm" value="target file:" />
+      </node>
+      <node concept="1iCGBv" id="3zEy8Nj8yHo" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:3zEy8Nj8yHa" resolve="targetFile" />
+        <node concept="1sVBvm" id="3zEy8Nj8yHq" role="1sWHZn">
+          <node concept="3F0A7n" id="3zEy8Nj8yHy" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="24kQdi" id="105lgKxrfRl">
     <property role="3GE5qa" value="Namespace" />
@@ -20096,7 +20113,7 @@
     <node concept="3EZMnI" id="4h_5oU1ppak" role="2wV5jI">
       <node concept="l2Vlx" id="4h_5oU1ppal" role="2iSdaV" />
       <node concept="PMmxH" id="4h_5oU1ppam" role="3EZMnx">
-        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersComponent" />
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
       </node>
       <node concept="PMmxH" id="4h_5oU1ppan" role="3EZMnx">
         <ref role="PMmxG" node="5oHFRyIFjtw" resolve="HaveTypeOrVoidComponent" />
@@ -20360,6 +20377,21 @@
       </node>
       <node concept="2iRfu4" id="4h_5oU2IbIj" role="2iSdaV" />
     </node>
+    <node concept="3EZMnI" id="3zEy8Nj8yH_" role="6VMZX">
+      <node concept="l2Vlx" id="3zEy8Nj8yHA" role="2iSdaV" />
+      <node concept="3F0ifn" id="3zEy8Nj8yHB" role="3EZMnx">
+        <property role="3F0ifm" value="target file:" />
+      </node>
+      <node concept="1iCGBv" id="3zEy8Nj8yHC" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:3zEy8Nj8yHa" resolve="targetFile" />
+        <node concept="1sVBvm" id="3zEy8Nj8yHD" role="1sWHZn">
+          <node concept="3F0A7n" id="3zEy8Nj8yHE" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="22mcaB" id="4h_5oU2NDG8">
     <property role="3GE5qa" value="Namespace" />
@@ -20439,7 +20471,7 @@
     <ref role="1XX52x" to="yjel:6pgO1wrEfCZ" resolve="DestructorDeclaration" />
     <node concept="3EZMnI" id="6pgO1wrEfNU" role="2wV5jI">
       <node concept="PMmxH" id="6pgO1wrEfNV" role="3EZMnx">
-        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersComponent" />
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
       </node>
       <node concept="3F0ifn" id="6pgO1wrEg48" role="3EZMnx">
         <property role="3F0ifm" value="~" />
