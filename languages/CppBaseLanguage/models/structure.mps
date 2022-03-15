@@ -533,6 +533,12 @@
     <property role="TrG5h" value="Type" />
     <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" node="2HIntxMQ_98" resolve="TypeOrVoid" />
+    <node concept="1TJgyj" id="6LeNfpOlvhZ" role="1TKVEi">
+      <property role="IQ2ns" value="7804400563165459583" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="typeModifier" />
+      <ref role="20lvS9" node="6hv6i2_B6eW" resolve="TypeModifier" />
+    </node>
     <node concept="1TJgyj" id="5VT83U$LPp0" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190767680" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -2357,25 +2363,9 @@
     <property role="EcuMT" value="7232527154588476195" />
     <property role="TrG5h" value="FormalParameter" />
     <property role="3GE5qa" value="Class / Struct.Parameters" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5nBCUOUb2s7" role="1TKVEi">
-      <property role="IQ2ns" value="6190096177244677895" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="parameterModifier" />
-      <ref role="20lvS9" node="6hv6i2_B6eW" resolve="ParameterModifier" />
-    </node>
-    <node concept="1TJgyj" id="7yZ_CF2xDX3" role="1TKVEi">
-      <property role="IQ2ns" value="8700838527816343363" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="20kJfa" value="type" />
-      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
-    </node>
+    <ref role="1TJDcQ" node="6LeNfpOlvhY" resolve="FormalParameterWithoutName" />
     <node concept="PrWs8" id="6hv6i2_BecG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="5dYLrgGkU0F" role="PzmwI">
-      <ref role="PrY4T" node="6JhOkL8vqKa" resolve="IReferencableVariableDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_B48E">
@@ -14116,7 +14106,7 @@
   </node>
   <node concept="1TIwiD" id="6hv6i2_B6eW">
     <property role="EcuMT" value="7232527154588443580" />
-    <property role="TrG5h" value="ParameterModifier" />
+    <property role="TrG5h" value="TypeModifier" />
     <property role="3GE5qa" value="Class / Struct.Parameters" />
     <property role="R4oN_" value="Parameter-pass modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -14181,7 +14171,7 @@
   <node concept="25R3W" id="5LVVOtEMxfN">
     <property role="3F6X1D" value="6664183163638125555" />
     <property role="3GE5qa" value="Class / Struct.Parameters" />
-    <property role="TrG5h" value="ParameterModifierEnum" />
+    <property role="TrG5h" value="TypeModifierEnum" />
     <ref role="1H5jkz" node="4h_5oU2uWWO" resolve="const" />
     <node concept="25R33" id="4h_5oU2uWWO" role="25R1y">
       <property role="3tVfz5" value="6664183163638125556" />
@@ -14874,6 +14864,45 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="20kJfa" value="body" />
       <ref role="20lvS9" node="1FYNzU$qtcf" resolve="MaybeEmptyBlock" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6LeNfpOkaHg">
+    <property role="EcuMT" value="7804400563165113168" />
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
+    <property role="TrG5h" value="FunctionSignatureType" />
+    <property role="R4oN_" value="Specifies a function signature type, like void(int)" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="6LeNfpOkaHj" role="1TKVEi">
+      <property role="IQ2ns" value="7804400563165113171" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="returnType" />
+      <ref role="20lvS9" node="5_5a0KJX$kh" resolve="INonArrayType" />
+    </node>
+    <node concept="1TJgyj" id="6LeNfpOkaHl" role="1TKVEi">
+      <property role="IQ2ns" value="7804400563165113173" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="parameterTypes" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
+    </node>
+    <node concept="PrWs8" id="6LeNfpOkaHh" role="PzmwI">
+      <ref role="PrY4T" node="5_5a0KJX$kh" resolve="INonArrayType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6LeNfpOlvhY">
+    <property role="EcuMT" value="7804400563165459582" />
+    <property role="TrG5h" value="FormalParameterWithoutName" />
+    <property role="3GE5qa" value="Class / Struct.Parameters" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6LeNfpOlvi0" role="1TKVEi">
+      <property role="IQ2ns" value="7804400563165459584" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="type" />
+      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
+    </node>
+    <node concept="PrWs8" id="6LeNfpOlvi2" role="PzmwI">
+      <ref role="PrY4T" node="6JhOkL8vqKa" resolve="IReferencableVariableDeclaration" />
     </node>
   </node>
 </model>
