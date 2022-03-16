@@ -1027,7 +1027,7 @@
   <node concept="1TIwiD" id="5VT83U$LxVD">
     <property role="EcuMT" value="6843536562190687977" />
     <property role="TrG5h" value="StringType" />
-    <property role="34LRSv" value="std::wstring" />
+    <property role="34LRSv" value="std::string" />
     <property role="R4oN_" value="String" />
     <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" node="2HIntxMH_qO" resolve="BuiltInClassType" />
@@ -12758,7 +12758,7 @@
     <property role="EcuMT" value="1969317145989153978" />
     <property role="3GE5qa" value="References.TypeRelatedReferences" />
     <property role="TrG5h" value="GenericTypeParameterReferenceString" />
-    <property role="R4oN_" value="Dummy reference (just string) to a generic type parameter" />
+    <property role="R4oN_" value="Simple string generic type param" />
     <ref role="1TJDcQ" node="27q4jmdWYxN" resolve="TypeReference" />
     <node concept="1TJgyi" id="1HkqSaCLgiY" role="1TKVEl">
       <property role="IQ2nx" value="1969317145989153982" />
@@ -12917,6 +12917,43 @@
           </node>
           <node concept="3oM_SD" id="1HkqSaCLq_I" role="1PaTwD">
             <property role="3oM_SC" value="entity" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="nv3fu7FsPF" role="1PaQFQ">
+          <node concept="3oM_SD" id="nv3fu7FsPE" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="nv3fu7FsQS" role="1PaQFQ">
+          <node concept="3oM_SD" id="nv3fu7FsQR" role="1PaTwD">
+            <property role="3oM_SC" value="Note:" />
+          </node>
+          <node concept="3oM_SD" id="nv3fu7FsRT" role="1PaTwD">
+            <property role="3oM_SC" value="Dummy" />
+          </node>
+          <node concept="3oM_SD" id="nv3fu7FsRU" role="1PaTwD">
+            <property role="3oM_SC" value="reference" />
+          </node>
+          <node concept="3oM_SD" id="nv3fu7FsRV" role="1PaTwD">
+            <property role="3oM_SC" value="(just" />
+          </node>
+          <node concept="3oM_SD" id="nv3fu7FsRW" role="1PaTwD">
+            <property role="3oM_SC" value="string)" />
+          </node>
+          <node concept="3oM_SD" id="nv3fu7FsRX" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="nv3fu7FsRY" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="nv3fu7FsRZ" role="1PaTwD">
+            <property role="3oM_SC" value="generic" />
+          </node>
+          <node concept="3oM_SD" id="nv3fu7FsS0" role="1PaTwD">
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="nv3fu7FsS1" role="1PaTwD">
+            <property role="3oM_SC" value="parameter" />
           </node>
         </node>
       </node>
@@ -14877,7 +14914,7 @@
     <property role="EcuMT" value="7804400563165113168" />
     <property role="3GE5qa" value="References.TypeRelatedReferences" />
     <property role="TrG5h" value="FunctionSignatureType" />
-    <property role="R4oN_" value="Specifies a function signature type, like void(int)" />
+    <property role="R4oN_" value="function signature type" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyj" id="6LeNfpOkaHj" role="1TKVEi">
       <property role="IQ2ns" value="7804400563165113171" />
@@ -14895,6 +14932,41 @@
     <node concept="PrWs8" id="6LeNfpOkaHh" role="PzmwI">
       <ref role="PrY4T" node="5_5a0KJX$kh" resolve="INonArrayType" />
     </node>
+    <node concept="3H0Qfr" id="nv3fu7F$UX" role="lGtFl">
+      <node concept="1Pa9Pv" id="nv3fu7F$UY" role="3H0Qfi">
+        <node concept="1PaTwC" id="nv3fu7F$UZ" role="1PaQFQ">
+          <node concept="3oM_SD" id="nv3fu7F$Vb" role="1PaTwD">
+            <property role="3oM_SC" value="Specifies" />
+          </node>
+          <node concept="3oM_SD" id="nv3fu7F$Vc" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="nv3fu7F$Vd" role="1PaTwD">
+            <property role="3oM_SC" value="function" />
+          </node>
+          <node concept="3oM_SD" id="nv3fu7F$Ve" role="1PaTwD">
+            <property role="3oM_SC" value="signature" />
+          </node>
+          <node concept="3oM_SD" id="nv3fu7F$Vf" role="1PaTwD">
+            <property role="3oM_SC" value="type," />
+          </node>
+          <node concept="3oM_SD" id="nv3fu7F$Vg" role="1PaTwD">
+            <property role="3oM_SC" value="like" />
+          </node>
+          <node concept="3oM_SD" id="nv3fu7F$Vh" role="1PaTwD">
+            <property role="3oM_SC" value="void(int)" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5ssTDYZ24dY">
+    <property role="EcuMT" value="6277145554426807166" />
+    <property role="TrG5h" value="WStringType" />
+    <property role="34LRSv" value="std::wstring" />
+    <property role="R4oN_" value="Wide String" />
+    <property role="3GE5qa" value="Types" />
+    <ref role="1TJDcQ" node="2HIntxMH_qO" resolve="BuiltInClassType" />
   </node>
 </model>
 

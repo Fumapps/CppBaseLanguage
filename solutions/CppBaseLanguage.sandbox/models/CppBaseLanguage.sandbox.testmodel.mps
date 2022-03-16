@@ -65,6 +65,9 @@
       </concept>
       <concept id="1154422390078291492" name="CppBaseLanguage.structure.CppSourceFile" flags="ng" index="LmIGC" />
       <concept id="1154422390078291493" name="CppBaseLanguage.structure.CppHeaderFile" flags="ng" index="LmIGD" />
+      <concept id="1154422390078290659" name="CppBaseLanguage.structure.WStringLiteral" flags="ng" index="LmIZJ">
+        <property id="1154422390078290660" name="value" index="LmIZC" />
+      </concept>
       <concept id="1945218857514060490" name="CppBaseLanguage.structure.ReturnStatement" flags="ng" index="2YuCjO" />
       <concept id="1945218857513714961" name="CppBaseLanguage.structure.ForeachStatement" flags="ng" index="2YwsGJ">
         <child id="1945218857513714971" name="embeddedStatement" index="2YwsG_" />
@@ -81,7 +84,6 @@
         <child id="1945218857511318970" name="variableDeclarator" index="2YDbI4" />
         <child id="1945218857511318968" name="type" index="2YDbI6" />
       </concept>
-      <concept id="1945218857511318979" name="CppBaseLanguage.structure.IVariableDeclarator" flags="ng" index="2YDbJX" />
       <concept id="7232527154588443410" name="CppBaseLanguage.structure.MethodDeclaration" flags="ng" index="31KRCM">
         <child id="7232527154588443415" name="body" index="31KRCR" />
       </concept>
@@ -152,6 +154,7 @@
       <concept id="4928369069049559945" name="CppBaseLanguage.structure.QuotedIncludeDirective" flags="ng" index="36RqS7" />
       <concept id="441872395490668103" name="CppBaseLanguage.structure.PureVirtualMethodDeclaration" flags="ng" index="17p7rt" />
       <concept id="3129541975290303051" name="CppBaseLanguage.structure.VoidType" flags="ng" index="1pH0Yj" />
+      <concept id="6277145554426807166" name="CppBaseLanguage.structure.WStringType" flags="ng" index="3C5anx" />
       <concept id="6209812394075305792" name="CppBaseLanguage.structure.IHaveTypeOrVoid" flags="ng" index="3Sw9wS">
         <child id="6209812394075305793" name="typeOrVoid" index="3Sw9wT" />
       </concept>
@@ -162,6 +165,9 @@
         <child id="6209812394072710474" name="type" index="3SE38M" />
       </concept>
       <concept id="6843536562190981624" name="CppBaseLanguage.structure.NullLiteral" flags="ng" index="3UcVB6" />
+      <concept id="6843536562190981623" name="CppBaseLanguage.structure.StringLiteral" flags="ng" index="3UcVB9">
+        <property id="3129541975290891879" name="value" index="1pzheZ" />
+      </concept>
       <concept id="6843536562190981614" name="CppBaseLanguage.structure.IntLiteral" flags="ng" index="3UcVBg">
         <property id="3129541975290926181" name="value" index="1pzoAX" />
       </concept>
@@ -172,6 +178,7 @@
       <concept id="6843536562190680508" name="CppBaseLanguage.structure.CharType" flags="ng" index="3UfM62" />
       <concept id="6843536562190680504" name="CppBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
       <concept id="6843536562190680505" name="CppBaseLanguage.structure.UnsignedType" flags="ng" index="3UfM67" />
+      <concept id="6843536562190687977" name="CppBaseLanguage.structure.StringType" flags="ng" index="3UfNVn" />
       <concept id="6843536562190726755" name="CppBaseLanguage.structure.UnaryExpressionWithOperator" flags="ng" index="3UfTpt">
         <child id="6843536562190726760" name="expression" index="3UfTpm" />
       </concept>
@@ -496,6 +503,32 @@
                   <node concept="1VUwCF" id="4h_5oU2ngP6" role="3UfTpm">
                     <ref role="2aT8gA" node="4h_5oU2jWdK" resolve="h1" />
                   </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2YDbI9" id="5ssTDYZ244n" role="1ux1N">
+              <node concept="3UfwP1" id="5ssTDYZ244p" role="2YDbI6">
+                <node concept="3C5anx" id="5ssTDYZ6ub3" role="3UfBpY" />
+              </node>
+              <node concept="2YC0sE" id="5ssTDYZ245J" role="2YDbI4">
+                <node concept="zF7EM" id="5ssTDYZ245L" role="2YC0sD">
+                  <property role="TrG5h" value="str1" />
+                </node>
+                <node concept="LmIZJ" id="5ssTDYZ245R" role="2YCihz">
+                  <property role="LmIZC" value="&quot;str1&quot;" />
+                </node>
+              </node>
+            </node>
+            <node concept="2YDbI9" id="5ssTDYZ6ub6" role="1ux1N">
+              <node concept="3UfwP1" id="5ssTDYZ6ub7" role="2YDbI6">
+                <node concept="3UfNVn" id="5ssTDYZ6ucz" role="3UfBpY" />
+              </node>
+              <node concept="2YC0sE" id="5ssTDYZ6ub9" role="2YDbI4">
+                <node concept="zF7EM" id="5ssTDYZ6uba" role="2YC0sD">
+                  <property role="TrG5h" value="str2" />
+                </node>
+                <node concept="3UcVB9" id="5ssTDYZ6ucC" role="2YCihz">
+                  <property role="1pzheZ" value="&quot;str2&quot;" />
                 </node>
               </node>
             </node>
@@ -1546,19 +1579,6 @@
             <node concept="2Gatwc" id="4ORvO2Id7rZ" role="3UfBpY">
               <ref role="2Gaslz" node="4ORvO2IcXBd" resolve="A" />
               <node concept="2Gatwc" id="4ORvO2Id7s1" role="2GaslH">
-                <ref role="2Gaslz" node="6LeNfpOchhW" resolve="Test" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="31KRIa" id="2jM2HzlO5Gn" role="31Leeq">
-          <node concept="1ux1y" id="2jM2HzlO5Gp" role="31KRJH">
-            <node concept="2YDbJX" id="2jM2HzlO5Gr" role="1ux1z" />
-          </node>
-          <node concept="3UfwP1" id="2jM2HzlO5Gs" role="3SE38M">
-            <node concept="2Gatwc" id="2jM2HzlO5GG" role="3UfBpY">
-              <ref role="2Gaslz" node="4ORvO2IcXBd" resolve="A" />
-              <node concept="2Gatwc" id="2jM2HzlO5GL" role="2GaslH">
                 <ref role="2Gaslz" node="6LeNfpOchhW" resolve="Test" />
               </node>
             </node>
