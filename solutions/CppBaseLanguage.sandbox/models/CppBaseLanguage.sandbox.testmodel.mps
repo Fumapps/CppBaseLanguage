@@ -171,6 +171,9 @@
       <concept id="6843536562190981614" name="CppBaseLanguage.structure.IntLiteral" flags="ng" index="3UcVBg">
         <property id="3129541975290926181" name="value" index="1pzoAX" />
       </concept>
+      <concept id="6843536562191001275" name="CppBaseLanguage.structure.VariableReference" flags="ng" index="3UcWq5">
+        <reference id="7769220957754731528" name="variableDeclaration" index="zF7P4" />
+      </concept>
       <concept id="6843536562190757247" name="CppBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
         <child id="7804400563165459583" name="typeModifier" index="o6Ny9" />
         <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
@@ -449,8 +452,8 @@
           <node concept="zF7EM" id="4h_5oU1F2P9" role="2YwsGE">
             <property role="TrG5h" value="hello" />
           </node>
-          <node concept="1VUwCF" id="4h_5oU1F2Pl" role="2YwsGD">
-            <ref role="2aT8gA" node="4h_5oU1jLEI" resolve="myOptionalChar" />
+          <node concept="3UcWq5" id="nv3fu7HIb0" role="2YwsGD">
+            <ref role="zF7P4" node="4h_5oU1jLEI" resolve="myOptionalChar" />
           </node>
           <node concept="1ux1M" id="4h_5oU1F2Q4" role="2YwsG_">
             <node concept="2YDbI9" id="4h_5oU2jWcP" role="1ux1N">
@@ -1583,6 +1586,72 @@
               </node>
             </node>
           </node>
+        </node>
+        <node concept="35j1YG" id="nv3fu7H7Yy" role="31Leeq" />
+        <node concept="31KRCM" id="nv3fu7H7Y1" role="31Leeq">
+          <property role="TrG5h" value="foo" />
+          <node concept="1ux1M" id="nv3fu7H7Y2" role="31KRCR">
+            <node concept="2YDbI9" id="nv3fu7H7YO" role="1ux1N">
+              <node concept="3UfwP1" id="nv3fu7H7YQ" role="2YDbI6">
+                <node concept="35Mjx5" id="nv3fu7H7YY" role="3UfBpY" />
+              </node>
+              <node concept="2YC0sE" id="nv3fu7H7Z1" role="2YDbI4">
+                <node concept="zF7EM" id="nv3fu7H7Z3" role="2YC0sD">
+                  <property role="TrG5h" value="a" />
+                </node>
+                <node concept="3UcWq5" id="nv3fu7HfU5" role="2YCihz">
+                  <ref role="zF7P4" node="nv3fu7H7Yp" resolve="bar" />
+                </node>
+              </node>
+            </node>
+            <node concept="2YDbI9" id="nv3fu7HfU8" role="1ux1N">
+              <node concept="3UfwP1" id="nv3fu7HfU9" role="2YDbI6">
+                <node concept="35Mjx5" id="nv3fu7HfUa" role="3UfBpY" />
+              </node>
+              <node concept="2YC0sE" id="nv3fu7HfUb" role="2YDbI4">
+                <node concept="zF7EM" id="nv3fu7HfUc" role="2YC0sD">
+                  <property role="TrG5h" value="b" />
+                </node>
+                <node concept="1VUwCF" id="nv3fu7Lp3a" role="2YCihz">
+                  <ref role="2aT8gA" node="nv3fu7H7Z3" resolve="a" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1ux1I" id="nv3fu7H7Y5" role="1fIg$P">
+            <node concept="31KZC3" id="nv3fu7H7Yp" role="1ux1J">
+              <property role="TrG5h" value="bar" />
+              <node concept="3UfwP1" id="nv3fu7H7Yq" role="3z8Npe">
+                <node concept="3UfM66" id="nv3fu7H7Yv" role="3UfBpY" />
+              </node>
+            </node>
+          </node>
+          <node concept="1pH0Yj" id="nv3fu7H7Ym" role="3Sw9wT" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LmIGD" id="nv3fu7Lp3d">
+    <property role="Lph3H" value="UseCaseGenerator" />
+    <property role="TrG5h" value="test.h" />
+    <property role="14CC_8" value="test" />
+    <node concept="1ux1E" id="nv3fu7Lp3e" role="31LgYG" />
+    <node concept="31LijL" id="nv3fu7Lq1X" role="31LlDr">
+      <property role="TrG5h" value="Test" />
+      <node concept="31LiCz" id="nv3fu7Lq1Y" role="31LkaE">
+        <property role="TrG5h" value="TestClass" />
+        <node concept="31KRCM" id="nv3fu7Lq28" role="31Leeq">
+          <property role="TrG5h" value="foo" />
+          <node concept="1ux1M" id="nv3fu7Lq29" role="31KRCR" />
+          <node concept="1ux1I" id="nv3fu7Lq2m" role="1fIg$P">
+            <node concept="31KZC3" id="nv3fu7Lq2n" role="1ux1J">
+              <property role="TrG5h" value="bar" />
+              <node concept="3UfwP1" id="nv3fu7Lq2o" role="3z8Npe">
+                <node concept="3UfM66" id="nv3fu7Lq2p" role="3UfBpY" />
+              </node>
+            </node>
+          </node>
+          <node concept="1pH0Yj" id="nv3fu7Lq2q" role="3Sw9wT" />
         </node>
       </node>
     </node>

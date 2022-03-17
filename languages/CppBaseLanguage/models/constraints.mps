@@ -1120,6 +1120,42 @@
           </node>
         </node>
       </node>
+      <node concept="3dgokm" id="nv3fu7HfVZ" role="1N6uqs">
+        <node concept="3clFbS" id="nv3fu7HfW1" role="2VODD2">
+          <node concept="3cpWs8" id="nv3fu7KLzM" role="3cqZAp">
+            <node concept="3cpWsn" id="nv3fu7KLzN" role="3cpWs9">
+              <property role="TrG5h" value="file" />
+              <node concept="3Tqbb2" id="nv3fu7KLzO" role="1tU5fm">
+                <ref role="ehGHo" to="yjel:6hv6i2_AqOA" resolve="File" />
+              </node>
+              <node concept="2OqwBi" id="nv3fu7KLzP" role="33vP2m">
+                <node concept="2rP1CM" id="nv3fu7KLzQ" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="nv3fu7KLzR" role="2OqNvi">
+                  <node concept="1xMEDy" id="nv3fu7KLzS" role="1xVPHs">
+                    <node concept="chp4Y" id="nv3fu7KLzT" role="ri$Ld">
+                      <ref role="cht4Q" to="yjel:6hv6i2_AqOA" resolve="File" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="nv3fu7KLzU" role="3cqZAp">
+            <node concept="2YIFZM" id="nv3fu7KLzV" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="nv3fu7KLzW" role="37wK5m">
+                <node concept="37vLTw" id="nv3fu7KLzX" role="2Oq$k0">
+                  <ref role="3cqZAo" node="nv3fu7KLzN" resolve="file" />
+                </node>
+                <node concept="2qgKlT" id="nv3fu7KLzY" role="2OqNvi">
+                  <ref role="37wK5l" to="puek:nv3fu7KKeE" resolve="getReferencableMemberDeclarations" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1M2fIO" id="vzGOjTQR4t">
@@ -1432,6 +1468,49 @@
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
                 <node concept="Xl_RD" id="oxQ9D2qmUf" role="37wK5m">
                   <property role="Xl_RC" value="[A-Za-z_]+" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="nv3fu7LqFU">
+    <property role="3GE5qa" value="References.VariableReferences" />
+    <ref role="1M2myG" to="yjel:5VT83U$MIqV" resolve="VariableReference" />
+    <node concept="1N5Pfh" id="nv3fu7LrEC" role="1Mr941">
+      <ref role="1N5Vy1" to="yjel:6JhOkL8vqK8" resolve="variableDeclaration" />
+      <node concept="3dgokm" id="nv3fu7LrGu" role="1N6uqs">
+        <node concept="3clFbS" id="nv3fu7LrGv" role="2VODD2">
+          <node concept="3cpWs8" id="nv3fu7LrJO" role="3cqZAp">
+            <node concept="3cpWsn" id="nv3fu7LrJP" role="3cpWs9">
+              <property role="TrG5h" value="file" />
+              <node concept="3Tqbb2" id="nv3fu7LrJQ" role="1tU5fm">
+                <ref role="ehGHo" to="yjel:6hv6i2_AqOA" resolve="File" />
+              </node>
+              <node concept="2OqwBi" id="nv3fu7LrJR" role="33vP2m">
+                <node concept="2rP1CM" id="nv3fu7LrJS" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="nv3fu7LrJT" role="2OqNvi">
+                  <node concept="1xMEDy" id="nv3fu7LrJU" role="1xVPHs">
+                    <node concept="chp4Y" id="nv3fu7LrJV" role="ri$Ld">
+                      <ref role="cht4Q" to="yjel:6hv6i2_AqOA" resolve="File" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="nv3fu7LrJW" role="3cqZAp">
+            <node concept="2YIFZM" id="nv3fu7LrJX" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="nv3fu7LrJY" role="37wK5m">
+                <node concept="37vLTw" id="nv3fu7LrJZ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="nv3fu7LrJP" resolve="file" />
+                </node>
+                <node concept="2qgKlT" id="nv3fu7LrK0" role="2OqNvi">
+                  <ref role="37wK5l" to="puek:nv3fu7Lsrp" resolve="getReferencableVariables" />
                 </node>
               </node>
             </node>

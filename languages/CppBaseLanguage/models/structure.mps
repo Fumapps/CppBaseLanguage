@@ -1411,6 +1411,9 @@
     <node concept="PrWs8" id="5oHFRyIIxWy" role="PzmwI">
       <ref role="PrY4T" node="5oHFRyIxp1o" resolve="IHaveModifiers" />
     </node>
+    <node concept="PrWs8" id="nv3fu7L0fU" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6vAOG1ABcaE">
     <property role="EcuMT" value="7486903154347131562" />
@@ -2075,9 +2078,6 @@
         </node>
       </node>
     </node>
-    <node concept="PrWs8" id="1HkqSaCLgAW" role="PrDN$">
-      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
-    </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_B47j">
     <property role="EcuMT" value="7232527154588434899" />
@@ -2148,6 +2148,9 @@
     <node concept="PrWs8" id="5oHFRyILRix" role="PzmwI">
       <ref role="PrY4T" node="5oHFRyIxp1s" resolve="IHaveType" />
     </node>
+    <node concept="PrWs8" id="nv3fu7L1eG" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_AzRh">
     <property role="EcuMT" value="7232527154588302801" />
@@ -2183,6 +2186,9 @@
     </node>
     <node concept="PrWs8" id="fR9ZW_SRpy" role="PzmwI">
       <ref role="PrY4T" node="1HkqSaCLg9k" resolve="IReferencableTypeDeclaration" />
+    </node>
+    <node concept="PrWs8" id="nv3fu7L04r" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
     </node>
     <node concept="3H0Qfr" id="6Y0EU3Z5P1w" role="lGtFl">
       <node concept="1Pa9Pv" id="6Y0EU3Z5P1x" role="3H0Qfi">
@@ -2373,6 +2379,9 @@
     </node>
     <node concept="PrWs8" id="6hv6i2_BecG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="nv3fu7H7Zb" role="PzmwI">
+      <ref role="PrY4T" node="6JhOkL8vqKa" resolve="IReferencableVariableDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_B48E">
@@ -3012,6 +3021,9 @@
     <node concept="PrWs8" id="1d8G2OreRmt" role="PzmwI">
       <ref role="PrY4T" node="1HkqSaCLg9k" resolve="IReferencableTypeDeclaration" />
     </node>
+    <node concept="PrWs8" id="nv3fu7L04w" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+    </node>
     <node concept="3H0Qfr" id="6Y0EU3Z5P21" role="lGtFl">
       <node concept="1Pa9Pv" id="6Y0EU3Z5P22" role="3H0Qfi">
         <node concept="1PaTwC" id="6Y0EU3Z5P23" role="1PaQFQ">
@@ -3142,6 +3154,9 @@
     </node>
     <node concept="PrWs8" id="3h4LMeIQtvm" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="nv3fu7L0fG" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
     </node>
     <node concept="3H0Qfr" id="6Y0EU3Z5TGW" role="lGtFl">
       <node concept="1Pa9Pv" id="6Y0EU3Z5TGX" role="3H0Qfi">
@@ -6487,9 +6502,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="PrWs8" id="1HkqSaCLgAY" role="PrDN$">
-      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="3h4LMeIRHqY">
@@ -14054,6 +14066,9 @@
     <node concept="PrWs8" id="4h_5oU1nbMZ" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
     </node>
+    <node concept="PrWs8" id="nv3fu7L04n" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4h_5oU1F2Rb">
     <property role="EcuMT" value="4928369069031960011" />
@@ -14333,6 +14348,9 @@
     <node concept="PrWs8" id="5tEqanR$fWt" role="PzmwI">
       <ref role="PrY4T" node="1HkqSaCLg9k" resolve="IReferencableTypeDeclaration" />
     </node>
+    <node concept="PrWs8" id="nv3fu7L04A" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+    </node>
     <node concept="1TJgyj" id="6pgO1wrv2i$" role="1TKVEi">
       <property role="IQ2ns" value="7372621391964415140" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -14533,6 +14551,9 @@
     <node concept="PrWs8" id="6pgO1wrEfDm" role="PzmwI">
       <ref role="PrY4T" node="5oHFRyIxp1o" resolve="IHaveModifiers" />
     </node>
+    <node concept="PrWs8" id="nv3fu7L0fP" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6pgO1wrJD5t">
     <property role="EcuMT" value="7372621391968768349" />
@@ -14622,6 +14643,9 @@
     </node>
     <node concept="PrWs8" id="oxQ9D1l7ng" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="nv3fu7L0fC" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
     </node>
   </node>
   <node concept="25R3W" id="oxQ9D29j_M">
@@ -14833,6 +14857,9 @@
     <node concept="PrWs8" id="6LeNfpOeEWL" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
     </node>
+    <node concept="PrWs8" id="nv3fu7L04j" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6LeNfpOfY0Z">
     <property role="EcuMT" value="7804400563164012607" />
@@ -14846,6 +14873,9 @@
     </node>
     <node concept="PrWs8" id="6LeNfpOfY11" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="nv3fu7L04f" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
     </node>
     <node concept="3H0Qfr" id="6LeNfpOfY12" role="lGtFl">
       <node concept="1Pa9Pv" id="6LeNfpOfY13" role="3H0Qfi">
