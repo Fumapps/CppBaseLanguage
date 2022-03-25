@@ -100,6 +100,9 @@
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
+      <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
+        <child id="763829979718664967" name="files" index="3rtmxm" />
+      </concept>
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
         <property id="8137134783396907368" name="convert2binary" index="1Hdu6h" />
         <property id="8137134783396676838" name="extracted" index="1HemKv" />
@@ -228,6 +231,16 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
           </node>
         </node>
+        <node concept="1SiIV0" id="D$XBVU5zDc" role="3bR37C">
+          <node concept="3bR9La" id="D$XBVU5zDo" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3MI1gu0QouH" resolve="jetbrains.mps.editor.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="D$XBVU5zD_" role="3bR37C">
+          <node concept="3bR9La" id="D$XBVU5zDN" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
+          </node>
+        </node>
         <node concept="1BupzO" id="4h_5oU0U7ij" role="3bR31x">
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
@@ -246,6 +259,21 @@
             </node>
             <node concept="3qWCbU" id="4h_5oU0U7il" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="D$XBVU374L" role="3bR31x">
+          <node concept="3LXTmp" id="D$XBVU374M" role="3rtmxm">
+            <node concept="55IIr" id="D$XBVU374N" role="3LXTmr">
+              <node concept="2Ry0Ak" id="D$XBVU374O" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="D$XBVU374P" role="2Ry0An">
+                  <property role="2Ry0Am" value="CppBaseLanguage" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="D$XBVU374R" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
           </node>
         </node>
@@ -337,6 +365,11 @@
         <node concept="1SiIV0" id="4h_5oU0U7sp" role="3bR37C">
           <node concept="3bR9La" id="4h_5oU0U7sq" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="D$XBVU5zDY" role="3bR37C">
+          <node concept="3bR9La" id="D$XBVU5zEa" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3MI1gu0QouH" resolve="jetbrains.mps.editor.runtime" />
           </node>
         </node>
       </node>
