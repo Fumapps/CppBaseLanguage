@@ -14998,5 +14998,21 @@
     <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" node="2HIntxMH_qO" resolve="BuiltInClassType" />
   </node>
+  <node concept="1TIwiD" id="D$XBVTXdbm">
+    <property role="EcuMT" value="748994463270228694" />
+    <property role="TrG5h" value="WStringViewType" />
+    <property role="34LRSv" value="std::wstring_view" />
+    <property role="R4oN_" value="Wide String View" />
+    <property role="3GE5qa" value="Types" />
+    <ref role="1TJDcQ" node="2HIntxMH_qO" resolve="BuiltInClassType" />
+  </node>
+  <node concept="1TIwiD" id="D$XBVTXdbr">
+    <property role="EcuMT" value="748994463270228699" />
+    <property role="TrG5h" value="StringViewType" />
+    <property role="34LRSv" value="std::string_view" />
+    <property role="R4oN_" value="String View" />
+    <property role="3GE5qa" value="Types" />
+    <ref role="1TJDcQ" node="2HIntxMH_qO" resolve="BuiltInClassType" />
+  </node>
 </model>
 
