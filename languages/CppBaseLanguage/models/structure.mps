@@ -2364,6 +2364,16 @@
       <property role="TrG5h" value="companyName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="1SF$F58zR22" role="1TKVEl">
+      <property role="IQ2nx" value="2173992535260622978" />
+      <property role="TrG5h" value="hideGeneratedCommentLine" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="1SF$F58zQRQ" role="1TKVEl">
+      <property role="IQ2nx" value="2173992535260622326" />
+      <property role="TrG5h" value="hideWholeHeaderComment" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_Becz">
     <property role="EcuMT" value="7232527154588476195" />

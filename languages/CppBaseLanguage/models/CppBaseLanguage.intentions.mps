@@ -52,6 +52,11 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
+      <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
+        <child id="1163668914799" name="condition" index="3K4Cdx" />
+        <child id="1163668922816" name="ifTrue" index="3K4E3e" />
+        <child id="1163668934364" name="ifFalse" index="3K4GZi" />
+      </concept>
     </language>
     <language id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions">
       <concept id="1192794744107" name="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" flags="ig" index="2S6QgY" />
@@ -348,6 +353,112 @@
                 <node concept="chp4Y" id="4ORvO2I4KC$" role="cj9EA">
                   <ref role="cht4Q" to="yjel:4h_5oU10JKu" resolve="PointerTypeReference" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1SF$F58AvQc">
+    <property role="TrG5h" value="ToggleHideDocumentationCommentIntention" />
+    <ref role="2ZfgGC" to="yjel:6hv6i2_AqOA" resolve="File" />
+    <node concept="2S6ZIM" id="1SF$F58AvQd" role="2ZfVej">
+      <node concept="3clFbS" id="1SF$F58AvQe" role="2VODD2">
+        <node concept="3clFbF" id="1SF$F58AvVe" role="3cqZAp">
+          <node concept="3K4zz7" id="1SF$F58AxcI" role="3clFbG">
+            <node concept="Xl_RD" id="1SF$F58Axdz" role="3K4E3e">
+              <property role="Xl_RC" value="show documentation comment" />
+            </node>
+            <node concept="Xl_RD" id="1SF$F58Axnw" role="3K4GZi">
+              <property role="Xl_RC" value="hide documentation comment" />
+            </node>
+            <node concept="2OqwBi" id="1SF$F58AwaM" role="3K4Cdx">
+              <node concept="2Sf5sV" id="1SF$F58Aw0y" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1SF$F58AwnV" role="2OqNvi">
+                <ref role="3TsBF5" to="yjel:1SF$F58zQRQ" resolve="hideWholeHeaderComment" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1SF$F58AvQf" role="2ZfgGD">
+      <node concept="3clFbS" id="1SF$F58AvQg" role="2VODD2">
+        <node concept="3clFbF" id="1SF$F58Axpi" role="3cqZAp">
+          <node concept="37vLTI" id="1SF$F58AxZj" role="3clFbG">
+            <node concept="3fqX7Q" id="1SF$F58AxZZ" role="37vLTx">
+              <node concept="2OqwBi" id="1SF$F58Ayeu" role="3fr31v">
+                <node concept="2Sf5sV" id="1SF$F58Ay4m" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1SF$F58Aytb" role="2OqNvi">
+                  <ref role="3TsBF5" to="yjel:1SF$F58zQRQ" resolve="hideWholeHeaderComment" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1SF$F58Axxk" role="37vLTJ">
+              <node concept="2Sf5sV" id="1SF$F58Axph" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1SF$F58AxE4" role="2OqNvi">
+                <ref role="3TsBF5" to="yjel:1SF$F58zQRQ" resolve="hideWholeHeaderComment" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1SF$F58Azn_">
+    <property role="TrG5h" value="ToggleHideGeneratedCommentLineIntentation" />
+    <ref role="2ZfgGC" to="yjel:6hv6i2_AqOA" resolve="File" />
+    <node concept="2S6ZIM" id="1SF$F58AznA" role="2ZfVej">
+      <node concept="3clFbS" id="1SF$F58AznB" role="2VODD2">
+        <node concept="3clFbF" id="1SF$F58AznC" role="3cqZAp">
+          <node concept="3K4zz7" id="1SF$F58AznD" role="3clFbG">
+            <node concept="Xl_RD" id="1SF$F58AznE" role="3K4E3e">
+              <property role="Xl_RC" value="show generated comment line" />
+            </node>
+            <node concept="Xl_RD" id="1SF$F58AznF" role="3K4GZi">
+              <property role="Xl_RC" value="hide generated comment line" />
+            </node>
+            <node concept="2OqwBi" id="1SF$F58AznG" role="3K4Cdx">
+              <node concept="2Sf5sV" id="1SF$F58AznH" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1SF$F58AznI" role="2OqNvi">
+                <ref role="3TsBF5" to="yjel:1SF$F58zR22" resolve="hideGeneratedCommentLine" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1SF$F58AznJ" role="2ZfgGD">
+      <node concept="3clFbS" id="1SF$F58AznK" role="2VODD2">
+        <node concept="3clFbF" id="1SF$F58AznL" role="3cqZAp">
+          <node concept="37vLTI" id="1SF$F58AznM" role="3clFbG">
+            <node concept="3fqX7Q" id="1SF$F58AznN" role="37vLTx">
+              <node concept="2OqwBi" id="1SF$F58AznO" role="3fr31v">
+                <node concept="2Sf5sV" id="1SF$F58AznP" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1SF$F58AznQ" role="2OqNvi">
+                  <ref role="3TsBF5" to="yjel:1SF$F58zR22" resolve="hideGeneratedCommentLine" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1SF$F58AznR" role="37vLTJ">
+              <node concept="2Sf5sV" id="1SF$F58AznS" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1SF$F58AznT" role="2OqNvi">
+                <ref role="3TsBF5" to="yjel:1SF$F58zR22" resolve="hideGeneratedCommentLine" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="1SF$F58A$98" role="2ZfVeh">
+      <node concept="3clFbS" id="1SF$F58A$99" role="2VODD2">
+        <node concept="3clFbF" id="1SF$F58A$eK" role="3cqZAp">
+          <node concept="3fqX7Q" id="1SF$F58A$F$" role="3clFbG">
+            <node concept="2OqwBi" id="1SF$F58A$FA" role="3fr31v">
+              <node concept="2Sf5sV" id="1SF$F58A$FB" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1SF$F58A$FC" role="2OqNvi">
+                <ref role="3TsBF5" to="yjel:1SF$F58zQRQ" resolve="hideWholeHeaderComment" />
               </node>
             </node>
           </node>

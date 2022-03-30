@@ -108,6 +108,7 @@
       <concept id="7232527154588265766" name="CppBaseLanguage.structure.File" flags="ng" index="31LFg6">
         <property id="1154422390078326241" name="generatorName" index="Lph3H" />
         <property id="441872395511484882" name="companyName" index="14CC_8" />
+        <property id="2173992535260622978" name="hideGeneratedCommentLine" index="1mDe8N" />
         <child id="7232527154588292748" name="includeDirectiveList" index="31LgYG" />
         <child id="7232527154588304251" name="namespaceMemberDeclaration" index="31LlDr" />
       </concept>
@@ -1635,6 +1636,7 @@
     <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="test.h" />
     <property role="14CC_8" value="test" />
+    <property role="1mDe8N" value="true" />
     <node concept="1ux1E" id="nv3fu7Lp3e" role="31LgYG" />
     <node concept="31LijL" id="nv3fu7Lq1X" role="31LlDr">
       <property role="TrG5h" value="Test" />
