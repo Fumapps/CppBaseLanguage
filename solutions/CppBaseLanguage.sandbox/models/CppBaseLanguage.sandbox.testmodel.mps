@@ -68,6 +68,15 @@
       <concept id="1154422390078290659" name="CppBaseLanguage.structure.WStringLiteral" flags="ng" index="LmIZJ">
         <property id="1154422390078290660" name="value" index="LmIZC" />
       </concept>
+      <concept id="2286268881217553539" name="CppBaseLanguage.structure.DestructorDefinition" flags="ng" index="LIJ7G">
+        <child id="2286268881217553542" name="surroundingType" index="LIJ7D" />
+        <child id="2286268881217553541" name="body" index="LIJ7E" />
+      </concept>
+      <concept id="2286268881214821303" name="CppBaseLanguage.structure.ConstructorDefinition" flags="ng" index="Mraro">
+        <child id="2286268881214825128" name="surroundingType" index="Mr9v7" />
+        <child id="2286268881214821311" name="body" index="Mrarg" />
+        <child id="2286268881214821310" name="formalParameterList" index="Mrarh" />
+      </concept>
       <concept id="1945218857514060490" name="CppBaseLanguage.structure.ReturnStatement" flags="ng" index="2YuCjO" />
       <concept id="1945218857513714961" name="CppBaseLanguage.structure.ForeachStatement" flags="ng" index="2YwsGJ">
         <child id="1945218857513714971" name="embeddedStatement" index="2YwsG_" />
@@ -235,6 +244,16 @@
     <node concept="31LiCz" id="1DC38INDGCW" role="31LlDr">
       <property role="TrG5h" value="MyClass" />
       <node concept="2DNGrd" id="4h_5oU0S22x" role="31Leeq">
+        <node concept="1uUxK" id="1YUtmWHPGRu" role="2DNGrf">
+          <property role="TrG5h" value="MyClass" />
+          <node concept="1ux1I" id="1YUtmWHPGRy" role="1uUwe" />
+          <node concept="2Y_LOE" id="1YUtmWHPH7h" role="1uUxY" />
+        </node>
+        <node concept="1XY2CB" id="1YUtmWI2ofY" role="2DNGrf">
+          <property role="TrG5h" value="MyClass" />
+          <node concept="2Y_LOE" id="1YUtmWI2oge" role="1XY2Dr" />
+          <node concept="2qJFh3" id="1YUtmWI2ogj" role="3SE3Wx" />
+        </node>
         <node concept="31KRIa" id="4h_5oU0S$wx" role="2DNGrf">
           <node concept="1ux1y" id="4h_5oU0S$wy" role="31KRJH">
             <node concept="2YC0sE" id="4h_5oU0S$x2" role="1ux1z">
@@ -427,6 +446,27 @@
     <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="MyClass.cpp" />
     <property role="14CC_8" value="My Company" />
+    <node concept="Mraro" id="1YUtmWI08fX" role="31LlDr">
+      <node concept="1ux1I" id="1YUtmWI08fZ" role="Mrarh" />
+      <node concept="1ux1M" id="1YUtmWI08g1" role="Mrarg">
+        <node concept="31KRCQ" id="1YUtmWI08g2" role="1ux1N" />
+      </node>
+      <node concept="3UfwP1" id="1YUtmWI08g4" role="Mr9v7">
+        <node concept="2Gatwc" id="1YUtmWI08i0" role="3UfBpY">
+          <ref role="2Gaslz" node="1DC38INDGCW" resolve="MyClass" />
+        </node>
+      </node>
+    </node>
+    <node concept="LIJ7G" id="1YUtmWI2oir" role="31LlDr">
+      <node concept="1ux1M" id="1YUtmWI2oit" role="LIJ7E">
+        <node concept="31KRCQ" id="1YUtmWI2oiu" role="1ux1N" />
+      </node>
+      <node concept="3UfwP1" id="1YUtmWI2oiw" role="LIJ7D">
+        <node concept="2Gatwc" id="1YUtmWI2okx" role="3UfBpY">
+          <ref role="2Gaslz" node="1DC38INDGCW" resolve="MyClass" />
+        </node>
+      </node>
+    </node>
     <node concept="35eqBm" id="4h_5oU1_2xX" role="31LlDr">
       <property role="TrG5h" value="doIt" />
       <node concept="3UfwP1" id="4h_5oU1DJ23" role="3508ep">

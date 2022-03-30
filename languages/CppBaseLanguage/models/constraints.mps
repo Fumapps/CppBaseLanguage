@@ -118,8 +118,10 @@
       <concept id="4303308395523096213" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childConcept" flags="ng" index="2DD5aU" />
       <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
         <reference id="1147467295099" name="applicableProperty" index="EomxK" />
+        <child id="1147468630220" name="propertyGetter" index="EtsB7" />
         <child id="1212097481299" name="propertyValidator" index="QCWH9" />
       </concept>
+      <concept id="1147467790433" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyGetter" flags="in" index="Eqf_E" />
       <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
       <concept id="6738154313879680265" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childNode" flags="nn" index="2H4GUG" />
       <concept id="1212096972063" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator" flags="in" index="QB0g5" />
@@ -1511,6 +1513,74 @@
                 <node concept="2qgKlT" id="nv3fu7LrK0" role="2OqNvi">
                   <ref role="37wK5l" to="puek:nv3fu7Lsrp" resolve="getReferencableVariables" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1YUtmWHPIb6">
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
+    <ref role="1M2myG" to="yjel:1YUtmWHPHeR" resolve="ConstructorDefinition" />
+    <node concept="EnEH3" id="1YUtmWHPIb7" role="1MhHOB">
+      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
+      <node concept="Eqf_E" id="1YUtmWHPIbZ" role="EtsB7">
+        <node concept="3clFbS" id="1YUtmWHPIc0" role="2VODD2">
+          <node concept="3clFbF" id="1YUtmWHXHlw" role="3cqZAp">
+            <node concept="2OqwBi" id="1YUtmWHTp2s" role="3clFbG">
+              <node concept="1PxgMI" id="1YUtmWHToEu" role="2Oq$k0">
+                <node concept="chp4Y" id="1YUtmWHToES" role="3oSUPX">
+                  <ref role="cht4Q" to="yjel:27q4jmdWW$T" resolve="NotGenericParameterTypeReference" />
+                </node>
+                <node concept="2OqwBi" id="1YUtmWHTnAM" role="1m5AlR">
+                  <node concept="2OqwBi" id="1YUtmWHTn4A" role="2Oq$k0">
+                    <node concept="EsrRn" id="1YUtmWHXHvA" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="1YUtmWHTntV" role="2OqNvi">
+                      <ref role="3Tt5mk" to="yjel:1YUtmWHPIaC" resolve="surroundingType" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="1YUtmWHTnUC" role="2OqNvi">
+                    <ref role="3Tt5mk" to="yjel:5VT83U$LPp0" resolve="nonArrayType" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2qgKlT" id="1YUtmWHTpsd" role="2OqNvi">
+                <ref role="37wK5l" to="puek:oxQ9D1QiO$" resolve="getLogicalTypeName" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1YUtmWI2oDT">
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
+    <ref role="1M2myG" to="yjel:1YUtmWI08i3" resolve="DestructorDefinition" />
+    <node concept="EnEH3" id="1YUtmWI2oDU" role="1MhHOB">
+      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
+      <node concept="Eqf_E" id="1YUtmWI2oEM" role="EtsB7">
+        <node concept="3clFbS" id="1YUtmWI2oEN" role="2VODD2">
+          <node concept="3clFbF" id="1YUtmWI2oJs" role="3cqZAp">
+            <node concept="2OqwBi" id="1YUtmWI2oJu" role="3clFbG">
+              <node concept="1PxgMI" id="1YUtmWI2oJv" role="2Oq$k0">
+                <node concept="chp4Y" id="1YUtmWI2oJw" role="3oSUPX">
+                  <ref role="cht4Q" to="yjel:27q4jmdWW$T" resolve="NotGenericParameterTypeReference" />
+                </node>
+                <node concept="2OqwBi" id="1YUtmWI2oJx" role="1m5AlR">
+                  <node concept="2OqwBi" id="1YUtmWI2oJy" role="2Oq$k0">
+                    <node concept="EsrRn" id="1YUtmWI2oJz" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="1YUtmWI2oJ$" role="2OqNvi">
+                      <ref role="3Tt5mk" to="yjel:1YUtmWI08i6" resolve="surroundingType" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="1YUtmWI2oJ_" role="2OqNvi">
+                    <ref role="3Tt5mk" to="yjel:5VT83U$LPp0" resolve="nonArrayType" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2qgKlT" id="1YUtmWI2oJA" role="2OqNvi">
+                <ref role="37wK5l" to="puek:oxQ9D1QiO$" resolve="getLogicalTypeName" />
               </node>
             </node>
           </node>

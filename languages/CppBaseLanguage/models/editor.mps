@@ -21010,5 +21010,96 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="1YUtmWHPHpP">
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
+    <ref role="1XX52x" to="yjel:1YUtmWHPHeR" resolve="ConstructorDefinition" />
+    <node concept="3EZMnI" id="1YUtmWHPHpR" role="2wV5jI">
+      <node concept="3F1sOY" id="1YUtmWHPK$d" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:1YUtmWHPIaC" resolve="surroundingType" />
+      </node>
+      <node concept="3F0ifn" id="1YUtmWHPK$e" role="3EZMnx">
+        <property role="3F0ifm" value="::" />
+        <node concept="11L4FC" id="1YUtmWHPK$f" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="1YUtmWHPK$g" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="1YUtmWHPHpT" role="3EZMnx">
+        <ref role="34QXea" node="5oHFRyI_NHg" resolve="CreateModifierOnSpace" />
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="1YUtmWHPHpU" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <node concept="11LMrY" id="1YUtmWHPHpV" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11L4FC" id="1YUtmWHPHpW" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="1YUtmWHPHpX" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:1YUtmWHPHeY" resolve="formalParameterList" />
+      </node>
+      <node concept="3F0ifn" id="1YUtmWHPHpY" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <node concept="11L4FC" id="1YUtmWHPHpZ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="1YUtmWHPHq0" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="1YUtmWHPHqe" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:1YUtmWHPHeZ" resolve="body" />
+      </node>
+      <node concept="l2Vlx" id="1YUtmWHPHqf" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1YUtmWI08ic">
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
+    <ref role="1XX52x" to="yjel:1YUtmWI08i3" resolve="DestructorDefinition" />
+    <node concept="3EZMnI" id="1YUtmWI08ie" role="2wV5jI">
+      <node concept="3F1sOY" id="1YUtmWI08if" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:1YUtmWI08i6" resolve="surroundingType" />
+      </node>
+      <node concept="3F0ifn" id="1YUtmWI08ig" role="3EZMnx">
+        <property role="3F0ifm" value="::~" />
+        <node concept="11L4FC" id="1YUtmWI08ih" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="1YUtmWI08ii" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="1YUtmWI08ij" role="3EZMnx">
+        <ref role="34QXea" node="5oHFRyI_NHg" resolve="CreateModifierOnSpace" />
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="1YUtmWI08ik" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <node concept="11LMrY" id="1YUtmWI08il" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11L4FC" id="1YUtmWI08im" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1YUtmWI08io" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <node concept="11L4FC" id="1YUtmWI08ip" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="1YUtmWI08iq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="1YUtmWI08ir" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:1YUtmWI08i5" resolve="body" />
+      </node>
+      <node concept="l2Vlx" id="1YUtmWI08is" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

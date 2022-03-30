@@ -1333,7 +1333,7 @@
     <property role="EcuMT" value="7486903154347178672" />
     <property role="TrG5h" value="ConstructorDeclaration" />
     <property role="3GE5qa" value="Class / Struct.Constructors" />
-    <property role="R4oN_" value="Constructor definition" />
+    <property role="R4oN_" value="Constructor declaration" />
     <property role="34LRSv" value="ctor" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6vAOG1ABnEL" role="PzmwI">
@@ -14496,7 +14496,7 @@
     <property role="EcuMT" value="7372621391967353407" />
     <property role="TrG5h" value="DestructorDeclaration" />
     <property role="3GE5qa" value="Class / Struct.Constructors" />
-    <property role="R4oN_" value="Constructor definition" />
+    <property role="R4oN_" value="Destructor declaration" />
     <property role="34LRSv" value="dtor" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6pgO1wrEfD0" role="PzmwI">
@@ -15023,6 +15023,75 @@
     <property role="R4oN_" value="String View" />
     <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" node="2HIntxMH_qO" resolve="BuiltInClassType" />
+  </node>
+  <node concept="1TIwiD" id="1YUtmWHPHeR">
+    <property role="EcuMT" value="2286268881214821303" />
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
+    <property role="TrG5h" value="ConstructorDefinition" />
+    <property role="34LRSv" value="ctor definition" />
+    <property role="R4oN_" value="Constructor definition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="1YUtmWHPHeY" role="1TKVEi">
+      <property role="IQ2ns" value="2286268881214821310" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="formalParameterList" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6vAOG1ABcaI" resolve="FormalParameterList" />
+    </node>
+    <node concept="1TJgyj" id="1YUtmWHPHeZ" role="1TKVEi">
+      <property role="IQ2ns" value="2286268881214821311" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6vAOG1ABcaM" resolve="Block" />
+    </node>
+    <node concept="1TJgyj" id="1YUtmWHPIaC" role="1TKVEi">
+      <property role="IQ2ns" value="2286268881214825128" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="surroundingType" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
+    </node>
+    <node concept="PrWs8" id="1YUtmWHPHf8" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="1YUtmWHPHeT" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="1YUtmWHPHeU" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1YUtmWI08i3">
+    <property role="EcuMT" value="2286268881217553539" />
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
+    <property role="TrG5h" value="DestructorDefinition" />
+    <property role="34LRSv" value="dtor definition" />
+    <property role="R4oN_" value="Destructor definition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1YUtmWI08i5" role="1TKVEi">
+      <property role="IQ2ns" value="2286268881217553541" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6vAOG1ABcaM" resolve="Block" />
+    </node>
+    <node concept="1TJgyj" id="1YUtmWI08i6" role="1TKVEi">
+      <property role="IQ2ns" value="2286268881217553542" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="surroundingType" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
+    </node>
+    <node concept="PrWs8" id="1YUtmWI08i7" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="1YUtmWI08i8" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="1YUtmWI08i9" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+    </node>
   </node>
 </model>
 
