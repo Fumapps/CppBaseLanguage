@@ -47,6 +47,10 @@
       <concept id="3766354144462108595" name="CppBaseLanguage.structure.Override" flags="ng" index="2qJN2g" />
       <concept id="396685855640368748" name="CppBaseLanguage.structure.CppHeaderSourceFile" flags="ng" index="tnfB3" />
       <concept id="396685855641272617" name="CppBaseLanguage.structure.DefaultBlock" flags="ng" index="tqGU6" />
+      <concept id="4709753521497945443" name="CppBaseLanguage.structure.TestFixtureDefinition" flags="ng" index="2tQXaW">
+        <child id="4709753521497945445" name="body" index="2tQXaU" />
+        <child id="4709753521497945444" name="surroundingType" index="2tQXaV" />
+      </concept>
       <concept id="7769220957754731518" name="CppBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
       <concept id="1902784636718074433" name="CppBaseLanguage.structure.VisibilityScopeDeclaration" flags="ng" index="2DNGra">
         <child id="1902784636718074436" name="classMemberDeclaration" index="2DNGrf" />
@@ -83,6 +87,9 @@
         <child id="1945218857513714967" name="expression" index="2YwsGD" />
         <child id="1945218857513714964" name="identifier" index="2YwsGE" />
         <child id="1945218857513714962" name="type" index="2YwsGG" />
+      </concept>
+      <concept id="1945218857512918966" name="CppBaseLanguage.structure.ExpressionStatement" flags="ng" index="2Yz168">
+        <child id="1945218857512918967" name="abstractStatementExpression" index="2Yz169" />
       </concept>
       <concept id="1945218857512325908" name="CppBaseLanguage.structure.EmptyBlock" flags="ng" index="2Y_LOE" />
       <concept id="1945218857511602452" name="CppBaseLanguage.structure.LocalVariableDeclarationWithInitialization" flags="ng" index="2YC0sE">
@@ -184,6 +191,11 @@
       <concept id="6843536562191001275" name="CppBaseLanguage.structure.VariableReference" flags="ng" index="3UcWq5">
         <reference id="7769220957754731528" name="variableDeclaration" index="zF7P4" />
       </concept>
+      <concept id="6843536562191075794" name="CppBaseLanguage.structure.ArgumentsList" flags="ng" index="3UdiBG" />
+      <concept id="6843536562191075788" name="CppBaseLanguage.structure.FunctionCallExpression" flags="ng" index="3UdiBM">
+        <child id="6843536562191075791" name="argumentsList" index="3UdiBL" />
+        <child id="6843536562191075789" name="primaryExpression" index="3UdiBN" />
+      </concept>
       <concept id="6843536562190757247" name="CppBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
         <child id="7804400563165459583" name="typeModifier" index="o6Ny9" />
         <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
@@ -198,6 +210,7 @@
       <concept id="6843536562190726784" name="CppBaseLanguage.structure.UnaryDereferenceExpression" flags="ng" index="3UfTqY" />
       <concept id="6531566641162929002" name="CppBaseLanguage.structure.MemberReference" flags="ng" index="1VUwCF">
         <reference id="7783118190387115239" name="memberDeclaration" index="2aT8gA" />
+        <child id="4659752524404942793" name="parent" index="36M2fM" />
       </concept>
       <concept id="7372621391964415132" name="CppBaseLanguage.structure.UsingAlias" flags="ng" index="1Xbfi4">
         <child id="7372621391964415140" name="targetType" index="1XbfiW" />
@@ -1694,8 +1707,73 @@
             </node>
           </node>
           <node concept="1pH0Yj" id="nv3fu7Lq2q" role="3Sw9wT" />
+          <node concept="2qAK3s" id="45spXZsE_aM" role="3SE3Wx" />
         </node>
       </node>
+      <node concept="31LiCz" id="45spXZsE_ao" role="31LkaE">
+        <property role="TrG5h" value="TestUser" />
+        <node concept="31KRCM" id="45spXZsE_ap" role="31Leeq">
+          <property role="TrG5h" value="bar" />
+          <node concept="1ux1M" id="45spXZsE_aq" role="31KRCR">
+            <node concept="2Yz168" id="45spXZsFaK9" role="1ux1N">
+              <node concept="3UdiBM" id="45spXZsFaKi" role="2Yz169">
+                <node concept="1VUwCF" id="45spXZsFK2B" role="3UdiBN">
+                  <ref role="2aT8gA" node="nv3fu7Lq28" resolve="foo" />
+                  <node concept="1VUwCF" id="45spXZsFK2D" role="36M2fM">
+                    <ref role="2aT8gA" node="nv3fu7Lq1Y" resolve="TestClass" />
+                  </node>
+                </node>
+                <node concept="3UdiBG" id="45spXZsFaKm" role="3UdiBL" />
+              </node>
+            </node>
+            <node concept="2Yz168" id="45spXZsFK2S" role="1ux1N">
+              <node concept="3UdiBM" id="45spXZsFK32" role="2Yz169">
+                <node concept="1VUwCF" id="45spXZsFK3b" role="3UdiBN">
+                  <ref role="2aT8gA" node="45spXZsE_ap" resolve="bar" />
+                </node>
+                <node concept="3UdiBG" id="45spXZsFK36" role="3UdiBL" />
+              </node>
+            </node>
+          </node>
+          <node concept="1ux1I" id="45spXZsE_ar" role="1fIg$P" />
+          <node concept="1pH0Yj" id="45spXZsE_av" role="3Sw9wT" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LmIGC" id="45spXZsA8pL">
+    <property role="Lph3H" value="UseCaseGenerator" />
+    <property role="TrG5h" value="MyGoogleTest.cpp" />
+    <property role="14CC_8" value="My Company" />
+    <node concept="1ux1E" id="45spXZsA8pM" role="31LgYG">
+      <node concept="36RqS7" id="45spXZsA8q2" role="1ux1F">
+        <property role="36Rq9j" value="gtest/gtest.h" />
+        <ref role="3FMaf6" to="sta3:45spXZsA8pO" resolve="gtest.h" />
+      </node>
+    </node>
+    <node concept="31LiCz" id="45spXZsA8pW" role="31LlDr">
+      <property role="TrG5h" value="MyGoogleTest" />
+      <node concept="1XyjRH" id="45spXZsA8q0" role="3U7fkm">
+        <node concept="2Gatwc" id="45spXZsA8q6" role="1XyizX">
+          <ref role="2Gaslz" to="sta3:45spXZsA8pU" resolve="Test" />
+          <node concept="2Gatwc" id="45spXZsA8q7" role="2GaslH">
+            <ref role="2Gaslz" to="sta3:45spXZsA8pR" resolve="testing" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tQXaW" id="fEqzJWQBw_" role="31LlDr">
+      <property role="TrG5h" value="MyTest" />
+      <node concept="1pH0Yj" id="fEqzJWQBwA" role="3Sw9wT" />
+      <node concept="3UfwP1" id="fEqzJWQBwC" role="2tQXaV">
+        <node concept="2Gatwc" id="fEqzJWQBwV" role="3UfBpY">
+          <ref role="2Gaslz" node="45spXZsA8pW" resolve="MyGoogleTest" />
+        </node>
+      </node>
+      <node concept="1ux1M" id="fEqzJWQBwF" role="2tQXaU">
+        <node concept="31KRCQ" id="fEqzJWQBwG" role="1ux1N" />
+      </node>
+      <node concept="1ux1I" id="fEqzJWQBwI" role="1fIg$P" />
     </node>
   </node>
 </model>

@@ -191,7 +191,9 @@
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
       </concept>
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
-      <concept id="1138757581985" name="jetbrains.mps.lang.smodel.structure.Link_SetNewChildOperation" flags="nn" index="zfrQC" />
+      <concept id="1138757581985" name="jetbrains.mps.lang.smodel.structure.Link_SetNewChildOperation" flags="nn" index="zfrQC">
+        <reference id="1139880128956" name="concept" index="1A9B2P" />
+      </concept>
       <concept id="1173122760281" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorsOperation" flags="nn" index="z$bX8" />
       <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
         <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
@@ -2197,6 +2199,27 @@
       <node concept="3Tm6S6" id="nv3fu7KnuF" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="nv3fu7HRTf" role="1B3o_S" />
+  </node>
+  <node concept="13h7C7" id="fEqzJWQ6Ir">
+    <property role="3GE5qa" value="Class / Struct.Methods" />
+    <ref role="13h7C2" to="yjel:45spXZsxVlz" resolve="TestFixtureDefinition" />
+    <node concept="13hLZK" id="fEqzJWQ6Is" role="13h7CW">
+      <node concept="3clFbS" id="fEqzJWQ6It" role="2VODD2">
+        <node concept="3clFbF" id="fEqzJWQdoS" role="3cqZAp">
+          <node concept="2OqwBi" id="fEqzJWQe$0" role="3clFbG">
+            <node concept="2OqwBi" id="fEqzJWQd$j" role="2Oq$k0">
+              <node concept="13iPFW" id="fEqzJWQdoR" role="2Oq$k0" />
+              <node concept="3TrEf2" id="fEqzJWQdO2" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5oHFRyIFjt1" resolve="typeOrVoid" />
+              </node>
+            </node>
+            <node concept="zfrQC" id="fEqzJWQeH5" role="2OqNvi">
+              <ref role="1A9B2P" to="yjel:2HIntxMQ_9b" resolve="VoidType" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
