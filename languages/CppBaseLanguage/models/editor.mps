@@ -20244,7 +20244,7 @@
     <node concept="22hDWj" id="4h_5oU2NDG9" role="22hAXT" />
   </node>
   <node concept="24kQdi" id="6pgO1wrv2iv">
-    <property role="3GE5qa" value="Class / Struct.Alias" />
+    <property role="3GE5qa" value="Class / Struct.Using" />
     <ref role="1XX52x" to="yjel:6pgO1wrv2is" resolve="UsingAlias" />
     <node concept="3EZMnI" id="6pgO1wrv2iA" role="2wV5jI">
       <node concept="3F0ifn" id="6pgO1wrv2iK" role="3EZMnx">
@@ -21145,6 +21145,26 @@
       <node concept="3F1sOY" id="45spXZsxVun" role="3EZMnx">
         <ref role="1NtTu8" to="yjel:45spXZsxVl_" resolve="body" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7ElDcRuPj22">
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1XX52x" to="yjel:7ElDcRuPj1z" resolve="Const" />
+    <node concept="3F0ifn" id="7ElDcRuPj24" role="2wV5jI">
+      <property role="3F0ifm" value="const" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="PijjagymxB">
+    <property role="3GE5qa" value="Class / Struct.Using" />
+    <ref role="1XX52x" to="yjel:Pijjagymx8" resolve="UsingNamespace" />
+    <node concept="3EZMnI" id="PijjagymxD" role="2wV5jI">
+      <node concept="3F0ifn" id="PijjagymxK" role="3EZMnx">
+        <property role="3F0ifm" value="using namespace" />
+      </node>
+      <node concept="3F1sOY" id="PijjagymxQ" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:Pijjagymxb" resolve="namespace" />
+      </node>
+      <node concept="2iRfu4" id="PijjagymxG" role="2iSdaV" />
     </node>
   </node>
 </model>

@@ -47,11 +47,15 @@
       <concept id="3766354144462108595" name="CppBaseLanguage.structure.Override" flags="ng" index="2qJN2g" />
       <concept id="396685855640368748" name="CppBaseLanguage.structure.CppHeaderSourceFile" flags="ng" index="tnfB3" />
       <concept id="396685855641272617" name="CppBaseLanguage.structure.DefaultBlock" flags="ng" index="tqGU6" />
+      <concept id="959914550151964744" name="CppBaseLanguage.structure.UsingNamespace" flags="ng" index="2tQMlU">
+        <child id="959914550151964747" name="namespace" index="2tQMlT" />
+      </concept>
       <concept id="4709753521497945443" name="CppBaseLanguage.structure.TestFixtureDefinition" flags="ng" index="2tQXaW">
         <child id="4709753521497945445" name="body" index="2tQXaU" />
         <child id="4709753521497945444" name="surroundingType" index="2tQXaV" />
       </concept>
       <concept id="7769220957754731518" name="CppBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
+      <concept id="8833147448270860387" name="CppBaseLanguage.structure.Const" flags="ng" index="2$g9iI" />
       <concept id="1902784636718074433" name="CppBaseLanguage.structure.VisibilityScopeDeclaration" flags="ng" index="2DNGra">
         <child id="1902784636718074436" name="classMemberDeclaration" index="2DNGrf" />
       </concept>
@@ -407,6 +411,19 @@
         <node concept="1ux1I" id="4h_5oU1sLvh" role="1fIg$P" />
         <node concept="1pH0Yj" id="4h_5oU1sLwr" role="3Sw9wT" />
         <node concept="2qJN2g" id="6pgO1wrIm0x" role="3SE3Wx" />
+      </node>
+      <node concept="pNo78" id="7ElDcRuRYaw" role="31Leeq">
+        <property role="pKhvV" value="const as suffix" />
+      </node>
+      <node concept="31KRCM" id="7ElDcRuRY7$" role="31Leeq">
+        <property role="TrG5h" value="doIt4" />
+        <node concept="1ux1M" id="7ElDcRuRY7_" role="31KRCR">
+          <node concept="31KRCQ" id="7ElDcRuRY7A" role="1ux1N" />
+        </node>
+        <node concept="1ux1I" id="7ElDcRuRY7B" role="1fIg$P" />
+        <node concept="1pH0Yj" id="7ElDcRuRY7C" role="3Sw9wT" />
+        <node concept="2qJN2g" id="7ElDcRuRY7D" role="3SE3Wx" />
+        <node concept="2$g9iI" id="7ElDcRuRYc0" role="3SE3Wx" />
       </node>
       <node concept="35j1YG" id="4h_5oU1rE9L" role="31Leeq" />
       <node concept="31KRCM" id="4h_5oU1vSt7" role="31Leeq">
@@ -1740,6 +1757,44 @@
         </node>
       </node>
     </node>
+    <node concept="31LijL" id="7ElDcRuRYcu" role="31LlDr">
+      <property role="TrG5h" value="Other" />
+      <node concept="31LiCz" id="7ElDcRuRYcT" role="31LkaE">
+        <property role="TrG5h" value="TestUser" />
+        <node concept="31KRCM" id="7ElDcRuRYcU" role="31Leeq">
+          <property role="TrG5h" value="bar" />
+          <node concept="1ux1M" id="7ElDcRuRYcV" role="31KRCR">
+            <node concept="2Yz168" id="7ElDcRuRYcW" role="1ux1N">
+              <node concept="3UdiBM" id="7ElDcRuRYcX" role="2Yz169">
+                <node concept="1VUwCF" id="7ElDcRuRYcY" role="3UdiBN">
+                  <ref role="2aT8gA" node="nv3fu7Lq28" resolve="foo" />
+                  <node concept="1VUwCF" id="7ElDcRuRYcZ" role="36M2fM">
+                    <ref role="2aT8gA" node="nv3fu7Lq1Y" resolve="TestClass" />
+                  </node>
+                </node>
+                <node concept="3UdiBG" id="7ElDcRuRYd0" role="3UdiBL" />
+              </node>
+            </node>
+            <node concept="2Yz168" id="PijjagGzGY" role="1ux1N">
+              <node concept="3UdiBM" id="PijjagGzHc" role="2Yz169">
+                <node concept="3UdiBG" id="PijjagGzHg" role="3UdiBL" />
+                <node concept="1VUwCF" id="PijjagHFPt" role="3UdiBN">
+                  <ref role="2aT8gA" node="nv3fu7Lq28" resolve="foo" />
+                  <node concept="1VUwCF" id="PijjagHFPv" role="36M2fM">
+                    <ref role="2aT8gA" node="nv3fu7Lq1Y" resolve="TestClass" />
+                    <node concept="1VUwCF" id="PijjagHFPw" role="36M2fM">
+                      <ref role="2aT8gA" node="nv3fu7Lq1X" resolve="Test" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1ux1I" id="7ElDcRuRYd5" role="1fIg$P" />
+          <node concept="1pH0Yj" id="7ElDcRuRYd6" role="3Sw9wT" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="LmIGC" id="45spXZsA8pL">
     <property role="Lph3H" value="UseCaseGenerator" />
@@ -1749,6 +1804,14 @@
       <node concept="36RqS7" id="45spXZsA8q2" role="1ux1F">
         <property role="36Rq9j" value="gtest/gtest.h" />
         <ref role="3FMaf6" to="sta3:45spXZsA8pO" resolve="gtest.h" />
+      </node>
+    </node>
+    <node concept="31LijL" id="PijjagADNv" role="31LlDr">
+      <property role="TrG5h" value="TestUtils" />
+    </node>
+    <node concept="2tQMlU" id="PijjagCUut" role="31LlDr">
+      <node concept="2Gatwc" id="PijjagEd72" role="2tQMlT">
+        <ref role="2Gaslz" node="PijjagADNv" resolve="TestUtils" />
       </node>
     </node>
     <node concept="31LiCz" id="45spXZsA8pW" role="31LlDr">

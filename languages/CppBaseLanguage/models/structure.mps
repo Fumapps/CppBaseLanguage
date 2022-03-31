@@ -14342,7 +14342,7 @@
   </node>
   <node concept="1TIwiD" id="6pgO1wrv2is">
     <property role="EcuMT" value="7372621391964415132" />
-    <property role="3GE5qa" value="Class / Struct.Alias" />
+    <property role="3GE5qa" value="Class / Struct.Using" />
     <property role="TrG5h" value="UsingAlias" />
     <property role="34LRSv" value="using" />
     <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
@@ -15137,6 +15137,36 @@
     </node>
     <node concept="PrWs8" id="45spXZsxVlV" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ElDcRuPj1z">
+    <property role="EcuMT" value="8833147448270860387" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Const" />
+    <property role="34LRSv" value="const" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="7ElDcRuPj1$" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
+    </node>
+    <node concept="PrWs8" id="7ElDcRuPj1_" role="PzmwI">
+      <ref role="PrY4T" node="6pgO1wrJD5t" resolve="ISuffixModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="Pijjagymx8">
+    <property role="EcuMT" value="959914550151964744" />
+    <property role="3GE5qa" value="Class / Struct.Using" />
+    <property role="TrG5h" value="UsingNamespace" />
+    <property role="34LRSv" value="using namespace" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="PijjagADOC" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="Pijjagymxb" role="1TKVEi">
+      <property role="IQ2ns" value="959914550151964747" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="namespace" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="27q4jmdWW$T" resolve="NotGenericParameterTypeReference" />
     </node>
   </node>
 </model>
