@@ -2862,6 +2862,9 @@
     <node concept="PrWs8" id="5oHFRyIIxbv" role="PzmwI">
       <ref role="PrY4T" node="5oHFRyIxp1o" resolve="IHaveModifiers" />
     </node>
+    <node concept="PrWs8" id="wXnxymIr9r" role="PzmwI">
+      <ref role="PrY4T" node="wXnxymIqIW" resolve="IHasApiModifier" />
+    </node>
     <node concept="PrWs8" id="6tzy5CC4eaG" role="PzmwI">
       <ref role="PrY4T" node="2wJFJXyG7B" resolve="IInheritedTypeListAndGenericTypeList" />
     </node>
@@ -3010,6 +3013,9 @@
     </node>
     <node concept="PrWs8" id="5oHFRyIK4xd" role="PzmwI">
       <ref role="PrY4T" node="5oHFRyIxp1o" resolve="IHaveModifiers" />
+    </node>
+    <node concept="PrWs8" id="wXnxymIqJ1" role="PzmwI">
+      <ref role="PrY4T" node="wXnxymIqIW" resolve="IHasApiModifier" />
     </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_Azc2">
@@ -14675,16 +14681,10 @@
   <node concept="1TIwiD" id="oxQ9D2qlbB">
     <property role="EcuMT" value="441872395509781223" />
     <property role="3GE5qa" value="Modifiers" />
-    <property role="TrG5h" value="ApiModifier" />
+    <property role="TrG5h" value="ClassApiModifier" />
     <property role="34LRSv" value="API Modifier" />
     <property role="R4oN_" value="Adds an export/import modifier to the class" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="oxQ9D2qlbC" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIRHr3" resolve="IClassModifier" />
-    </node>
-    <node concept="PrWs8" id="oxQ9D2uPMj" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
-    </node>
     <node concept="PrWs8" id="oxQ9D2qlbE" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -15167,6 +15167,17 @@
       <property role="20kJfa" value="namespace" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="27q4jmdWW$T" resolve="NotGenericParameterTypeReference" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="wXnxymIqIW">
+    <property role="EcuMT" value="593734185583750076" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="IHasApiModifier" />
+    <node concept="1TJgyj" id="wXnxymIqIZ" role="1TKVEi">
+      <property role="IQ2ns" value="593734185583750079" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="apiModifier" />
+      <ref role="20lvS9" node="oxQ9D2qlbB" resolve="ClassApiModifier" />
     </node>
   </node>
 </model>

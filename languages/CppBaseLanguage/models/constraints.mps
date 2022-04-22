@@ -1480,7 +1480,7 @@
   </node>
   <node concept="1M2fIO" id="oxQ9D2qlbZ">
     <property role="3GE5qa" value="Modifiers" />
-    <ref role="1M2myG" to="yjel:oxQ9D2qlbB" resolve="ApiModifier" />
+    <ref role="1M2myG" to="yjel:oxQ9D2qlbB" resolve="ClassApiModifier" />
     <node concept="EnEH3" id="oxQ9D2qlc0" role="1MhHOB">
       <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
       <node concept="QB0g5" id="oxQ9D2qlgg" role="QCWH9">

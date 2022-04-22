@@ -54,6 +54,9 @@
         <child id="4709753521497945445" name="body" index="2tQXaU" />
         <child id="4709753521497945444" name="surroundingType" index="2tQXaV" />
       </concept>
+      <concept id="593734185583750076" name="CppBaseLanguage.structure.IHasApiModifier" flags="ng" index="2uxfm$">
+        <child id="593734185583750079" name="apiModifier" index="2uxfmB" />
+      </concept>
       <concept id="7769220957754731518" name="CppBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
       <concept id="8833147448270860387" name="CppBaseLanguage.structure.Const" flags="ng" index="2$g9iI" />
       <concept id="1902784636718074433" name="CppBaseLanguage.structure.VisibilityScopeDeclaration" flags="ng" index="2DNGra">
@@ -132,7 +135,7 @@
         <child id="7232527154588292748" name="includeDirectiveList" index="31LgYG" />
         <child id="7232527154588304251" name="namespaceMemberDeclaration" index="31LlDr" />
       </concept>
-      <concept id="441872395509781223" name="CppBaseLanguage.structure.ApiModifier" flags="ng" index="14i8DX" />
+      <concept id="441872395509781223" name="CppBaseLanguage.structure.ClassApiModifier" flags="ng" index="14i8DX" />
       <concept id="4928369069019626636" name="CppBaseLanguage.structure.LocalVariableDeclarationWithoutInitialization" flags="ng" index="34yI$2">
         <child id="4928369069019626638" name="identifier" index="34yI$0" />
       </concept>
@@ -243,7 +246,7 @@
     </node>
     <node concept="31LiCz" id="5omPgnN1frT" role="31LlDr">
       <property role="TrG5h" value="PrefixModifier" />
-      <node concept="14i8DX" id="5omPgnN1ftn" role="3SE3Wx">
+      <node concept="14i8DX" id="1AVLl5Ol$ec" role="2uxfmB">
         <property role="TrG5h" value="DLL_EXPORT" />
       </node>
     </node>
@@ -254,7 +257,7 @@
     <node concept="31LiCz" id="5omPgnN1fxT" role="31LlDr">
       <property role="TrG5h" value="PrefixAndSuffixModifier" />
       <node concept="2qAKW$" id="5omPgnN1fzr" role="3SE3Wx" />
-      <node concept="14i8DX" id="5omPgnN1fzx" role="3SE3Wx">
+      <node concept="14i8DX" id="1AVLl5Ol$ea" role="2uxfmB">
         <property role="TrG5h" value="DLL_EXPORT" />
       </node>
     </node>
@@ -953,7 +956,7 @@
           <node concept="2qJFh3" id="6pgO1ws3fSZ" role="3SE3Wx" />
         </node>
         <node concept="2qAKW$" id="6pgO1ws5tcp" role="3SE3Wx" />
-        <node concept="14i8DX" id="oxQ9D2qvkx" role="3SE3Wx">
+        <node concept="14i8DX" id="1AVLl5Ol$e5" role="2uxfmB">
           <property role="TrG5h" value="DLL_API" />
         </node>
       </node>
@@ -1072,9 +1075,6 @@
       <node concept="1XMByx" id="m1jUWp0GME" role="31LkaE" />
       <node concept="31LiCz" id="m1jUWoURVW" role="31LkaE">
         <property role="TrG5h" value="IMyFeatureUseCaseFactory" />
-        <node concept="14i8DX" id="m1jUWoURWa" role="3SE3Wx">
-          <property role="TrG5h" value="LIBRARY_API" />
-        </node>
         <node concept="2DNGrd" id="m1jUWoURWd" role="31Leeq">
           <node concept="1XY2CB" id="m1jUWoURWh" role="2DNGrf">
             <property role="TrG5h" value="ICompareUseCaseFactory" />
@@ -1107,6 +1107,9 @@
               </node>
             </node>
           </node>
+        </node>
+        <node concept="14i8DX" id="1AVLl5Ol$e7" role="2uxfmB">
+          <property role="TrG5h" value="LIBRARY_API" />
         </node>
       </node>
     </node>

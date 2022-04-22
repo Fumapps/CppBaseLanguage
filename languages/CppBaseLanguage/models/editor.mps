@@ -1182,6 +1182,24 @@
         <property role="3F0ifm" value="class" />
         <ref role="34QXea" node="5oHFRyI_NHg" resolve="CreateModifierOnSpace" />
       </node>
+      <node concept="3F1sOY" id="wXnxymIoAX" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:wXnxymIqIZ" resolve="apiModifier" />
+        <node concept="pkWqt" id="wXnxymIoF4" role="pqm2j">
+          <node concept="3clFbS" id="wXnxymIoF5" role="2VODD2">
+            <node concept="3clFbF" id="wXnxymIoFs" role="3cqZAp">
+              <node concept="2OqwBi" id="wXnxymIp19" role="3clFbG">
+                <node concept="2OqwBi" id="1AVLl5Ol$V_" role="2Oq$k0">
+                  <node concept="pncrf" id="wXnxymIoFr" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="1AVLl5Ol_Bw" role="2OqNvi">
+                    <ref role="3Tt5mk" to="yjel:wXnxymIqIZ" resolve="apiModifier" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="wXnxymIpwy" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3F0A7n" id="6vAOG1ACsPQ" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         <node concept="A1WHu" id="3grCvve5z3N" role="3vIgyS">
@@ -1396,6 +1414,24 @@
       <node concept="3F0ifn" id="6tzy5CC4eHZ" role="3EZMnx">
         <property role="3F0ifm" value="struct" />
         <ref role="34QXea" node="5oHFRyI_NHg" resolve="CreateModifierOnSpace" />
+      </node>
+      <node concept="3F1sOY" id="wXnxymIq8R" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:wXnxymIqIZ" resolve="apiModifier" />
+        <node concept="pkWqt" id="wXnxymIq8S" role="pqm2j">
+          <node concept="3clFbS" id="wXnxymIq8T" role="2VODD2">
+            <node concept="3clFbF" id="wXnxymIq8U" role="3cqZAp">
+              <node concept="2OqwBi" id="wXnxymIq8V" role="3clFbG">
+                <node concept="3x8VRR" id="wXnxymIq8X" role="2OqNvi" />
+                <node concept="2OqwBi" id="1AVLl5OlA1D" role="2Oq$k0">
+                  <node concept="pncrf" id="1AVLl5OlA1E" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="1AVLl5OlA1F" role="2OqNvi">
+                    <ref role="3Tt5mk" to="yjel:wXnxymIqIZ" resolve="apiModifier" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F0A7n" id="6tzy5CC4eI0" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -20511,7 +20547,7 @@
   </node>
   <node concept="24kQdi" id="oxQ9D2qlbH">
     <property role="3GE5qa" value="Modifiers" />
-    <ref role="1XX52x" to="yjel:oxQ9D2qlbB" resolve="ApiModifier" />
+    <ref role="1XX52x" to="yjel:oxQ9D2qlbB" resolve="ClassApiModifier" />
     <node concept="3EZMnI" id="oxQ9D2qlbJ" role="2wV5jI">
       <node concept="3F0A7n" id="oxQ9D2qlbQ" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
