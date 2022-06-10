@@ -15180,5 +15180,13 @@
       <ref role="20lvS9" node="oxQ9D2qlbB" resolve="ClassApiModifier" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5ZiUmPXqPzI">
+    <property role="EcuMT" value="6904837835177285870" />
+    <property role="TrG5h" value="UnaryAddressExpression" />
+    <property role="R4oN_" value="address reference" />
+    <property role="3GE5qa" value="Expressions.Unary" />
+    <property role="34LRSv" value="&amp;" />
+    <ref role="1TJDcQ" node="5VT83U$LFpz" resolve="UnaryExpressionWithOperator" />
+  </node>
 </model>
 
