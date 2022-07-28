@@ -1,0 +1,6 @@
+CppBaseLanguage
+Copyright 2022-2022 Fumapps
+
+This product includes software from https://github.com/vaclav/mpscs (Apache 2.0)
+ * Copyright 2019 Tomáš Eliáš, Roman Firment, Jakub Saksa, Martin Wirth, Dalibor Zeman; all rights reserved.
+ * Main modifications: adapted CsBaseLanguage concepts for the CppBaseLanguage (files: CppBaseLanguage.actions.mps, CppBaseLanguage.intentions.mps, CppBaseLanguage.textGen.mps, behavior.mps, constraints.mps, editor.mps, structure.mps, typesystem.mps)
