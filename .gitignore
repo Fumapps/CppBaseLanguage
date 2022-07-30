@@ -1,6 +1,10 @@
 workspace.xml
 junitvmwatcher*.properties
 build.properties
+build/
+.idea/
+.gradle/
+.mps-caches/
 
 # generated java classes and java source files
 #   manually add any custom artifacts that can't be generated from the models

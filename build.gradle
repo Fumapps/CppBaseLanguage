@@ -1,0 +1,36 @@
+ext.mpsVersion = "2021.2.5"
+ext.mpsPlugins = [ "LangDoc[2021.2]": 12325]
+
+apply from: 'gradle/download-mps.gradle'
+apply from: 'gradle/run-mps-ant.gradle'
+
+task prepareMps {
+    group 'mps'
+    dependsOn buildOsSpecificBundle
+}
+
+task mpsBuild {
+    group 'mps'
+    dependsOn 'mpsAntGenerate', 'mpsAntBuild'
+}
+
+task mpsClean {
+    group 'mps'
+    dependsOn 'mpsAntCleanSources'
+}
+
+task downloadGradleScripts {
+    group 'mps'
+
+    doLast {
+        ["download-mps.gradle", "run-mps-ant.gradle"].each {
+            def gradleScriptFile = file("$projectDir/gradle/$it")
+            gradleScriptFile.parentFile.mkdirs()
+            def url = new URL("https://github.com/vimotest/mps-gradle-scripts/raw/main/gradle/$it")
+            url.withInputStream {
+                inputStream -> gradleScriptFile.withOutputStream { outputStream -> outputStream << inputStream }
+            }
+            gradleScriptFile.text = "/* This file is downloaded from $url */\n\n${gradleScriptFile.text}"
+        }
+    }
+}
