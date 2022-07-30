@@ -19,6 +19,11 @@ task mpsClean {
     dependsOn 'mpsAntCleanSources'
 }
 
+task mpsTest {
+    group 'mps'
+    dependsOn 'mpsAntCheck', 'parseTestReportAfterAntCheck'
+}
+
 task openProjectInMps {
     group 'mps'
     dependsOn openProjectInMpsForCurrentOs
