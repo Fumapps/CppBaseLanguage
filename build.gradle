@@ -19,6 +19,16 @@ task mpsClean {
     dependsOn 'mpsAntCleanSources'
 }
 
+task openProjectInMps {
+    group 'mps'
+    dependsOn openProjectInMpsForCurrentOs
+}
+
+task buildAndOpenProjectInMps {
+    group 'mps'
+    dependsOn mpsBuild, openProjectInMps
+}
+
 task downloadGradleScripts {
     group 'mps'
 

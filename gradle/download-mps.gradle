@@ -37,7 +37,8 @@ if (isMac()) {
 task downloadMpsAndPluginsFromJetbrains {
     group 'mps-download'
     onlyIf {
-        !mpsZipFile.exists() || mpsPlugins.any { !file("$pluginsDirectory/mps-${getEffectivePluginName(it.key)}.zip").exists() }
+        !mpsPlugins.isEmpty() &&
+        (!mpsZipFile.exists() || mpsPlugins.any { !file("$pluginsDirectory/mps-${getEffectivePluginName(it.key)}.zip").exists() })
     }
     doLast {
         if (!mpsZipFile.exists()) {
