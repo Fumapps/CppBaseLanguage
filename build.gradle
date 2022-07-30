@@ -1,5 +1,5 @@
 ext.mpsVersion = "2021.2.5"
-ext.mpsPlugins = [ "LangDoc[2021.2]": 12325]
+ext.mpsPlugins = [ ]
 
 apply from: 'gradle/download-mps.gradle'
 apply from: 'gradle/run-mps-ant.gradle'

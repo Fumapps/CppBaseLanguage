@@ -7,7 +7,6 @@
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
-    <import index="aqoz" ref="r:66fba810-b285-4d4c-a12e-ace82eebf017(jetbrains.mps.LangDoc.build)" />
   </imports>
   <registry>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
@@ -165,12 +164,6 @@
         <ref role="398BVh" node="4h_5oU0U7hv" resolve="mps_home" />
       </node>
     </node>
-    <node concept="2sgV4H" id="4h_5oU0U7mm" role="1l3spa">
-      <ref role="1l3spb" to="aqoz:5ZQFUMN3sI6" resolve="LangDoc" />
-      <node concept="398BVA" id="5UBqzFKJi3_" role="2JcizS">
-        <ref role="398BVh" node="5UBqzFKJi3j" resolve="dependencies_home" />
-      </node>
-    </node>
     <node concept="1l3spV" id="4h_5oU0U7i3" role="1l3spN">
       <node concept="m$_wl" id="4h_5oU0U7qo" role="39821P">
         <ref role="m_rDy" node="4h_5oU0U7hQ" resolve="CppBaseLanguage" />
@@ -208,9 +201,6 @@
       </node>
       <node concept="m$_yC" id="4h_5oU0U7mA" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
-      </node>
-      <node concept="m$_yC" id="4h_5oU0U7mD" role="m$_yJ">
-        <ref role="m$_y1" to="aqoz:5ZQFUMN3sIt" resolve="jetbrains.mps.LangDoc" />
       </node>
       <node concept="3_J27D" id="4h_5oU0U7hX" role="m_cZH">
         <node concept="3Mxwew" id="4h_5oU0U7hY" role="3MwsjC">
@@ -373,14 +363,6 @@
             <node concept="3qWCbU" id="4h_5oU0U7iz" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
-          </node>
-        </node>
-        <node concept="3bR9La" id="4h_5oU0U7rc" role="3bR37C">
-          <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
-        </node>
-        <node concept="1SiIV0" id="4h_5oU0U7sn" role="3bR37C">
-          <node concept="3bR9La" id="4h_5oU0U7so" role="1SiIV1">
-            <ref role="3bR37D" to="aqoz:o8CPGw5dHB" resolve="jetbrains.mps.LangDoc.build" />
           </node>
         </node>
         <node concept="1SiIV0" id="4h_5oU0U7sp" role="3bR37C">
