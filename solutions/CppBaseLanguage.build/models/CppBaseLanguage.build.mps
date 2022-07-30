@@ -31,7 +31,9 @@
       <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
       </concept>
-      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT" />
+      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
+        <child id="7389400916848144618" name="defaultPath" index="398pKh" />
+      </concept>
       <concept id="7389400916848153117" name="jetbrains.mps.build.structure.BuildSourceMacroRelativePath" flags="ng" index="398BVA">
         <reference id="7389400916848153130" name="macro" index="398BVh" />
       </concept>
@@ -128,6 +130,31 @@
     <node concept="3b7kt6" id="4h_5oU0U7hu" role="10PD9s" />
     <node concept="398rNT" id="4h_5oU0U7hv" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
+      <node concept="55IIr" id="5UBqzFKJi30" role="398pKh">
+        <node concept="2Ry0Ak" id="5UBqzFKJi35" role="iGT6I">
+          <property role="2Ry0Am" value="build" />
+          <node concept="2Ry0Ak" id="5UBqzFKJi3a" role="2Ry0An">
+            <property role="2Ry0Am" value="mps-bundle" />
+            <node concept="2Ry0Ak" id="5UBqzFKJi3f" role="2Ry0An">
+              <property role="2Ry0Am" value="mps" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="398rNT" id="5UBqzFKJi3j" role="1l3spd">
+      <property role="TrG5h" value="dependencies_home" />
+      <node concept="55IIr" id="5UBqzFKJi3k" role="398pKh">
+        <node concept="2Ry0Ak" id="5UBqzFKJi3l" role="iGT6I">
+          <property role="2Ry0Am" value="build" />
+          <node concept="2Ry0Ak" id="5UBqzFKJi3m" role="2Ry0An">
+            <property role="2Ry0Am" value="mps-bundle" />
+            <node concept="2Ry0Ak" id="5UBqzFKJi3z" role="2Ry0An">
+              <property role="2Ry0Am" value="dependencies" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="398rNT" id="4h_5oU0U7hy" role="1l3spd">
       <property role="TrG5h" value="project_home" />
@@ -140,11 +167,8 @@
     </node>
     <node concept="2sgV4H" id="4h_5oU0U7mm" role="1l3spa">
       <ref role="1l3spb" to="aqoz:5ZQFUMN3sI6" resolve="LangDoc" />
-      <node concept="398BVA" id="4h_5oU0U7mr" role="2JcizS">
-        <ref role="398BVh" node="4h_5oU0U7hv" resolve="mps_home" />
-        <node concept="2Ry0Ak" id="4h_5oU0U7mu" role="iGT6I">
-          <property role="2Ry0Am" value="plugins" />
-        </node>
+      <node concept="398BVA" id="5UBqzFKJi3_" role="2JcizS">
+        <ref role="398BVh" node="5UBqzFKJi3j" resolve="dependencies_home" />
       </node>
     </node>
     <node concept="1l3spV" id="4h_5oU0U7i3" role="1l3spN">
@@ -353,9 +377,6 @@
         </node>
         <node concept="3bR9La" id="4h_5oU0U7rc" role="3bR37C">
           <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
-        </node>
-        <node concept="3bR9La" id="4h_5oU0U7rh" role="3bR37C">
-          <ref role="3bR37D" to="aqoz:o8CPGw5dHB" resolve="jetbrains.mps.LangDoc.build" />
         </node>
         <node concept="1SiIV0" id="4h_5oU0U7sn" role="3bR37C">
           <node concept="3bR9La" id="4h_5oU0U7so" role="1SiIV1">
