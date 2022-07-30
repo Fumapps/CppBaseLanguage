@@ -37,8 +37,7 @@ if (isMac()) {
 task downloadMpsAndPluginsFromJetbrains {
     group 'mps-download'
     onlyIf {
-        !mpsPlugins.isEmpty() &&
-        (!mpsZipFile.exists() || mpsPlugins.any { !file("$pluginsDirectory/mps-${getEffectivePluginName(it.key)}.zip").exists() })
+        !mpsZipFile.exists() || mpsPlugins.any { !file("$pluginsDirectory/mps-${getEffectivePluginName(it.key)}.zip").exists() }
     }
     doLast {
         if (!mpsZipFile.exists()) {
@@ -48,25 +47,31 @@ task downloadMpsAndPluginsFromJetbrains {
             new URL(mpsDownloadLink).withInputStream { downloadInputStream -> mpsZipFile.withOutputStream { it << downloadInputStream } }
         }
 
-        def mpsPluginDependencies = mpsPlugins.collectMany {
-            def pluginName = getEffectivePluginName(it.key)
-            def pluginId = it.value
-            def pluginVersion = getEffectivePluginVersion(it.key, mpsVersion)
-            collectDependencies(pluginName, pluginId, pluginVersion).entrySet()
+        if (!mpsPlugins.isEmpty()) {
+            downloadPlugins(pluginsDirectory)
         }
-        mpsPlugins.putAll(mpsPluginDependencies)
+    }
+}
 
-        mpsPlugins.each {
-            def pluginName = getEffectivePluginName(it.key)
-            def pluginId = it.value
-            def pluginVersion = getEffectivePluginVersion(it.key, mpsVersion)
-            def pluginZipFile = file("$pluginsDirectory/mps-${pluginName}.zip")
-            if (!pluginZipFile.exists()) {
-                pluginZipFile.parentFile.mkdirs()
-                def pluginDownloadLink = obtainDownloadLinkForPlugin(pluginName, pluginId, pluginVersion)
-                println("downloading $pluginDownloadLink ... ($pluginName)")
-                new URL(pluginDownloadLink).withInputStream { downloadInputStream -> pluginZipFile.withOutputStream { it << downloadInputStream } }
-            }
+private def downloadPlugins(def pluginsDirectory) {
+    def mpsPluginDependencies = mpsPlugins.collectMany {
+        def pluginName = getEffectivePluginName(it.key)
+        def pluginId = it.value
+        def pluginVersion = getEffectivePluginVersion(it.key, mpsVersion)
+        collectDependencies(pluginName, pluginId, pluginVersion).entrySet()
+    }
+    mpsPlugins.putAll(mpsPluginDependencies)
+
+    mpsPlugins.each {
+        def pluginName = getEffectivePluginName(it.key)
+        def pluginId = it.value
+        def pluginVersion = getEffectivePluginVersion(it.key, mpsVersion)
+        def pluginZipFile = file("$pluginsDirectory/mps-${pluginName}.zip")
+        if (!pluginZipFile.exists()) {
+            pluginZipFile.parentFile.mkdirs()
+            def pluginDownloadLink = obtainDownloadLinkForPlugin(pluginName, pluginId, pluginVersion)
+            println("downloading $pluginDownloadLink ... ($pluginName)")
+            new URL(pluginDownloadLink).withInputStream { downloadInputStream -> pluginZipFile.withOutputStream { it << downloadInputStream } }
         }
     }
 }
