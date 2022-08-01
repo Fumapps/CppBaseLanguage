@@ -1,4 +1,4 @@
-/* This file is downloaded from https://github.com/vimotest/mps-gradle-scripts/raw/main/.github/workflows/github-actions-release.yaml */
+### This file is downloaded from https://github.com/vimotest/mps-gradle-scripts/raw/main/.github/workflows/github-actions-release.yaml
 
 name: Release Build
 

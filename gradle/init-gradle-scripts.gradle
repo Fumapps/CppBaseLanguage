@@ -42,7 +42,7 @@ task downloadGithubActionsScripts {
             url.withInputStream {
                 inputStream -> actionsFile.withOutputStream { outputStream -> outputStream << inputStream }
             }
-            actionsFile.text = "/* This file is downloaded from $url */\n\n${actionsFile.text}"
+            actionsFile.text = "### This file is downloaded from $url\n\n${actionsFile.text}"
             actionsFile.text = actionsFile.text
                     .replaceAll("PROJECT_NAME: \"dummy-language\"", "PROJECT_NAME: \"$project.name\"")
                     .replaceAll("LANGUAGE_NAME: \"MyDummyLanguage\"", "LANGUAGE_NAME: \"$languageNameForBuild\"")
