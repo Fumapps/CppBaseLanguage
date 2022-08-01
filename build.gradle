@@ -1,12 +1,12 @@
 ext.mpsVersion = "2021.2.5"
 ext.mpsPlugins = [ ]
+ext.languageName = "CppBaseLanguage"
 
-apply from: 'gradle/download-mps.gradle'
-apply from: 'gradle/run-mps-ant.gradle'
+apply from: 'gradle/init-gradle-scripts.gradle'
 
 task prepareMps {
     group 'mps'
-    dependsOn buildOsSpecificBundle
+    dependsOn 'buildOsSpecificBundle'
 }
 
 task mpsBuild {
@@ -26,26 +26,10 @@ task mpsTest {
 
 task openProjectInMps {
     group 'mps'
-    dependsOn openProjectInMpsForCurrentOs
+    dependsOn 'openProjectInMpsForCurrentOs'
 }
 
 task buildAndOpenProjectInMps {
     group 'mps'
     dependsOn mpsBuild, openProjectInMps
-}
-
-task downloadGradleScripts {
-    group 'mps'
-
-    doLast {
-        ["download-mps.gradle", "run-mps-ant.gradle"].each {
-            def gradleScriptFile = file("$projectDir/gradle/$it")
-            gradleScriptFile.parentFile.mkdirs()
-            def url = new URL("https://github.com/vimotest/mps-gradle-scripts/raw/main/gradle/$it")
-            url.withInputStream {
-                inputStream -> gradleScriptFile.withOutputStream { outputStream -> outputStream << inputStream }
-            }
-            gradleScriptFile.text = "/* This file is downloaded from $url */\n\n${gradleScriptFile.text}"
-        }
-    }
 }
