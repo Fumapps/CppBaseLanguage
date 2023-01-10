@@ -32,9 +32,6 @@
         <child id="7232527154588416698" name="classMemberDeclaration" index="31Leeq" />
       </concept>
       <concept id="7232527154588265766" name="CppBaseLanguage.structure.File" flags="ng" index="31LFg6">
-        <property id="1154422390078326241" name="generatorName" index="Lph3H" />
-        <property id="441872395511484882" name="companyName" index="14CC_8" />
-        <property id="2173992535260622978" name="hideGeneratedCommentLine" index="1mDe8N" />
         <child id="7232527154588292748" name="includeDirectiveList" index="31LgYG" />
         <child id="7232527154588304251" name="namespaceMemberDeclaration" index="31LlDr" />
       </concept>
@@ -58,9 +55,7 @@
     </language>
   </registry>
   <node concept="LmIGD" id="5wP$QAQ5gqU">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="vector" />
-    <property role="14CC_8" value="Cpp Standard" />
     <node concept="31LijL" id="5wP$QAQ5gqW" role="31LlDr">
       <property role="TrG5h" value="std" />
       <node concept="31LiCz" id="4h_5oU1Kna2" role="31LkaE">
@@ -73,9 +68,7 @@
     <node concept="1ux1E" id="3zEy8Nj7YXw" role="31LgYG" />
   </node>
   <node concept="LmIGD" id="5wP$QAQ5gr3">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="list" />
-    <property role="14CC_8" value="Cpp Standard" />
     <node concept="31LijL" id="5wP$QAQ5gr4" role="31LlDr">
       <property role="TrG5h" value="std" />
       <node concept="31LiCz" id="5wP$QAQ5gr5" role="31LkaE">
@@ -88,9 +81,7 @@
     <node concept="1ux1E" id="3zEy8Nj7K7r" role="31LgYG" />
   </node>
   <node concept="LmIGD" id="5wP$QAQ5gr9">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="optional" />
-    <property role="14CC_8" value="Cpp Standard" />
     <node concept="31LijL" id="5wP$QAQ5gra" role="31LlDr">
       <property role="TrG5h" value="std" />
       <node concept="31LiCz" id="5wP$QAQ5grb" role="31LkaE">
@@ -125,9 +116,7 @@
     <node concept="1ux1E" id="3zEy8Nj7YXq" role="31LgYG" />
   </node>
   <node concept="LmIGD" id="5wP$QAQ5grf">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="queue" />
-    <property role="14CC_8" value="Cpp Standard" />
     <node concept="31LijL" id="5wP$QAQ5grg" role="31LlDr">
       <property role="TrG5h" value="std" />
       <node concept="31LiCz" id="5wP$QAQ5grh" role="31LkaE">
@@ -140,9 +129,7 @@
     <node concept="1ux1E" id="3zEy8Nj7YXs" role="31LgYG" />
   </node>
   <node concept="LmIGD" id="5wP$QAQ5grj">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="memory" />
-    <property role="14CC_8" value="Cpp Standard" />
     <node concept="31LijL" id="5wP$QAQ5grk" role="31LlDr">
       <property role="TrG5h" value="std" />
       <node concept="31LiCz" id="5wP$QAQ5grl" role="31LkaE">
@@ -168,9 +155,7 @@
     <node concept="1ux1E" id="3zEy8Nj7YXu" role="31LgYG" />
   </node>
   <node concept="LmIGD" id="5wP$QAQ5grr">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="functional" />
-    <property role="14CC_8" value="Cpp Standard" />
     <node concept="31LijL" id="5wP$QAQ5grs" role="31LlDr">
       <property role="TrG5h" value="std" />
       <node concept="31LiCz" id="5wP$QAQ5grt" role="31LkaE">
@@ -183,9 +168,7 @@
     <node concept="1ux1E" id="3zEy8Nj7YXo" role="31LgYG" />
   </node>
   <node concept="LmIGD" id="45spXZsA8pO">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="gtest.h" />
-    <property role="1mDe8N" value="true" />
     <node concept="1ux1E" id="45spXZsA8pP" role="31LgYG" />
     <node concept="31LijL" id="45spXZsA8pR" role="31LlDr">
       <property role="TrG5h" value="testing" />

@@ -1348,6 +1348,7 @@
     <property role="EcuMT" value="7232527154588265766" />
     <property role="TrG5h" value="File" />
     <property role="R4oN_" value="C++ file" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6hv6i2_Aw1g" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -1371,26 +1372,6 @@
       <property role="20kJfa" value="namespaceMemberDeclaration" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
-    </node>
-    <node concept="1TJgyi" id="105lgKxo4nx" role="1TKVEl">
-      <property role="IQ2nx" value="1154422390078326241" />
-      <property role="TrG5h" value="generatorName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="oxQ9D2wP7i" role="1TKVEl">
-      <property role="IQ2nx" value="441872395511484882" />
-      <property role="TrG5h" value="companyName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="1SF$F58zR22" role="1TKVEl">
-      <property role="IQ2nx" value="2173992535260622978" />
-      <property role="TrG5h" value="hideGeneratedCommentLine" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="1SF$F58zQRQ" role="1TKVEl">
-      <property role="IQ2nx" value="2173992535260622326" />
-      <property role="TrG5h" value="hideWholeHeaderComment" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_Becz">

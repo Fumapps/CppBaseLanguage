@@ -129,9 +129,6 @@
         <child id="3766354144459938100" name="structMemberDeclaration" index="2qBxSn" />
       </concept>
       <concept id="7232527154588265766" name="CppBaseLanguage.structure.File" flags="ng" index="31LFg6">
-        <property id="1154422390078326241" name="generatorName" index="Lph3H" />
-        <property id="441872395511484882" name="companyName" index="14CC_8" />
-        <property id="2173992535260622978" name="hideGeneratedCommentLine" index="1mDe8N" />
         <child id="7232527154588292748" name="includeDirectiveList" index="31LgYG" />
         <child id="7232527154588304251" name="namespaceMemberDeclaration" index="31LlDr" />
       </concept>
@@ -238,9 +235,7 @@
     </language>
   </registry>
   <node concept="LmIGD" id="1DC38INDGCU">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="MyClass.h" />
-    <property role="14CC_8" value="My Company" />
     <node concept="31LiCz" id="5omPgnN1fp3" role="31LlDr">
       <property role="TrG5h" value="NoModifier" />
     </node>
@@ -476,9 +471,7 @@
     </node>
   </node>
   <node concept="LmIGC" id="4h_5oU1_2xR">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="MyClass.cpp" />
-    <property role="14CC_8" value="My Company" />
     <node concept="Mraro" id="1YUtmWI08fX" role="31LlDr">
       <node concept="1ux1I" id="1YUtmWI08fZ" role="Mrarh" />
       <node concept="1ux1M" id="1YUtmWI08g1" role="Mrarg">
@@ -753,9 +746,7 @@
     </node>
   </node>
   <node concept="LmIGD" id="4h_5oU2Ibvh">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="IAddElementUseCaseOutput.h" />
-    <property role="14CC_8" value="My Company" />
     <node concept="31LijL" id="4h_5oU2PyVW" role="31LlDr">
       <property role="TrG5h" value="ElementBusinessRules" />
       <node concept="1XPZok" id="6pgO1wrxUbL" role="31LkaE">
@@ -985,9 +976,7 @@
     </node>
   </node>
   <node concept="LmIGD" id="oxQ9D1xXH8">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="ElementDataDto.h" />
-    <property role="14CC_8" value="My Company" />
     <node concept="31LijL" id="oxQ9D1xXHg" role="31LlDr">
       <property role="TrG5h" value="ElementBusinessRules" />
       <node concept="31LiC_" id="oxQ9D1xXHa" role="31LkaE">
@@ -997,9 +986,7 @@
     <node concept="1ux1E" id="3zEy8NjaIKg" role="31LgYG" />
   </node>
   <node concept="tnfB3" id="m1jUWoRFoG">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="MyUseCaseFactoryFake.hpp" />
-    <property role="14CC_8" value="My Company" />
     <node concept="31LijL" id="m1jUWoURVD" role="31LlDr">
       <property role="TrG5h" value="MyUseCaseModule" />
       <node concept="31LiCz" id="m1jUWoURVI" role="31LkaE">
@@ -1064,9 +1051,7 @@
     </node>
   </node>
   <node concept="LmIGD" id="m1jUWoURVP">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="IMyFeatureUseCaseFactory.h" />
-    <property role="14CC_8" value="My Company" />
     <node concept="31LijL" id="m1jUWoURVR" role="31LlDr">
       <property role="TrG5h" value="MyUseCaseModule" />
       <node concept="1XPZok" id="m1jUWp0GMs" role="31LkaE">
@@ -1125,9 +1110,7 @@
     </node>
   </node>
   <node concept="tnfB3" id="5tEqanR$fV9">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="MyUseCaseMock.hpp" />
-    <property role="14CC_8" value="My Company" />
     <node concept="pNo78" id="5tEqanR$w67" role="31LlDr">
       <property role="pKhvV" value="Nested Namespace" />
     </node>
@@ -1347,9 +1330,7 @@
     </node>
   </node>
   <node concept="LmIGD" id="5tEqanR$fVy">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="IMyUseCase.h" />
-    <property role="14CC_8" value="My Company" />
     <node concept="31LijL" id="5tEqanR$fV$" role="31LlDr">
       <property role="TrG5h" value="MyUseCaseModule" />
       <node concept="1XPZok" id="5tEqanR$fVB" role="31LkaE">
@@ -1399,9 +1380,7 @@
     </node>
   </node>
   <node concept="LmIGD" id="5tEqanR$vx9">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="IMyUseCaseOutput.h" />
-    <property role="14CC_8" value="My Company" />
     <node concept="31LijL" id="5tEqanR$vxa" role="31LlDr">
       <property role="TrG5h" value="MyUseCaseModule" />
       <node concept="1XPZok" id="5tEqanR$vxb" role="31LkaE">
@@ -1451,9 +1430,7 @@
     </node>
   </node>
   <node concept="tnfB3" id="5tEqanR$w7v">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="MyUseCaseOutputMock.hpp" />
-    <property role="14CC_8" value="My Company" />
     <node concept="pNo78" id="5tEqanR$w7w" role="31LlDr">
       <property role="pKhvV" value="Nested Namespace" />
     </node>
@@ -1620,9 +1597,7 @@
     </node>
   </node>
   <node concept="LmIGD" id="6LeNfpOchhT">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="UseCaseCollectiveHeader.h" />
-    <property role="14CC_8" value="My Company" />
     <node concept="1ux1E" id="6LeNfpOchhU" role="31LgYG">
       <node concept="36RqS7" id="6LeNfpOchhZ" role="1ux1F">
         <property role="36Rq9j" value="IMyUseCase.h" />
@@ -1706,10 +1681,7 @@
     </node>
   </node>
   <node concept="LmIGD" id="nv3fu7Lp3d">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="test.h" />
-    <property role="14CC_8" value="test" />
-    <property role="1mDe8N" value="true" />
     <node concept="1ux1E" id="nv3fu7Lp3e" role="31LgYG" />
     <node concept="31LijL" id="nv3fu7Lq1X" role="31LlDr">
       <property role="TrG5h" value="Test" />
@@ -1800,9 +1772,7 @@
     </node>
   </node>
   <node concept="LmIGC" id="45spXZsA8pL">
-    <property role="Lph3H" value="UseCaseGenerator" />
     <property role="TrG5h" value="MyGoogleTest.cpp" />
-    <property role="14CC_8" value="My Company" />
     <node concept="1ux1E" id="45spXZsA8pM" role="31LgYG">
       <node concept="36RqS7" id="45spXZsA8q2" role="1ux1F">
         <property role="36Rq9j" value="gtest/gtest.h" />
