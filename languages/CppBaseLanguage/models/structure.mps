@@ -19,6 +19,9 @@
         <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
+        <property id="1225118933224" name="comment" index="YLQ7P" />
+      </concept>
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
@@ -59,6 +62,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -3678,6 +3682,9 @@
     <node concept="PrWs8" id="45spXZsxVlV" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
     </node>
+    <node concept="asaX9" id="1ecAInEkgal" role="lGtFl">
+      <property role="YLQ7P" value="use Macros" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7ElDcRuPj1z">
     <property role="EcuMT" value="8833147448270860387" />
@@ -3727,6 +3734,82 @@
     <property role="3GE5qa" value="Expressions.Unary" />
     <property role="34LRSv" value="&amp;" />
     <ref role="1TJDcQ" node="5VT83U$LFpz" resolve="UnaryExpressionWithOperator" />
+  </node>
+  <node concept="1TIwiD" id="73lIyE5v5x7">
+    <property role="EcuMT" value="8130609394078210119" />
+    <property role="TrG5h" value="MacroDeclaration" />
+    <property role="34LRSv" value="preprocessor macro" />
+    <property role="3GE5qa" value="Macros" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="73lIyE5v6iu" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="73lIyE5v6i$" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="73lIyE5veC_">
+    <property role="EcuMT" value="8130609394078247461" />
+    <property role="TrG5h" value="MacroBasedFunctionDefinition" />
+    <property role="34LRSv" value="macro function" />
+    <property role="3GE5qa" value="Macros" />
+    <property role="R4oN_" value="macro-based function definition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="73lIyE5vjhZ" role="1TKVEi">
+      <property role="IQ2ns" value="8130609394078266495" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="body" />
+      <ref role="20lvS9" node="6vAOG1ABcaM" resolve="Block" />
+    </node>
+    <node concept="1TJgyj" id="73lIyE5wUsH" role="1TKVEi">
+      <property role="IQ2ns" value="8130609394078689069" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="parameters" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="73lIyE5wSab" resolve="MacroParameter" />
+    </node>
+    <node concept="1TJgyj" id="73lIyE5vgZ4" role="1TKVEi">
+      <property role="IQ2ns" value="8130609394078257092" />
+      <property role="20kJfa" value="macro" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="73lIyE5v5x7" resolve="MacroDeclaration" />
+    </node>
+    <node concept="PrWs8" id="73lIyE5viSB" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="73lIyE5wSab">
+    <property role="EcuMT" value="8130609394078679691" />
+    <property role="3GE5qa" value="Macros" />
+    <property role="TrG5h" value="MacroParameter" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+  </node>
+  <node concept="1TIwiD" id="73lIyE5wSUU">
+    <property role="EcuMT" value="8130609394078682810" />
+    <property role="3GE5qa" value="Macros" />
+    <property role="TrG5h" value="TextMacroParameter" />
+    <property role="34LRSv" value="text" />
+    <ref role="1TJDcQ" node="73lIyE5wSab" resolve="MacroParameter" />
+    <node concept="1TJgyi" id="73lIyE5wTFD" role="1TKVEl">
+      <property role="IQ2nx" value="8130609394078685929" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="73lIyE5wUt4">
+    <property role="EcuMT" value="8130609394078689092" />
+    <property role="3GE5qa" value="Macros" />
+    <property role="TrG5h" value="TypeReferenceMacroParameter" />
+    <ref role="1TJDcQ" node="73lIyE5wSab" resolve="MacroParameter" />
+    <node concept="1TJgyj" id="73lIyE5wVea" role="1TKVEi">
+      <property role="IQ2ns" value="8130609394078692234" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nonArrayType" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5_5a0KJX$kh" resolve="INonArrayType" />
+    </node>
   </node>
 </model>
 

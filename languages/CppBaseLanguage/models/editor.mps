@@ -45,6 +45,7 @@
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
         <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
         <child id="928328222691832421" name="separatorTextQuery" index="2gpyvW" />
+        <child id="1233141163694" name="separatorStyle" index="sWeuL" />
       </concept>
       <concept id="1196434649611" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_SimpleString" flags="ng" index="2h3Zct">
         <property id="1196434851095" name="text" index="2h4Kg1" />
@@ -64,6 +65,7 @@
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
+      <concept id="1233148810477" name="jetbrains.mps.lang.editor.structure.InlineStyleDeclaration" flags="ng" index="tppnM" />
       <concept id="1177327274449" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_pattern" flags="nn" index="ub8z3" />
       <concept id="1177327570013" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_Substitute" flags="in" index="ucgPf" />
       <concept id="8478191136883534237" name="jetbrains.mps.lang.editor.structure.IExtensibleSubstituteMenuPart" flags="ng" index="upBLQ">
@@ -21001,6 +21003,89 @@
         <ref role="1NtTu8" to="yjel:Pijjagymxb" resolve="namespace" />
       </node>
       <node concept="2iRfu4" id="PijjagymxG" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="73lIyE5v6iI">
+    <property role="3GE5qa" value="Macros" />
+    <ref role="1XX52x" to="yjel:73lIyE5v5x7" resolve="MacroDeclaration" />
+    <node concept="3EZMnI" id="73lIyE5v73u" role="2wV5jI">
+      <node concept="3F0ifn" id="73lIyE5v73_" role="3EZMnx">
+        <property role="3F0ifm" value="#define" />
+      </node>
+      <node concept="3F0A7n" id="73lIyE5v73F" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="VechU" id="1ecAInEisH3" role="3F10Kt">
+          <property role="Vb096" value="g1_qVrt/darkMagenta" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="73lIyE5v73x" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="73lIyE5vi7P">
+    <property role="3GE5qa" value="Macros" />
+    <ref role="1XX52x" to="yjel:73lIyE5veC_" resolve="MacroBasedFunctionDefinition" />
+    <node concept="3EZMnI" id="73lIyE5vj0$" role="2wV5jI">
+      <node concept="l2Vlx" id="73lIyE5vj0_" role="2iSdaV" />
+      <node concept="1iCGBv" id="73lIyE5vjfZ" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:73lIyE5vgZ4" resolve="macro" />
+        <node concept="VechU" id="1ecAInEisH5" role="3F10Kt">
+          <property role="Vb096" value="g1_qVrt/darkMagenta" />
+        </node>
+        <node concept="Vb9p2" id="1ecAInEl$m_" role="3F10Kt">
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
+        </node>
+        <node concept="1sVBvm" id="73lIyE5vjg2" role="1sWHZn">
+          <node concept="3F0A7n" id="73lIyE5vjhC" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="73lIyE5vj0N" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <node concept="11L4FC" id="73lIyE5vj0O" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="73lIyE5vj0P" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="73lIyE5wUsL" role="3EZMnx">
+        <property role="2czwfO" value=", " />
+        <ref role="1NtTu8" to="yjel:73lIyE5wUsH" resolve="parameters" />
+        <node concept="l2Vlx" id="73lIyE5wUsN" role="2czzBx" />
+        <node concept="tppnM" id="1ecAInEivRJ" role="sWeuL">
+          <node concept="11L4FC" id="1ecAInEivRL" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="11LMrY" id="1ecAInEkgah" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="73lIyE5vj0R" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <node concept="11L4FC" id="1ecAInEivRH" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="73lIyE5vj0T" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:73lIyE5vjhZ" resolve="body" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="73lIyE5wTFT">
+    <property role="3GE5qa" value="Macros" />
+    <ref role="1XX52x" to="yjel:73lIyE5wSUU" resolve="TextMacroParameter" />
+    <node concept="3F0A7n" id="73lIyE5wUsD" role="2wV5jI">
+      <ref role="1NtTu8" to="yjel:73lIyE5wTFD" resolve="text" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="73lIyE5wVej">
+    <property role="3GE5qa" value="Macros" />
+    <ref role="1XX52x" to="yjel:73lIyE5wUt4" resolve="TypeReferenceMacroParameter" />
+    <node concept="3F1sOY" id="73lIyE5wVZ3" role="2wV5jI">
+      <ref role="1NtTu8" to="yjel:73lIyE5wVea" resolve="nonArrayType" />
     </node>
   </node>
 </model>

@@ -39,6 +39,7 @@
       <concept id="6167894786982645659" name="CppBaseLanguage.structure.ITemplatedTypeList" flags="ng" index="1FzkKU">
         <child id="6167894786982659430" name="typeParameter" index="1Fzgr7" />
       </concept>
+      <concept id="8130609394078210119" name="CppBaseLanguage.structure.MacroDeclaration" flags="ng" index="3PEu9H" />
       <concept id="6209812394075305792" name="CppBaseLanguage.structure.IHaveTypeOrVoid" flags="ng" index="3Sw9wS">
         <child id="6209812394075305793" name="typeOrVoid" index="3Sw9wT" />
       </concept>
@@ -174,6 +175,10 @@
       <property role="TrG5h" value="testing" />
       <node concept="31LiCz" id="45spXZsA8pU" role="31LkaE">
         <property role="TrG5h" value="Test" />
+      </node>
+      <node concept="1XMByx" id="1ecAInEpqjv" role="31LkaE" />
+      <node concept="3PEu9H" id="1ecAInEpqjA" role="31LkaE">
+        <property role="TrG5h" value="TEST_F" />
       </node>
     </node>
   </node>

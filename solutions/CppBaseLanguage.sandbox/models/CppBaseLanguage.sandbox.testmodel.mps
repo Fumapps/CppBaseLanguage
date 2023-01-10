@@ -50,10 +50,6 @@
       <concept id="959914550151964744" name="CppBaseLanguage.structure.UsingNamespace" flags="ng" index="2tQMlU">
         <child id="959914550151964747" name="namespace" index="2tQMlT" />
       </concept>
-      <concept id="4709753521497945443" name="CppBaseLanguage.structure.TestFixtureDefinition" flags="ng" index="2tQXaW">
-        <child id="4709753521497945445" name="body" index="2tQXaU" />
-        <child id="4709753521497945444" name="surroundingType" index="2tQXaV" />
-      </concept>
       <concept id="593734185583750076" name="CppBaseLanguage.structure.IHasApiModifier" flags="ng" index="2uxfm$">
         <child id="593734185583750079" name="apiModifier" index="2uxfmB" />
       </concept>
@@ -176,6 +172,17 @@
       <concept id="441872395490668103" name="CppBaseLanguage.structure.PureVirtualMethodDeclaration" flags="ng" index="17p7rt" />
       <concept id="3129541975290303051" name="CppBaseLanguage.structure.VoidType" flags="ng" index="1pH0Yj" />
       <concept id="6277145554426807166" name="CppBaseLanguage.structure.WStringType" flags="ng" index="3C5anx" />
+      <concept id="8130609394078689092" name="CppBaseLanguage.structure.TypeReferenceMacroParameter" flags="ng" index="3PlxPI">
+        <child id="8130609394078692234" name="nonArrayType" index="3PlwAw" />
+      </concept>
+      <concept id="8130609394078682810" name="CppBaseLanguage.structure.TextMacroParameter" flags="ng" index="3Plzig">
+        <property id="8130609394078685929" name="text" index="3Ply33" />
+      </concept>
+      <concept id="8130609394078247461" name="CppBaseLanguage.structure.MacroBasedFunctionDefinition" flags="ng" index="3PEl0f">
+        <reference id="8130609394078257092" name="macro" index="3PEbnI" />
+        <child id="8130609394078689069" name="parameters" index="3PlxO7" />
+        <child id="8130609394078266495" name="body" index="3PE8Tl" />
+      </concept>
       <concept id="6209812394075305792" name="CppBaseLanguage.structure.IHaveTypeOrVoid" flags="ng" index="3Sw9wS">
         <child id="6209812394075305793" name="typeOrVoid" index="3Sw9wT" />
       </concept>
@@ -1798,18 +1805,19 @@
         </node>
       </node>
     </node>
-    <node concept="2tQXaW" id="fEqzJWQBw_" role="31LlDr">
-      <property role="TrG5h" value="MyTest" />
-      <node concept="1pH0Yj" id="fEqzJWQBwA" role="3Sw9wT" />
-      <node concept="3UfwP1" id="fEqzJWQBwC" role="2tQXaV">
-        <node concept="2Gatwc" id="fEqzJWQBwV" role="3UfBpY">
+    <node concept="3PEl0f" id="1ecAInEnyPh" role="31LlDr">
+      <ref role="3PEbnI" to="sta3:1ecAInEpqjA" resolve="TEST_F" />
+      <node concept="1ux1M" id="1ecAInEnyPj" role="3PE8Tl">
+        <node concept="31KRCQ" id="1ecAInEnyPk" role="1ux1N" />
+      </node>
+      <node concept="3PlxPI" id="1ecAInEnyPw" role="3PlxO7">
+        <node concept="2Gatwc" id="1ecAInEnyP$" role="3PlwAw">
           <ref role="2Gaslz" node="45spXZsA8pW" resolve="MyGoogleTest" />
         </node>
       </node>
-      <node concept="1ux1M" id="fEqzJWQBwF" role="2tQXaU">
-        <node concept="31KRCQ" id="fEqzJWQBwG" role="1ux1N" />
+      <node concept="3Plzig" id="1ecAInEnyPF" role="3PlxO7">
+        <property role="3Ply33" value="MyTest" />
       </node>
-      <node concept="1ux1I" id="fEqzJWQBwI" role="1fIg$P" />
     </node>
   </node>
 </model>
