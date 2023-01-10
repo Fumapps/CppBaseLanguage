@@ -1,5 +1,8 @@
 ext.mpsVersion = "2021.2.6"
 ext.mpsPlugins = [ ]
+ext.customMpsPlugins = [
+    "TextGenGen-Fum": "https://github.com/Fumapps/textGenGen/releases/download/2021.2.6-beta1/TextGenGen.zip"
+]
 ext.languageName = "CppBaseLanguage"
 
 apply from: 'gradle/init-gradle-scripts.gradle'
