@@ -1585,19 +1585,6 @@
     <ref role="13h7C2" to="yjel:6hv6i2_AqOA" resolve="File" />
     <node concept="13hLZK" id="105lgKxo4nC" role="13h7CW">
       <node concept="3clFbS" id="105lgKxo4nD" role="2VODD2">
-        <node concept="3clFbF" id="105lgKxo4nN" role="3cqZAp">
-          <node concept="37vLTI" id="105lgKxo50Q" role="3clFbG">
-            <node concept="Xl_RD" id="105lgKxo51q" role="37vLTx">
-              <property role="Xl_RC" value="UseCaseGenerator" />
-            </node>
-            <node concept="2OqwBi" id="105lgKxo4vF" role="37vLTJ">
-              <node concept="13iPFW" id="105lgKxo4nM" role="2Oq$k0" />
-              <node concept="3TrcHB" id="105lgKxo4Ce" role="2OqNvi">
-                <ref role="3TsBF5" to="yjel:105lgKxo4nx" resolve="generatorName" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="3zEy8Nj7Ka_" role="3cqZAp">
           <node concept="2OqwBi" id="3zEy8Nj7KTk" role="3clFbG">
             <node concept="2OqwBi" id="3zEy8Nj7KiZ" role="2Oq$k0">
