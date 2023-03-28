@@ -21,6 +21,9 @@
       <concept id="7486903154347131570" name="CppBaseLanguage.structure.Block" flags="ng" index="1ux1M">
         <child id="7486903154347131571" name="statement" index="1ux1N" />
       </concept>
+      <concept id="7486903154347178711" name="CppBaseLanguage.structure.IConstructorInitializer" flags="ng" index="1uUwn">
+        <child id="7486903154347178713" name="argumentList" index="1uUwp" />
+      </concept>
       <concept id="7486903154347178672" name="CppBaseLanguage.structure.ConstructorDeclaration" flags="ng" index="1uUxK">
         <child id="7486903154347178702" name="formalParameterList" index="1uUwe" />
         <child id="7486903154347178686" name="body" index="1uUxY" />
@@ -83,6 +86,7 @@
         <child id="2286268881214825128" name="surroundingType" index="Mr9v7" />
         <child id="2286268881214821311" name="body" index="Mrarg" />
         <child id="2286268881214821310" name="formalParameterList" index="Mrarh" />
+        <child id="4461009625174275751" name="constructorInitializers" index="1tXcoT" />
       </concept>
       <concept id="1945218857514060490" name="CppBaseLanguage.structure.ReturnStatement" flags="ng" index="2YuCjO" />
       <concept id="1945218857513714961" name="CppBaseLanguage.structure.ForeachStatement" flags="ng" index="2YwsGJ">
@@ -171,6 +175,10 @@
       <concept id="4928369069049559945" name="CppBaseLanguage.structure.QuotedIncludeDirective" flags="ng" index="36RqS7" />
       <concept id="441872395490668103" name="CppBaseLanguage.structure.PureVirtualMethodDeclaration" flags="ng" index="17p7rt" />
       <concept id="3129541975290303051" name="CppBaseLanguage.structure.VoidType" flags="ng" index="1pH0Yj" />
+      <concept id="4461009625175007765" name="CppBaseLanguage.structure.MemberConstructorInitializer" flags="ng" index="1tNLab">
+        <child id="4461009625175007770" name="argumentsList" index="1tNLa4" />
+        <child id="4461009625175007768" name="variableInitializer" index="1tNLa6" />
+      </concept>
       <concept id="6277145554426807166" name="CppBaseLanguage.structure.WStringType" flags="ng" index="3C5anx" />
       <concept id="8130609394078689092" name="CppBaseLanguage.structure.TypeReferenceMacroParameter" flags="ng" index="3PlxPI">
         <child id="8130609394078692234" name="nonArrayType" index="3PlwAw" />
@@ -202,10 +210,19 @@
       <concept id="6843536562191001275" name="CppBaseLanguage.structure.VariableReference" flags="ng" index="3UcWq5">
         <reference id="7769220957754731528" name="variableDeclaration" index="zF7P4" />
       </concept>
-      <concept id="6843536562191075794" name="CppBaseLanguage.structure.ArgumentsList" flags="ng" index="3UdiBG" />
+      <concept id="6843536562191075794" name="CppBaseLanguage.structure.ArgumentsList" flags="ng" index="3UdiBG">
+        <child id="6843536562191075796" name="arguments" index="3UdiBE" />
+      </concept>
+      <concept id="6843536562191075795" name="CppBaseLanguage.structure.Argument" flags="ng" index="3UdiBH">
+        <child id="6843536562191075829" name="expression" index="3UdiBb" />
+      </concept>
       <concept id="6843536562191075788" name="CppBaseLanguage.structure.FunctionCallExpression" flags="ng" index="3UdiBM">
         <child id="6843536562191075791" name="argumentsList" index="3UdiBL" />
         <child id="6843536562191075789" name="primaryExpression" index="3UdiBN" />
+      </concept>
+      <concept id="6843536562190653623" name="CppBaseLanguage.structure.BinaryOperation" flags="ng" index="3Ufby9">
+        <child id="6843536562190653628" name="leftExpression" index="3Ufby2" />
+        <child id="6843536562190653626" name="rightExpression" index="3Ufby4" />
       </concept>
       <concept id="6843536562190757247" name="CppBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
         <child id="7804400563165459583" name="typeModifier" index="o6Ny9" />
@@ -215,6 +232,7 @@
       <concept id="6843536562190680504" name="CppBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
       <concept id="6843536562190680505" name="CppBaseLanguage.structure.UnsignedType" flags="ng" index="3UfM67" />
       <concept id="6843536562190687977" name="CppBaseLanguage.structure.StringType" flags="ng" index="3UfNVn" />
+      <concept id="6843536562190710072" name="CppBaseLanguage.structure.PlusExpression" flags="ng" index="3UfPk6" />
       <concept id="6843536562190726755" name="CppBaseLanguage.structure.UnaryExpressionWithOperator" flags="ng" index="3UfTpt">
         <child id="6843536562190726760" name="expression" index="3UfTpm" />
       </concept>
@@ -271,6 +289,18 @@
           <node concept="1ux1I" id="1YUtmWHPGRy" role="1uUwe" />
           <node concept="2Y_LOE" id="1YUtmWHPH7h" role="1uUxY" />
         </node>
+        <node concept="1uUxK" id="3RCG9Tw9U5a" role="2DNGrf">
+          <property role="TrG5h" value="MyClass" />
+          <node concept="1ux1I" id="3RCG9Tw9U5b" role="1uUwe">
+            <node concept="31KZC3" id="3RCG9Tw9U5u" role="1ux1J">
+              <property role="TrG5h" value="a" />
+              <node concept="3UfwP1" id="3RCG9Tw9U5v" role="3z8Npe">
+                <node concept="3UfM66" id="3RCG9Tw9U5$" role="3UfBpY" />
+              </node>
+            </node>
+          </node>
+          <node concept="2Y_LOE" id="3RCG9Tw9U5c" role="1uUxY" />
+        </node>
         <node concept="1XY2CB" id="1YUtmWI2ofY" role="2DNGrf">
           <property role="TrG5h" value="MyClass" />
           <node concept="2Y_LOE" id="1YUtmWI2oge" role="1XY2Dr" />
@@ -280,7 +310,7 @@
           <node concept="1ux1y" id="4h_5oU0S$wy" role="31KRJH">
             <node concept="2YC0sE" id="4h_5oU0S$x2" role="1ux1z">
               <node concept="zF7EM" id="4h_5oU0S$x3" role="2YC0sD">
-                <property role="TrG5h" value="a" />
+                <property role="TrG5h" value="mPublicA" />
               </node>
               <node concept="3UcVBg" id="4h_5oU0S$x8" role="2YCihz">
                 <property role="1pzoAX" value="0" />
@@ -297,7 +327,7 @@
           <node concept="1ux1y" id="4h_5oU0VZLF" role="31KRJH">
             <node concept="2YC0sE" id="4h_5oU0VZM2" role="1ux1z">
               <node concept="zF7EM" id="4h_5oU0VZM4" role="2YC0sD">
-                <property role="TrG5h" value="a" />
+                <property role="TrG5h" value="mPrivateA" />
               </node>
               <node concept="3UcVBg" id="4h_5oU0VZMa" role="2YCihz">
                 <property role="1pzoAX" value="0" />
@@ -327,7 +357,7 @@
         <node concept="1ux1y" id="4h_5oU2$q_b" role="31KRJH">
           <node concept="34yI$2" id="4h_5oU2$qAI" role="1ux1z">
             <node concept="zF7EM" id="4h_5oU2$qAK" role="34yI$0">
-              <property role="TrG5h" value="hello" />
+              <property role="TrG5h" value="pHello" />
             </node>
           </node>
         </node>
@@ -488,6 +518,55 @@
         <node concept="2Gatwc" id="1YUtmWI08i0" role="3UfBpY">
           <ref role="2Gaslz" node="1DC38INDGCW" resolve="MyClass" />
         </node>
+      </node>
+    </node>
+    <node concept="Mraro" id="3RCG9Tw9U5U" role="31LlDr">
+      <node concept="1ux1I" id="3RCG9Tw9U5V" role="Mrarh">
+        <node concept="31KZC3" id="3RCG9Tw9U84" role="1ux1J">
+          <property role="TrG5h" value="a" />
+          <node concept="3UfwP1" id="3RCG9Tw9U85" role="3z8Npe">
+            <node concept="3UfM66" id="3RCG9Tw9U8a" role="3UfBpY" />
+          </node>
+        </node>
+      </node>
+      <node concept="1ux1M" id="3RCG9Tw9U5W" role="Mrarg">
+        <node concept="31KRCQ" id="3RCG9Tw9U5X" role="1ux1N" />
+      </node>
+      <node concept="3UfwP1" id="3RCG9Tw9U5Y" role="Mr9v7">
+        <node concept="2Gatwc" id="3RCG9Tw9U5Z" role="3UfBpY">
+          <ref role="2Gaslz" node="1DC38INDGCW" resolve="MyClass" />
+        </node>
+      </node>
+      <node concept="1tNLab" id="3RCG9TwbW5O" role="1tXcoT">
+        <node concept="1VUwCF" id="3RCG9TwbW5W" role="1tNLa6">
+          <ref role="2aT8gA" node="4h_5oU0VZM4" resolve="mPrivateA" />
+        </node>
+        <node concept="3UdiBG" id="3RCG9TwbW5Q" role="1tNLa4">
+          <node concept="3UdiBH" id="3RCG9TwbW5Z" role="3UdiBE">
+            <node concept="3UcWq5" id="3RCG9TwbW63" role="3UdiBb">
+              <ref role="zF7P4" node="3RCG9Tw9U84" resolve="a" />
+            </node>
+          </node>
+        </node>
+        <node concept="3UdiBG" id="3RCG9TwbW5R" role="1uUwp" />
+      </node>
+      <node concept="1tNLab" id="3RCG9TwbW6e" role="1tXcoT">
+        <node concept="1VUwCF" id="3RCG9TwbW6v" role="1tNLa6">
+          <ref role="2aT8gA" node="4h_5oU0S$x3" resolve="mPublicA" />
+        </node>
+        <node concept="3UdiBG" id="3RCG9TwbW6h" role="1tNLa4">
+          <node concept="3UdiBH" id="3RCG9TwbW6y" role="3UdiBE">
+            <node concept="3UfPk6" id="3RCG9TwbW6D" role="3UdiBb">
+              <node concept="3UcWq5" id="3RCG9TwbW6E" role="3Ufby2">
+                <ref role="zF7P4" node="3RCG9Tw9U84" resolve="a111" />
+              </node>
+              <node concept="3UcVBg" id="3RCG9TwbW6L" role="3Ufby4">
+                <property role="1pzoAX" value="1" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3UdiBG" id="3RCG9TwbW6j" role="1uUwp" />
       </node>
     </node>
     <node concept="LIJ7G" id="1YUtmWI2oir" role="31LlDr">

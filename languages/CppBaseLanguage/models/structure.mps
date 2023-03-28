@@ -1171,7 +1171,8 @@
     <node concept="1TJgyj" id="6vAOG1ABnFs" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347178716" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="constructorInitializer" />
+      <property role="20kJfa" value="constructorInitializers" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6vAOG1ABnFn" resolve="IConstructorInitializer" />
     </node>
     <node concept="PrWs8" id="5oHFRyIIxWy" role="PzmwI">
@@ -1469,17 +1470,6 @@
     </node>
     <node concept="PrWs8" id="1HkqSaCLqwX" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6vAOG1ABnFB">
-    <property role="EcuMT" value="7486903154347178727" />
-    <property role="TrG5h" value="BaseConstructorInitializer" />
-    <property role="3GE5qa" value="Class / Struct.Constructors" />
-    <property role="R4oN_" value="Call of a base constructor" />
-    <property role="34LRSv" value="base" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6vAOG1ABnFC" role="PzmwI">
-      <ref role="PrY4T" node="6vAOG1ABnFn" resolve="IConstructorInitializer" />
     </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_Azc5">
@@ -3614,6 +3604,13 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
     </node>
+    <node concept="1TJgyj" id="3RCG9Tw77qB" role="1TKVEi">
+      <property role="IQ2ns" value="4461009625174275751" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="constructorInitializers" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6vAOG1ABnFn" resolve="IConstructorInitializer" />
+    </node>
     <node concept="PrWs8" id="1YUtmWHPHf8" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -3809,6 +3806,31 @@
       <property role="20kJfa" value="nonArrayType" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5_5a0KJX$kh" resolve="INonArrayType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3RCG9Tw9U8l">
+    <property role="EcuMT" value="4461009625175007765" />
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
+    <property role="TrG5h" value="MemberConstructorInitializer" />
+    <property role="R4oN_" value="Initializes a member" />
+    <property role="34LRSv" value="member initialization" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3RCG9Tw9U8o" role="1TKVEi">
+      <property role="IQ2ns" value="4461009625175007768" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="variableInitializer" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1FYNzU$nG$p" resolve="IVariableInitializer" />
+    </node>
+    <node concept="1TJgyj" id="3RCG9Tw9U8q" role="1TKVEi">
+      <property role="IQ2ns" value="4461009625175007770" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="argumentsList" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5VT83U$N0Bi" resolve="ArgumentsList" />
+    </node>
+    <node concept="PrWs8" id="3RCG9Tw9U8m" role="PzmwI">
+      <ref role="PrY4T" node="6vAOG1ABnFn" resolve="IConstructorInitializer" />
     </node>
   </node>
 </model>
