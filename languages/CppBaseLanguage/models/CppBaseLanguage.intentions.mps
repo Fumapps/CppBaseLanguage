@@ -4,7 +4,7 @@
   <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -164,7 +164,7 @@
           <node concept="37vLTI" id="5nBCUOUhzqV" role="3clFbG">
             <node concept="2OqwBi" id="5nBCUOUhzqW" role="37vLTx">
               <node concept="1XH99k" id="5nBCUOUhzqX" role="2Oq$k0">
-                <ref role="1XH99l" to="yjel:5LVVOtEMxfN" resolve="ParameterModifierEnum" />
+                <ref role="1XH99l" to="yjel:5LVVOtEMxfN" resolve="TypeModifierEnum" />
               </node>
               <node concept="2ViDtV" id="5nBCUOUh_Jq" role="2OqNvi">
                 <ref role="2ViDtZ" to="yjel:4h_5oU2uWWO" resolve="const" />

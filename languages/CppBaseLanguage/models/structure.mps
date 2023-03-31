@@ -3207,7 +3207,7 @@
     <node concept="1TJgyi" id="5LVVOtEMxfL" role="1TKVEl">
       <property role="IQ2nx" value="6664183163638125553" />
       <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" node="5LVVOtEMxfN" resolve="ParameterModifierEnum" />
+      <ref role="AX2Wp" node="5LVVOtEMxfN" resolve="TypeModifierEnum" />
     </node>
   </node>
   <node concept="25R3W" id="5LVVOtEMxfN">
@@ -3487,7 +3487,7 @@
     <property role="3GE5qa" value="Functions" />
     <property role="34LRSv" value="function definition" />
     <property role="R4oN_" value="free function definition" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6LeNfpOeEWP" role="1TKVEi">
       <property role="IQ2ns" value="7804400563163672373" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -3534,7 +3534,7 @@
     <property role="3GE5qa" value="References.TypeRelatedReferences" />
     <property role="TrG5h" value="FunctionSignatureType" />
     <property role="R4oN_" value="function signature type" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6LeNfpOkaHj" role="1TKVEi">
       <property role="IQ2ns" value="7804400563165113171" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -3582,7 +3582,7 @@
     <property role="TrG5h" value="ConstructorDefinition" />
     <property role="34LRSv" value="ctor definition" />
     <property role="R4oN_" value="Constructor definition" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1YUtmWHPHeY" role="1TKVEi">
       <property role="IQ2ns" value="2286268881214821310" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -3688,7 +3688,7 @@
     <property role="3GE5qa" value="Modifiers" />
     <property role="TrG5h" value="Const" />
     <property role="34LRSv" value="const" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7ElDcRuPj1$" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
     </node>
@@ -3701,7 +3701,7 @@
     <property role="3GE5qa" value="Class / Struct.Using" />
     <property role="TrG5h" value="UsingNamespace" />
     <property role="34LRSv" value="using namespace" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="PijjagADOC" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
     </node>
@@ -3737,7 +3737,7 @@
     <property role="TrG5h" value="MacroDeclaration" />
     <property role="34LRSv" value="preprocessor macro" />
     <property role="3GE5qa" value="Macros" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="73lIyE5v6iu" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
     </node>
@@ -3775,13 +3775,16 @@
     <node concept="PrWs8" id="73lIyE5viSB" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
     </node>
+    <node concept="PrWs8" id="76Rr_xQZYlD" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="73lIyE5wSab">
     <property role="EcuMT" value="8130609394078679691" />
     <property role="3GE5qa" value="Macros" />
     <property role="TrG5h" value="MacroParameter" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="73lIyE5wSUU">
     <property role="EcuMT" value="8130609394078682810" />
@@ -3814,7 +3817,7 @@
     <property role="TrG5h" value="MemberConstructorInitializer" />
     <property role="R4oN_" value="Initializes a member" />
     <property role="34LRSv" value="member initialization" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3RCG9Tw9U8o" role="1TKVEi">
       <property role="IQ2ns" value="4461009625175007768" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

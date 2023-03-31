@@ -1,8 +1,8 @@
-ext.mpsVersion = "2021.2.6"
-ext.mpsPlugins = [ "de.slisson.mps.editor.multiline" : 13253,
-                   "de.itemis.mps.extensions.build": 17136 ]
+ext.mpsVersion = "2022.2"
+ext.mpsPlugins = [ ]
 ext.customMpsPlugins = [
-    "TextGenGen-Fum": "https://github.com/Fumapps/textGenGen/releases/download/2021.2.6-beta2/TextGenGen.zip"
+    "de.itemis.mps.extensions": "https://artifacts.itemis.cloud/repository/maven-mps/de/itemis/mps/extensions/2022.2.2550.5317da9/extensions-2022.2.2550.5317da9.zip",
+    "TextGenGen-Fum": "https://github.com/Fumapps/textGenGen/releases/download/2022.2-beta1/TextGenGen.zip"
 ]
 ext.languageName = "CppBaseLanguage"
 
