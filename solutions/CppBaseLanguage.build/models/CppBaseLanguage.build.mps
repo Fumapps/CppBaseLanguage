@@ -376,6 +376,43 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtA" id="3SvoVjum9y6" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="CppStdLib" />
+        <property role="3LESm3" value="b0ab0748-a24f-440a-a643-9b7b13e80a3f" />
+        <node concept="55IIr" id="3SvoVjum9y9" role="3LF7KH">
+          <node concept="2Ry0Ak" id="3SvoVjum9z7" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="3SvoVjum9zc" role="2Ry0An">
+              <property role="2Ry0Am" value="CppStdLib" />
+              <node concept="2Ry0Ak" id="3SvoVjum9zh" role="2Ry0An">
+                <property role="2Ry0Am" value="CppStdLib.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="3SvoVjum9zz" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="3SvoVjum9z$" role="1HemKq">
+            <node concept="55IIr" id="3SvoVjum9zv" role="3LXTmr">
+              <node concept="2Ry0Ak" id="3SvoVjum9zw" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="3SvoVjum9zx" role="2Ry0An">
+                  <property role="2Ry0Am" value="CppStdLib" />
+                  <node concept="2Ry0Ak" id="3SvoVjum9zy" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="3SvoVjum9z_" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2igEWh" id="4h_5oU0U7qS" role="1hWBAP">
       <property role="2igJW4" value="true" />

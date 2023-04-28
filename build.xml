@@ -246,6 +246,38 @@
       <zipfileset file="${basedir}/solutions/CppBaseLanguage.build/CppBaseLanguage.build.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-CppBaseLanguage.build-models" prefix="module/models" />
     </jar>
+    <mkdir dir="${build.tmp}/default/CppStdLib.jar" />
+    <mkdir dir="${build.tmp}/default/CppStdLib.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/CppStdLib.jar/META-INF/module.xml">
+      <module namespace="CppStdLib" type="solution" uuid="b0ab0748-a24f-440a-a643-9b7b13e80a3f">
+        <dependencies />
+        <uses>
+          <language id="l:caee2629-07dd-4ee1-aceb-6d1e4dce0f12:CppBaseLanguage" />
+        </uses>
+        <classpath>
+          <entry path="." />
+        </classpath>
+        <sources jar="CppStdLib-src.jar" descriptor="CppStdLib.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.layout}/CppBaseLanguage/languages/CppBaseLanguage/CppStdLib.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/CppStdLib" />
+      <fileset dir="${basedir}/solutions/CppStdLib/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/CppStdLib.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-CppStdLib-models">
+      <fileset dir="${basedir}/solutions/CppStdLib/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.layout}/CppBaseLanguage/languages/CppBaseLanguage/CppStdLib-src.jar" duplicate="preserve">
+      <fileset dir="${basedir}/solutions/CppStdLib/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
+      </fileset>
+      <zipfileset file="${basedir}/solutions/CppStdLib/CppStdLib.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-CppStdLib-models" prefix="module/models" />
+    </jar>
     <mkdir dir="${build.tmp}/default/CppBaseLanguage.zip" />
     <mkdir dir="${build.tmp}/default/CppBaseLanguage.zip/CppBaseLanguage" />
     <mkdir dir="${build.tmp}/default/CppBaseLanguage.zip/CppBaseLanguage/META-INF" />
@@ -455,6 +487,38 @@
       <zipfileset file="${basedir}/solutions/CppBaseLanguage.build/CppBaseLanguage.build.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-CppBaseLanguage.build-models1" prefix="module/models" />
     </jar>
+    <mkdir dir="${build.tmp}/default/CppStdLib.jar1" />
+    <mkdir dir="${build.tmp}/default/CppStdLib.jar1/META-INF" />
+    <echoxml file="${build.tmp}/default/CppStdLib.jar1/META-INF/module.xml">
+      <module namespace="CppStdLib" type="solution" uuid="b0ab0748-a24f-440a-a643-9b7b13e80a3f">
+        <dependencies />
+        <uses>
+          <language id="l:caee2629-07dd-4ee1-aceb-6d1e4dce0f12:CppBaseLanguage" />
+        </uses>
+        <classpath>
+          <entry path="." />
+        </classpath>
+        <sources jar="CppStdLib-src.jar" descriptor="CppStdLib.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.tmp}/default/CppBaseLanguage.zip/CppBaseLanguage/languages/CppBaseLanguage/CppStdLib.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/CppStdLib" />
+      <fileset dir="${basedir}/solutions/CppStdLib/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/CppStdLib.jar1" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-CppStdLib-models1">
+      <fileset dir="${basedir}/solutions/CppStdLib/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.tmp}/default/CppBaseLanguage.zip/CppBaseLanguage/languages/CppBaseLanguage/CppStdLib-src.jar" duplicate="preserve">
+      <fileset dir="${basedir}/solutions/CppStdLib/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
+      </fileset>
+      <zipfileset file="${basedir}/solutions/CppStdLib/CppStdLib.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-CppStdLib-models1" prefix="module/models" />
+    </jar>
     <zip destfile="${build.layout}/CppBaseLanguage.zip">
       <fileset dir="${build.tmp}/default/CppBaseLanguage.zip" />
     </zip>
@@ -472,7 +536,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.CppBaseLanguage, java.compile.CppBaseLanguage.plugin, java.compile.CppBaseLanguage.build" />
+  <target name="compileJava" depends="java.compile.CppBaseLanguage, java.compile.CppBaseLanguage.plugin, java.compile.CppBaseLanguage.build, java.compile.CppStdLib" />
   
   <target name="processResources" />
   
@@ -609,6 +673,9 @@
         <module file="${basedir}/languages/CppBaseLanguage/CppBaseLanguage.mpl" />
         <module file="${basedir}/solutions/CppBaseLanguage.build/CppBaseLanguage.build.msd" />
         <module file="${basedir}/solutions/CppBaseLanguage.plugin/CppBaseLanguage.plugin.msd" />
+      </chunk>
+      <chunk>
+        <module file="${basedir}/solutions/CppStdLib/CppStdLib.msd" />
       </chunk>
       <jvmargs>
         <arg value="-ea" />
@@ -768,9 +835,22 @@
     </javac>
   </target>
   
+  <target name="java.compile.CppStdLib">
+    <mkdir dir="${basedir}/solutions/CppStdLib/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/CppStdLib" />
+    <javac destdir="${build.tmp}/java/out/CppStdLib" fork="true" encoding="utf8" includeantruntime="false" debug="true">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${basedir}/solutions/CppStdLib/source_gen" />
+      </src>
+      <classpath />
+    </javac>
+  </target>
+  
   <target name="cleanSources">
     <delete dir="${basedir}/languages/CppBaseLanguage/source_gen" />
     <delete dir="${basedir}/solutions/CppBaseLanguage.build/source_gen" />
     <delete dir="${basedir}/solutions/CppBaseLanguage.plugin/source_gen" />
+    <delete dir="${basedir}/solutions/CppStdLib/source_gen" />
   </target>
 </project>
