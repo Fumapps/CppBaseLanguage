@@ -2900,6 +2900,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="anotherMemberReference" />
       <ref role="20lvS9" node="5E$Mk4xjGdE" resolve="MemberReference" />
+      <node concept="asaX9" id="5rOKOYDruKk" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="42EL3I6oIv9" role="1TKVEi">
       <property role="IQ2ns" value="4659752524404942793" />

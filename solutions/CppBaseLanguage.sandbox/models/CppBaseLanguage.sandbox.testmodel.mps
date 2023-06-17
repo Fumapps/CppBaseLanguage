@@ -200,6 +200,10 @@
       <concept id="6209812394072707164" name="CppBaseLanguage.structure.IHaveType" flags="ng" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
       </concept>
+      <concept id="6843536562191036574" name="CppBaseLanguage.structure.PrimaryDotExpression" flags="ng" index="3Uc_2w">
+        <child id="6843536562191036577" name="member" index="3Uc_2v" />
+        <child id="6843536562191036575" name="primaryExpression" index="3Uc_2x" />
+      </concept>
       <concept id="6843536562190981624" name="CppBaseLanguage.structure.NullLiteral" flags="ng" index="3UcVB6" />
       <concept id="6843536562190981623" name="CppBaseLanguage.structure.StringLiteral" flags="ng" index="3UcVB9">
         <property id="3129541975290891879" name="value" index="1pzheZ" />
@@ -796,6 +800,19 @@
                 </node>
               </node>
             </node>
+            <node concept="2Yz168" id="5rOKOYDp5HA" role="1ux1N">
+              <node concept="3UdiBM" id="5rOKOYDp5J2" role="2Yz169">
+                <node concept="3Uc_2w" id="5rOKOYDDNNP" role="3UdiBN">
+                  <node concept="1VUwCF" id="5rOKOYDp5Jb" role="3Uc_2x">
+                    <ref role="2aT8gA" node="5tEqanR$vF$" resolve="request" />
+                  </node>
+                  <node concept="1VUwCF" id="5rOKOYDp5Jf" role="3Uc_2v">
+                    <ref role="2aT8gA" node="6LeNfpOhhIK" resolve="foo" />
+                  </node>
+                </node>
+                <node concept="3UdiBG" id="5rOKOYDp5J6" role="3UdiBL" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -803,7 +820,7 @@
       <node concept="1pH0Yj" id="4h_5oU1_6p9" role="3Sw9wT" />
     </node>
     <node concept="osiN9" id="6LeNfpOhhFu" role="31LlDr">
-      <property role="TrG5h" value="foo" />
+      <property role="TrG5h" value="staticFoo" />
       <node concept="2Y_LOE" id="6LeNfpOhhHa" role="osiMw" />
       <node concept="1ux1I" id="6LeNfpOhhFy" role="1fIg$P" />
       <node concept="1pH0Yj" id="6LeNfpOhhH7" role="3Sw9wT" />
