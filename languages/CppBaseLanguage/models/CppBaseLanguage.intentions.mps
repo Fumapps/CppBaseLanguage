@@ -665,7 +665,7 @@
             </node>
             <node concept="2OqwBi" id="5rOKOYDCkRv" role="37vLTJ">
               <node concept="37vLTw" id="5rOKOYDCkRw" role="2Oq$k0">
-                <ref role="3cqZAo" node="5rOKOYDCkRl" resolve="arrowExpression" />
+                <ref role="3cqZAo" node="5rOKOYDCkRl" resolve="dotExpression" />
               </node>
               <node concept="3TrEf2" id="5rOKOYDCkRx" role="2OqNvi">
                 <ref role="3Tt5mk" to="yjel:5VT83U$MR2v" resolve="primaryExpression" />
@@ -694,7 +694,7 @@
             </node>
             <node concept="2OqwBi" id="5rOKOYDCkRH" role="37vLTJ">
               <node concept="37vLTw" id="5rOKOYDCkRI" role="2Oq$k0">
-                <ref role="3cqZAo" node="5rOKOYDCkRl" resolve="arrowExpression" />
+                <ref role="3cqZAo" node="5rOKOYDCkRl" resolve="dotExpression" />
               </node>
               <node concept="3TrEf2" id="5rOKOYDCkRJ" role="2OqNvi">
                 <ref role="3Tt5mk" to="yjel:5VT83U$MR2x" resolve="member" />
