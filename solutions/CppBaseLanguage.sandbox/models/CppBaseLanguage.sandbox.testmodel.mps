@@ -175,6 +175,11 @@
       <concept id="4928369069049559945" name="CppBaseLanguage.structure.QuotedIncludeDirective" flags="ng" index="36RqS7" />
       <concept id="441872395490668103" name="CppBaseLanguage.structure.PureVirtualMethodDeclaration" flags="ng" index="17p7rt" />
       <concept id="3129541975290303051" name="CppBaseLanguage.structure.VoidType" flags="ng" index="1pH0Yj" />
+      <concept id="3129541975290390528" name="CppBaseLanguage.structure.AssignExpression" flags="ng" index="1pHvno" />
+      <concept id="3129541975290390490" name="CppBaseLanguage.structure.AssignmentExpression" flags="ng" index="1pHvC2">
+        <child id="3129541975290390493" name="leftSide" index="1pHvC5" />
+        <child id="3129541975290390495" name="rightSide" index="1pHvC7" />
+      </concept>
       <concept id="4461009625175007765" name="CppBaseLanguage.structure.MemberConstructorInitializer" flags="ng" index="1tNLab">
         <child id="4461009625175007770" name="argumentsList" index="1tNLa4" />
         <child id="4461009625175007768" name="variableInitializer" index="1tNLa6" />
@@ -224,6 +229,7 @@
         <child id="6843536562191075791" name="argumentsList" index="3UdiBL" />
         <child id="6843536562191075789" name="primaryExpression" index="3UdiBN" />
       </concept>
+      <concept id="6843536562190617628" name="CppBaseLanguage.structure.Expression" flags="ng" index="3Uf2Ky" />
       <concept id="6843536562190653623" name="CppBaseLanguage.structure.BinaryOperation" flags="ng" index="3Ufby9">
         <child id="6843536562190653628" name="leftExpression" index="3Ufby2" />
         <child id="6843536562190653626" name="rightExpression" index="3Ufby4" />
@@ -613,6 +619,14 @@
             <ref role="zF7P4" node="4h_5oU1jLEI" resolve="myOptionalChar" />
           </node>
           <node concept="1ux1M" id="4h_5oU1F2Q4" role="2YwsG_">
+            <node concept="2Yz168" id="11LHaTc55IJ" role="1ux1N">
+              <node concept="1pHvno" id="11LHaTc55Kh" role="2Yz169">
+                <node concept="1VUwCF" id="11LHaTc55Kq" role="1pHvC5">
+                  <ref role="2aT8gA" node="4h_5oU2jWdK" resolve="h1" />
+                </node>
+                <node concept="3Uf2Ky" id="11LHaTc55Kl" role="1pHvC7" />
+              </node>
+            </node>
             <node concept="2YDbI9" id="4h_5oU2jWcP" role="1ux1N">
               <node concept="3UfwP1" id="4h_5oU2jWcR" role="2YDbI6">
                 <node concept="35Mjx5" id="4h_5oU2jWdF" role="3UfBpY" />

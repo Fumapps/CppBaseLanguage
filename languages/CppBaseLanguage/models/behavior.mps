@@ -15,6 +15,8 @@
     <import index="i51s" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.lang.smodel.generator.smodelAdapter(MPS.Core/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -88,6 +90,7 @@
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -1657,6 +1660,48 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="11LHaTc5Iok" role="13h7CS">
+      <property role="TrG5h" value="getScope" />
+      <ref role="13i0hy" to="tpcu:52_Geb4QDV$" resolve="getScope" />
+      <node concept="3Tm1VV" id="11LHaTc5Iol" role="1B3o_S" />
+      <node concept="3clFbS" id="11LHaTc5Iou" role="3clF47">
+        <node concept="3clFbJ" id="11LHaTc5JwC" role="3cqZAp">
+          <node concept="3clFbS" id="11LHaTc5JwE" role="3clFbx">
+            <node concept="3cpWs6" id="11LHaTc5KJa" role="3cqZAp">
+              <node concept="2YIFZM" id="11LHaTc5LgK" role="3cqZAk">
+                <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
+                <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                <node concept="BsUDl" id="11LHaTc5LhA" role="37wK5m">
+                  <ref role="37wK5l" node="nv3fu7KKeE" resolve="getReferencableMemberDeclarations" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="17R0WA" id="11LHaTc5K3o" role="3clFbw">
+            <node concept="35c_gC" id="11LHaTc5KaN" role="3uHU7w">
+              <ref role="35c_gD" to="yjel:1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+            </node>
+            <node concept="37vLTw" id="11LHaTc5JBd" role="3uHU7B">
+              <ref role="3cqZAo" node="11LHaTc5Iov" resolve="kind" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="11LHaTc5Lz0" role="3cqZAp">
+          <node concept="10Nm6u" id="11LHaTc5L$v" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="11LHaTc5Iov" role="3clF46">
+        <property role="TrG5h" value="kind" />
+        <node concept="3bZ5Sz" id="11LHaTc5Iow" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="11LHaTc5Iox" role="3clF46">
+        <property role="TrG5h" value="child" />
+        <node concept="3Tqbb2" id="11LHaTc5Ioy" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="11LHaTc5Ioz" role="3clF45">
+        <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
       </node>
     </node>
   </node>
