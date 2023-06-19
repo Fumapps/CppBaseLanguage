@@ -216,9 +216,9 @@
     <node concept="2G$12M" id="4h_5oU0U7hP" role="3989C9">
       <property role="TrG5h" value="CppBaseLanguage" />
       <node concept="1E1JtD" id="4h_5oU0U7hC" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="CppBaseLanguage" />
         <property role="3LESm3" value="caee2629-07dd-4ee1-aceb-6d1e4dce0f12" />
+        <property role="BnDLt" value="true" />
         <node concept="55IIr" id="4h_5oU0U7hz" role="3LF7KH">
           <node concept="2Ry0Ak" id="4h_5oU0U7h$" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
@@ -289,6 +289,11 @@
             <node concept="3qWCbU" id="D$XBVU374R" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6RZuJwqqIo6" role="3bR37C">
+          <node concept="3bR9La" id="6RZuJwqqIo7" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1d41uYMTVPB" resolve="jetbrains.mps.lang.scopes.runtime" />
           </node>
         </node>
       </node>
