@@ -1438,18 +1438,27 @@
     <node concept="PrWs8" id="6hv6i2_B6aF" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
     </node>
-    <node concept="1TJgyj" id="6hv6i2_B6bd" role="1TKVEi">
-      <property role="IQ2ns" value="7232527154588443341" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="variableDeclaratorList" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6vAOG1ABcay" resolve="VariableDeclaratorList" />
+    <node concept="PrWs8" id="6RZuJwqxKW_" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
     </node>
     <node concept="PrWs8" id="5oHFRyILRk5" role="PzmwI">
       <ref role="PrY4T" node="5oHFRyIxp1o" resolve="IHaveModifiers" />
     </node>
     <node concept="PrWs8" id="5oHFRyILRki" role="PzmwI">
       <ref role="PrY4T" node="5oHFRyIxp1s" resolve="IHaveType" />
+    </node>
+    <node concept="1TJgyj" id="6hv6i2_B6bd" role="1TKVEi">
+      <property role="IQ2ns" value="7232527154588443341" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="variableDeclaratorList" />
+      <ref role="20lvS9" node="6vAOG1ABcay" resolve="VariableDeclaratorList" />
+      <node concept="asaX9" id="6RZuJwq_C7k" role="lGtFl" />
+    </node>
+    <node concept="1TJgyj" id="6RZuJwqxLPW" role="1TKVEi">
+      <property role="IQ2ns" value="7926189075210902908" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="variableInitializer" />
+      <ref role="20lvS9" node="1FYNzU$nG$p" resolve="IVariableInitializer" />
     </node>
   </node>
   <node concept="1TIwiD" id="6vAOG1ABnFF">
