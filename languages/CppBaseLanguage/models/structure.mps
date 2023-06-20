@@ -1140,6 +1140,9 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6hv6i2_B6cm" resolve="Statement" />
     </node>
+    <node concept="PrWs8" id="7n7GWRhu6Py" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6vAOG1ABnEK">
     <property role="EcuMT" value="7486903154347178672" />
@@ -1358,6 +1361,9 @@
     <node concept="PrWs8" id="6hv6i2_Aw1g" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="11LHaTc5HPW" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="1TJgyj" id="6hv6i2_AxlC" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588292456" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1432,18 +1438,27 @@
     <node concept="PrWs8" id="6hv6i2_B6aF" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
     </node>
-    <node concept="1TJgyj" id="6hv6i2_B6bd" role="1TKVEi">
-      <property role="IQ2ns" value="7232527154588443341" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="variableDeclaratorList" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6vAOG1ABcay" resolve="VariableDeclaratorList" />
+    <node concept="PrWs8" id="6RZuJwqxKW_" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
     </node>
     <node concept="PrWs8" id="5oHFRyILRk5" role="PzmwI">
       <ref role="PrY4T" node="5oHFRyIxp1o" resolve="IHaveModifiers" />
     </node>
     <node concept="PrWs8" id="5oHFRyILRki" role="PzmwI">
       <ref role="PrY4T" node="5oHFRyIxp1s" resolve="IHaveType" />
+    </node>
+    <node concept="1TJgyj" id="6hv6i2_B6bd" role="1TKVEi">
+      <property role="IQ2ns" value="7232527154588443341" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="variableDeclaratorList" />
+      <ref role="20lvS9" node="6vAOG1ABcay" resolve="VariableDeclaratorList" />
+      <node concept="asaX9" id="6RZuJwq_C7k" role="lGtFl" />
+    </node>
+    <node concept="1TJgyj" id="6RZuJwqxLPW" role="1TKVEi">
+      <property role="IQ2ns" value="7926189075210902908" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="variableInitializer" />
+      <ref role="20lvS9" node="1FYNzU$nG$p" resolve="IVariableInitializer" />
     </node>
   </node>
   <node concept="1TIwiD" id="6vAOG1ABnFF">
@@ -2830,9 +2845,6 @@
     <node concept="PrWs8" id="6JhOkL8DHj_" role="PzmwI">
       <ref role="PrY4T" node="1FYNzU$mBn3" resolve="IVariableDeclarator" />
     </node>
-    <node concept="PrWs8" id="5E$Mk4xhZrS" role="PzmwI">
-      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
-    </node>
   </node>
   <node concept="PlHQZ" id="6JhOkL8vqKa">
     <property role="EcuMT" value="7769220957754731530" />
@@ -2913,17 +2925,6 @@
     <property role="EcuMT" value="6432591675578008849" />
     <property role="3GE5qa" value="Types" />
     <property role="TrG5h" value="INonArrayType" />
-  </node>
-  <node concept="1TIwiD" id="1fX_MJerWT3">
-    <property role="EcuMT" value="1440473670231248451" />
-    <property role="3GE5qa" value="References.MemberReferences" />
-    <property role="TrG5h" value="AmbiguousMemberReference" />
-    <property role="R5$K7" value="true" />
-    <property role="R4oN_" value="A technical holder for retaining input if the user typed an invalid string" />
-    <ref role="1TJDcQ" node="5E$Mk4xjGdE" resolve="MemberReference" />
-    <node concept="PrWs8" id="1fX_MJerXsh" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
   </node>
   <node concept="1TIwiD" id="5gskHI0ff0Y">
     <property role="EcuMT" value="6060810301236637758" />
@@ -3835,6 +3836,17 @@
     </node>
     <node concept="PrWs8" id="3RCG9Tw9U8m" role="PzmwI">
       <ref role="PrY4T" node="6vAOG1ABnFn" resolve="IConstructorInitializer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1fX_MJerWT3">
+    <property role="EcuMT" value="1440473670231248451" />
+    <property role="3GE5qa" value="References.MemberReferences" />
+    <property role="TrG5h" value="AmbiguousMemberReference" />
+    <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="A technical holder for retaining input if the user typed an invalid string" />
+    <ref role="1TJDcQ" node="5E$Mk4xjGdE" resolve="MemberReference" />
+    <node concept="PrWs8" id="1fX_MJerXsh" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
