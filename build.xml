@@ -45,7 +45,7 @@
         <id>CppBaseLanguage</id>
         <name>CppBaseLanguage</name>
         <description>The C++ base language for MPS</description>
-        <version>0.0.3</version>
+        <version>0.0.4</version>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
         
@@ -62,7 +62,7 @@
         <id>CppBaseLanguage</id>
         <name>CppBaseLanguage</name>
         <description>The C++ base language for MPS</description>
-        <version>0.0.3</version>
+        <version>0.0.4</version>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
         
@@ -287,7 +287,7 @@
         <id>CppBaseLanguage</id>
         <name>CppBaseLanguage</name>
         <description>The C++ base language for MPS</description>
-        <version>0.0.3</version>
+        <version>0.0.4</version>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
         
@@ -304,7 +304,7 @@
         <id>CppBaseLanguage</id>
         <name>CppBaseLanguage</name>
         <description>The C++ base language for MPS</description>
-        <version>0.0.3</version>
+        <version>0.0.4</version>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
         
