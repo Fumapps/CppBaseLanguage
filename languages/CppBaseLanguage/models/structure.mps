@@ -3849,5 +3849,19 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7k$6IeMoB4A">
+    <property role="EcuMT" value="8440901166851846438" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Inline" />
+    <property role="34LRSv" value="inline" />
+    <property role="R4oN_" value="Inline modifier" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7k$6IeMoB4B" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIUreI" resolve="IFieldModifier" />
+    </node>
+    <node concept="PrWs8" id="7k$6IeMoB4C" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
+    </node>
+  </node>
 </model>
 

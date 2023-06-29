@@ -21240,5 +21240,12 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="7k$6IeMoBit">
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1XX52x" to="yjel:7k$6IeMoB4A" resolve="Inline" />
+    <node concept="3F0ifn" id="7k$6IeMoBiT" role="2wV5jI">
+      <property role="3F0ifm" value="inline" />
+    </node>
+  </node>
 </model>
 
