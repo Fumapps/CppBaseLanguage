@@ -119,6 +119,7 @@
       <concept id="7232527154588476195" name="CppBaseLanguage.structure.FormalParameter" flags="ng" index="31KZC3">
         <child id="5564055780414736654" name="type" index="3z8Npe" />
       </concept>
+      <concept id="7232527154588409138" name="CppBaseLanguage.structure.TemplateTypeParameter" flags="ng" index="31Lcgi" />
       <concept id="7232527154588292753" name="CppBaseLanguage.structure.BracketIncludeDirective" flags="ng" index="31LgYL" />
       <concept id="7232527154588302801" name="CppBaseLanguage.structure.NamespaceDeclaration" flags="ng" index="31LijL">
         <child id="7232527154588310410" name="namespaceMemberDeclaration" index="31LkaE" />
@@ -190,6 +191,9 @@
         <child id="4461009625175007768" name="variableInitializer" index="1tNLa6" />
       </concept>
       <concept id="6277145554426807166" name="CppBaseLanguage.structure.WStringType" flags="ng" index="3C5anx" />
+      <concept id="6167894786982645659" name="CppBaseLanguage.structure.ITemplatedTypeList" flags="ng" index="1FzkKU">
+        <child id="6167894786982659430" name="typeParameter" index="1Fzgr7" />
+      </concept>
       <concept id="8130609394078689092" name="CppBaseLanguage.structure.TypeReferenceMacroParameter" flags="ng" index="3PlxPI">
         <child id="8130609394078692234" name="nonArrayType" index="3PlwAw" />
       </concept>
@@ -825,6 +829,9 @@
       </node>
       <node concept="1ux1I" id="6LeNfpOhhIP" role="1fIg$P" />
       <node concept="1pH0Yj" id="6LeNfpOhhKv" role="3Sw9wT" />
+      <node concept="31Lcgi" id="1OioNeYR_$d" role="1Fzgr7">
+        <property role="TrG5h" value="T" />
+      </node>
     </node>
     <node concept="1ux1E" id="4h_5oU1_2xT" role="31LgYG">
       <node concept="36RqS7" id="6LeNfpOchhj" role="1ux1F">

@@ -1533,21 +1533,8 @@
     <ref role="1XX52x" to="yjel:6hv6i2_B6ci" resolve="MethodDeclaration" />
     <node concept="3EZMnI" id="3x25Ph9Gc_m" role="2wV5jI">
       <node concept="l2Vlx" id="3x25Ph9Gc_p" role="2iSdaV" />
-      <node concept="PMmxH" id="5oHFRyIGjKl" role="3EZMnx">
-        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
-      </node>
-      <node concept="PMmxH" id="5oHFRyIGkja" role="3EZMnx">
-        <ref role="PMmxG" node="5oHFRyIFjtw" resolve="HaveTypeOrVoidComponent" />
-        <ref role="34QXea" node="5oHFRyI_NHg" resolve="CreateModifierOnSpace" />
-      </node>
-      <node concept="3F0A7n" id="3x25Ph9Gc_M" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <node concept="A1WHu" id="6FfQk_SMDVp" role="3vIgyS">
-          <ref role="A1WHt" node="2vo5eZuESDh" resolve="GenericTypeListCreation" />
-        </node>
-      </node>
       <node concept="PMmxH" id="5moKU4Y6vrg" role="3EZMnx">
-        <ref role="PMmxG" node="5moKU4Y5smx" resolve="GenericTypeListComponent" />
+        <ref role="PMmxG" node="oxQ9D27r$n" resolve="TemplateDeclarationComponent" />
         <node concept="pkWqt" id="3_0V6TwKBJc" role="pqm2j">
           <node concept="3clFbS" id="3_0V6TwKBJd" role="2VODD2">
             <node concept="3clFbF" id="3_0V6TwKBQy" role="3cqZAp">
@@ -1562,6 +1549,19 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="PMmxH" id="5oHFRyIGjKl" role="3EZMnx">
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
+      </node>
+      <node concept="PMmxH" id="5oHFRyIGkja" role="3EZMnx">
+        <ref role="PMmxG" node="5oHFRyIFjtw" resolve="HaveTypeOrVoidComponent" />
+        <ref role="34QXea" node="5oHFRyI_NHg" resolve="CreateModifierOnSpace" />
+      </node>
+      <node concept="3F0A7n" id="3x25Ph9Gc_M" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="A1WHu" id="6FfQk_SMDVp" role="3vIgyS">
+          <ref role="A1WHt" node="2vo5eZuESDh" resolve="GenericTypeListCreation" />
         </node>
       </node>
       <node concept="3F0ifn" id="3x25Ph9He3S" role="3EZMnx">
@@ -2668,37 +2668,6 @@
         </node>
       </node>
       <node concept="l2Vlx" id="4oSbvdw0pOt" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="PKFIW" id="5moKU4Y5smx">
-    <property role="TrG5h" value="GenericTypeListComponent" />
-    <property role="3GE5qa" value="Generics" />
-    <ref role="1XX52x" to="yjel:5moKU4Y5oYr" resolve="ITemplatedTypeList" />
-    <node concept="3EZMnI" id="5moKU4Y5smz" role="2wV5jI">
-      <node concept="3F0ifn" id="5moKU4Y5smV" role="3EZMnx">
-        <property role="3F0ifm" value="&lt;" />
-        <node concept="11LMrY" id="5moKU4Y7AcC" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="11L4FC" id="5moKU4Y8x2s" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VPM3Z" id="7TfmMh1D5HL" role="3F10Kt" />
-      </node>
-      <node concept="3F2HdR" id="5moKU4Y5smH" role="3EZMnx">
-        <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="yjel:5moKU4Y5slA" resolve="typeParameter" />
-        <node concept="l2Vlx" id="5moKU4Y5smJ" role="2czzBx" />
-        <node concept="3F0ifn" id="5moKU4Y8Xjx" role="2czzBI" />
-      </node>
-      <node concept="2iRfu4" id="5moKU4Y5snm" role="2iSdaV" />
-      <node concept="3F0ifn" id="5moKU4Y5snc" role="3EZMnx">
-        <property role="3F0ifm" value="&gt;" />
-        <node concept="11L4FC" id="5moKU4Y7Amx" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VPM3Z" id="7TfmMh1D5HD" role="3F10Kt" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="3zXINoFT1X2">
@@ -19916,6 +19885,24 @@
     <ref role="1XX52x" to="yjel:4h_5oU1nbLo" resolve="MethodDefinition" />
     <node concept="3EZMnI" id="4h_5oU1ppak" role="2wV5jI">
       <node concept="l2Vlx" id="4h_5oU1ppal" role="2iSdaV" />
+      <node concept="PMmxH" id="4h_5oU1ppaq" role="3EZMnx">
+        <ref role="PMmxG" node="oxQ9D27r$n" resolve="TemplateDeclarationComponent" />
+        <node concept="pkWqt" id="4h_5oU1ppar" role="pqm2j">
+          <node concept="3clFbS" id="4h_5oU1ppas" role="2VODD2">
+            <node concept="3clFbF" id="4h_5oU1ppat" role="3cqZAp">
+              <node concept="2OqwBi" id="4h_5oU1ppau" role="3clFbG">
+                <node concept="2OqwBi" id="4h_5oU1ppav" role="2Oq$k0">
+                  <node concept="pncrf" id="4h_5oU1ppaw" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="4h_5oU1ppax" role="2OqNvi">
+                    <ref role="3TtcxE" to="yjel:5moKU4Y5slA" resolve="typeParameter" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="4h_5oU1ppay" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="PMmxH" id="4h_5oU1ppam" role="3EZMnx">
         <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
       </node>
@@ -19939,24 +19926,6 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         <node concept="A1WHu" id="4h_5oU1ppap" role="3vIgyS">
           <ref role="A1WHt" node="2vo5eZuESDh" resolve="GenericTypeListCreation" />
-        </node>
-      </node>
-      <node concept="PMmxH" id="4h_5oU1ppaq" role="3EZMnx">
-        <ref role="PMmxG" node="5moKU4Y5smx" resolve="GenericTypeListComponent" />
-        <node concept="pkWqt" id="4h_5oU1ppar" role="pqm2j">
-          <node concept="3clFbS" id="4h_5oU1ppas" role="2VODD2">
-            <node concept="3clFbF" id="4h_5oU1ppat" role="3cqZAp">
-              <node concept="2OqwBi" id="4h_5oU1ppau" role="3clFbG">
-                <node concept="2OqwBi" id="4h_5oU1ppav" role="2Oq$k0">
-                  <node concept="pncrf" id="4h_5oU1ppaw" role="2Oq$k0" />
-                  <node concept="3Tsc0h" id="4h_5oU1ppax" role="2OqNvi">
-                    <ref role="3TtcxE" to="yjel:5moKU4Y5slA" resolve="typeParameter" />
-                  </node>
-                </node>
-                <node concept="3GX2aA" id="4h_5oU1ppay" role="2OqNvi" />
-              </node>
-            </node>
-          </node>
         </node>
       </node>
       <node concept="3F0ifn" id="4h_5oU1ppaz" role="3EZMnx">
@@ -20393,24 +20362,6 @@
           <ref role="A1WHt" node="2vo5eZuESDh" resolve="GenericTypeListCreation" />
         </node>
       </node>
-      <node concept="PMmxH" id="oxQ9D1hz41" role="3EZMnx">
-        <ref role="PMmxG" node="5moKU4Y5smx" resolve="GenericTypeListComponent" />
-        <node concept="pkWqt" id="oxQ9D1hz42" role="pqm2j">
-          <node concept="3clFbS" id="oxQ9D1hz43" role="2VODD2">
-            <node concept="3clFbF" id="oxQ9D1hz44" role="3cqZAp">
-              <node concept="2OqwBi" id="oxQ9D1hz45" role="3clFbG">
-                <node concept="2OqwBi" id="oxQ9D1hz46" role="2Oq$k0">
-                  <node concept="pncrf" id="oxQ9D1hz47" role="2Oq$k0" />
-                  <node concept="3Tsc0h" id="oxQ9D1hz48" role="2OqNvi">
-                    <ref role="3TtcxE" to="yjel:5moKU4Y5slA" resolve="typeParameter" />
-                  </node>
-                </node>
-                <node concept="3GX2aA" id="oxQ9D1hz49" role="2OqNvi" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="3F0ifn" id="oxQ9D1hz4a" role="3EZMnx">
         <property role="3F0ifm" value="(" />
         <node concept="11L4FC" id="oxQ9D1hz4b" role="3F10Kt">
@@ -20564,21 +20515,8 @@
     <ref role="1XX52x" to="yjel:6LeNfpOeEWJ" resolve="FunctionDefinition" />
     <node concept="3EZMnI" id="6LeNfpOeF4S" role="2wV5jI">
       <node concept="l2Vlx" id="6LeNfpOeF4T" role="2iSdaV" />
-      <node concept="PMmxH" id="6LeNfpOeF4U" role="3EZMnx">
-        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
-      </node>
-      <node concept="PMmxH" id="6LeNfpOeF4V" role="3EZMnx">
-        <ref role="PMmxG" node="5oHFRyIFjtw" resolve="HaveTypeOrVoidComponent" />
-        <ref role="34QXea" node="5oHFRyI_NHg" resolve="CreateModifierOnSpace" />
-      </node>
-      <node concept="3F0A7n" id="6LeNfpOeF50" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <node concept="A1WHu" id="6LeNfpOeF51" role="3vIgyS">
-          <ref role="A1WHt" node="2vo5eZuESDh" resolve="GenericTypeListCreation" />
-        </node>
-      </node>
       <node concept="PMmxH" id="6LeNfpOeF52" role="3EZMnx">
-        <ref role="PMmxG" node="5moKU4Y5smx" resolve="GenericTypeListComponent" />
+        <ref role="PMmxG" node="oxQ9D27r$n" resolve="TemplateDeclarationComponent" />
         <node concept="pkWqt" id="6LeNfpOeF53" role="pqm2j">
           <node concept="3clFbS" id="6LeNfpOeF54" role="2VODD2">
             <node concept="3clFbF" id="6LeNfpOeF55" role="3cqZAp">
@@ -20593,6 +20531,19 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="PMmxH" id="6LeNfpOeF4U" role="3EZMnx">
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
+      </node>
+      <node concept="PMmxH" id="6LeNfpOeF4V" role="3EZMnx">
+        <ref role="PMmxG" node="5oHFRyIFjtw" resolve="HaveTypeOrVoidComponent" />
+        <ref role="34QXea" node="5oHFRyI_NHg" resolve="CreateModifierOnSpace" />
+      </node>
+      <node concept="3F0A7n" id="6LeNfpOeF50" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="A1WHu" id="6LeNfpOeF51" role="3vIgyS">
+          <ref role="A1WHt" node="2vo5eZuESDh" resolve="GenericTypeListCreation" />
         </node>
       </node>
       <node concept="3F0ifn" id="6LeNfpOeF5b" role="3EZMnx">
@@ -20623,21 +20574,8 @@
     <ref role="1XX52x" to="yjel:6LeNfpOfY0Z" resolve="FunctionDeclaration" />
     <node concept="3EZMnI" id="6LeNfpOfYdE" role="2wV5jI">
       <node concept="l2Vlx" id="6LeNfpOfYdF" role="2iSdaV" />
-      <node concept="PMmxH" id="6LeNfpOfYdG" role="3EZMnx">
-        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
-      </node>
-      <node concept="PMmxH" id="6LeNfpOfYdH" role="3EZMnx">
-        <ref role="34QXea" node="5oHFRyI_NHg" resolve="CreateModifierOnSpace" />
-        <ref role="PMmxG" node="5oHFRyIFjtw" resolve="HaveTypeOrVoidComponent" />
-      </node>
-      <node concept="3F0A7n" id="6LeNfpOfYdI" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <node concept="A1WHu" id="6LeNfpOfYdJ" role="3vIgyS">
-          <ref role="A1WHt" node="2vo5eZuESDh" resolve="GenericTypeListCreation" />
-        </node>
-      </node>
       <node concept="PMmxH" id="6LeNfpOfYdK" role="3EZMnx">
-        <ref role="PMmxG" node="5moKU4Y5smx" resolve="GenericTypeListComponent" />
+        <ref role="PMmxG" node="oxQ9D27r$n" resolve="TemplateDeclarationComponent" />
         <node concept="pkWqt" id="6LeNfpOfYdL" role="pqm2j">
           <node concept="3clFbS" id="6LeNfpOfYdM" role="2VODD2">
             <node concept="3clFbF" id="6LeNfpOfYdN" role="3cqZAp">
@@ -20652,6 +20590,19 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="PMmxH" id="6LeNfpOfYdG" role="3EZMnx">
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
+      </node>
+      <node concept="PMmxH" id="6LeNfpOfYdH" role="3EZMnx">
+        <ref role="34QXea" node="5oHFRyI_NHg" resolve="CreateModifierOnSpace" />
+        <ref role="PMmxG" node="5oHFRyIFjtw" resolve="HaveTypeOrVoidComponent" />
+      </node>
+      <node concept="3F0A7n" id="6LeNfpOfYdI" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="A1WHu" id="6LeNfpOfYdJ" role="3vIgyS">
+          <ref role="A1WHt" node="2vo5eZuESDh" resolve="GenericTypeListCreation" />
         </node>
       </node>
       <node concept="3F0ifn" id="6LeNfpOfYdT" role="3EZMnx">
