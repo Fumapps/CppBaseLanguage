@@ -21,7 +21,7 @@
       <concept id="7486903154347131570" name="CppBaseLanguage.structure.Block" flags="ng" index="1ux1M">
         <child id="7486903154347131571" name="statement" index="1ux1N" />
       </concept>
-      <concept id="7486903154347178711" name="CppBaseLanguage.structure.IConstructorInitializer" flags="ng" index="1uUwn">
+      <concept id="7486903154347178711" name="CppBaseLanguage.structure.IConstructorInitializer" flags="ngI" index="1uUwn">
         <child id="7486903154347178713" name="argumentList" index="1uUwp" />
       </concept>
       <concept id="7486903154347178672" name="CppBaseLanguage.structure.ConstructorDeclaration" flags="ng" index="1uUxK">
@@ -43,7 +43,7 @@
       <concept id="3766354144460199614" name="CppBaseLanguage.structure.Public" flags="ng" index="2qAx6t" />
       <concept id="3766354144460261375" name="CppBaseLanguage.structure.Static" flags="ng" index="2qAK3s" />
       <concept id="3766354144460261383" name="CppBaseLanguage.structure.Final" flags="ng" index="2qAKW$" />
-      <concept id="3766354144459872182" name="CppBaseLanguage.structure.IFunctionHeader" flags="ng" index="2qBh2l">
+      <concept id="3766354144459872182" name="CppBaseLanguage.structure.IFunctionHeader" flags="ngI" index="2qBh2l">
         <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
       </concept>
       <concept id="3766354144462009184" name="CppBaseLanguage.structure.Virtual" flags="ng" index="2qJFh3" />
@@ -53,7 +53,7 @@
       <concept id="959914550151964744" name="CppBaseLanguage.structure.UsingNamespace" flags="ng" index="2tQMlU">
         <child id="959914550151964747" name="namespace" index="2tQMlT" />
       </concept>
-      <concept id="593734185583750076" name="CppBaseLanguage.structure.IHasApiModifier" flags="ng" index="2uxfm$">
+      <concept id="593734185583750076" name="CppBaseLanguage.structure.IHasApiModifier" flags="ngI" index="2uxfm$">
         <child id="593734185583750079" name="apiModifier" index="2uxfmB" />
       </concept>
       <concept id="7769220957754731518" name="CppBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
@@ -70,7 +70,7 @@
         <child id="2439281069887050840" name="parentType" index="2GaslH" />
         <child id="2439281069887057717" name="genericTypeParameters" index="2GavS0" />
       </concept>
-      <concept id="267924987110481430" name="CppBaseLanguage.structure.IInheritedTypeList" flags="ng" index="KB09d">
+      <concept id="267924987110481430" name="CppBaseLanguage.structure.IInheritedTypeList" flags="ngI" index="KB09d">
         <child id="3754772800029021409" name="inheritedTypes" index="3U7fkm" />
       </concept>
       <concept id="1154422390078291492" name="CppBaseLanguage.structure.CppSourceFile" flags="ng" index="LmIGC" />
@@ -191,7 +191,7 @@
         <child id="4461009625175007768" name="variableInitializer" index="1tNLa6" />
       </concept>
       <concept id="6277145554426807166" name="CppBaseLanguage.structure.WStringType" flags="ng" index="3C5anx" />
-      <concept id="6167894786982645659" name="CppBaseLanguage.structure.ITemplatedTypeList" flags="ng" index="1FzkKU">
+      <concept id="6167894786982645659" name="CppBaseLanguage.structure.ITemplatedTypeList" flags="ngI" index="1FzkKU">
         <child id="6167894786982659430" name="typeParameter" index="1Fzgr7" />
       </concept>
       <concept id="8130609394078689092" name="CppBaseLanguage.structure.TypeReferenceMacroParameter" flags="ng" index="3PlxPI">
@@ -205,13 +205,13 @@
         <child id="8130609394078689069" name="parameters" index="3PlxO7" />
         <child id="8130609394078266495" name="body" index="3PE8Tl" />
       </concept>
-      <concept id="6209812394075305792" name="CppBaseLanguage.structure.IHaveTypeOrVoid" flags="ng" index="3Sw9wS">
+      <concept id="6209812394075305792" name="CppBaseLanguage.structure.IHaveTypeOrVoid" flags="ngI" index="3Sw9wS">
         <child id="6209812394075305793" name="typeOrVoid" index="3Sw9wT" />
       </concept>
-      <concept id="6209812394072707160" name="CppBaseLanguage.structure.IHaveModifiers" flags="ng" index="3SE3Ww">
+      <concept id="6209812394072707160" name="CppBaseLanguage.structure.IHaveModifiers" flags="ngI" index="3SE3Ww">
         <child id="6209812394072707161" name="modifiers" index="3SE3Wx" />
       </concept>
-      <concept id="6209812394072707164" name="CppBaseLanguage.structure.IHaveType" flags="ng" index="3SE3W$">
+      <concept id="6209812394072707164" name="CppBaseLanguage.structure.IHaveType" flags="ngI" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
       </concept>
       <concept id="6843536562191036574" name="CppBaseLanguage.structure.PrimaryDotExpression" flags="ng" index="3Uc_2w">
@@ -273,7 +273,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -516,7 +516,7 @@
       </node>
       <node concept="1tNLab" id="3RCG9TwbW5O" role="1tXcoT">
         <node concept="1VUwCF" id="6RZuJwqHqMU" role="1tNLa6">
-          <ref role="2aT8gA" node="4h_5oU0VZLE" resolve="mPrivateA" />
+          <ref role="2aT8gA" node="4h_5oU0VZLE" />
         </node>
         <node concept="3UdiBG" id="3RCG9TwbW5Q" role="1tNLa4">
           <node concept="3UdiBH" id="3RCG9TwbW5Z" role="3UdiBE">
@@ -529,7 +529,7 @@
       </node>
       <node concept="1tNLab" id="3RCG9TwbW6e" role="1tXcoT">
         <node concept="1VUwCF" id="6RZuJwqHqMX" role="1tNLa6">
-          <ref role="2aT8gA" node="4h_5oU0S$wx" resolve="mPublicA" />
+          <ref role="2aT8gA" node="4h_5oU0S$wx" />
         </node>
         <node concept="3UdiBG" id="3RCG9TwbW6h" role="1tNLa4">
           <node concept="3UdiBH" id="3RCG9TwbW6y" role="3UdiBE">
@@ -583,7 +583,7 @@
             <property role="TrG5h" value="hello" />
           </node>
           <node concept="1VUwCF" id="6RZuJwqHqN4" role="2YwsGD">
-            <ref role="2aT8gA" node="4h_5oU1fAJG" resolve="myOptionalChar" />
+            <ref role="2aT8gA" node="4h_5oU1fAJG" />
           </node>
           <node concept="1ux1M" id="4h_5oU1F2Q4" role="2YwsG_">
             <node concept="2Yz168" id="7n7GWRhxqfN" role="1ux1N">
@@ -604,7 +604,7 @@
                 <node concept="36mrcv" id="6RZuJwqxn20" role="1pHvC7">
                   <node concept="3UdpD0" id="6RZuJwqxn29" role="36mrcs" />
                   <node concept="1VUwCF" id="6RZuJwqxn24" role="36mrct">
-                    <ref role="2aT8gA" node="4h_5oU0VZLE" resolve="mPrivateA" />
+                    <ref role="2aT8gA" node="4h_5oU0VZLE" />
                   </node>
                 </node>
               </node>

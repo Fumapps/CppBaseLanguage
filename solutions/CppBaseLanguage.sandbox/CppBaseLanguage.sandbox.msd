@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="CppBaseLanguage.sandbox" uuid="c5e653e5-162f-4505-8a98-273f9da5b7a2" moduleVersion="0" compileInMPS="true">
+<solution name="CppBaseLanguage.sandbox" uuid="c5e653e5-162f-4505-8a98-273f9da5b7a2" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
+    <facet type="java" compile="mps" classes="mps" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">b0ab0748-a24f-440a-a643-9b7b13e80a3f(CppStdLib)</dependency>
   </dependencies>
