@@ -894,6 +894,33 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="7loaBmQHcDa" role="3cqZAp">
+          <node concept="3clFbS" id="7loaBmQHcDb" role="3clFbx">
+            <node concept="3cpWs6" id="7loaBmQHcDc" role="3cqZAp">
+              <node concept="3clFbT" id="7loaBmQHcDd" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="1Wc70l" id="7loaBmQHcDe" role="3clFbw">
+            <node concept="3fqX7Q" id="7loaBmQHcDf" role="3uHU7w">
+              <node concept="2OqwBi" id="7loaBmQHcDg" role="3fr31v">
+                <node concept="2DD5aU" id="7loaBmQHcDh" role="2Oq$k0" />
+                <node concept="2Zo12i" id="7loaBmQHcDi" role="2OqNvi">
+                  <node concept="chp4Y" id="7loaBmQHcDj" role="2Zo12j">
+                    <ref role="cht4Q" to="yjel:7loaBmQHbFm" resolve="IGlobalVariableModifier" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7loaBmQHcDk" role="3uHU7B">
+              <node concept="nLn13" id="7loaBmQHcDl" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="7loaBmQHcDm" role="2OqNvi">
+                <node concept="chp4Y" id="7loaBmQHcDn" role="cj9EA">
+                  <ref role="cht4Q" to="yjel:7loaBmQtvym" resolve="GlobalVariableDeclaration" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="5xx_vq$75_l" role="3cqZAp" />
         <node concept="3clFbJ" id="2XZTPU1qJbI" role="3cqZAp">
           <node concept="3clFbS" id="2XZTPU1qJbK" role="3clFbx">

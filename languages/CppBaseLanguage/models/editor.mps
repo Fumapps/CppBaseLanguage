@@ -952,14 +952,68 @@
   <node concept="24kQdi" id="2HIntxMTnPT">
     <property role="3GE5qa" value="References.VariableReferences" />
     <ref role="1XX52x" to="yjel:5VT83U$MIqV" resolve="VariableReference" />
-    <node concept="1iCGBv" id="6JhOkL8vqSj" role="2wV5jI">
-      <ref role="1NtTu8" to="yjel:6JhOkL8vqK8" resolve="variableDeclaration" />
-      <node concept="1sVBvm" id="6JhOkL8vqSk" role="1sWHZn">
-        <node concept="3F0A7n" id="6JhOkL8vqSz" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+    <node concept="3EZMnI" id="7loaBmQNWc2" role="2wV5jI">
+      <node concept="3EZMnI" id="7loaBmQNWct" role="3EZMnx">
+        <node concept="3F1sOY" id="7loaBmQNWcu" role="3EZMnx">
+          <ref role="1NtTu8" to="yjel:7loaBmQM7Wg" />
+        </node>
+        <node concept="2iRfu4" id="7loaBmQNWcv" role="2iSdaV" />
+        <node concept="3F0ifn" id="7loaBmQNWcw" role="3EZMnx">
+          <property role="3F0ifm" value="::" />
+          <node concept="11L4FC" id="7loaBmQNWcx" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="11LMrY" id="7loaBmQNWcy" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="pkWqt" id="7loaBmQNWcP" role="pqm2j">
+          <node concept="3clFbS" id="7loaBmQNWcQ" role="2VODD2">
+            <node concept="3clFbF" id="7loaBmQNWdn" role="3cqZAp">
+              <node concept="2OqwBi" id="7loaBmQNXn5" role="3clFbG">
+                <node concept="2OqwBi" id="7loaBmQNWDw" role="2Oq$k0">
+                  <node concept="pncrf" id="7loaBmQNWdm" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7loaBmQNX7n" role="2OqNvi">
+                    <ref role="3Tt5mk" to="yjel:7loaBmQM7Wg" resolve="parent" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="7loaBmQNXGp" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
+      <node concept="2iRfu4" id="7loaBmQNWc3" role="2iSdaV" />
+      <node concept="1iCGBv" id="6JhOkL8vqSj" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:6JhOkL8vqK8" resolve="variableDeclaration" />
+        <node concept="1sVBvm" id="6JhOkL8vqSk" role="1sWHZn">
+          <node concept="3F0A7n" id="6JhOkL8vqSz" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3EZMnI" id="7loaBmQM9KH" role="6VMZX">
+      <node concept="3F0ifn" id="7loaBmQM9KI" role="3EZMnx">
+        <property role="3F0ifm" value="parent reference:" />
+      </node>
+      <node concept="3EZMnI" id="7loaBmQMaj$" role="3EZMnx">
+        <node concept="3F1sOY" id="7loaBmQMaj_" role="3EZMnx">
+          <ref role="1NtTu8" to="yjel:7loaBmQM7Wg" />
+        </node>
+        <node concept="2iRfu4" id="7loaBmQMajA" role="2iSdaV" />
+        <node concept="3F0ifn" id="7loaBmQMajB" role="3EZMnx">
+          <property role="3F0ifm" value="::" />
+          <node concept="11L4FC" id="7loaBmQMajC" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="11LMrY" id="7loaBmQMajD" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="7loaBmQM9KK" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="5VT83U$LgKD">
@@ -21297,6 +21351,9 @@
     <property role="3GE5qa" value="Statements.Declaration" />
     <ref role="1XX52x" to="yjel:7loaBmQtvym" resolve="GlobalVariableDeclaration" />
     <node concept="3EZMnI" id="7loaBmQtv$G" role="2wV5jI">
+      <node concept="PMmxH" id="7loaBmQH_9_" role="3EZMnx">
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersPrefixComponent" />
+      </node>
       <node concept="3F1sOY" id="7loaBmQtv$H" role="3EZMnx">
         <ref role="1NtTu8" to="yjel:7loaBmQtvyL" />
       </node>

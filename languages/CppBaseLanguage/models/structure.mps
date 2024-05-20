@@ -740,6 +740,9 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5VT83U$LgKs" resolve="Expression" />
     </node>
+    <node concept="PrWs8" id="7loaBmQLUbL" role="PzmwI">
+      <ref role="PrY4T" node="1FYNzU$sHZz" resolve="IStatementExpression" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5VT83U$Lw6R">
     <property role="EcuMT" value="6843536562190680503" />
@@ -756,6 +759,12 @@
     <property role="3GE5qa" value="References.VariableReferences" />
     <property role="R4oN_" value="Reference to a variable" />
     <ref role="1TJDcQ" node="5VT83U$Mjvs" resolve="PrimaryExpression" />
+    <node concept="1TJgyj" id="7loaBmQM7Wg" role="1TKVEi">
+      <property role="IQ2ns" value="8455554985454239504" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="parent" />
+      <ref role="20lvS9" node="5E$Mk4xjGdE" resolve="MemberReference" />
+    </node>
     <node concept="1TJgyj" id="6JhOkL8vqK8" role="1TKVEi">
       <property role="IQ2ns" value="7769220957754731528" />
       <property role="20kJfa" value="variableDeclaration" />
@@ -2531,6 +2540,9 @@
     <node concept="PrWs8" id="3h4LMeIZxy2" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
     </node>
+    <node concept="PrWs8" id="7loaBmQHbEV" role="PzmwI">
+      <ref role="PrY4T" node="7loaBmQHbFm" resolve="IGlobalVariableModifier" />
+    </node>
   </node>
   <node concept="PlHQZ" id="3h4LMeIVAFK">
     <property role="EcuMT" value="3766354144461220592" />
@@ -3903,6 +3915,9 @@
     <node concept="PrWs8" id="7loaBmQtvyR" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
     </node>
+    <node concept="PrWs8" id="7loaBmQH_9g" role="PzmwI">
+      <ref role="PrY4T" node="5oHFRyIxp1o" resolve="IHaveModifiers" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7loaBmQtvyU">
     <property role="EcuMT" value="8455554985448831162" />
@@ -3926,6 +3941,14 @@
     </node>
     <node concept="PrWs8" id="7loaBmQtvyX" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7loaBmQHbFm">
+    <property role="EcuMT" value="8455554985452944086" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IGlobalVariableModifier" />
+    <node concept="PrWs8" id="7loaBmQHbFn" role="PrDN$">
+      <ref role="PrY4T" node="5oHFRyIwD2v" resolve="IModifier" />
     </node>
   </node>
 </model>
