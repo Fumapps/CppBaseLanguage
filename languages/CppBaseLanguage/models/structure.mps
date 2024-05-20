@@ -1729,8 +1729,8 @@
   <node concept="1TIwiD" id="1FYNzU$nG$k">
     <property role="EcuMT" value="1945218857511602452" />
     <property role="3GE5qa" value="Statements.Declaration" />
-    <property role="TrG5h" value="LocalVariableDeclarationWithInitialization" />
-    <property role="R4oN_" value="Local variable definition (with initialization)" />
+    <property role="TrG5h" value="VariableDeclarationWithInitialization" />
+    <property role="R4oN_" value="Variable definition (with initialization)" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1FYNzU$nG$l" role="PzmwI">
       <ref role="PrY4T" node="1FYNzU$mBn3" resolve="IVariableDeclarator" />
@@ -3019,8 +3019,8 @@
   <node concept="1TIwiD" id="4h_5oU0VZMc">
     <property role="EcuMT" value="4928369069019626636" />
     <property role="3GE5qa" value="Statements.Declaration" />
-    <property role="TrG5h" value="LocalVariableDeclarationWithoutInitialization" />
-    <property role="R4oN_" value="Local variable definition" />
+    <property role="TrG5h" value="VariableDeclarationWithoutInitialization" />
+    <property role="R4oN_" value="Variable definition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4h_5oU0VZMd" role="PzmwI">
       <ref role="PrY4T" node="1FYNzU$mBn3" resolve="IVariableDeclarator" />
@@ -3878,6 +3878,54 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="20kJfa" value="baseConstructor" />
       <ref role="20lvS9" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7loaBmQtvym">
+    <property role="EcuMT" value="8455554985448831126" />
+    <property role="3GE5qa" value="Statements.Declaration" />
+    <property role="TrG5h" value="GlobalVariableDeclaration" />
+    <property role="34LRSv" value="global variable" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7loaBmQtvyL" role="1TKVEi">
+      <property role="IQ2ns" value="8455554985448831153" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
+    </node>
+    <node concept="1TJgyj" id="7loaBmQtvyM" role="1TKVEi">
+      <property role="IQ2ns" value="8455554985448831154" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="variableDeclarator" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="1FYNzU$mBn3" resolve="IVariableDeclarator" />
+    </node>
+    <node concept="PrWs8" id="7loaBmQtvyR" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7loaBmQtvyU">
+    <property role="EcuMT" value="8455554985448831162" />
+    <property role="3GE5qa" value="Statements.Declaration" />
+    <property role="TrG5h" value="GlobalConstantDeclaration" />
+    <property role="34LRSv" value="global constant (constexpr)" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7loaBmQtvyV" role="1TKVEi">
+      <property role="IQ2ns" value="8455554985448831163" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
+    </node>
+    <node concept="1TJgyj" id="7loaBmQtvyW" role="1TKVEi">
+      <property role="IQ2ns" value="8455554985448831164" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="constantDeclarator" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="6hv6i2_B48E" resolve="ConstantDeclarator" />
+    </node>
+    <node concept="PrWs8" id="7loaBmQtvyX" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
     </node>
   </node>
 </model>

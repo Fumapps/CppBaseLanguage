@@ -102,13 +102,17 @@
         <child id="1945218857512918967" name="abstractStatementExpression" index="2Yz169" />
       </concept>
       <concept id="1945218857512325908" name="CppBaseLanguage.structure.EmptyBlock" flags="ng" index="2Y_LOE" />
-      <concept id="1945218857511602452" name="CppBaseLanguage.structure.LocalVariableDeclarationWithInitialization" flags="ng" index="2YC0sE">
+      <concept id="1945218857511602452" name="CppBaseLanguage.structure.VariableDeclarationWithInitialization" flags="ng" index="2YC0sE">
         <child id="1945218857511602455" name="identifier" index="2YC0sD" />
         <child id="1945218857511676509" name="variableInitializer" index="2YCihz" />
       </concept>
       <concept id="1945218857511318967" name="CppBaseLanguage.structure.LocalVariableDeclarationStatement" flags="ng" index="2YDbI9">
         <child id="1945218857511318970" name="variableDeclarator" index="2YDbI4" />
         <child id="1945218857511318968" name="type" index="2YDbI6" />
+      </concept>
+      <concept id="7232527154588434986" name="CppBaseLanguage.structure.ConstantDeclarator" flags="ng" index="31KPGa">
+        <child id="1945218857512106801" name="expression" index="2YAbkf" />
+        <child id="1945218857512106799" name="constant" index="2YAbkh" />
       </concept>
       <concept id="7232527154588443410" name="CppBaseLanguage.structure.MethodDeclaration" flags="ng" index="31KRCM">
         <child id="7232527154588443415" name="body" index="31KRCR" />
@@ -137,8 +141,16 @@
         <child id="7232527154588292748" name="includeDirectiveList" index="31LgYG" />
         <child id="7232527154588304251" name="namespaceMemberDeclaration" index="31LlDr" />
       </concept>
+      <concept id="8455554985448831162" name="CppBaseLanguage.structure.GlobalConstantDeclaration" flags="ng" index="33btbf">
+        <child id="8455554985448831164" name="constantDeclarator" index="33btb9" />
+        <child id="8455554985448831163" name="type" index="33btbe" />
+      </concept>
+      <concept id="8455554985448831126" name="CppBaseLanguage.structure.GlobalVariableDeclaration" flags="ng" index="33btbz">
+        <child id="8455554985448831153" name="type" index="33btb4" />
+        <child id="8455554985448831154" name="variableDeclarator" index="33btb7" />
+      </concept>
       <concept id="441872395509781223" name="CppBaseLanguage.structure.ClassApiModifier" flags="ng" index="14i8DX" />
-      <concept id="4928369069019626636" name="CppBaseLanguage.structure.LocalVariableDeclarationWithoutInitialization" flags="ng" index="34yI$2">
+      <concept id="4928369069019626636" name="CppBaseLanguage.structure.VariableDeclarationWithoutInitialization" flags="ng" index="34yI$2">
         <child id="4928369069019626638" name="identifier" index="34yI$0" />
       </concept>
       <concept id="4928369069026753624" name="CppBaseLanguage.structure.MethodDefinition" flags="ng" index="35eqBm">
@@ -301,6 +313,32 @@
       <node concept="2qAKW$" id="5omPgnN1fzr" role="3SE3Wx" />
       <node concept="14i8DX" id="1AVLl5Ol$ea" role="2uxfmB">
         <property role="TrG5h" value="DLL_EXPORT" />
+      </node>
+    </node>
+    <node concept="33btbf" id="7loaBmQxqxp" role="31LlDr">
+      <node concept="3UfwP1" id="7loaBmQxqxr" role="33btbe">
+        <node concept="3UfM66" id="7loaBmQxqz5" role="3UfBpY" />
+      </node>
+      <node concept="31KPGa" id="7loaBmQ_ehJ" role="33btb9">
+        <node concept="zF7EM" id="7loaBmQ_ehL" role="2YAbkh">
+          <property role="TrG5h" value="cMyConstant" />
+        </node>
+        <node concept="3UcVBg" id="7loaBmQ_ehS" role="2YAbkf">
+          <property role="1pzoAX" value="1" />
+        </node>
+      </node>
+    </node>
+    <node concept="33btbz" id="7loaBmQ_ej$" role="31LlDr">
+      <node concept="3UfwP1" id="7loaBmQ_ejA" role="33btb4">
+        <node concept="3UfM66" id="7loaBmQ_elm" role="3UfBpY" />
+      </node>
+      <node concept="2YC0sE" id="7loaBmQ_elp" role="33btb7">
+        <node concept="zF7EM" id="7loaBmQ_elr" role="2YC0sD">
+          <property role="TrG5h" value="gMyGlobalVariable" />
+        </node>
+        <node concept="3UcVBg" id="7loaBmQ_elx" role="2YCihz">
+          <property role="1pzoAX" value="1" />
+        </node>
       </node>
     </node>
     <node concept="31LiCz" id="1DC38INDGCW" role="31LlDr">

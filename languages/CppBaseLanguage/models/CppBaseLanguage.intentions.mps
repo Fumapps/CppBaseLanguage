@@ -785,7 +785,7 @@
           </node>
         </node>
         <node concept="Jncv_" id="6RZuJwqFHyp" role="3cqZAp">
-          <ref role="JncvD" to="yjel:4h_5oU0VZMc" resolve="LocalVariableDeclarationWithoutInitialization" />
+          <ref role="JncvD" to="yjel:4h_5oU0VZMc" resolve="VariableDeclarationWithoutInitialization" />
           <node concept="37vLTw" id="6RZuJwqFHyq" role="JncvB">
             <ref role="3cqZAo" node="6RZuJwqFwcP" resolve="declarator" />
           </node>
@@ -821,7 +821,7 @@
         </node>
         <node concept="3clFbH" id="6RZuJwqFHr1" role="3cqZAp" />
         <node concept="Jncv_" id="6RZuJwqFwAZ" role="3cqZAp">
-          <ref role="JncvD" to="yjel:1FYNzU$nG$k" resolve="LocalVariableDeclarationWithInitialization" />
+          <ref role="JncvD" to="yjel:1FYNzU$nG$k" resolve="VariableDeclarationWithInitialization" />
           <node concept="37vLTw" id="6RZuJwqFwNH" role="JncvB">
             <ref role="3cqZAo" node="6RZuJwqFwcP" resolve="declarator" />
           </node>
