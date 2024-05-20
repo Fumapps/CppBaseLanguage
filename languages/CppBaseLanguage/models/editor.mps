@@ -21225,5 +21225,39 @@
       <property role="3F0ifm" value="inline" />
     </node>
   </node>
+  <node concept="24kQdi" id="3_puicMKuxZ">
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
+    <ref role="1XX52x" to="yjel:3_puicMKuxU" resolve="SuperConstructorInitializer" />
+    <node concept="3EZMnI" id="3_puicMKuy1" role="2wV5jI">
+      <node concept="1iCGBv" id="3_puicMKuyz" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:3_puicMKuxX" resolve="baseConstructor" />
+        <node concept="1sVBvm" id="3_puicMKuy_" role="1sWHZn">
+          <node concept="3F0A7n" id="3_puicMKuyM" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3_puicMKuy4" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <node concept="11LMrY" id="3_puicMKuy5" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11L4FC" id="3_puicMKuy6" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="3_puicMKuy7" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:6vAOG1ABnFp" />
+      </node>
+      <node concept="3F0ifn" id="3_puicMKuy8" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <node concept="11L4FC" id="3_puicMKuy9" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="3_puicMKuya" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

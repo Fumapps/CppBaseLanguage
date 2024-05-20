@@ -3863,5 +3863,22 @@
       <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3_puicMKuxU">
+    <property role="EcuMT" value="4132467325171525754" />
+    <property role="TrG5h" value="SuperConstructorInitializer" />
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
+    <property role="R4oN_" value="Call of a base constructor" />
+    <property role="34LRSv" value="base" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3_puicMKuxV" role="PzmwI">
+      <ref role="PrY4T" node="6vAOG1ABnFn" resolve="IConstructorInitializer" />
+    </node>
+    <node concept="1TJgyj" id="3_puicMKuxX" role="1TKVEi">
+      <property role="IQ2ns" value="4132467325171525757" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="baseConstructor" />
+      <ref role="20lvS9" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+    </node>
+  </node>
 </model>
 

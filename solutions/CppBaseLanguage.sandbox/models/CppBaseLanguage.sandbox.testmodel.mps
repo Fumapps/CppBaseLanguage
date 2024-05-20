@@ -28,6 +28,9 @@
         <child id="7486903154347178702" name="formalParameterList" index="1uUwe" />
         <child id="7486903154347178686" name="body" index="1uUxY" />
       </concept>
+      <concept id="4132467325171525754" name="CppBaseLanguage.structure.SuperConstructorInitializer" flags="ng" index="bA95p">
+        <reference id="4132467325171525757" name="baseConstructor" index="bA95u" />
+      </concept>
       <concept id="7804400563165113168" name="CppBaseLanguage.structure.FunctionSignatureType" flags="ng" index="o7AuA">
         <child id="7804400563165113173" name="parameterTypes" index="o7Auz" />
       </concept>
@@ -455,6 +458,14 @@
       <node concept="35j1YG" id="4h_5oU1yX4I" role="31Leeq" />
       <node concept="35j1YG" id="4h_5oU1yX5P" role="31Leeq" />
       <node concept="2qAKW$" id="oxQ9D29jzM" role="3SE3Wx" />
+      <node concept="1XyjRH" id="3_puicMKuxF" role="3U7fkm">
+        <node concept="2Gatwc" id="3_puicMKuxQ" role="1XyizX">
+          <ref role="2Gaslz" node="3_puicMIQ8W" resolve="BaseClass" />
+          <node concept="2Gatwc" id="3_puicMKuxR" role="2GaslH">
+            <ref role="2Gaslz" node="3_puicMIQ8T" resolve="Foo" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="35eqBm" id="4h_5oU1_6nt" role="31LlDr">
       <property role="TrG5h" value="doSomething" />
@@ -474,6 +485,10 @@
       </node>
     </node>
     <node concept="1ux1E" id="4h_5oU1fAIW" role="31LgYG">
+      <node concept="36RqS7" id="3_puicMKuxL" role="1ux1F">
+        <property role="36Rq9j" value="BaseClass.h" />
+        <ref role="3FMaf6" node="3_puicMIQ8Q" resolve="BaseClass.h" />
+      </node>
       <node concept="31LgYL" id="6pgO1wrIm0t" role="1ux1F">
         <property role="36Rq9j" value="vector" />
         <ref role="3FMaf6" to="sta3:5wP$QAQ5gqU" resolve="vector" />
@@ -495,6 +510,10 @@
         <node concept="2Gatwc" id="1YUtmWI08i0" role="3UfBpY">
           <ref role="2Gaslz" node="1DC38INDGCW" resolve="MyClass" />
         </node>
+      </node>
+      <node concept="bA95p" id="3_puicMMP_O" role="1tXcoT">
+        <ref role="bA95u" node="3_puicMIQ8Y" resolve="BaseClass" />
+        <node concept="3UdiBG" id="3_puicMMP_P" role="1uUwp" />
       </node>
     </node>
     <node concept="Mraro" id="3RCG9Tw9U5U" role="31LlDr">
@@ -1940,6 +1959,27 @@
       </node>
       <node concept="3Plzig" id="1ecAInEnyPF" role="3PlxO7">
         <property role="3Ply33" value="MyTest" />
+      </node>
+    </node>
+  </node>
+  <node concept="LmIGD" id="3_puicMIQ8Q">
+    <property role="TrG5h" value="BaseClass.h" />
+    <node concept="1ux1E" id="3_puicMIQ8R" role="31LgYG" />
+    <node concept="31LijL" id="3_puicMIQ8T" role="31LlDr">
+      <property role="TrG5h" value="Foo" />
+      <node concept="31LiCz" id="3_puicMIQ8W" role="31LkaE">
+        <property role="TrG5h" value="BaseClass" />
+        <node concept="2DNGrd" id="3_puicMIQ9f" role="31Leeq">
+          <node concept="1uUxK" id="3_puicMIQ8Y" role="2DNGrf">
+            <property role="TrG5h" value="BaseClass" />
+            <node concept="1ux1M" id="3_puicMIQ8Z" role="1uUxY">
+              <node concept="pNo78" id="3_puicMIQ96" role="1ux1N">
+                <property role="pKhvV" value="base ctor" />
+              </node>
+            </node>
+            <node concept="1ux1I" id="3_puicMIQ91" role="1uUwe" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
