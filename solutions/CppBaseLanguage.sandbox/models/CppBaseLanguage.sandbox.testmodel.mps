@@ -6,6 +6,8 @@
   </languages>
   <imports>
     <import index="sta3" ref="r:0f7d3034-07e3-4074-946c-3d35273fd44e(CppStdLib.containers)" />
+    <import index="eipx" ref="r:1deed0c1-6cfe-409d-ab5c-6ed9f22e37c0(CppStdLib.testing)" />
+    <import index="w5zs" ref="r:436249a2-b063-430c-bb49-4e00ce88eef6(CppStdLib.functions)" />
   </imports>
   <registry>
     <language id="caee2629-07dd-4ee1-aceb-6d1e4dce0f12" name="CppBaseLanguage">
@@ -1319,6 +1321,7 @@
           <node concept="31LiC_" id="5tEqanR$vym" role="2DNGrf">
             <property role="TrG5h" value="VReceivedInputCalls" />
             <node concept="31KRIa" id="5tEqanR$vys" role="2qBxSn">
+              <property role="TrG5h" value="Number" />
               <node concept="1ux1y" id="5tEqanR$vyt" role="31KRJH">
                 <node concept="2YC0sE" id="5tEqanR$vyD" role="1ux1z">
                   <node concept="zF7EM" id="5tEqanR$vyF" role="2YC0sD">
@@ -1334,6 +1337,7 @@
               </node>
             </node>
             <node concept="31KRIa" id="5tEqanR$vyW" role="2qBxSn">
+              <property role="TrG5h" value="Values" />
               <node concept="1ux1y" id="5tEqanR$vyY" role="31KRJH">
                 <node concept="34yI$2" id="5tEqanR$vzo" role="1ux1z">
                   <node concept="zF7EM" id="5tEqanR$vzq" role="34yI$0">
@@ -1473,7 +1477,7 @@
           </node>
           <node concept="3UfwP1" id="5tEqanR$w0o" role="3SE38M">
             <node concept="2Gatwc" id="5tEqanR$w23" role="3UfBpY">
-              <ref role="2Gaslz" to="sta3:5wP$QAQ5grt" resolve="function" />
+              <ref role="2Gaslz" to="w5zs:5wP$QAQ5grt" resolve="function" />
               <node concept="3UfwP1" id="5tEqanR$w29" role="2GavS0">
                 <node concept="o7AuA" id="6LeNfpOlvh_" role="3UfBpY">
                   <node concept="3UfwP1" id="4ORvO2I1Jux" role="o7Auz">
@@ -1488,8 +1492,8 @@
                   </node>
                 </node>
               </node>
-              <node concept="2Gatwc" id="6LeNfpOcNFf" role="2GaslH">
-                <ref role="2Gaslz" to="sta3:5wP$QAQ5grs" resolve="std" />
+              <node concept="2Gatwc" id="7loaBmQXv6s" role="2GaslH">
+                <ref role="2Gaslz" to="w5zs:5wP$QAQ5grs" resolve="std" />
               </node>
             </node>
           </node>
@@ -1507,7 +1511,7 @@
       </node>
       <node concept="31LgYL" id="5tEqanR$vx$" role="1ux1F">
         <property role="36Rq9j" value="functional" />
-        <ref role="3FMaf6" to="sta3:5wP$QAQ5grr" resolve="functional" />
+        <ref role="3FMaf6" to="w5zs:5wP$QAQ5grr" resolve="functional" />
       </node>
       <node concept="36Rq9k" id="5tEqanR$vxC" role="1ux1F" />
       <node concept="36RqS7" id="5tEqanR$vxN" role="1ux1F">
@@ -1639,6 +1643,7 @@
           <node concept="31LiC_" id="5tEqanR$w7D" role="2DNGrf">
             <property role="TrG5h" value="VReceivedOutputCalls" />
             <node concept="31KRIa" id="5tEqanR$w7E" role="2qBxSn">
+              <property role="TrG5h" value="Number" />
               <node concept="1ux1y" id="5tEqanR$w7F" role="31KRJH">
                 <node concept="2YC0sE" id="5tEqanR$w7G" role="1ux1z">
                   <node concept="zF7EM" id="5tEqanR$w7H" role="2YC0sD">
@@ -1654,6 +1659,7 @@
               </node>
             </node>
             <node concept="31KRIa" id="5tEqanR$w7L" role="2qBxSn">
+              <property role="TrG5h" value="Values" />
               <node concept="1ux1y" id="5tEqanR$w7M" role="31KRJH">
                 <node concept="34yI$2" id="5tEqanR$w7N" role="1ux1z">
                   <node concept="zF7EM" id="5tEqanR$w7O" role="34yI$0">
@@ -1676,6 +1682,7 @@
               </node>
             </node>
             <node concept="31KRIa" id="5tEqanR$w99" role="2qBxSn">
+              <property role="TrG5h" value="Errors" />
               <node concept="1ux1y" id="5tEqanR$w9a" role="31KRJH">
                 <node concept="34yI$2" id="5tEqanR$w9b" role="1ux1z">
                   <node concept="zF7EM" id="5tEqanR$w9c" role="34yI$0">
@@ -1739,6 +1746,7 @@
           <property role="pKhvV" value="= std::make_shared&lt;VReceivedOutputCalls&gt;();" />
         </node>
         <node concept="31KRIa" id="5tEqanR$w8q" role="31Leeq">
+          <property role="TrG5h" value="mpCalls" />
           <node concept="1ux1y" id="5tEqanR$w8r" role="31KRJH">
             <node concept="2YC0sE" id="5tEqanR$w8s" role="1ux1z">
               <node concept="zF7EM" id="5tEqanR$w8t" role="2YC0sD">
@@ -1774,7 +1782,7 @@
       </node>
       <node concept="31LgYL" id="5tEqanR$w8T" role="1ux1F">
         <property role="36Rq9j" value="functional" />
-        <ref role="3FMaf6" to="sta3:5wP$QAQ5grr" resolve="functional" />
+        <ref role="3FMaf6" to="w5zs:5wP$QAQ5grr" resolve="functional" />
       </node>
       <node concept="36Rq9k" id="5tEqanR$w8U" role="1ux1F" />
       <node concept="36RqS7" id="5tEqanR$w8V" role="1ux1F">
@@ -1963,7 +1971,7 @@
     <node concept="1ux1E" id="45spXZsA8pM" role="31LgYG">
       <node concept="36RqS7" id="45spXZsA8q2" role="1ux1F">
         <property role="36Rq9j" value="gtest/gtest.h" />
-        <ref role="3FMaf6" to="sta3:45spXZsA8pO" resolve="gtest.h" />
+        <ref role="3FMaf6" to="eipx:45spXZsA8pO" resolve="gtest.h" />
       </node>
     </node>
     <node concept="31LijL" id="PijjagADNv" role="31LlDr">
@@ -1978,17 +1986,35 @@
       <property role="TrG5h" value="MyGoogleTest" />
       <node concept="1XyjRH" id="45spXZsA8q0" role="3U7fkm">
         <node concept="2Gatwc" id="45spXZsA8q6" role="1XyizX">
-          <ref role="2Gaslz" to="sta3:45spXZsA8pU" resolve="Test" />
+          <ref role="2Gaslz" to="eipx:45spXZsA8pU" resolve="Test" />
           <node concept="2Gatwc" id="45spXZsA8q7" role="2GaslH">
-            <ref role="2Gaslz" to="sta3:45spXZsA8pR" resolve="testing" />
+            <ref role="2Gaslz" to="eipx:45spXZsA8pR" resolve="testing" />
           </node>
         </node>
       </node>
     </node>
     <node concept="3PEl0f" id="1ecAInEnyPh" role="31LlDr">
-      <ref role="3PEbnI" to="sta3:1ecAInEpqjA" resolve="TEST_F" />
+      <ref role="3PEbnI" to="eipx:1ecAInEpqjA" resolve="TEST_F" />
       <node concept="1ux1M" id="1ecAInEnyPj" role="3PE8Tl">
-        <node concept="31KRCQ" id="1ecAInEnyPk" role="1ux1N" />
+        <node concept="2Yz168" id="7loaBmQX2Pg" role="1ux1N">
+          <node concept="3UdiBM" id="7loaBmQX2Pk" role="2Yz169">
+            <node concept="1VUwCF" id="7loaBmQXv6b" role="3UdiBN">
+              <ref role="2aT8gA" to="eipx:7loaBmQX2PM" resolve="EXPECT_EQ" />
+            </node>
+            <node concept="3UdiBG" id="7loaBmQX2Po" role="3UdiBL">
+              <node concept="3UdiBH" id="7loaBmQXv6e" role="3UdiBE">
+                <node concept="3UcVBg" id="7loaBmQXv6i" role="3UdiBb">
+                  <property role="1pzoAX" value="1" />
+                </node>
+              </node>
+              <node concept="3UdiBH" id="7loaBmQXv6k" role="3UdiBE">
+                <node concept="3UcVBg" id="7loaBmQXv6q" role="3UdiBb">
+                  <property role="1pzoAX" value="1" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3PlxPI" id="1ecAInEnyPw" role="3PlxO7">
         <node concept="2Gatwc" id="1ecAInEnyP$" role="3PlwAw">

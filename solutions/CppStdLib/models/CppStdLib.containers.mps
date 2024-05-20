@@ -8,7 +8,9 @@
   <registry>
     <language id="caee2629-07dd-4ee1-aceb-6d1e4dce0f12" name="CppBaseLanguage">
       <concept id="7486903154347131562" name="CppBaseLanguage.structure.IncludeDirectiveList" flags="ng" index="1ux1E" />
-      <concept id="7486903154347131566" name="CppBaseLanguage.structure.FormalParameterList" flags="ng" index="1ux1I" />
+      <concept id="7486903154347131566" name="CppBaseLanguage.structure.FormalParameterList" flags="ng" index="1ux1I">
+        <child id="7486903154347131567" name="formalParameter" index="1ux1J" />
+      </concept>
       <concept id="7486903154347131570" name="CppBaseLanguage.structure.Block" flags="ng" index="1ux1M">
         <child id="7486903154347131571" name="statement" index="1ux1N" />
       </concept>
@@ -20,10 +22,14 @@
       </concept>
       <concept id="1902784636718074438" name="CppBaseLanguage.structure.PublicVisibilityScopeDeclaration" flags="ng" index="2DNGrd" />
       <concept id="1154422390078291493" name="CppBaseLanguage.structure.CppHeaderFile" flags="ng" index="LmIGD" />
+      <concept id="1945218857512325908" name="CppBaseLanguage.structure.EmptyBlock" flags="ng" index="2Y_LOE" />
       <concept id="7232527154588443410" name="CppBaseLanguage.structure.MethodDeclaration" flags="ng" index="31KRCM">
         <child id="7232527154588443415" name="body" index="31KRCR" />
       </concept>
       <concept id="7232527154588443414" name="CppBaseLanguage.structure.Statement" flags="ng" index="31KRCQ" />
+      <concept id="7232527154588476195" name="CppBaseLanguage.structure.FormalParameter" flags="ng" index="31KZC3">
+        <child id="5564055780414736654" name="type" index="3z8Npe" />
+      </concept>
       <concept id="7232527154588409138" name="CppBaseLanguage.structure.TemplateTypeParameter" flags="ng" index="31Lcgi" />
       <concept id="7232527154588302801" name="CppBaseLanguage.structure.NamespaceDeclaration" flags="ng" index="31LijL">
         <child id="7232527154588310410" name="namespaceMemberDeclaration" index="31LkaE" />
@@ -36,10 +42,10 @@
         <child id="7232527154588304251" name="namespaceMemberDeclaration" index="31LlDr" />
       </concept>
       <concept id="4928369069031960011" name="CppBaseLanguage.structure.AutoType" flags="ng" index="35Mjx5" />
+      <concept id="3129541975290303051" name="CppBaseLanguage.structure.VoidType" flags="ng" index="1pH0Yj" />
       <concept id="6167894786982645659" name="CppBaseLanguage.structure.ITemplatedTypeList" flags="ngI" index="1FzkKU">
         <child id="6167894786982659430" name="typeParameter" index="1Fzgr7" />
       </concept>
-      <concept id="8130609394078210119" name="CppBaseLanguage.structure.MacroDeclaration" flags="ng" index="3PEu9H" />
       <concept id="6209812394075305792" name="CppBaseLanguage.structure.IHaveTypeOrVoid" flags="ngI" index="3Sw9wS">
         <child id="6209812394075305793" name="typeOrVoid" index="3Sw9wT" />
       </concept>
@@ -48,6 +54,7 @@
       </concept>
       <concept id="6843536562190694844" name="CppBaseLanguage.structure.BoolType" flags="ng" index="3UfLA2" />
       <concept id="6843536562190680504" name="CppBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
+      <concept id="6843536562190680505" name="CppBaseLanguage.structure.UnsignedType" flags="ng" index="3UfM67" />
       <concept id="7372621391966415033" name="CppBaseLanguage.structure.EmptyNamespaceMemberDeclaration" flags="ng" index="1XMByx" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -64,6 +71,56 @@
         <property role="TrG5h" value="vector" />
         <node concept="31Lcgi" id="4h_5oU1Kna3" role="1Fzgr7">
           <property role="TrG5h" value="T" />
+        </node>
+        <node concept="31KRCM" id="7loaBmQX0Tv" role="31Leeq">
+          <property role="TrG5h" value="push_back" />
+          <node concept="1ux1I" id="7loaBmQX0Ty" role="1fIg$P">
+            <node concept="31KZC3" id="7loaBmQX0TL" role="1ux1J">
+              <property role="TrG5h" value="value" />
+              <node concept="3UfwP1" id="7loaBmQX0TM" role="3z8Npe">
+                <node concept="3UfM66" id="7loaBmQX0TR" role="3UfBpY" />
+              </node>
+            </node>
+          </node>
+          <node concept="1pH0Yj" id="7loaBmQX0TD" role="3Sw9wT" />
+          <node concept="2Y_LOE" id="7loaBmQX0TI" role="31KRCR" />
+        </node>
+        <node concept="31KRCM" id="7loaBmQX2WF" role="31Leeq">
+          <property role="TrG5h" value="size" />
+          <node concept="1ux1I" id="7loaBmQX2WG" role="1fIg$P" />
+          <node concept="3UfwP1" id="7loaBmQX2X0" role="3Sw9wT">
+            <node concept="3UfM66" id="7loaBmQX2X5" role="3UfBpY" />
+          </node>
+          <node concept="2Y_LOE" id="7loaBmQX2WL" role="31KRCR" />
+        </node>
+        <node concept="31KRCM" id="7loaBmQX2X8" role="31Leeq">
+          <property role="TrG5h" value="empty" />
+          <node concept="1ux1I" id="7loaBmQX2X9" role="1fIg$P" />
+          <node concept="3UfwP1" id="7loaBmQX2Xa" role="3Sw9wT">
+            <node concept="3UfLA2" id="7loaBmQX2Xw" role="3UfBpY" />
+          </node>
+          <node concept="2Y_LOE" id="7loaBmQX2Xc" role="31KRCR" />
+        </node>
+        <node concept="31KRCM" id="7loaBmQX2Xz" role="31Leeq">
+          <property role="TrG5h" value="at" />
+          <node concept="1ux1I" id="7loaBmQX2X$" role="1fIg$P">
+            <node concept="31KZC3" id="7loaBmQX2Y3" role="1ux1J">
+              <property role="TrG5h" value="i" />
+              <node concept="3UfwP1" id="7loaBmQX2Y4" role="3z8Npe">
+                <node concept="3UfM67" id="7loaBmQX2Y9" role="3UfBpY" />
+              </node>
+            </node>
+          </node>
+          <node concept="3UfwP1" id="7loaBmQX2X_" role="3Sw9wT">
+            <node concept="3UfM66" id="7loaBmQX2Y0" role="3UfBpY" />
+          </node>
+          <node concept="2Y_LOE" id="7loaBmQX2XB" role="31KRCR" />
+        </node>
+        <node concept="31KRCM" id="7loaBmQX2Zn" role="31Leeq">
+          <property role="TrG5h" value="clear" />
+          <node concept="1ux1I" id="7loaBmQX2Zo" role="1fIg$P" />
+          <node concept="2Y_LOE" id="7loaBmQX2Zv" role="31KRCR" />
+          <node concept="1pH0Yj" id="7loaBmQX2Zw" role="3Sw9wT" />
         </node>
       </node>
     </node>
@@ -201,33 +258,6 @@
       <node concept="1XMByx" id="3zEy8NjaIKk" role="31LkaE" />
     </node>
     <node concept="1ux1E" id="3zEy8Nj7YXu" role="31LgYG" />
-  </node>
-  <node concept="LmIGD" id="5wP$QAQ5grr">
-    <property role="TrG5h" value="functional" />
-    <node concept="31LijL" id="5wP$QAQ5grs" role="31LlDr">
-      <property role="TrG5h" value="std" />
-      <node concept="31LiCz" id="5wP$QAQ5grt" role="31LkaE">
-        <property role="TrG5h" value="function" />
-        <node concept="31Lcgi" id="5wP$QAQ5gru" role="1Fzgr7">
-          <property role="TrG5h" value="T" />
-        </node>
-      </node>
-    </node>
-    <node concept="1ux1E" id="3zEy8Nj7YXo" role="31LgYG" />
-  </node>
-  <node concept="LmIGD" id="45spXZsA8pO">
-    <property role="TrG5h" value="gtest.h" />
-    <node concept="1ux1E" id="45spXZsA8pP" role="31LgYG" />
-    <node concept="31LijL" id="45spXZsA8pR" role="31LlDr">
-      <property role="TrG5h" value="testing" />
-      <node concept="31LiCz" id="45spXZsA8pU" role="31LkaE">
-        <property role="TrG5h" value="Test" />
-      </node>
-      <node concept="1XMByx" id="1ecAInEpqjv" role="31LkaE" />
-      <node concept="3PEu9H" id="1ecAInEpqjA" role="31LkaE">
-        <property role="TrG5h" value="TEST_F" />
-      </node>
-    </node>
   </node>
 </model>
 
