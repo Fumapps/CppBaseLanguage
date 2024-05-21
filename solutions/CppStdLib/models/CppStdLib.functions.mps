@@ -299,7 +299,39 @@
       <node concept="31LiC_" id="7loaBmQHane" role="31LkaE">
         <property role="TrG5h" value="ostream" />
       </node>
-      <node concept="1XMByx" id="7loaBmQHang" role="31LkaE" />
+      <node concept="osiN9" id="1pkjUYrZ3i" role="31LkaE">
+        <property role="TrG5h" value="endl" />
+        <node concept="2Y_LOE" id="1pkjUYrZ58" role="osiMw" />
+        <node concept="1ux1I" id="1pkjUYrZ3m" role="1fIg$P">
+          <node concept="31KZC3" id="1pkjUYrZ5c" role="1ux1J">
+            <property role="TrG5h" value="os" />
+            <node concept="3UfwP1" id="1pkjUYrZ6z" role="3z8Npe">
+              <node concept="35uqmV" id="1pkjUYrZ6$" role="3UfBpY">
+                <node concept="3UfwP1" id="1pkjUYrZ5d" role="35x3dZ">
+                  <node concept="2Gatwc" id="1pkjUYrZ6s" role="3UfBpY">
+                    <ref role="2Gaslz" node="7loaBmQHane" resolve="ostream" />
+                    <node concept="2Gatwc" id="1pkjUYrZ6u" role="2GaslH">
+                      <ref role="2Gaslz" node="7loaBmQHand" resolve="std" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3UfwP1" id="1pkjUYrZ3M" role="3Sw9wT">
+          <node concept="35uqmV" id="1pkjUYrZ3N" role="3UfBpY">
+            <node concept="3UfwP1" id="1pkjUYrZ3$" role="35x3dZ">
+              <node concept="2Gatwc" id="1pkjUYrZ3F" role="3UfBpY">
+                <ref role="2Gaslz" node="7loaBmQHane" resolve="ostream" />
+                <node concept="2Gatwc" id="1pkjUYrZ3H" role="2GaslH">
+                  <ref role="2Gaslz" node="7loaBmQHand" resolve="std" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="LmIGD" id="7loaBmQHanH">
