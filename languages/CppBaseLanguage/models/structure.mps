@@ -2989,6 +2989,9 @@
     <property role="R4oN_" value="C++ header file" />
     <property role="34LRSv" value=".h" />
     <ref role="1TJDcQ" node="6hv6i2_AqOA" resolve="File" />
+    <node concept="PrWs8" id="1pkjUYnnzk" role="PzmwI">
+      <ref role="PrY4T" node="1pkjUYnkKq" resolve="IIncludableFile" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1DC38INDGD1">
     <property role="EcuMT" value="1902784636718074433" />
@@ -3316,7 +3319,7 @@
     <node concept="1TJgyj" id="3zEy8Nj8yHa" role="1TKVEi">
       <property role="IQ2ns" value="4101240549093288778" />
       <property role="20kJfa" value="targetFile" />
-      <ref role="20lvS9" node="105lgKxnVS_" resolve="CppHeaderFile" />
+      <ref role="20lvS9" node="6hv6i2_AqOA" resolve="File" />
     </node>
   </node>
   <node concept="1TIwiD" id="4h_5oU2IbI9">
@@ -3478,6 +3481,9 @@
     <property role="R4oN_" value="C++ header source file" />
     <property role="34LRSv" value=".hpp" />
     <ref role="1TJDcQ" node="6hv6i2_AqOA" resolve="File" />
+    <node concept="PrWs8" id="1pkjUYnnzn" role="PzmwI">
+      <ref role="PrY4T" node="1pkjUYnkKq" resolve="IIncludableFile" />
+    </node>
   </node>
   <node concept="1TIwiD" id="m1jUWoUS4a">
     <property role="EcuMT" value="396685855641272586" />
@@ -3949,6 +3955,14 @@
     <property role="TrG5h" value="IGlobalVariableModifier" />
     <node concept="PrWs8" id="7loaBmQHbFn" role="PrDN$">
       <ref role="PrY4T" node="5oHFRyIwD2v" resolve="IModifier" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1pkjUYnkKq">
+    <property role="EcuMT" value="25140602850855962" />
+    <property role="3GE5qa" value="Namespace" />
+    <property role="TrG5h" value="IIncludableFile" />
+    <node concept="PrWs8" id="1pkjUYnlAC" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

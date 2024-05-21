@@ -12,6 +12,7 @@
     <import index="yjel" ref="r:dab63655-c42b-4e25-8556-f957cf01259a(CppBaseLanguage.structure)" />
     <import index="puek" ref="r:03a797f3-b1c3-43e1-9876-f0bc46d94082(CppBaseLanguage.behavior)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
+    <import index="6xgk" ref="r:6e9ad488-5df2-49e4-8c01-8a7f3812adf7(jetbrains.mps.lang.scopes.runtime)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
@@ -26,6 +27,9 @@
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
+        <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
@@ -43,6 +47,9 @@
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
+      </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -92,6 +99,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
@@ -1814,6 +1822,36 @@
                     <node concept="gl6BB" id="3_puicMMRqj" role="1bW2Oz">
                       <property role="TrG5h" value="it" />
                       <node concept="2jxLKc" id="3_puicMMRqk" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1pkjUYnaE$">
+    <property role="3GE5qa" value="Namespace" />
+    <ref role="1M2myG" to="yjel:4h_5oU2Ibvs" resolve="IncludeDirective" />
+    <node concept="1N5Pfh" id="1pkjUYnaEZ" role="1Mr941">
+      <ref role="1N5Vy1" to="yjel:3zEy8Nj8yHa" resolve="targetFile" />
+      <node concept="3dgokm" id="1pkjUYnaHA" role="1N6uqs">
+        <node concept="3clFbS" id="1pkjUYnaHB" role="2VODD2">
+          <node concept="3clFbF" id="1pkjUYnaYD" role="3cqZAp">
+            <node concept="2ShNRf" id="1pkjUYnaYB" role="3clFbG">
+              <node concept="1pGfFk" id="1pkjUYncm0" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="6xgk:7lHSllLpTWM" resolve="NamedElementsScope" />
+                <node concept="2OqwBi" id="1pkjUYnd5B" role="37wK5m">
+                  <node concept="2OqwBi" id="1pkjUYncLK" role="2Oq$k0">
+                    <node concept="2rP1CM" id="1pkjUYncqm" role="2Oq$k0" />
+                    <node concept="I4A8Y" id="1pkjUYncUE" role="2OqNvi" />
+                  </node>
+                  <node concept="1j9C0f" id="1pkjUYndfN" role="2OqNvi">
+                    <node concept="chp4Y" id="1pkjUYndCo" role="3MHPCF">
+                      <ref role="cht4Q" to="yjel:1pkjUYnkKq" resolve="IIncludableFile" />
                     </node>
                   </node>
                 </node>
