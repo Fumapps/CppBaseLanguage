@@ -1385,7 +1385,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="6$wrg4A_Pfw" role="3EZMnx">
-        <property role="3F0ifm" value="}" />
+        <property role="3F0ifm" value="};" />
         <node concept="pVoyu" id="6$wrg4A_Pfx" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
