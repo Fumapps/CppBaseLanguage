@@ -1366,6 +1366,7 @@
     <property role="TrG5h" value="File" />
     <property role="R4oN_" value="C++ file" />
     <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="Files" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6hv6i2_Aw1g" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -2697,6 +2698,7 @@
   <node concept="PlHQZ" id="2wJFJXyG7B">
     <property role="EcuMT" value="45245710895596007" />
     <property role="TrG5h" value="IInheritedTypeListAndGenericTypeList" />
+    <property role="3GE5qa" value="Class / Struct" />
     <node concept="PrWs8" id="2wJFJXyG7K" role="PrDN$">
       <ref role="PrY4T" node="eRR5GNaXSm" resolve="IInheritedTypeList" />
     </node>
@@ -2980,6 +2982,7 @@
     <property role="19KtqR" value="true" />
     <property role="R4oN_" value="C++ source file" />
     <property role="34LRSv" value=".cpp" />
+    <property role="3GE5qa" value="Files" />
     <ref role="1TJDcQ" node="6hv6i2_AqOA" resolve="File" />
   </node>
   <node concept="1TIwiD" id="105lgKxnVS_">
@@ -2988,6 +2991,7 @@
     <property role="19KtqR" value="true" />
     <property role="R4oN_" value="C++ header file" />
     <property role="34LRSv" value=".h" />
+    <property role="3GE5qa" value="Files" />
     <ref role="1TJDcQ" node="6hv6i2_AqOA" resolve="File" />
     <node concept="PrWs8" id="1pkjUYnnzk" role="PzmwI">
       <ref role="PrY4T" node="1pkjUYnkKq" resolve="IIncludableFile" />
@@ -3480,6 +3484,7 @@
     <property role="19KtqR" value="true" />
     <property role="R4oN_" value="C++ header source file" />
     <property role="34LRSv" value=".hpp" />
+    <property role="3GE5qa" value="Files" />
     <ref role="1TJDcQ" node="6hv6i2_AqOA" resolve="File" />
     <node concept="PrWs8" id="1pkjUYnnzn" role="PzmwI">
       <ref role="PrY4T" node="1pkjUYnkKq" resolve="IIncludableFile" />

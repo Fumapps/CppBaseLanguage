@@ -6223,6 +6223,7 @@
     </node>
   </node>
   <node concept="3ICUPy" id="2vo5eZuFHQa">
+    <property role="3GE5qa" value="Class / Struct" />
     <ref role="aqKnT" to="yjel:2wJFJXyG7B" resolve="IInheritedTypeListAndGenericTypeList" />
     <node concept="22hDWg" id="BJMgwyacL5" role="22hAXT">
       <property role="TrG5h" value="RightSideTransformationsOnName" />
@@ -6379,6 +6380,7 @@
     </node>
   </node>
   <node concept="3ICUPy" id="2wJFJXFOSf">
+    <property role="3GE5qa" value="Class / Struct" />
     <ref role="aqKnT" to="yjel:2wJFJXyG7B" resolve="IInheritedTypeListAndGenericTypeList" />
     <node concept="22hDWg" id="BJMgwyacLb" role="22hAXT">
       <property role="TrG5h" value="EmptyConstantMenu" />
@@ -19747,6 +19749,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="105lgKxo42O">
+    <property role="3GE5qa" value="Files" />
     <ref role="1XX52x" to="yjel:105lgKxnVS$" resolve="CppSourceFile" />
     <node concept="3EZMnI" id="105lgKxo42Q" role="2wV5jI">
       <node concept="3F1sOY" id="105lgKxo5yU" role="3EZMnx">
@@ -19783,17 +19786,12 @@
       </node>
       <node concept="l2Vlx" id="105lgKxo43c" role="2iSdaV" />
     </node>
-    <node concept="3EZMnI" id="2SeqMAbUuEi" role="6VMZX">
-      <node concept="l2Vlx" id="2SeqMAbUuEj" role="2iSdaV" />
-      <node concept="3F0ifn" id="2SeqMAbUuEk" role="3EZMnx">
-        <property role="3F0ifm" value="Filename:" />
-      </node>
-      <node concept="3F0A7n" id="2SeqMAbUuEl" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
+    <node concept="PMmxH" id="e4yctW45z7" role="6VMZX">
+      <ref role="PMmxG" node="e4yctW44bL" resolve="File_Inspector_EC" />
     </node>
   </node>
   <node concept="24kQdi" id="105lgKxo5cs">
+    <property role="3GE5qa" value="Files" />
     <ref role="1XX52x" to="yjel:105lgKxnVS_" resolve="CppHeaderFile" />
     <node concept="3EZMnI" id="105lgKxo5cu" role="2wV5jI">
       <node concept="3F0ifn" id="105lgKxo5cQ" role="3EZMnx">
@@ -19841,14 +19839,8 @@
       </node>
       <node concept="l2Vlx" id="105lgKxo5d1" role="2iSdaV" />
     </node>
-    <node concept="3EZMnI" id="2SeqMAbUvb2" role="6VMZX">
-      <node concept="l2Vlx" id="2SeqMAbUvb3" role="2iSdaV" />
-      <node concept="3F0ifn" id="2SeqMAbUvb4" role="3EZMnx">
-        <property role="3F0ifm" value="Filename:" />
-      </node>
-      <node concept="3F0A7n" id="2SeqMAbUvb5" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
+    <node concept="PMmxH" id="e4yctW463N" role="6VMZX">
+      <ref role="PMmxG" node="e4yctW44bL" resolve="File_Inspector_EC" />
     </node>
   </node>
   <node concept="24kQdi" id="105lgKxo5uJ">
@@ -20538,6 +20530,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="m1jUWoRsXh">
+    <property role="3GE5qa" value="Files" />
     <ref role="1XX52x" to="yjel:m1jUWoRrpG" resolve="CppHeaderSourceFile" />
     <node concept="3EZMnI" id="m1jUWoRsXj" role="2wV5jI">
       <node concept="3F0ifn" id="m1jUWoRsXV" role="3EZMnx">
@@ -20585,14 +20578,8 @@
       </node>
       <node concept="l2Vlx" id="m1jUWoRsYc" role="2iSdaV" />
     </node>
-    <node concept="3EZMnI" id="2SeqMAbUtZu" role="6VMZX">
-      <node concept="l2Vlx" id="2SeqMAbUtZv" role="2iSdaV" />
-      <node concept="3F0ifn" id="2SeqMAbUtZy" role="3EZMnx">
-        <property role="3F0ifm" value="Filename:" />
-      </node>
-      <node concept="3F0A7n" id="2SeqMAbUtZB" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
+    <node concept="PMmxH" id="e4yctW45Nt" role="6VMZX">
+      <ref role="PMmxG" node="e4yctW44bL" resolve="File_Inspector_EC" />
     </node>
   </node>
   <node concept="24kQdi" id="m1jUWoUS54">
@@ -21388,6 +21375,26 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="e4yctW44bL">
+    <property role="3GE5qa" value="Files" />
+    <property role="TrG5h" value="File_Inspector_EC" />
+    <ref role="1XX52x" to="yjel:6hv6i2_AqOA" resolve="File" />
+    <node concept="3EZMnI" id="e4yctW44bN" role="2wV5jI">
+      <node concept="3F0ifn" id="e4yctW45ds" role="3EZMnx">
+        <property role="3F0ifm" value="file name:" />
+      </node>
+      <node concept="3F0A7n" id="e4yctW45dt" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="PMmxH" id="e4yctW44X3" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:1GOfCi7TDXl" resolve="VirtualPackage" />
+        <node concept="pVoyu" id="e4yctW45dx" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="e4yctW44bQ" role="2iSdaV" />
     </node>
   </node>
 </model>
