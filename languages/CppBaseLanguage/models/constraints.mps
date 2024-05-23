@@ -258,16 +258,12 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
-      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
-        <child id="540871147943773366" name="argument" index="25WWJ7" />
-      </concept>
       <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
       <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
       <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
       <concept id="1227022210526" name="jetbrains.mps.baseLanguage.collections.structure.ClearAllElementsOperation" flags="nn" index="2Kehj3" />
-      <concept id="1171391069720" name="jetbrains.mps.baseLanguage.collections.structure.GetIndexOfOperation" flags="nn" index="2WmjW8" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1201792049884" name="jetbrains.mps.baseLanguage.collections.structure.TranslateOperation" flags="nn" index="3goQfb" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
@@ -291,93 +287,6 @@
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="eRR5GNn9ui">
-    <property role="3GE5qa" value="Inheritance" />
-    <ref role="1M2myG" to="yjel:eRR5GNaXSm" resolve="IInheritedTypeList" />
-    <node concept="9SLcT" id="eRR5GNna1F" role="9SGkU">
-      <node concept="3clFbS" id="eRR5GNna1G" role="2VODD2">
-        <node concept="Jncv_" id="3c66Wrp6aJm" role="3cqZAp">
-          <ref role="JncvD" to="yjel:6pgO1wrQuRP" resolve="InheritedType" />
-          <node concept="2H4GUG" id="3c66Wrp6aZ6" role="JncvB" />
-          <node concept="3clFbS" id="3c66Wrp6aJq" role="Jncv$">
-            <node concept="Jncv_" id="6pgO1wrUDG2" role="3cqZAp">
-              <ref role="JncvD" to="yjel:27q4jmdWW$T" resolve="NotGenericParameterTypeReference" />
-              <node concept="2OqwBi" id="6pgO1wrUEGy" role="JncvB">
-                <node concept="Jnkvi" id="6pgO1wrUEq9" role="2Oq$k0">
-                  <ref role="1M0zk5" node="3c66Wrp6aJs" resolve="inheritedType" />
-                </node>
-                <node concept="3TrEf2" id="6pgO1wrUFy2" role="2OqNvi">
-                  <ref role="3Tt5mk" to="yjel:6pgO1wrQvz_" resolve="typeReference" />
-                </node>
-              </node>
-              <node concept="3clFbS" id="6pgO1wrUDG6" role="Jncv$">
-                <node concept="Jncv_" id="6pgO1wrUG0X" role="3cqZAp">
-                  <ref role="JncvD" to="yjel:6hv6i2_Azc3" resolve="ClassDeclaration" />
-                  <node concept="2OqwBi" id="6pgO1wrUG0Y" role="JncvB">
-                    <node concept="Jnkvi" id="6pgO1wrUG0Z" role="2Oq$k0">
-                      <ref role="1M0zk5" node="6pgO1wrUDG8" resolve="typeReference" />
-                    </node>
-                    <node concept="3TrEf2" id="6pgO1wrUG10" role="2OqNvi">
-                      <ref role="3Tt5mk" to="yjel:27q4jmdWXhm" resolve="referencedType" />
-                    </node>
-                  </node>
-                  <node concept="3clFbS" id="6pgO1wrUG11" role="Jncv$">
-                    <node concept="3clFbJ" id="6pgO1wrUG12" role="3cqZAp">
-                      <node concept="3clFbS" id="6pgO1wrUG13" role="3clFbx">
-                        <node concept="3cpWs6" id="6pgO1wrUG14" role="3cqZAp">
-                          <node concept="3clFbT" id="6pgO1wrUG15" role="3cqZAk" />
-                        </node>
-                      </node>
-                      <node concept="3eOSWO" id="6pgO1wrUG16" role="3clFbw">
-                        <node concept="3cmrfG" id="6pgO1wrUG17" role="3uHU7w">
-                          <property role="3cmrfH" value="0" />
-                        </node>
-                        <node concept="2OqwBi" id="6pgO1wrUG18" role="3uHU7B">
-                          <node concept="2OqwBi" id="6pgO1wrUG19" role="2Oq$k0">
-                            <node concept="EsrRn" id="6pgO1wrUG1a" role="2Oq$k0" />
-                            <node concept="3Tsc0h" id="6pgO1wrUG1b" role="2OqNvi">
-                              <ref role="3TtcxE" to="yjel:3grCvve1Pjx" resolve="inheritedTypes" />
-                            </node>
-                          </node>
-                          <node concept="2WmjW8" id="6pgO1wrUG1c" role="2OqNvi">
-                            <node concept="Jnkvi" id="6pgO1wrUG1d" role="25WWJ7">
-                              <ref role="1M0zk5" node="3c66Wrp6aJs" resolve="inheritedType" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="JncvC" id="6pgO1wrUG1x" role="JncvA">
-                    <property role="TrG5h" value="classDeclaration" />
-                    <node concept="2jxLKc" id="6pgO1wrUG1y" role="1tU5fm" />
-                  </node>
-                </node>
-              </node>
-              <node concept="JncvC" id="6pgO1wrUDG8" role="JncvA">
-                <property role="TrG5h" value="typeReference" />
-                <node concept="2jxLKc" id="6pgO1wrUDG9" role="1tU5fm" />
-              </node>
-            </node>
-            <node concept="3cpWs6" id="3c66Wrp6pvS" role="3cqZAp">
-              <node concept="3clFbT" id="3c66Wrp6pyZ" role="3cqZAk">
-                <property role="3clFbU" value="true" />
-              </node>
-            </node>
-          </node>
-          <node concept="JncvC" id="3c66Wrp6aJs" role="JncvA">
-            <property role="TrG5h" value="inheritedType" />
-            <node concept="2jxLKc" id="3c66Wrp6aJt" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3cpWs6" id="3c66Wrp6bnr" role="3cqZAp">
-          <node concept="3clFbT" id="3c66Wrp6bta" role="3cqZAk">
-            <property role="3clFbU" value="true" />
           </node>
         </node>
       </node>
