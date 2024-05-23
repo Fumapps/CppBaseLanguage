@@ -2813,6 +2813,9 @@
     <node concept="PrWs8" id="1HkqSaCLgC7" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="e4yctWhr6k" role="PrDN$">
+      <ref role="PrY4T" to="tpck:hqLv6T6" resolve="IResolveInfo" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1HkqSaCLgiU">
     <property role="EcuMT" value="1969317145989153978" />
@@ -2832,6 +2835,9 @@
     <property role="TrG5h" value="IReferencableMemberDeclaration" />
     <node concept="PrWs8" id="1HkqSaCLqwP" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="e4yctWk3Hg" role="PrDN$">
+      <ref role="PrY4T" to="tpck:hqLv6T6" resolve="IResolveInfo" />
     </node>
   </node>
   <node concept="1TIwiD" id="7g7u0mJfucB">
@@ -2866,6 +2872,9 @@
     <property role="TrG5h" value="IReferencableVariableDeclaration" />
     <node concept="PrWs8" id="6JhOkL8vqZi" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="e4yctWk3Hj" role="PrDN$">
+      <ref role="PrY4T" to="tpck:hqLv6T6" resolve="IResolveInfo" />
     </node>
   </node>
   <node concept="1TIwiD" id="27q4jmdWW$T">
