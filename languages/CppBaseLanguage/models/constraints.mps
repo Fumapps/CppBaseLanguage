@@ -1130,8 +1130,68 @@
           </node>
         </node>
       </node>
-      <node concept="1dDu$B" id="11LHaTc5GRk" role="1N6uqs">
-        <ref role="1dDu$A" to="yjel:1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+      <node concept="3dgokm" id="3Edw2s$5nHa" role="1N6uqs">
+        <node concept="3clFbS" id="3Edw2s$5nHb" role="2VODD2">
+          <node concept="3cpWs8" id="3Edw2s$5nND" role="3cqZAp">
+            <node concept="3cpWsn" id="3Edw2s$5nNE" role="3cpWs9">
+              <property role="TrG5h" value="file" />
+              <node concept="3Tqbb2" id="3Edw2s$5nNF" role="1tU5fm">
+                <ref role="ehGHo" to="yjel:6hv6i2_AqOA" resolve="File" />
+              </node>
+              <node concept="2OqwBi" id="3Edw2s$5nNG" role="33vP2m">
+                <node concept="2rP1CM" id="3Edw2s$5nNH" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="3Edw2s$5nNI" role="2OqNvi">
+                  <node concept="1xMEDy" id="3Edw2s$5nNJ" role="1xVPHs">
+                    <node concept="chp4Y" id="3Edw2s$5nNK" role="ri$Ld">
+                      <ref role="cht4Q" to="yjel:6hv6i2_AqOA" resolve="File" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="3Edw2s$5nNL" role="3cqZAp">
+            <node concept="3clFbS" id="3Edw2s$5nNM" role="3clFbx">
+              <node concept="3cpWs6" id="3Edw2s$5nNN" role="3cqZAp">
+                <node concept="2YIFZM" id="3Edw2s$5nNO" role="3cqZAk">
+                  <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
+                  <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                  <node concept="2OqwBi" id="3Edw2s$5nNP" role="37wK5m">
+                    <node concept="2OqwBi" id="3Edw2s$5nNQ" role="2Oq$k0">
+                      <node concept="2rP1CM" id="3Edw2s$5nNR" role="2Oq$k0" />
+                      <node concept="I4A8Y" id="3Edw2s$5nNS" role="2OqNvi" />
+                    </node>
+                    <node concept="1j9C0f" id="3Edw2s$5nNT" role="2OqNvi">
+                      <node concept="chp4Y" id="3Edw2s$5nNU" role="3MHPCF">
+                        <ref role="cht4Q" to="yjel:1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3Edw2s$5nNV" role="3clFbw">
+              <node concept="37vLTw" id="3Edw2s$5nNW" role="2Oq$k0">
+                <ref role="3cqZAo" node="3Edw2s$5nNE" resolve="file" />
+              </node>
+              <node concept="3w_OXm" id="3Edw2s$5nNX" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3clFbF" id="3Edw2s$5oaM" role="3cqZAp">
+            <node concept="2YIFZM" id="3Edw2s$5ohR" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="3Edw2s$5pEu" role="37wK5m">
+                <node concept="37vLTw" id="3Edw2s$5pqu" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3Edw2s$5nNE" resolve="file" />
+                </node>
+                <node concept="2qgKlT" id="3Edw2s$5q4B" role="2OqNvi">
+                  <ref role="37wK5l" to="puek:nv3fu7KKeE" resolve="getReferencableMemberDeclarations" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
