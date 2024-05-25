@@ -3979,5 +3979,13 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3Edw2s$Vj6n">
+    <property role="EcuMT" value="4219169331527627159" />
+    <property role="TrG5h" value="SizeType" />
+    <property role="34LRSv" value="size_t" />
+    <property role="R4oN_" value="Unsigned integer type for representing sizes and counts." />
+    <property role="3GE5qa" value="Types" />
+    <ref role="1TJDcQ" node="2HIntxMH_qL" resolve="IntegralType" />
+  </node>
 </model>
 
