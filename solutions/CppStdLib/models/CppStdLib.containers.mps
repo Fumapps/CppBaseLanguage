@@ -17,6 +17,7 @@
       <concept id="3766354144459872182" name="CppBaseLanguage.structure.IFunctionHeader" flags="ngI" index="2qBh2l">
         <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
       </concept>
+      <concept id="7769220957754731518" name="CppBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
       <concept id="1902784636718074433" name="CppBaseLanguage.structure.VisibilityScopeDeclaration" flags="ng" index="2DNGra">
         <child id="1902784636718074436" name="classMemberDeclaration" index="2DNGrf" />
       </concept>
@@ -46,9 +47,17 @@
       <concept id="7232527154588300035" name="CppBaseLanguage.structure.ClassDeclaration" flags="ng" index="31LiCz">
         <child id="7232527154588416698" name="classMemberDeclaration" index="31Leeq" />
       </concept>
+      <concept id="7232527154588300037" name="CppBaseLanguage.structure.StructDeclaration" flags="ng" index="31LiC_" />
       <concept id="7232527154588265766" name="CppBaseLanguage.structure.File" flags="ng" index="31LFg6">
         <child id="7232527154588292748" name="includeDirectiveList" index="31LgYG" />
         <child id="7232527154588304251" name="namespaceMemberDeclaration" index="31LlDr" />
+      </concept>
+      <concept id="8455554985448831126" name="CppBaseLanguage.structure.GlobalVariableDeclaration" flags="ng" index="33btbz">
+        <child id="8455554985448831153" name="type" index="33btb4" />
+        <child id="8455554985448831154" name="variableDeclarator" index="33btb7" />
+      </concept>
+      <concept id="4928369069019626636" name="CppBaseLanguage.structure.VariableDeclarationWithoutInitialization" flags="ng" index="34yI$2">
+        <child id="4928369069019626638" name="identifier" index="34yI$0" />
       </concept>
       <concept id="4928369069023365666" name="CppBaseLanguage.structure.EmptyLineMemberDeclaration" flags="ng" index="35j1YG" />
       <concept id="4928369069020871710" name="CppBaseLanguage.structure.PointerTypeReference" flags="ng" index="35pYAg">
@@ -804,6 +813,24 @@
         </node>
         <node concept="31Lcgi" id="3Edw2s$5cPX" role="1Fzgr7">
           <property role="TrG5h" value="T" />
+        </node>
+      </node>
+      <node concept="31LiC_" id="3Edw2s$Vj4w" role="31LkaE">
+        <property role="TrG5h" value="nullopt_t" />
+      </node>
+      <node concept="33btbz" id="3Edw2s$Vj1f" role="31LkaE">
+        <node concept="3UfwP1" id="3Edw2s$Vj1h" role="33btb4">
+          <node concept="2Gatwc" id="3Edw2s$Vj68" role="3UfBpY">
+            <ref role="2Gaslz" node="3Edw2s$Vj4w" resolve="nullopt_t" />
+            <node concept="2Gatwc" id="3Edw2s$Vj6a" role="2GaslH">
+              <ref role="2Gaslz" node="5wP$QAQ5gra" resolve="std" />
+            </node>
+          </node>
+        </node>
+        <node concept="34yI$2" id="3Edw2s$Vj6f" role="33btb7">
+          <node concept="zF7EM" id="3Edw2s$Vj6h" role="34yI$0">
+            <property role="TrG5h" value="nullopt" />
+          </node>
         </node>
       </node>
     </node>
