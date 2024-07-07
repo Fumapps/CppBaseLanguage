@@ -36,3 +36,25 @@ task buildAndOpenProjectInMps {
     group 'mps'
     dependsOn mpsBuild, openProjectInMps
 }
+
+/**
+ * Checks if the manually adjustment to the file TextGens is made after running TextGenGen.
+ * It has to be:
+ file path: (node)->string {
+   node.getFilePath();
+ }
+ */
+task checkCppFolderGeneration {
+    group 'mps'
+
+    doLast {
+        def textGenSourceDescriptorCode = file("languages/CppBaseLanguage/source_gen/CppBaseLanguage/textGen/TextGenAspectDescriptor.java").text
+
+        ["CppHeaderFile", "CppSourceFile", "CppHeaderSourceFile"].each {
+            boolean getPathExists = textGenSourceDescriptorCode.contains("getPath_$it")
+            if (!getPathExists) {
+                throw new GradleException("getPath_$it method is not generated in TextGenAspectDescriptor.java, ensure to manually add it after running TextGenGen")
+            }
+        }
+    }
+}
