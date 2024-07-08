@@ -5,7 +5,8 @@ name: Integration Build
 on:
   push:
     branches:
-      - '*'
+      - 'main'
+      - 'feature/**'
 
 jobs:
   call-build-workflow:
