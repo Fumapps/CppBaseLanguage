@@ -290,6 +290,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -1522,6 +1525,7 @@
   </node>
   <node concept="LmIGD" id="5tEqanR$fVy">
     <property role="TrG5h" value="IMyUseCase.h" />
+    <property role="3GE5qa" value="usecases" />
     <node concept="31LijL" id="5tEqanR$fV$" role="31LlDr">
       <property role="TrG5h" value="MyUseCaseModule" />
       <node concept="1XPZok" id="5tEqanR$fVB" role="31LkaE">
@@ -1572,6 +1576,7 @@
   </node>
   <node concept="LmIGD" id="5tEqanR$vx9">
     <property role="TrG5h" value="IMyUseCaseOutput.h" />
+    <property role="3GE5qa" value="usecases" />
     <node concept="31LijL" id="5tEqanR$vxa" role="31LlDr">
       <property role="TrG5h" value="MyUseCaseModule" />
       <node concept="1XPZok" id="5tEqanR$vxb" role="31LkaE">
