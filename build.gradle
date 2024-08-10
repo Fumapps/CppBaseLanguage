@@ -1,7 +1,7 @@
-ext.mpsVersion = "2023.3"
+ext.mpsVersion = "2024.1"
 ext.mpsPlugins = [ ]
 ext.customMpsPlugins = [
-    "TextGenGen-Fum": "https://github.com/Fumapps/textGenGen/releases/download/2023.3-beta1/TextGenGen.zip"
+    "TextGenGen-Fum": "https://github.com/Fumapps/textGenGen/releases/download/2024.1-beta1/TextGenGen.zip"
 ]
 ext.languageName = "CppBaseLanguage"
 
@@ -52,6 +52,7 @@ task checkCppFolderGeneration {
 
         ["CppHeaderFile", "CppSourceFile", "CppHeaderSourceFile"].each {
             boolean getPathExists = textGenSourceDescriptorCode.contains("getPath_$it")
+            println("getPath_$it method is generated: $getPathExists")
             if (!getPathExists) {
                 throw new GradleException("getPath_$it method is not generated in TextGenAspectDescriptor.java, ensure to manually add it after running TextGenGen")
             }

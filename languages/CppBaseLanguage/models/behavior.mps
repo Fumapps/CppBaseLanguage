@@ -1557,7 +1557,7 @@
             </node>
             <node concept="2OqwBi" id="3_puicMOakP" role="1m5AlR">
               <node concept="3TrEf2" id="3_puicMOakR" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:27q4jmdWXhm" />
+                <ref role="3Tt5mk" to="yjel:27q4jmdWXhm" resolve="referencedType" />
               </node>
               <node concept="1PxgMI" id="3_puicMOfjD" role="2Oq$k0">
                 <property role="1BlNFB" value="true" />
