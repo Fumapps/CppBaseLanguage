@@ -53,6 +53,9 @@
       </concept>
       <concept id="3766354144462009184" name="CppBaseLanguage.structure.Virtual" flags="ng" index="2qJFh3" />
       <concept id="3766354144462108595" name="CppBaseLanguage.structure.Override" flags="ng" index="2qJN2g" />
+      <concept id="4807411231623374622" name="CppBaseLanguage.structure.ArrayInitializerExpression" flags="ng" index="s_jKl">
+        <child id="4807411231623375185" name="arrayInitializer" index="s_j9q" />
+      </concept>
       <concept id="396685855640368748" name="CppBaseLanguage.structure.CppHeaderSourceFile" flags="ng" index="tnfB3" />
       <concept id="396685855641272617" name="CppBaseLanguage.structure.DefaultBlock" flags="ng" index="tqGU6" />
       <concept id="959914550151964744" name="CppBaseLanguage.structure.UsingNamespace" flags="ng" index="2tQMlU">
@@ -230,6 +233,9 @@
       </concept>
       <concept id="6209812394072707164" name="CppBaseLanguage.structure.IHaveType" flags="ngI" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
+      </concept>
+      <concept id="6843536562190902679" name="CppBaseLanguage.structure.ArrayInitializer" flags="ng" index="3Uc4mD">
+        <child id="6843536562190902680" name="varibaleInitializer" index="3Uc4mA" />
       </concept>
       <concept id="6843536562191036574" name="CppBaseLanguage.structure.PrimaryDotExpression" flags="ng" index="3Uc_2w">
         <child id="6843536562191036577" name="member" index="3Uc_2v" />
@@ -807,7 +813,27 @@
             </node>
             <node concept="35CUCP" id="4h_5oU1OZ8p" role="1ux1N">
               <node concept="1ux1M" id="4h_5oU1OZ8r" role="35CUCK">
-                <node concept="31KRCQ" id="4h_5oU1ZFgi" role="1ux1N" />
+                <node concept="2Yz168" id="4aRmKHud0ZD" role="1ux1N">
+                  <node concept="3UdiBM" id="4aRmKHud0ZG" role="2Yz169">
+                    <node concept="1VUwCF" id="4aRmKHud0ZM" role="3UdiBN">
+                      <ref role="2aT8gA" node="6LeNfpOhhFu" resolve="staticFoo" />
+                    </node>
+                    <node concept="3UdiBG" id="4aRmKHud0ZK" role="3UdiBL">
+                      <node concept="3UdiBH" id="4aRmKHud0ZO" role="3UdiBE">
+                        <node concept="s_jKl" id="4aRmKHud0ZQ" role="3UdiBb">
+                          <node concept="3Uc4mD" id="4aRmKHud0ZS" role="s_j9q">
+                            <node concept="3UcVB9" id="4aRmKHud0ZV" role="3Uc4mA">
+                              <property role="1pzheZ" value="&quot;A&quot;" />
+                            </node>
+                            <node concept="3UcVB9" id="4aRmKHud0ZX" role="3Uc4mA">
+                              <property role="1pzheZ" value="&quot;B&quot;" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
                 <node concept="31KRCQ" id="4h_5oU1OZ8s" role="1ux1N" />
               </node>
               <node concept="1ux1I" id="4h_5oU1OZ8u" role="35CwYC">
@@ -880,7 +906,22 @@
     <node concept="osiN9" id="6LeNfpOhhFu" role="31LlDr">
       <property role="TrG5h" value="staticFoo" />
       <node concept="2Y_LOE" id="6LeNfpOhhHa" role="osiMw" />
-      <node concept="1ux1I" id="6LeNfpOhhFy" role="1fIg$P" />
+      <node concept="1ux1I" id="6LeNfpOhhFy" role="1fIg$P">
+        <node concept="31KZC3" id="4aRmKHud0Zw" role="1ux1J">
+          <property role="TrG5h" value="values" />
+          <node concept="3UfwP1" id="4aRmKHud0Zx" role="3z8Npe">
+            <node concept="2Gatwc" id="4aRmKHud0Zz" role="3UfBpY">
+              <ref role="2Gaslz" to="sta3:4h_5oU1Kna2" resolve="vector" />
+              <node concept="2Gatwc" id="4aRmKHud0Z_" role="2GaslH">
+                <ref role="2Gaslz" to="sta3:5wP$QAQ5gqW" resolve="std" />
+              </node>
+              <node concept="3UfwP1" id="4aRmKHud0ZB" role="2GavS0">
+                <node concept="3UfNVn" id="4aRmKHud0ZC" role="3UfBpY" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="1pH0Yj" id="6LeNfpOhhH7" role="3Sw9wT" />
       <node concept="2qAK3s" id="6LeNfpOhhK$" role="3SE3Wx" />
     </node>

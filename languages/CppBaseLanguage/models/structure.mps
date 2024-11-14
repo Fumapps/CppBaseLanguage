@@ -89,7 +89,7 @@
     <property role="EcuMT" value="6843536562190948382" />
     <property role="3GE5qa" value="Expressions.New" />
     <property role="TrG5h" value="NewArrayTypeExpression" />
-    <property role="34LRSv" value="new" />
+    <property role="34LRSv" value="new { }" />
     <property role="R4oN_" value="new array" />
     <ref role="1TJDcQ" node="5VT83U$Mjvs" resolve="PrimaryExpression" />
     <node concept="1TJgyj" id="5VT83U$Mxwv" role="1TKVEi">
@@ -3986,6 +3986,21 @@
     <property role="R4oN_" value="Unsigned integer type for representing sizes and counts." />
     <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" node="2HIntxMH_qL" resolve="IntegralType" />
+  </node>
+  <node concept="1TIwiD" id="4aRmKHu8Asu">
+    <property role="EcuMT" value="4807411231623374622" />
+    <property role="3GE5qa" value="Expressions.New" />
+    <property role="TrG5h" value="ArrayInitializerExpression" />
+    <property role="34LRSv" value="{ }" />
+    <property role="R4oN_" value="array initializer" />
+    <ref role="1TJDcQ" node="5VT83U$LgKs" resolve="Expression" />
+    <node concept="1TJgyj" id="4aRmKHu8A_h" role="1TKVEi">
+      <property role="IQ2ns" value="4807411231623375185" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="arrayInitializer" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5VT83U$Mmmn" resolve="ArrayInitializer" />
+    </node>
   </node>
 </model>
 

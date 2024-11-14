@@ -21501,5 +21501,15 @@
       <property role="3F0ifm" value="size_t" />
     </node>
   </node>
+  <node concept="24kQdi" id="4aRmKHu8A_j">
+    <property role="3GE5qa" value="Expressions.New" />
+    <ref role="1XX52x" to="yjel:4aRmKHu8Asu" resolve="ArrayInitializerExpression" />
+    <node concept="3EZMnI" id="4aRmKHu8A_p" role="2wV5jI">
+      <node concept="2iRfu4" id="4aRmKHu8A_q" role="2iSdaV" />
+      <node concept="3F1sOY" id="4aRmKHu8A_n" role="3EZMnx">
+        <ref role="1NtTu8" to="yjel:4aRmKHu8A_h" resolve="arrayInitializer" />
+      </node>
+    </node>
+  </node>
 </model>
 
