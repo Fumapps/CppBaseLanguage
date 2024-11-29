@@ -33,6 +33,12 @@
       <concept id="4132467325171525754" name="CppBaseLanguage.structure.SuperConstructorInitializer" flags="ng" index="bA95p">
         <reference id="4132467325171525757" name="baseConstructor" index="bA95u" />
       </concept>
+      <concept id="3622501686254303180" name="CppBaseLanguage.structure.RawStringLiteral" flags="ng" index="ddk7r">
+        <child id="3622501686254305173" name="lines" index="ddkA2" />
+      </concept>
+      <concept id="3622501686255345425" name="CppBaseLanguage.structure.StringFragmentValue" flags="ng" index="dLm$6">
+        <property id="3622501686255345426" name="value" index="dLm$5" />
+      </concept>
       <concept id="7804400563165113168" name="CppBaseLanguage.structure.FunctionSignatureType" flags="ng" index="o7AuA">
         <child id="7804400563165113173" name="parameterTypes" index="o7Auz" />
       </concept>
@@ -895,6 +901,24 @@
                   </node>
                 </node>
                 <node concept="3UdiBG" id="5rOKOYDp5J6" role="3UdiBL" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2YDbI9" id="395HxsZuFbW" role="1ux1N">
+          <node concept="3UfwP1" id="395HxsZuFbY" role="2YDbI6">
+            <node concept="3UfNVn" id="395HxsZuFc2" role="3UfBpY" />
+          </node>
+          <node concept="2YC0sE" id="395HxsZuFc4" role="2YDbI4">
+            <node concept="zF7EM" id="395HxsZuFc6" role="2YC0sD">
+              <property role="TrG5h" value="multiLine" />
+            </node>
+            <node concept="ddk7r" id="395HxsZuFc9" role="2YCihz">
+              <node concept="dLm$6" id="CpmIBWwUtL" role="ddkA2">
+                <property role="dLm$5" value="Line1" />
+              </node>
+              <node concept="dLm$6" id="CpmIBWwUtM" role="ddkA2">
+                <property role="dLm$5" value="Line2" />
               </node>
             </node>
           </node>

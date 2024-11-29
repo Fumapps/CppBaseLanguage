@@ -4002,5 +4002,31 @@
       <ref role="20lvS9" node="5VT83U$Mmmn" resolve="ArrayInitializer" />
     </node>
   </node>
+  <node concept="1TIwiD" id="395HxsZsfvc">
+    <property role="EcuMT" value="3622501686254303180" />
+    <property role="3GE5qa" value="Literals.Concepts" />
+    <property role="TrG5h" value="RawStringLiteral" />
+    <property role="34LRSv" value="MultiLine String R&quot;(...)&quot;" />
+    <ref role="1TJDcQ" node="5VT83U$MDBA" resolve="Literal" />
+    <node concept="1TJgyj" id="395HxsZsfYl" role="1TKVEi">
+      <property role="IQ2ns" value="3622501686254305173" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="lines" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="395HxsZwdWh" resolve="StringFragmentValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="395HxsZwdWh">
+    <property role="EcuMT" value="3622501686255345425" />
+    <property role="3GE5qa" value="Literals.Definitions" />
+    <property role="TrG5h" value="StringFragmentValue" />
+    <property role="34LRSv" value="simple value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="395HxsZwdWi" role="1TKVEl">
+      <property role="IQ2nx" value="3622501686255345426" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

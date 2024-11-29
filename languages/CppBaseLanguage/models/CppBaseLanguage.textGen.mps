@@ -171,19 +171,509 @@
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
-  <node concept="WtQ9Q" id="4aRmKHucjPv">
-    <property role="3GE5qa" value="Expressions.New" />
-    <ref role="WuzLi" to="yjel:4aRmKHu8Asu" resolve="ArrayInitializerExpression" />
-    <node concept="11bSqf" id="4aRmKHucjPw" role="11c4hB">
-      <node concept="3clFbS" id="4aRmKHucjPx" role="2VODD2">
-        <node concept="lc7rE" id="4aRmKHucjPE" role="3cqZAp">
-          <node concept="l9hG8" id="4aRmKHucjPC" role="lcghm">
-            <node concept="2OqwBi" id="4aRmKHucjPD" role="lb14g">
-              <node concept="117lpO" id="4aRmKHucjPB" role="2Oq$k0" />
-              <node concept="3TrEf2" id="4aRmKHucjP$" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:4aRmKHu8A_h" resolve="arrayInitializer" />
+  <node concept="WtQ9Q" id="1CVayE9zOaF">
+    <property role="3GE5qa" value="Class / Struct.Visibility" />
+    <ref role="WuzLi" to="yjel:1DC38INDGD1" resolve="VisibilityScopeDeclaration" />
+    <node concept="11bSqf" id="6LeNfpO8i_p" role="11c4hB">
+      <node concept="3clFbS" id="6LeNfpO8i_q" role="2VODD2">
+        <node concept="3SKdUt" id="6LeNfpO8i_t" role="3cqZAp">
+          <node concept="1PaTwC" id="6LeNfpO8i_v" role="1aUNEU">
+            <node concept="3oM_SD" id="6LeNfpO8i_w" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="6LeNfpO8i_F" role="3cqZAp">
+          <node concept="1PaTwC" id="6LeNfpO8i_H" role="1aUNEU">
+            <node concept="3oM_SD" id="6LeNfpO8i_I" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="6LeNfpO8i_K" role="3cqZAp">
+          <node concept="3cpWsn" id="6LeNfpO8i_J" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="6LeNfpO8i_y" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="6LeNfpO8i_R" role="3cqZAp">
+          <node concept="1PaTwC" id="6LeNfpO8i_T" role="1aUNEU">
+            <node concept="3oM_SD" id="6LeNfpO8i_U" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="6LeNfpO8i_V" role="3cqZAp">
+          <node concept="3clFbS" id="6LeNfpO8i_W" role="2LFqv$">
+            <node concept="9aQIb" id="6LeNfpO8i_L" role="3cqZAp">
+              <node concept="3clFbS" id="6LeNfpO8i_M" role="9aQI4">
+                <node concept="3clFbF" id="6LeNfpO8i_P" role="3cqZAp">
+                  <node concept="37vLTI" id="6LeNfpO8i_O" role="3clFbG">
+                    <node concept="2OqwBi" id="6LeNfpO8i__" role="37vLTx">
+                      <node concept="2OqwBi" id="6LeNfpO8i_A" role="2Oq$k0">
+                        <node concept="117lpO" id="6LeNfpO8i_E" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="6LeNfpO8i_C" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="6LeNfpO8i_D" role="2OqNvi" />
+                    </node>
+                    <node concept="37vLTw" id="6LeNfpO8i_N" role="37vLTJ">
+                      <ref role="3cqZAo" node="6LeNfpO8i_J" resolve="returnValueAuxVar" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="6LeNfpO8i_Q" role="3cqZAp" />
               </node>
             </node>
+          </node>
+          <node concept="3clFbT" id="6LeNfpO8i_X" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="6LeNfpO8i_Y" role="3cqZAp">
+          <node concept="1PaTwC" id="6LeNfpO8iA0" role="1aUNEU">
+            <node concept="3oM_SD" id="6LeNfpO8iA1" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="6LeNfpO8iA4" role="3cqZAp">
+          <node concept="l9hG8" id="6LeNfpO8iA3" role="lcghm">
+            <node concept="37vLTw" id="6LeNfpO8iA2" role="lb14g">
+              <ref role="3cqZAo" node="6LeNfpO8i_J" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="6LeNfpO8iAh" role="3cqZAp">
+          <node concept="l8MVK" id="6LeNfpO8iAi" role="lcghm" />
+        </node>
+        <node concept="3SKdUt" id="6LeNfpO8iAn" role="3cqZAp">
+          <node concept="1PaTwC" id="6LeNfpO8iAp" role="1aUNEU">
+            <node concept="3oM_SD" id="6LeNfpO8iAq" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="2Gpval" id="6LeNfpO8iBa" role="3cqZAp">
+          <node concept="3clFbS" id="6LeNfpO8iB9" role="2LFqv$">
+            <node concept="1bpajm" id="6LeNfpO8iAK" role="3cqZAp" />
+            <node concept="lc7rE" id="6LeNfpO8iAA" role="3cqZAp">
+              <node concept="l9hG8" id="6LeNfpO8iA$" role="lcghm">
+                <node concept="2GrUjf" id="6LeNfpO8iA_" role="lb14g">
+                  <ref role="2Gs0qQ" node="6LeNfpO8iAy" resolve="elem" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6LeNfpO8iB5" role="3cqZAp">
+              <node concept="2OqwBi" id="6LeNfpO8iB1" role="3clFbw">
+                <node concept="2OqwBi" id="6LeNfpO8iB2" role="2Oq$k0">
+                  <node concept="YCak7" id="6LeNfpO8iB3" role="2OqNvi" />
+                  <node concept="2GrUjf" id="6LeNfpO8iB0" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="6LeNfpO8iAy" resolve="elem" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="6LeNfpO8iB4" role="2OqNvi" />
+              </node>
+              <node concept="3clFbS" id="6LeNfpO8iB8" role="3clFbx">
+                <node concept="3SKdUt" id="6LeNfpO8iAU" role="3cqZAp">
+                  <node concept="1PaTwC" id="6LeNfpO8iAW" role="1aUNEU">
+                    <node concept="3oM_SD" id="6LeNfpO8iAX" role="1PaTwD">
+                      <property role="3oM_SC" value="vertical child collection: insert new-lines between the elements" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="lc7rE" id="6LeNfpO8iAY" role="3cqZAp">
+                  <node concept="l8MVK" id="6LeNfpO8iAZ" role="lcghm" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6LeNfpO8iAx" role="2GsD0m">
+            <node concept="117lpO" id="6LeNfpO8iAw" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="6LeNfpO8iAt" role="2OqNvi">
+              <ref role="3TtcxE" to="yjel:1DC38INDGD4" resolve="classMemberDeclaration" />
+            </node>
+          </node>
+          <node concept="2GrKxI" id="6LeNfpO8iAy" role="2Gsz3X">
+            <property role="TrG5h" value="elem" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BuS">
+    <property role="3GE5qa" value="Class / Struct.Visibility" />
+    <ref role="WuzLi" to="yjel:1DC38INDGD6" resolve="PublicVisibilityScopeDeclaration" />
+    <node concept="11bSqf" id="ZiSbNk1BuT" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BuU" role="2VODD2">
+        <node concept="3SKdUt" id="ZiSbNk1BuX" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BuZ" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bv0" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bvb" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bvd" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bve" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1Bvg" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1Bvf" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1Bv2" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bvn" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bvp" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bvq" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1Bvr" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1Bvs" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1Bvh" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1Bvi" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1Bvl" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1Bvk" role="3clFbG">
+                    <node concept="2OqwBi" id="ZiSbNk1Bv5" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1Bv6" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1Bva" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1Bv8" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1Bv9" role="2OqNvi" />
+                    </node>
+                    <node concept="37vLTw" id="ZiSbNk1Bvj" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1Bvf" resolve="returnValueAuxVar" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1Bvm" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1Bvt" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bvu" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bvw" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bvx" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1Bv$" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Bvz" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1Bvy" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1Bvf" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BvL" role="3cqZAp">
+          <node concept="l8MVK" id="ZiSbNk1BvM" role="lcghm" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BvR" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BvT" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BvU" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="2Gpval" id="ZiSbNk1BwE" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BwD" role="2LFqv$">
+            <node concept="1bpajm" id="ZiSbNk1Bwg" role="3cqZAp" />
+            <node concept="lc7rE" id="ZiSbNk1Bw6" role="3cqZAp">
+              <node concept="l9hG8" id="ZiSbNk1Bw4" role="lcghm">
+                <node concept="2GrUjf" id="ZiSbNk1Bw5" role="lb14g">
+                  <ref role="2Gs0qQ" node="ZiSbNk1Bw2" resolve="elem" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="ZiSbNk1Bw_" role="3cqZAp">
+              <node concept="2OqwBi" id="ZiSbNk1Bwx" role="3clFbw">
+                <node concept="2OqwBi" id="ZiSbNk1Bwy" role="2Oq$k0">
+                  <node concept="YCak7" id="ZiSbNk1Bwz" role="2OqNvi" />
+                  <node concept="2GrUjf" id="ZiSbNk1Bww" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="ZiSbNk1Bw2" resolve="elem" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="ZiSbNk1Bw$" role="2OqNvi" />
+              </node>
+              <node concept="3clFbS" id="ZiSbNk1BwC" role="3clFbx">
+                <node concept="3SKdUt" id="ZiSbNk1Bwq" role="3cqZAp">
+                  <node concept="1PaTwC" id="ZiSbNk1Bws" role="1aUNEU">
+                    <node concept="3oM_SD" id="ZiSbNk1Bwt" role="1PaTwD">
+                      <property role="3oM_SC" value="vertical child collection: insert new-lines between the elements" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="lc7rE" id="ZiSbNk1Bwu" role="3cqZAp">
+                  <node concept="l8MVK" id="ZiSbNk1Bwv" role="lcghm" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="ZiSbNk1Bw1" role="2GsD0m">
+            <node concept="117lpO" id="ZiSbNk1Bw0" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="ZiSbNk1BvX" role="2OqNvi">
+              <ref role="3TtcxE" to="yjel:1DC38INDGD4" resolve="classMemberDeclaration" />
+            </node>
+          </node>
+          <node concept="2GrKxI" id="ZiSbNk1Bw2" role="2Gsz3X">
+            <property role="TrG5h" value="elem" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BSV">
+    <property role="3GE5qa" value="Class / Struct.Visibility" />
+    <ref role="WuzLi" to="yjel:1DC38INDGDt" resolve="PrivateVisibilityScopeDeclaration" />
+    <node concept="11bSqf" id="ZiSbNk1BSW" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BSX" role="2VODD2">
+        <node concept="3SKdUt" id="ZiSbNk1BT0" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BT2" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BT3" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BTe" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BTg" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BTh" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1BTj" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1BTi" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1BT5" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BTq" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BTs" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BTt" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1BTu" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BTv" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1BTk" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1BTl" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1BTo" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1BTn" role="3clFbG">
+                    <node concept="2OqwBi" id="ZiSbNk1BT8" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1BT9" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1BTd" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1BTb" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1BTc" role="2OqNvi" />
+                    </node>
+                    <node concept="37vLTw" id="ZiSbNk1BTm" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1BTi" resolve="returnValueAuxVar" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1BTp" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1BTw" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BTx" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BTz" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BT$" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BTB" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BTA" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1BT_" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1BTi" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BTO" role="3cqZAp">
+          <node concept="l8MVK" id="ZiSbNk1BTP" role="lcghm" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BTU" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BTW" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BTX" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="2Gpval" id="ZiSbNk1BUH" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BUG" role="2LFqv$">
+            <node concept="1bpajm" id="ZiSbNk1BUj" role="3cqZAp" />
+            <node concept="lc7rE" id="ZiSbNk1BU9" role="3cqZAp">
+              <node concept="l9hG8" id="ZiSbNk1BU7" role="lcghm">
+                <node concept="2GrUjf" id="ZiSbNk1BU8" role="lb14g">
+                  <ref role="2Gs0qQ" node="ZiSbNk1BU5" resolve="elem" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="ZiSbNk1BUC" role="3cqZAp">
+              <node concept="2OqwBi" id="ZiSbNk1BU$" role="3clFbw">
+                <node concept="2OqwBi" id="ZiSbNk1BU_" role="2Oq$k0">
+                  <node concept="YCak7" id="ZiSbNk1BUA" role="2OqNvi" />
+                  <node concept="2GrUjf" id="ZiSbNk1BUz" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="ZiSbNk1BU5" resolve="elem" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="ZiSbNk1BUB" role="2OqNvi" />
+              </node>
+              <node concept="3clFbS" id="ZiSbNk1BUF" role="3clFbx">
+                <node concept="3SKdUt" id="ZiSbNk1BUt" role="3cqZAp">
+                  <node concept="1PaTwC" id="ZiSbNk1BUv" role="1aUNEU">
+                    <node concept="3oM_SD" id="ZiSbNk1BUw" role="1PaTwD">
+                      <property role="3oM_SC" value="vertical child collection: insert new-lines between the elements" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="lc7rE" id="ZiSbNk1BUx" role="3cqZAp">
+                  <node concept="l8MVK" id="ZiSbNk1BUy" role="lcghm" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="ZiSbNk1BU4" role="2GsD0m">
+            <node concept="117lpO" id="ZiSbNk1BU3" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="ZiSbNk1BU0" role="2OqNvi">
+              <ref role="3TtcxE" to="yjel:1DC38INDGD4" resolve="classMemberDeclaration" />
+            </node>
+          </node>
+          <node concept="2GrKxI" id="ZiSbNk1BU5" role="2Gsz3X">
+            <property role="TrG5h" value="elem" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1Cjj">
+    <property role="3GE5qa" value="Class / Struct.Visibility" />
+    <ref role="WuzLi" to="yjel:1DC38INDGDv" resolve="ProtectedVisibilityScopeDeclaration" />
+    <node concept="11bSqf" id="ZiSbNk1Cjk" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1Cjl" role="2VODD2">
+        <node concept="3SKdUt" id="ZiSbNk1Cjo" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Cjq" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Cjr" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1CjA" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1CjC" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1CjD" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1CjF" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1CjE" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1Cjt" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1CjM" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1CjO" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1CjP" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1CjQ" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1CjR" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1CjG" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1CjH" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1CjK" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1CjJ" role="3clFbG">
+                    <node concept="2OqwBi" id="ZiSbNk1Cjw" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1Cjx" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1Cj_" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1Cjz" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1Cj$" role="2OqNvi" />
+                    </node>
+                    <node concept="37vLTw" id="ZiSbNk1CjI" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1CjE" resolve="returnValueAuxVar" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1CjL" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1CjS" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1CjT" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1CjV" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1CjW" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1CjZ" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1CjY" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1CjX" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1CjE" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1Ckc" role="3cqZAp">
+          <node concept="l8MVK" id="ZiSbNk1Ckd" role="lcghm" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Cki" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Ckk" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Ckl" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="2Gpval" id="ZiSbNk1Cl5" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1Cl4" role="2LFqv$">
+            <node concept="1bpajm" id="ZiSbNk1CkF" role="3cqZAp" />
+            <node concept="lc7rE" id="ZiSbNk1Ckx" role="3cqZAp">
+              <node concept="l9hG8" id="ZiSbNk1Ckv" role="lcghm">
+                <node concept="2GrUjf" id="ZiSbNk1Ckw" role="lb14g">
+                  <ref role="2Gs0qQ" node="ZiSbNk1Ckt" resolve="elem" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="ZiSbNk1Cl0" role="3cqZAp">
+              <node concept="2OqwBi" id="ZiSbNk1CkW" role="3clFbw">
+                <node concept="2OqwBi" id="ZiSbNk1CkX" role="2Oq$k0">
+                  <node concept="YCak7" id="ZiSbNk1CkY" role="2OqNvi" />
+                  <node concept="2GrUjf" id="ZiSbNk1CkV" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="ZiSbNk1Ckt" resolve="elem" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="ZiSbNk1CkZ" role="2OqNvi" />
+              </node>
+              <node concept="3clFbS" id="ZiSbNk1Cl3" role="3clFbx">
+                <node concept="3SKdUt" id="ZiSbNk1CkP" role="3cqZAp">
+                  <node concept="1PaTwC" id="ZiSbNk1CkR" role="1aUNEU">
+                    <node concept="3oM_SD" id="ZiSbNk1CkS" role="1PaTwD">
+                      <property role="3oM_SC" value="vertical child collection: insert new-lines between the elements" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="lc7rE" id="ZiSbNk1CkT" role="3cqZAp">
+                  <node concept="l8MVK" id="ZiSbNk1CkU" role="lcghm" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="ZiSbNk1Cks" role="2GsD0m">
+            <node concept="117lpO" id="ZiSbNk1Ckr" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="ZiSbNk1Cko" role="2OqNvi">
+              <ref role="3TtcxE" to="yjel:1DC38INDGD4" resolve="classMemberDeclaration" />
+            </node>
+          </node>
+          <node concept="2GrKxI" id="ZiSbNk1Ckt" role="2Gsz3X">
+            <property role="TrG5h" value="elem" />
           </node>
         </node>
       </node>
@@ -17842,133 +18332,6 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="1CVayE9zOaF">
-    <property role="3GE5qa" value="Class / Struct.Visibility" />
-    <ref role="WuzLi" to="yjel:1DC38INDGD1" resolve="VisibilityScopeDeclaration" />
-    <node concept="11bSqf" id="6LeNfpO8i_p" role="11c4hB">
-      <node concept="3clFbS" id="6LeNfpO8i_q" role="2VODD2">
-        <node concept="3SKdUt" id="6LeNfpO8i_t" role="3cqZAp">
-          <node concept="1PaTwC" id="6LeNfpO8i_v" role="1aUNEU">
-            <node concept="3oM_SD" id="6LeNfpO8i_w" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="6LeNfpO8i_F" role="3cqZAp">
-          <node concept="1PaTwC" id="6LeNfpO8i_H" role="1aUNEU">
-            <node concept="3oM_SD" id="6LeNfpO8i_I" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="6LeNfpO8i_K" role="3cqZAp">
-          <node concept="3cpWsn" id="6LeNfpO8i_J" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="6LeNfpO8i_y" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="6LeNfpO8i_R" role="3cqZAp">
-          <node concept="1PaTwC" id="6LeNfpO8i_T" role="1aUNEU">
-            <node concept="3oM_SD" id="6LeNfpO8i_U" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="6LeNfpO8i_V" role="3cqZAp">
-          <node concept="3clFbS" id="6LeNfpO8i_W" role="2LFqv$">
-            <node concept="9aQIb" id="6LeNfpO8i_L" role="3cqZAp">
-              <node concept="3clFbS" id="6LeNfpO8i_M" role="9aQI4">
-                <node concept="3clFbF" id="6LeNfpO8i_P" role="3cqZAp">
-                  <node concept="37vLTI" id="6LeNfpO8i_O" role="3clFbG">
-                    <node concept="37vLTw" id="6LeNfpO8i_N" role="37vLTJ">
-                      <ref role="3cqZAo" node="6LeNfpO8i_J" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="6LeNfpO8i__" role="37vLTx">
-                      <node concept="2OqwBi" id="6LeNfpO8i_A" role="2Oq$k0">
-                        <node concept="117lpO" id="6LeNfpO8i_E" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="6LeNfpO8i_C" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="6LeNfpO8i_D" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="6LeNfpO8i_Q" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="6LeNfpO8i_X" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="6LeNfpO8i_Y" role="3cqZAp">
-          <node concept="1PaTwC" id="6LeNfpO8iA0" role="1aUNEU">
-            <node concept="3oM_SD" id="6LeNfpO8iA1" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="6LeNfpO8iA4" role="3cqZAp">
-          <node concept="l9hG8" id="6LeNfpO8iA3" role="lcghm">
-            <node concept="37vLTw" id="6LeNfpO8iA2" role="lb14g">
-              <ref role="3cqZAo" node="6LeNfpO8i_J" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="6LeNfpO8iAh" role="3cqZAp">
-          <node concept="l8MVK" id="6LeNfpO8iAi" role="lcghm" />
-        </node>
-        <node concept="3SKdUt" id="6LeNfpO8iAn" role="3cqZAp">
-          <node concept="1PaTwC" id="6LeNfpO8iAp" role="1aUNEU">
-            <node concept="3oM_SD" id="6LeNfpO8iAq" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="2Gpval" id="6LeNfpO8iBa" role="3cqZAp">
-          <node concept="2GrKxI" id="6LeNfpO8iAy" role="2Gsz3X">
-            <property role="TrG5h" value="elem" />
-          </node>
-          <node concept="3clFbS" id="6LeNfpO8iB9" role="2LFqv$">
-            <node concept="1bpajm" id="6LeNfpO8iAK" role="3cqZAp" />
-            <node concept="lc7rE" id="6LeNfpO8iAA" role="3cqZAp">
-              <node concept="l9hG8" id="6LeNfpO8iA$" role="lcghm">
-                <node concept="2GrUjf" id="6LeNfpO8iA_" role="lb14g">
-                  <ref role="2Gs0qQ" node="6LeNfpO8iAy" resolve="elem" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbJ" id="6LeNfpO8iB5" role="3cqZAp">
-              <node concept="2OqwBi" id="6LeNfpO8iB1" role="3clFbw">
-                <node concept="2OqwBi" id="6LeNfpO8iB2" role="2Oq$k0">
-                  <node concept="YCak7" id="6LeNfpO8iB3" role="2OqNvi" />
-                  <node concept="2GrUjf" id="6LeNfpO8iB0" role="2Oq$k0">
-                    <ref role="2Gs0qQ" node="6LeNfpO8iAy" resolve="elem" />
-                  </node>
-                </node>
-                <node concept="3x8VRR" id="6LeNfpO8iB4" role="2OqNvi" />
-              </node>
-              <node concept="3clFbS" id="6LeNfpO8iB8" role="3clFbx">
-                <node concept="3SKdUt" id="6LeNfpO8iAU" role="3cqZAp">
-                  <node concept="1PaTwC" id="6LeNfpO8iAW" role="1aUNEU">
-                    <node concept="3oM_SD" id="6LeNfpO8iAX" role="1PaTwD">
-                      <property role="3oM_SC" value="vertical child collection: insert new-lines between the elements" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="lc7rE" id="6LeNfpO8iAY" role="3cqZAp">
-                  <node concept="l8MVK" id="6LeNfpO8iAZ" role="lcghm" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="6LeNfpO8iAx" role="2GsD0m">
-            <node concept="117lpO" id="6LeNfpO8iAw" role="2Oq$k0" />
-            <node concept="3Tsc0h" id="6LeNfpO8iAt" role="2OqNvi">
-              <ref role="3TtcxE" to="yjel:1DC38INDGD4" resolve="classMemberDeclaration" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="WtQ9Q" id="1CVayE9zOc2">
     <property role="3GE5qa" value="Statements.Declaration" />
     <ref role="WuzLi" to="yjel:4h_5oU0VZMc" resolve="VariableDeclarationWithoutInitialization" />
@@ -25215,6 +25578,441 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="4aRmKHucjPv">
+    <property role="3GE5qa" value="Expressions.New" />
+    <ref role="WuzLi" to="yjel:4aRmKHu8Asu" resolve="ArrayInitializerExpression" />
+    <node concept="11bSqf" id="4aRmKHucjPw" role="11c4hB">
+      <node concept="3clFbS" id="4aRmKHucjPx" role="2VODD2">
+        <node concept="lc7rE" id="4aRmKHucjPE" role="3cqZAp">
+          <node concept="l9hG8" id="4aRmKHucjPC" role="lcghm">
+            <node concept="2OqwBi" id="4aRmKHucjPD" role="lb14g">
+              <node concept="117lpO" id="4aRmKHucjPB" role="2Oq$k0" />
+              <node concept="3TrEf2" id="4aRmKHucjP$" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:4aRmKHu8A_h" resolve="arrayInitializer" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="CpmIBWo6eP">
+    <property role="3GE5qa" value="Literals.Concepts" />
+    <ref role="WuzLi" to="yjel:395HxsZsfvc" resolve="RawStringLiteral" />
+    <node concept="11bSqf" id="CpmIBWo6eQ" role="11c4hB">
+      <node concept="3clFbS" id="CpmIBWo6eR" role="2VODD2">
+        <node concept="lc7rE" id="CpmIBWo6eV" role="3cqZAp">
+          <node concept="la8eA" id="CpmIBWo6eU" role="lcghm">
+            <property role="lacIc" value="R&quot;(" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="CpmIBWo6fn" role="3cqZAp">
+          <node concept="l8MVK" id="CpmIBWo6fo" role="lcghm" />
+        </node>
+        <node concept="2Gpval" id="CpmIBWo6g4" role="3cqZAp">
+          <node concept="2GrKxI" id="CpmIBWo6fs" role="2Gsz3X">
+            <property role="TrG5h" value="elem" />
+          </node>
+          <node concept="3clFbS" id="CpmIBWo6g3" role="2LFqv$">
+            <node concept="lc7rE" id="CpmIBWo6fw" role="3cqZAp">
+              <node concept="l9hG8" id="CpmIBWo6fu" role="lcghm">
+                <node concept="2GrUjf" id="CpmIBWo6fv" role="lb14g">
+                  <ref role="2Gs0qQ" node="CpmIBWo6fs" resolve="elem" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="CpmIBWo6fZ" role="3cqZAp">
+              <node concept="2OqwBi" id="CpmIBWo6fV" role="3clFbw">
+                <node concept="2OqwBi" id="CpmIBWo6fW" role="2Oq$k0">
+                  <node concept="YCak7" id="CpmIBWo6fX" role="2OqNvi" />
+                  <node concept="2GrUjf" id="CpmIBWo6fU" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="CpmIBWo6fs" resolve="elem" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="CpmIBWo6fY" role="2OqNvi" />
+              </node>
+              <node concept="3clFbS" id="CpmIBWo6g2" role="3clFbx">
+                <node concept="3SKdUt" id="CpmIBWo6fN" role="3cqZAp">
+                  <node concept="1PaTwC" id="CpmIBWo6fQ" role="1aUNEU">
+                    <node concept="3oM_SD" id="CpmIBWo6fR" role="1PaTwD">
+                      <property role="3oM_SC" value="vertical child collection: insert new-lines between the elements" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="lc7rE" id="CpmIBWo6fS" role="3cqZAp">
+                  <node concept="l8MVK" id="CpmIBWo6fT" role="lcghm" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="CpmIBWo6fj" role="2GsD0m">
+            <node concept="117lpO" id="CpmIBWo6fi" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="CpmIBWo6ff" role="2OqNvi">
+              <ref role="3TtcxE" to="yjel:395HxsZsfYl" resolve="lines" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="CpmIBWo6gd" role="3cqZAp">
+          <node concept="l8MVK" id="CpmIBWo6ge" role="lcghm" />
+        </node>
+        <node concept="1bpajm" id="CpmIBWo6gi" role="3cqZAp" />
+        <node concept="lc7rE" id="CpmIBWo6g8" role="3cqZAp">
+          <node concept="la8eA" id="CpmIBWo6g7" role="lcghm">
+            <property role="lacIc" value=")&quot;" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="CpmIBWo6gw">
+    <property role="3GE5qa" value="Literals.Definitions" />
+    <ref role="WuzLi" to="yjel:395HxsZwdWh" resolve="StringFragmentValue" />
+    <node concept="11bSqf" id="CpmIBWo6gx" role="11c4hB">
+      <node concept="3clFbS" id="CpmIBWo6gy" role="2VODD2">
+        <node concept="lc7rE" id="CpmIBWo6gC" role="3cqZAp">
+          <node concept="l9hG8" id="CpmIBWo6gB" role="lcghm">
+            <node concept="2OqwBi" id="CpmIBWo6gA" role="lb14g">
+              <node concept="3TrcHB" id="CpmIBWo6g_" role="2OqNvi">
+                <ref role="3TsBF5" to="yjel:395HxsZwdWi" resolve="value" />
+              </node>
+              <node concept="117lpO" id="CpmIBWo6g$" role="2Oq$k0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BwM">
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <ref role="WuzLi" to="yjel:2HIntxMQUw5" resolve="ModuloAssignExpression" />
+    <node concept="11bSqf" id="ZiSbNk1BwN" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BwO" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1BwX" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BwV" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BwW" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BwU" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BwR" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1Bxh" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bxk" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bxm" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bxn" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bxy" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bx$" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bx_" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1BxB" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1BxA" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1Bxp" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BxI" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BxK" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BxL" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1BxM" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BxN" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1BxC" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1BxD" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1BxG" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1BxF" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1BxE" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1BxA" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1Bxs" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1Bxt" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1Bxx" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1Bxv" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1Bxw" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1BxH" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1BxO" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BxP" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BxR" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BxS" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BxV" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BxU" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1BxT" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1BxA" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bye" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Byg" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Byh" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1Byl" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1Byk" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1Bys" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1Byt" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1Byr" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1Byo" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1Cnj">
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <ref role="WuzLi" to="yjel:2HIntxMQUw9" resolve="LeftShiftAssignExpression" />
+    <node concept="11bSqf" id="ZiSbNk1Cnk" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1Cnl" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1Cnu" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Cns" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1Cnt" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1Cnr" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1Cno" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1CnM" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1CnP" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1CnR" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1CnS" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Co3" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Co5" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Co6" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1Co8" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1Co7" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1CnU" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Cof" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Coh" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Coi" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1Coj" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1Cok" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1Co9" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1Coa" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1Cod" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1Coc" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1Cob" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1Co7" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1CnX" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1CnY" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1Co2" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1Co0" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1Co1" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1Coe" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1Col" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Com" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Coo" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Cop" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1Cos" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Cor" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1Coq" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1Co7" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1CoJ" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1CoL" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1CoM" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1CoQ" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1CoP" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1CoX" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1CoY" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1CoW" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1CoT" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BEG">
+    <property role="3GE5qa" value="Expressions.Bitwise" />
+    <ref role="WuzLi" to="yjel:5VT83U$Lr2B" resolve="BitwiseOrExpression" />
+    <node concept="11bSqf" id="ZiSbNk1BEH" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BEI" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1BER" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BEP" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BEQ" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BEO" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BEL" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1BFb" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BFe" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BFg" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BFh" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BFs" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BFu" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BFv" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1BFx" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1BFw" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1BFj" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BFC" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BFE" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BFF" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1BFG" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BFH" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1BFy" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1BFz" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1BFA" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1BF_" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1BF$" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1BFw" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1BFm" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1BFn" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1BFr" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1BFp" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1BFq" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1BFB" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1BFI" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BFJ" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BFL" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BFM" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BFP" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BFO" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1BFN" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1BFw" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BG8" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BGa" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BGb" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BGf" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1BGe" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1BGm" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BGn" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BGl" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BGi" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BMS">
+    <property role="3GE5qa" value="Comments" />
+    <ref role="WuzLi" to="yjel:1gNlOGhuBgE" resolve="Comment" />
+    <node concept="11bSqf" id="ZiSbNk1BMT" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BMU" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1BMX" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1BMW" role="lcghm">
+            <property role="lacIc" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="WtQ9Q" id="ZiSbNk1Bnk">
     <property role="3GE5qa" value="Expressions.Equality" />
     <ref role="WuzLi" to="yjel:5VT83U$LsGi" resolve="NotEqualsExpression" />
@@ -25321,133 +26119,107 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="ZiSbNk1B5C">
-    <property role="3GE5qa" value="Statements.Blocks" />
-    <ref role="WuzLi" to="yjel:1FYNzU$qtcf" resolve="MaybeEmptyBlock" />
-    <node concept="11bSqf" id="ZiSbNk1B5D" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1B5E" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1B5H" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1B5G" role="lcghm">
-            <property role="lacIc" value="" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BCA">
-    <property role="3GE5qa" value="Expressions.Assignments" />
-    <ref role="WuzLi" to="yjel:2HIntxMQUw2" resolve="MinusAssignExpression" />
-    <node concept="11bSqf" id="ZiSbNk1BCB" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BCC" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1BCL" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BCJ" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BCK" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BCI" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BCF" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
+  <node concept="WtQ9Q" id="ZiSbNk1Cf8">
+    <property role="3GE5qa" value="Expressions.Relational" />
+    <ref role="WuzLi" to="yjel:5VT83U$LtAC" resolve="GreaterThanOrEqualToExpression" />
+    <node concept="11bSqf" id="ZiSbNk1Cf9" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1Cfa" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1Cfj" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Cfh" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1Cfi" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1Cfg" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1Cfd" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
               </node>
             </node>
           </node>
-          <node concept="la8eA" id="ZiSbNk1BD5" role="lcghm">
+          <node concept="la8eA" id="ZiSbNk1CfB" role="lcghm">
             <property role="lacIc" value=" " />
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1BD8" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BDa" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BDb" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1CfE" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1CfG" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1CfH" role="1PaTwD">
               <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1BDm" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BDo" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BDp" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1CfS" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1CfU" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1CfV" role="1PaTwD">
               <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="ZiSbNk1BDr" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1BDq" role="3cpWs9">
+        <node concept="3cpWs8" id="ZiSbNk1CfX" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1CfW" role="3cpWs9">
             <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1BDd" role="1tU5fm" />
+            <node concept="17QB3L" id="ZiSbNk1CfJ" role="1tU5fm" />
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1BDy" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BD$" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BD_" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1Cg4" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Cg6" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Cg7" role="1PaTwD">
               <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
             </node>
           </node>
         </node>
-        <node concept="MpOyq" id="ZiSbNk1BDA" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1BDB" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1BDs" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1BDt" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1BDw" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1BDv" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1BDu" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1BDq" resolve="returnValueAuxVar" />
+        <node concept="MpOyq" id="ZiSbNk1Cg8" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1Cg9" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1CfY" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1CfZ" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1Cg2" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1Cg1" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1Cg0" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1CfW" resolve="returnValueAuxVar" />
                     </node>
-                    <node concept="2OqwBi" id="ZiSbNk1BDg" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1BDh" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1BDl" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1BDj" role="2OqNvi" />
+                    <node concept="2OqwBi" id="ZiSbNk1CfM" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1CfN" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1CfR" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1CfP" role="2OqNvi" />
                       </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1BDk" role="2OqNvi" />
+                      <node concept="3n3YKJ" id="ZiSbNk1CfQ" role="2OqNvi" />
                     </node>
                   </node>
                 </node>
-                <node concept="3zACq4" id="ZiSbNk1BDx" role="3cqZAp" />
+                <node concept="3zACq4" id="ZiSbNk1Cg3" role="3cqZAp" />
               </node>
             </node>
           </node>
-          <node concept="3clFbT" id="ZiSbNk1BDC" role="MpTkK" />
+          <node concept="3clFbT" id="ZiSbNk1Cga" role="MpTkK" />
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1BDD" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BDF" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BDG" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1Cgb" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Cgd" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Cge" role="1PaTwD">
               <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="ZiSbNk1BDJ" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BDI" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1BDH" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1BDq" resolve="returnValueAuxVar" />
+        <node concept="lc7rE" id="ZiSbNk1Cgh" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Cgg" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1Cgf" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1CfW" resolve="returnValueAuxVar" />
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1BE2" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BE4" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BE5" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1Cg$" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1CgA" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1CgB" role="1PaTwD">
               <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="ZiSbNk1BE9" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1BE8" role="lcghm">
+        <node concept="lc7rE" id="ZiSbNk1CgF" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1CgE" role="lcghm">
             <property role="lacIc" value=" " />
           </node>
-          <node concept="l9hG8" id="ZiSbNk1BEg" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BEh" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BEf" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BEc" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
+          <node concept="l9hG8" id="ZiSbNk1CgM" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1CgN" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1CgL" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1CgI" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
               </node>
             </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BsP">
-    <property role="3GE5qa" value="Statements.Try" />
-    <ref role="WuzLi" to="yjel:1FYNzU$y59n" resolve="TryStatement" />
-    <node concept="11bSqf" id="ZiSbNk1BsQ" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BsR" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1BsU" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1BsT" role="lcghm">
-            <property role="lacIc" value="" />
           </node>
         </node>
       </node>
@@ -25559,104 +26331,316 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="ZiSbNk1Bf$">
-    <property role="3GE5qa" value="Expressions.Arithmetic" />
-    <ref role="WuzLi" to="yjel:5VT83U$LBkV" resolve="DivisionExpression" />
-    <node concept="11bSqf" id="ZiSbNk1Bf_" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BfA" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1BfJ" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BfH" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BfI" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BfG" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BfD" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
+  <node concept="WtQ9Q" id="ZiSbNk1C8X">
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <ref role="WuzLi" to="yjel:2HIntxMQUw0" resolve="AssignExpression" />
+    <node concept="11bSqf" id="ZiSbNk1C8Y" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1C8Z" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1C98" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1C96" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1C97" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1C95" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1C92" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
               </node>
             </node>
           </node>
-          <node concept="la8eA" id="ZiSbNk1Bg3" role="lcghm">
+          <node concept="la8eA" id="ZiSbNk1C9s" role="lcghm">
             <property role="lacIc" value=" " />
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bg6" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bg8" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bg9" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1C9v" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C9x" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C9y" role="1PaTwD">
               <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bgk" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bgm" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bgn" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1C9H" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C9J" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C9K" role="1PaTwD">
               <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="ZiSbNk1Bgp" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1Bgo" role="3cpWs9">
+        <node concept="3cpWs8" id="ZiSbNk1C9M" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1C9L" role="3cpWs9">
             <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1Bgb" role="1tU5fm" />
+            <node concept="17QB3L" id="ZiSbNk1C9$" role="1tU5fm" />
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bgw" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bgy" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bgz" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1C9T" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C9V" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C9W" role="1PaTwD">
               <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
             </node>
           </node>
         </node>
-        <node concept="MpOyq" id="ZiSbNk1Bg$" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1Bg_" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1Bgq" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1Bgr" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1Bgu" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1Bgt" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1Bgs" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1Bgo" resolve="returnValueAuxVar" />
+        <node concept="MpOyq" id="ZiSbNk1C9X" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1C9Y" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1C9N" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1C9O" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1C9R" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1C9Q" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1C9P" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1C9L" resolve="returnValueAuxVar" />
                     </node>
-                    <node concept="2OqwBi" id="ZiSbNk1Bge" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1Bgf" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1Bgj" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1Bgh" role="2OqNvi" />
+                    <node concept="2OqwBi" id="ZiSbNk1C9B" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1C9C" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1C9G" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1C9E" role="2OqNvi" />
                       </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1Bgi" role="2OqNvi" />
+                      <node concept="3n3YKJ" id="ZiSbNk1C9F" role="2OqNvi" />
                     </node>
                   </node>
                 </node>
-                <node concept="3zACq4" id="ZiSbNk1Bgv" role="3cqZAp" />
+                <node concept="3zACq4" id="ZiSbNk1C9S" role="3cqZAp" />
               </node>
             </node>
           </node>
-          <node concept="3clFbT" id="ZiSbNk1BgA" role="MpTkK" />
+          <node concept="3clFbT" id="ZiSbNk1C9Z" role="MpTkK" />
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1BgB" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BgD" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BgE" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1Ca0" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Ca2" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Ca3" role="1PaTwD">
               <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="ZiSbNk1BgH" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BgG" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1BgF" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1Bgo" resolve="returnValueAuxVar" />
+        <node concept="lc7rE" id="ZiSbNk1Ca6" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Ca5" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1Ca4" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1C9L" resolve="returnValueAuxVar" />
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bh0" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bh2" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bh3" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1Cap" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Car" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Cas" role="1PaTwD">
               <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="ZiSbNk1Bh7" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1Bh6" role="lcghm">
+        <node concept="lc7rE" id="ZiSbNk1Caw" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1Cav" role="lcghm">
             <property role="lacIc" value=" " />
           </node>
-          <node concept="l9hG8" id="ZiSbNk1Bhe" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1Bhf" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1Bhd" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1Bha" role="2OqNvi">
+          <node concept="l9hG8" id="ZiSbNk1CaB" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1CaC" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1CaA" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1Caz" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1B9N">
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <ref role="WuzLi" to="yjel:2HIntxMQUw3" resolve="MultiplyAssignExpression" />
+    <node concept="11bSqf" id="ZiSbNk1B9O" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1B9P" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1B9Y" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1B9W" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1B9X" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1B9V" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1B9S" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1Bai" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bal" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Ban" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bao" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Baz" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Ba_" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BaA" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1BaC" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1BaB" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1Baq" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BaJ" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BaL" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BaM" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1BaN" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BaO" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1BaD" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1BaE" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1BaH" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1BaG" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1BaF" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1BaB" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1Bat" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1Bau" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1Bay" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1Baw" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1Bax" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1BaI" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1BaP" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BaQ" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BaS" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BaT" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BaW" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BaV" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1BaU" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1BaB" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bbf" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bbh" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bbi" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1Bbm" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1Bbl" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1Bbt" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1Bbu" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1Bbs" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1Bbp" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1C4M">
+    <property role="3GE5qa" value="Expressions.Bitwise" />
+    <ref role="WuzLi" to="yjel:5VT83U$Lr2C" resolve="BitwiseAndExpression" />
+    <node concept="11bSqf" id="ZiSbNk1C4N" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1C4O" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1C4X" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1C4V" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1C4W" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1C4U" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1C4R" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1C5h" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C5k" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C5m" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C5n" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C5y" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C5$" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C5_" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1C5B" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1C5A" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1C5p" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C5I" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C5K" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C5L" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1C5M" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1C5N" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1C5C" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1C5D" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1C5G" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1C5F" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1C5E" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1C5A" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1C5s" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1C5t" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1C5x" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1C5v" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1C5w" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1C5H" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1C5O" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C5P" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C5R" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C5S" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1C5V" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1C5U" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1C5T" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1C5A" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C6e" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C6g" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C6h" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1C6l" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1C6k" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1C6s" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1C6t" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1C6r" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1C6o" role="2OqNvi">
                 <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
               </node>
             </node>
@@ -25665,216 +26649,105 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BSV">
-    <property role="3GE5qa" value="Class / Struct.Visibility" />
-    <ref role="WuzLi" to="yjel:1DC38INDGDt" resolve="PrivateVisibilityScopeDeclaration" />
-    <node concept="11bSqf" id="ZiSbNk1BSW" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BSX" role="2VODD2">
-        <node concept="3SKdUt" id="ZiSbNk1BT0" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BT2" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BT3" role="1PaTwD">
+  <node concept="WtQ9Q" id="ZiSbNk1BbT">
+    <property role="3GE5qa" value="Expressions.Arithmetic" />
+    <ref role="WuzLi" to="yjel:5VT83U$LBkT" resolve="MinusExpression" />
+    <node concept="11bSqf" id="ZiSbNk1BbU" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BbV" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1Bc4" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Bc2" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1Bc3" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1Bc1" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BbY" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1Bco" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bcr" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bct" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bcu" role="1PaTwD">
               <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1BTe" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BTg" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BTh" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1BcD" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BcF" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BcG" role="1PaTwD">
               <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="ZiSbNk1BTj" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1BTi" role="3cpWs9">
+        <node concept="3cpWs8" id="ZiSbNk1BcI" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1BcH" role="3cpWs9">
             <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1BT5" role="1tU5fm" />
+            <node concept="17QB3L" id="ZiSbNk1Bcw" role="1tU5fm" />
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1BTq" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BTs" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BTt" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1BcP" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BcR" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BcS" role="1PaTwD">
               <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
             </node>
           </node>
         </node>
-        <node concept="MpOyq" id="ZiSbNk1BTu" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1BTv" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1BTk" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1BTl" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1BTo" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1BTn" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1BTm" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1BTi" resolve="returnValueAuxVar" />
+        <node concept="MpOyq" id="ZiSbNk1BcT" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BcU" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1BcJ" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1BcK" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1BcN" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1BcM" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1BcL" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1BcH" resolve="returnValueAuxVar" />
                     </node>
-                    <node concept="2OqwBi" id="ZiSbNk1BT8" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1BT9" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1BTd" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1BTb" role="2OqNvi" />
+                    <node concept="2OqwBi" id="ZiSbNk1Bcz" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1Bc$" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1BcC" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1BcA" role="2OqNvi" />
                       </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1BTc" role="2OqNvi" />
+                      <node concept="3n3YKJ" id="ZiSbNk1BcB" role="2OqNvi" />
                     </node>
                   </node>
                 </node>
-                <node concept="3zACq4" id="ZiSbNk1BTp" role="3cqZAp" />
+                <node concept="3zACq4" id="ZiSbNk1BcO" role="3cqZAp" />
               </node>
             </node>
           </node>
-          <node concept="3clFbT" id="ZiSbNk1BTw" role="MpTkK" />
+          <node concept="3clFbT" id="ZiSbNk1BcV" role="MpTkK" />
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1BTx" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BTz" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BT$" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1BcW" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BcY" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BcZ" role="1PaTwD">
               <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="ZiSbNk1BTB" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BTA" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1BT_" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1BTi" resolve="returnValueAuxVar" />
+        <node concept="lc7rE" id="ZiSbNk1Bd2" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Bd1" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1Bd0" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1BcH" resolve="returnValueAuxVar" />
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="ZiSbNk1BTO" role="3cqZAp">
-          <node concept="l8MVK" id="ZiSbNk1BTP" role="lcghm" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BTU" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BTW" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BTX" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1Bdl" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bdn" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bdo" role="1PaTwD">
               <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
             </node>
           </node>
         </node>
-        <node concept="2Gpval" id="ZiSbNk1BUH" role="3cqZAp">
-          <node concept="2GrKxI" id="ZiSbNk1BU5" role="2Gsz3X">
-            <property role="TrG5h" value="elem" />
+        <node concept="lc7rE" id="ZiSbNk1Bds" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1Bdr" role="lcghm">
+            <property role="lacIc" value=" " />
           </node>
-          <node concept="3clFbS" id="ZiSbNk1BUG" role="2LFqv$">
-            <node concept="1bpajm" id="ZiSbNk1BUj" role="3cqZAp" />
-            <node concept="lc7rE" id="ZiSbNk1BU9" role="3cqZAp">
-              <node concept="l9hG8" id="ZiSbNk1BU7" role="lcghm">
-                <node concept="2GrUjf" id="ZiSbNk1BU8" role="lb14g">
-                  <ref role="2Gs0qQ" node="ZiSbNk1BU5" resolve="elem" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbJ" id="ZiSbNk1BUC" role="3cqZAp">
-              <node concept="2OqwBi" id="ZiSbNk1BU$" role="3clFbw">
-                <node concept="2OqwBi" id="ZiSbNk1BU_" role="2Oq$k0">
-                  <node concept="YCak7" id="ZiSbNk1BUA" role="2OqNvi" />
-                  <node concept="2GrUjf" id="ZiSbNk1BUz" role="2Oq$k0">
-                    <ref role="2Gs0qQ" node="ZiSbNk1BU5" resolve="elem" />
-                  </node>
-                </node>
-                <node concept="3x8VRR" id="ZiSbNk1BUB" role="2OqNvi" />
-              </node>
-              <node concept="3clFbS" id="ZiSbNk1BUF" role="3clFbx">
-                <node concept="3SKdUt" id="ZiSbNk1BUt" role="3cqZAp">
-                  <node concept="1PaTwC" id="ZiSbNk1BUv" role="1aUNEU">
-                    <node concept="3oM_SD" id="ZiSbNk1BUw" role="1PaTwD">
-                      <property role="3oM_SC" value="vertical child collection: insert new-lines between the elements" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="lc7rE" id="ZiSbNk1BUx" role="3cqZAp">
-                  <node concept="l8MVK" id="ZiSbNk1BUy" role="lcghm" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="ZiSbNk1BU4" role="2GsD0m">
-            <node concept="117lpO" id="ZiSbNk1BU3" role="2Oq$k0" />
-            <node concept="3Tsc0h" id="ZiSbNk1BU0" role="2OqNvi">
-              <ref role="3TtcxE" to="yjel:1DC38INDGD4" resolve="classMemberDeclaration" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BLn">
-    <property role="3GE5qa" value="Expressions.Unary" />
-    <ref role="WuzLi" to="yjel:5VT83U$LFpV" resolve="UnaryMinusExpression" />
-    <node concept="11bSqf" id="ZiSbNk1BLo" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BLp" role="2VODD2">
-        <node concept="3SKdUt" id="ZiSbNk1BLs" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BLu" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BLv" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BLE" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BLG" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BLH" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1BLJ" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1BLI" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1BLx" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BLQ" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BLS" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BLT" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1BLU" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1BLV" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1BLK" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1BLL" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1BLO" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1BLN" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1BLM" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1BLI" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1BL$" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1BL_" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1BLD" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1BLB" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1BLC" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1BLP" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1BLW" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BLX" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BLZ" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BM0" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BM3" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BM2" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1BM1" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1BLI" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BMm" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BMo" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BMp" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BMy" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BMw" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BMx" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BMv" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BMs" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LFpC" resolve="expression" />
+          <node concept="l9hG8" id="ZiSbNk1Bdz" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1Bd$" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1Bdy" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1Bdv" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
               </node>
             </node>
           </node>
@@ -25882,89 +26755,157 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="ZiSbNk1C3d">
-    <property role="3GE5qa" value="Expressions.Prefix/Postfix" />
-    <ref role="WuzLi" to="yjel:5VT83U$LFpX" resolve="PreDecrementExpression" />
-    <node concept="11bSqf" id="ZiSbNk1C3e" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1C3f" role="2VODD2">
-        <node concept="3SKdUt" id="ZiSbNk1C3i" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C3k" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C3l" role="1PaTwD">
+  <node concept="WtQ9Q" id="ZiSbNk1B8W">
+    <property role="3GE5qa" value="Statements.Blocks" />
+    <ref role="WuzLi" to="yjel:m1jUWoUS4a" resolve="MaybeEmptyOrDefaultBlock" />
+    <node concept="11bSqf" id="ZiSbNk1B8X" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1B8Y" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1B91" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1B90" role="lcghm">
+            <property role="lacIc" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1B9m">
+    <property role="3GE5qa" value="Statements.Jumps" />
+    <ref role="WuzLi" to="yjel:1FYNzU$wJgY" resolve="GotoStatement" />
+    <node concept="11bSqf" id="ZiSbNk1B9n" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1B9o" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1B9r" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1B9q" role="lcghm">
+            <property role="lacIc" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1Bjb">
+    <property role="3GE5qa" value="Statements.Jumps" />
+    <ref role="WuzLi" to="yjel:1FYNzU$w5Bf" resolve="JumpStatement" />
+    <node concept="11bSqf" id="ZiSbNk1Bjc" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1Bjd" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1Bjg" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1Bjf" role="lcghm">
+            <property role="lacIc" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1B5C">
+    <property role="3GE5qa" value="Statements.Blocks" />
+    <ref role="WuzLi" to="yjel:1FYNzU$qtcf" resolve="MaybeEmptyBlock" />
+    <node concept="11bSqf" id="ZiSbNk1B5D" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1B5E" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1B5H" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1B5G" role="lcghm">
+            <property role="lacIc" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BjD">
+    <property role="3GE5qa" value="Expressions.Bitwise" />
+    <ref role="WuzLi" to="yjel:5VT83U$LrPB" resolve="BitwiseXorExpression" />
+    <node concept="11bSqf" id="ZiSbNk1BjE" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BjF" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1BjO" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BjM" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BjN" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BjL" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BjI" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1Bk8" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bkb" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bkd" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bke" role="1PaTwD">
               <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1C3w" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C3y" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C3z" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1Bkp" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bkr" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bks" role="1PaTwD">
               <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="ZiSbNk1C3_" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1C3$" role="3cpWs9">
+        <node concept="3cpWs8" id="ZiSbNk1Bku" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1Bkt" role="3cpWs9">
             <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1C3n" role="1tU5fm" />
+            <node concept="17QB3L" id="ZiSbNk1Bkg" role="1tU5fm" />
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1C3G" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C3I" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C3J" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1Bk_" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BkB" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BkC" role="1PaTwD">
               <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
             </node>
           </node>
         </node>
-        <node concept="MpOyq" id="ZiSbNk1C3K" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1C3L" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1C3A" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1C3B" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1C3E" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1C3D" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1C3C" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1C3$" resolve="returnValueAuxVar" />
+        <node concept="MpOyq" id="ZiSbNk1BkD" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BkE" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1Bkv" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1Bkw" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1Bkz" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1Bky" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1Bkx" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1Bkt" resolve="returnValueAuxVar" />
                     </node>
-                    <node concept="2OqwBi" id="ZiSbNk1C3q" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1C3r" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1C3v" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1C3t" role="2OqNvi" />
+                    <node concept="2OqwBi" id="ZiSbNk1Bkj" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1Bkk" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1Bko" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1Bkm" role="2OqNvi" />
                       </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1C3u" role="2OqNvi" />
+                      <node concept="3n3YKJ" id="ZiSbNk1Bkn" role="2OqNvi" />
                     </node>
                   </node>
                 </node>
-                <node concept="3zACq4" id="ZiSbNk1C3F" role="3cqZAp" />
+                <node concept="3zACq4" id="ZiSbNk1Bk$" role="3cqZAp" />
               </node>
             </node>
           </node>
-          <node concept="3clFbT" id="ZiSbNk1C3M" role="MpTkK" />
+          <node concept="3clFbT" id="ZiSbNk1BkF" role="MpTkK" />
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1C3N" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C3P" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C3Q" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1BkG" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BkI" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BkJ" role="1PaTwD">
               <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="ZiSbNk1C3T" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1C3S" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1C3R" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1C3$" resolve="returnValueAuxVar" />
+        <node concept="lc7rE" id="ZiSbNk1BkM" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BkL" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1BkK" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1Bkt" resolve="returnValueAuxVar" />
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1C4c" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C4e" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C4f" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1Bl5" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bl7" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bl8" role="1PaTwD">
               <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="ZiSbNk1C4o" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1C4m" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1C4n" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1C4l" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1C4i" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LFpC" resolve="expression" />
+        <node concept="lc7rE" id="ZiSbNk1Blc" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1Blb" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1Blj" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1Blk" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1Bli" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1Blf" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
               </node>
             </node>
           </node>
@@ -25972,105 +26913,838 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="ZiSbNk1Chd">
+  <node concept="WtQ9Q" id="ZiSbNk1B6U">
+    <property role="3GE5qa" value="Expressions.Arithmetic" />
+    <ref role="WuzLi" to="yjel:5VT83U$LBkW" resolve="ModuloExpression" />
+    <node concept="11bSqf" id="ZiSbNk1B6V" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1B6W" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1B75" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1B73" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1B74" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1B72" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1B6Z" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1B7p" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1B7s" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1B7u" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B7v" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1B7E" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1B7G" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B7H" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1B7J" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1B7I" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1B7x" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1B7Q" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1B7S" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B7T" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1B7U" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1B7V" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1B7K" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1B7L" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1B7O" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1B7N" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1B7M" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1B7I" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1B7$" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1B7_" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1B7D" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1B7B" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1B7C" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1B7P" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1B7W" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1B7X" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1B7Z" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B80" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1B83" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1B82" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1B81" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1B7I" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1B8m" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1B8o" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B8p" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1B8t" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1B8s" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1B8$" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1B8_" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1B8z" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1B8w" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BWW">
+    <property role="3GE5qa" value="Expressions.Arithmetic" />
+    <ref role="WuzLi" to="yjel:5VT83U$LBkU" resolve="MultiplicationExpression" />
+    <node concept="11bSqf" id="ZiSbNk1BWX" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BWY" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1BX7" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BX5" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BX6" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BX4" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BX1" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1BXr" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BXu" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BXw" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BXx" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BXG" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BXI" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BXJ" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1BXL" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1BXK" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1BXz" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BXS" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BXU" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BXV" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1BXW" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BXX" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1BXM" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1BXN" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1BXQ" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1BXP" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1BXO" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1BXK" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1BXA" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1BXB" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1BXF" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1BXD" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1BXE" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1BXR" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1BXY" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BXZ" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BY1" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BY2" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BY5" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BY4" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1BY3" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1BXK" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BYo" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BYq" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BYr" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BYv" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1BYu" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1BYA" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BYB" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BY_" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BYy" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BZ1">
     <property role="3GE5qa" value="Expressions.Assignments" />
-    <ref role="WuzLi" to="yjel:2HIntxMQUw7" resolve="OrAssignExpression" />
-    <node concept="11bSqf" id="ZiSbNk1Che" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1Chf" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1Cho" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Chm" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1Chn" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1Chl" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1Chi" role="2OqNvi">
+    <ref role="WuzLi" to="yjel:2HIntxMQUw1" resolve="PlusAssignExpression" />
+    <node concept="11bSqf" id="ZiSbNk1BZ2" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BZ3" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1BZc" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BZa" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BZb" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BZ9" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BZ6" role="2OqNvi">
                 <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
               </node>
             </node>
           </node>
-          <node concept="la8eA" id="ZiSbNk1ChG" role="lcghm">
+          <node concept="la8eA" id="ZiSbNk1BZw" role="lcghm">
             <property role="lacIc" value=" " />
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1ChJ" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1ChL" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1ChM" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1BZz" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BZ_" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BZA" role="1PaTwD">
               <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1ChX" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1ChZ" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Ci0" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1BZL" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BZN" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BZO" role="1PaTwD">
               <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="ZiSbNk1Ci2" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1Ci1" role="3cpWs9">
+        <node concept="3cpWs8" id="ZiSbNk1BZQ" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1BZP" role="3cpWs9">
             <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1ChO" role="1tU5fm" />
+            <node concept="17QB3L" id="ZiSbNk1BZC" role="1tU5fm" />
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1Ci9" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Cib" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Cic" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1BZX" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BZZ" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C00" role="1PaTwD">
               <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
             </node>
           </node>
         </node>
-        <node concept="MpOyq" id="ZiSbNk1Cid" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1Cie" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1Ci3" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1Ci4" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1Ci7" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1Ci6" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1Ci5" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1Ci1" resolve="returnValueAuxVar" />
+        <node concept="MpOyq" id="ZiSbNk1C01" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1C02" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1BZR" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1BZS" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1BZV" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1BZU" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1BZT" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1BZP" resolve="returnValueAuxVar" />
                     </node>
-                    <node concept="2OqwBi" id="ZiSbNk1ChR" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1ChS" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1ChW" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1ChU" role="2OqNvi" />
+                    <node concept="2OqwBi" id="ZiSbNk1BZF" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1BZG" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1BZK" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1BZI" role="2OqNvi" />
                       </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1ChV" role="2OqNvi" />
+                      <node concept="3n3YKJ" id="ZiSbNk1BZJ" role="2OqNvi" />
                     </node>
                   </node>
                 </node>
-                <node concept="3zACq4" id="ZiSbNk1Ci8" role="3cqZAp" />
+                <node concept="3zACq4" id="ZiSbNk1BZW" role="3cqZAp" />
               </node>
             </node>
           </node>
-          <node concept="3clFbT" id="ZiSbNk1Cif" role="MpTkK" />
+          <node concept="3clFbT" id="ZiSbNk1C03" role="MpTkK" />
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1Cig" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Cii" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Cij" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1C04" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C06" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C07" role="1PaTwD">
               <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="ZiSbNk1Cim" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Cil" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1Cik" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1Ci1" resolve="returnValueAuxVar" />
+        <node concept="lc7rE" id="ZiSbNk1C0a" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1C09" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1C08" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1BZP" resolve="returnValueAuxVar" />
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1CiD" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1CiF" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1CiG" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1C0t" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C0v" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C0w" role="1PaTwD">
               <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="ZiSbNk1CiK" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1CiJ" role="lcghm">
+        <node concept="lc7rE" id="ZiSbNk1C0$" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1C0z" role="lcghm">
             <property role="lacIc" value=" " />
           </node>
-          <node concept="l9hG8" id="ZiSbNk1CiR" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1CiS" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1CiQ" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1CiN" role="2OqNvi">
+          <node concept="l9hG8" id="ZiSbNk1C0F" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1C0G" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1C0E" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1C0B" role="2OqNvi">
                 <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1B6s">
+    <property role="3GE5qa" value="Statements.Other" />
+    <ref role="WuzLi" to="yjel:1FYNzU$tiST" resolve="SelectionStatement" />
+    <node concept="11bSqf" id="ZiSbNk1B6t" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1B6u" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1B6x" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1B6w" role="lcghm">
+            <property role="lacIc" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BNm">
+    <property role="3GE5qa" value="Expressions.Relational" />
+    <ref role="WuzLi" to="yjel:5VT83U$LtA_" resolve="LessThanExpression" />
+    <node concept="11bSqf" id="ZiSbNk1BNn" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BNo" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1BNx" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BNv" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BNw" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BNu" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BNr" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1BNP" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BNS" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BNU" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BNV" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BO6" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BO8" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BO9" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1BOb" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1BOa" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1BNX" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BOi" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BOk" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BOl" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1BOm" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BOn" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1BOc" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1BOd" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1BOg" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1BOf" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1BOe" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1BOa" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1BO0" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1BO1" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1BO5" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1BO3" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1BO4" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1BOh" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1BOo" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BOp" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BOr" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BOs" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BOv" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BOu" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1BOt" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1BOa" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BOM" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BOO" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BOP" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BOT" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1BOS" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1BP0" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BP1" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BOZ" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BOW" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1B62">
+    <property role="3GE5qa" value="Statements.Iteration" />
+    <ref role="WuzLi" to="yjel:1FYNzU$uw3Y" resolve="IterationStatement" />
+    <node concept="11bSqf" id="ZiSbNk1B63" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1B64" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1B67" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1B66" role="lcghm">
+            <property role="lacIc" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1B$X">
+    <property role="3GE5qa" value="Expressions.Prefix/Postfix" />
+    <ref role="WuzLi" to="yjel:5VT83U$LFpW" resolve="PreIncrementExpression" />
+    <node concept="11bSqf" id="ZiSbNk1B$Y" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1B$Z" role="2VODD2">
+        <node concept="3SKdUt" id="ZiSbNk1B_2" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1B_4" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B_5" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1B_g" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1B_i" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B_j" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1B_l" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1B_k" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1B_7" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1B_s" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1B_u" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B_v" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1B_w" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1B_x" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1B_m" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1B_n" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1B_q" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1B_p" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1B_o" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1B_k" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1B_a" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1B_b" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1B_f" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1B_d" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1B_e" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1B_r" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1B_y" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1B_z" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1B__" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B_A" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1B_D" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1B_C" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1B_B" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1B_k" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1B_W" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1B_Y" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B_Z" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BA8" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BA6" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BA7" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BA5" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BA2" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LFpC" resolve="expression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1CeE">
+    <property role="3GE5qa" value="Statements.Declaration" />
+    <ref role="WuzLi" to="yjel:1FYNzU$mBmN" resolve="DeclarationStatement" />
+    <node concept="11bSqf" id="ZiSbNk1CeF" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1CeG" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1CeJ" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1CeI" role="lcghm">
+            <property role="lacIc" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1CcC">
+    <property role="3GE5qa" value="Expressions.Bitwise" />
+    <ref role="WuzLi" to="yjel:5VT83U$L_sE" resolve="BitwiseLeftShiftExpression" />
+    <node concept="11bSqf" id="ZiSbNk1CcD" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1CcE" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1CcN" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1CcL" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1CcM" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1CcK" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1CcH" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1Cd7" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Cda" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Cdc" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Cdd" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Cdo" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Cdq" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Cdr" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1Cdt" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1Cds" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1Cdf" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Cd$" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1CdA" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1CdB" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1CdC" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1CdD" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1Cdu" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1Cdv" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1Cdy" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1Cdx" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1Cdw" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1Cds" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1Cdi" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1Cdj" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1Cdn" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1Cdl" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1Cdm" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1Cdz" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1CdE" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1CdF" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1CdH" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1CdI" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1CdL" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1CdK" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1CdJ" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1Cds" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Ce4" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Ce6" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Ce7" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1Ceb" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1Cea" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1Cei" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1Cej" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1Ceh" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1Cee" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BlJ">
+    <property role="3GE5qa" value="Expressions.Unary" />
+    <ref role="WuzLi" to="yjel:5VT83U$LFpY" resolve="UnaryNotExpression" />
+    <node concept="11bSqf" id="ZiSbNk1BlK" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BlL" role="2VODD2">
+        <node concept="3SKdUt" id="ZiSbNk1BlO" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BlQ" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BlR" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bm2" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bm4" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bm5" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1Bm7" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1Bm6" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1BlT" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bme" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bmg" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bmh" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1Bmi" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1Bmj" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1Bm8" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1Bm9" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1Bmc" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1Bmb" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1Bma" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1Bm6" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1BlW" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1BlX" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1Bm1" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1BlZ" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1Bm0" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1Bmd" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1Bmk" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bml" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bmn" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bmo" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1Bmr" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Bmq" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1Bmp" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1Bm6" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BmI" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BmK" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BmL" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BmU" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BmS" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BmT" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BmR" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BmO" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LFpC" resolve="expression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BhE">
+    <property role="3GE5qa" value="Expressions.Unary" />
+    <ref role="WuzLi" to="yjel:5VT83U$LFq0" resolve="UnaryDereferenceExpression" />
+    <node concept="11bSqf" id="ZiSbNk1BhF" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BhG" role="2VODD2">
+        <node concept="3SKdUt" id="ZiSbNk1BhJ" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BhL" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BhM" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BhX" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BhZ" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bi0" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1Bi2" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1Bi1" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1BhO" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bi9" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bib" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bic" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1Bid" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1Bie" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1Bi3" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1Bi4" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1Bi7" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1Bi6" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1Bi5" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1Bi1" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1BhR" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1BhS" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1BhW" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1BhU" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1BhV" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1Bi8" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1Bif" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Big" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bii" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bij" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1Bim" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Bil" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1Bik" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1Bi1" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BiD" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BiF" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BiG" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BiP" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BiN" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BiO" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BiM" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BiJ" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LFpC" resolve="expression" />
               </node>
             </node>
           </node>
@@ -26188,1197 +27862,6 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="ZiSbNk1Btj">
-    <property role="3GE5qa" value="Expressions.Unary" />
-    <ref role="WuzLi" to="yjel:5ZiUmPXqPzI" resolve="UnaryAddressExpression" />
-    <node concept="11bSqf" id="ZiSbNk1Btk" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1Btl" role="2VODD2">
-        <node concept="3SKdUt" id="ZiSbNk1Bto" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Btq" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Btr" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BtA" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BtC" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BtD" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1BtF" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1BtE" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1Btt" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BtM" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BtO" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BtP" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1BtQ" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1BtR" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1BtG" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1BtH" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1BtK" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1BtJ" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1BtI" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1BtE" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1Btw" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1Btx" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1Bt_" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1Btz" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1Bt$" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1BtL" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1BtS" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BtT" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BtV" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BtW" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BtZ" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BtY" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1BtX" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1BtE" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bui" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Buk" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bul" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Buu" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Bus" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1But" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1Bur" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1Buo" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LFpC" resolve="expression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1Bjb">
-    <property role="3GE5qa" value="Statements.Jumps" />
-    <ref role="WuzLi" to="yjel:1FYNzU$w5Bf" resolve="JumpStatement" />
-    <node concept="11bSqf" id="ZiSbNk1Bjc" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1Bjd" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1Bjg" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1Bjf" role="lcghm">
-            <property role="lacIc" value="" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1Cle">
-    <property role="3GE5qa" value="Expressions.Relational" />
-    <ref role="WuzLi" to="yjel:5VT83U$LtAA" resolve="GreaterThanExpression" />
-    <node concept="11bSqf" id="ZiSbNk1Clf" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1Clg" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1Clp" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Cln" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1Clo" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1Clm" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1Clj" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1ClH" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1ClK" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1ClM" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1ClN" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1ClY" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Cm0" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Cm1" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1Cm3" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1Cm2" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1ClP" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Cma" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Cmc" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Cmd" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1Cme" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1Cmf" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1Cm4" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1Cm5" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1Cm8" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1Cm7" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1Cm6" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1Cm2" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1ClS" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1ClT" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1ClX" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1ClV" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1ClW" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1Cm9" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1Cmg" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Cmh" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Cmj" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Cmk" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Cmn" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Cmm" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1Cml" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1Cm2" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1CmE" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1CmG" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1CmH" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1CmL" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1CmK" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1CmS" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1CmT" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1CmR" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1CmO" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BMS">
-    <property role="3GE5qa" value="Comments" />
-    <ref role="WuzLi" to="yjel:1gNlOGhuBgE" resolve="Comment" />
-    <node concept="11bSqf" id="ZiSbNk1BMT" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BMU" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1BMX" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1BMW" role="lcghm">
-            <property role="lacIc" value="" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BjD">
-    <property role="3GE5qa" value="Expressions.Bitwise" />
-    <ref role="WuzLi" to="yjel:5VT83U$LrPB" resolve="BitwiseXorExpression" />
-    <node concept="11bSqf" id="ZiSbNk1BjE" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BjF" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1BjO" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BjM" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BjN" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BjL" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BjI" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1Bk8" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bkb" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bkd" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bke" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bkp" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bkr" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bks" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1Bku" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1Bkt" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1Bkg" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bk_" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BkB" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BkC" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1BkD" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1BkE" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1Bkv" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1Bkw" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1Bkz" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1Bky" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1Bkx" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1Bkt" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1Bkj" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1Bkk" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1Bko" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1Bkm" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1Bkn" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1Bk$" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1BkF" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BkG" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BkI" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BkJ" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BkM" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BkL" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1BkK" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1Bkt" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bl5" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bl7" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bl8" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Blc" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1Blb" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1Blj" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1Blk" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1Bli" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1Blf" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1C6S">
-    <property role="3GE5qa" value="Expressions.Conditional" />
-    <ref role="WuzLi" to="yjel:5VT83U$LqhN" resolve="AndExpression" />
-    <node concept="11bSqf" id="ZiSbNk1C6T" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1C6U" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1C73" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1C71" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1C72" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1C70" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1C6X" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1C7n" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C7q" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C7s" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C7t" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C7C" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C7E" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C7F" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1C7H" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1C7G" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1C7v" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C7O" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C7Q" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C7R" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1C7S" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1C7T" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1C7I" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1C7J" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1C7M" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1C7L" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1C7K" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1C7G" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1C7y" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1C7z" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1C7B" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1C7_" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1C7A" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1C7N" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1C7U" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C7V" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C7X" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C7Y" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1C81" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1C80" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1C7Z" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1C7G" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C8k" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C8m" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C8n" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1C8r" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1C8q" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1C8y" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1C8z" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1C8x" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1C8u" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BlJ">
-    <property role="3GE5qa" value="Expressions.Unary" />
-    <ref role="WuzLi" to="yjel:5VT83U$LFpY" resolve="UnaryNotExpression" />
-    <node concept="11bSqf" id="ZiSbNk1BlK" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BlL" role="2VODD2">
-        <node concept="3SKdUt" id="ZiSbNk1BlO" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BlQ" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BlR" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bm2" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bm4" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bm5" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1Bm7" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1Bm6" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1BlT" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bme" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bmg" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bmh" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1Bmi" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1Bmj" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1Bm8" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1Bm9" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1Bmc" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1Bmb" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1Bma" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1Bm6" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1BlW" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1BlX" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1Bm1" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1BlZ" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1Bm0" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1Bmd" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1Bmk" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bml" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bmn" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bmo" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Bmr" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Bmq" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1Bmp" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1Bm6" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BmI" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BmK" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BmL" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BmU" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BmS" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BmT" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BmR" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BmO" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LFpC" resolve="expression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1B$X">
-    <property role="3GE5qa" value="Expressions.Prefix/Postfix" />
-    <ref role="WuzLi" to="yjel:5VT83U$LFpW" resolve="PreIncrementExpression" />
-    <node concept="11bSqf" id="ZiSbNk1B$Y" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1B$Z" role="2VODD2">
-        <node concept="3SKdUt" id="ZiSbNk1B_2" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1B_4" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B_5" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1B_g" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1B_i" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B_j" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1B_l" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1B_k" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1B_7" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1B_s" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1B_u" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B_v" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1B_w" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1B_x" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1B_m" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1B_n" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1B_q" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1B_p" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1B_o" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1B_k" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1B_a" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1B_b" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1B_f" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1B_d" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1B_e" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1B_r" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1B_y" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1B_z" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1B__" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B_A" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1B_D" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1B_C" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1B_B" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1B_k" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1B_W" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1B_Y" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B_Z" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BA8" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BA6" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BA7" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BA5" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BA2" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LFpC" resolve="expression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1B62">
-    <property role="3GE5qa" value="Statements.Iteration" />
-    <ref role="WuzLi" to="yjel:1FYNzU$uw3Y" resolve="IterationStatement" />
-    <node concept="11bSqf" id="ZiSbNk1B63" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1B64" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1B67" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1B66" role="lcghm">
-            <property role="lacIc" value="" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1C8X">
-    <property role="3GE5qa" value="Expressions.Assignments" />
-    <ref role="WuzLi" to="yjel:2HIntxMQUw0" resolve="AssignExpression" />
-    <node concept="11bSqf" id="ZiSbNk1C8Y" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1C8Z" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1C98" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1C96" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1C97" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1C95" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1C92" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1C9s" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C9v" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C9x" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C9y" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C9H" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C9J" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C9K" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1C9M" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1C9L" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1C9$" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C9T" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C9V" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C9W" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1C9X" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1C9Y" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1C9N" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1C9O" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1C9R" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1C9Q" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1C9P" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1C9L" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1C9B" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1C9C" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1C9G" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1C9E" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1C9F" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1C9S" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1C9Z" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Ca0" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Ca2" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Ca3" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Ca6" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Ca5" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1Ca4" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1C9L" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Cap" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Car" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Cas" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Caw" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1Cav" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1CaB" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1CaC" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1CaA" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1Caz" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1B9m">
-    <property role="3GE5qa" value="Statements.Jumps" />
-    <ref role="WuzLi" to="yjel:1FYNzU$wJgY" resolve="GotoStatement" />
-    <node concept="11bSqf" id="ZiSbNk1B9n" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1B9o" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1B9r" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1B9q" role="lcghm">
-            <property role="lacIc" value="" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BwM">
-    <property role="3GE5qa" value="Expressions.Assignments" />
-    <ref role="WuzLi" to="yjel:2HIntxMQUw5" resolve="ModuloAssignExpression" />
-    <node concept="11bSqf" id="ZiSbNk1BwN" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BwO" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1BwX" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BwV" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BwW" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BwU" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BwR" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1Bxh" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bxk" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bxm" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bxn" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bxy" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bx$" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bx_" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1BxB" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1BxA" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1Bxp" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BxI" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BxK" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BxL" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1BxM" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1BxN" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1BxC" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1BxD" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1BxG" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1BxF" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1BxE" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1BxA" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1Bxs" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1Bxt" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1Bxx" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1Bxv" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1Bxw" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1BxH" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1BxO" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BxP" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BxR" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BxS" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BxV" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BxU" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1BxT" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1BxA" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bye" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Byg" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Byh" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Byl" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1Byk" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1Bys" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1Byt" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1Byr" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1Byo" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1ByR">
-    <property role="3GE5qa" value="Expressions.Assignments" />
-    <ref role="WuzLi" to="yjel:2HIntxMQUw4" resolve="DivideAssignExpression" />
-    <node concept="11bSqf" id="ZiSbNk1ByS" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1ByT" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1Bz2" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Bz0" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1Bz1" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1ByZ" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1ByW" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1Bzm" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bzp" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bzr" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bzs" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BzB" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BzD" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BzE" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1BzG" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1BzF" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1Bzu" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BzN" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BzP" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BzQ" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1BzR" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1BzS" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1BzH" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1BzI" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1BzL" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1BzK" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1BzJ" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1BzF" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1Bzx" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1Bzy" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1BzA" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1Bz$" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1Bz_" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1BzM" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1BzT" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BzU" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BzW" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BzX" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1B$0" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BzZ" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1BzY" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1BzF" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1B$j" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1B$l" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B$m" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1B$q" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1B$p" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1B$x" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1B$y" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1B$w" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1B$t" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BbT">
-    <property role="3GE5qa" value="Expressions.Arithmetic" />
-    <ref role="WuzLi" to="yjel:5VT83U$LBkT" resolve="MinusExpression" />
-    <node concept="11bSqf" id="ZiSbNk1BbU" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BbV" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1Bc4" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Bc2" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1Bc3" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1Bc1" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BbY" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1Bco" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bcr" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bct" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bcu" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BcD" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BcF" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BcG" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1BcI" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1BcH" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1Bcw" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BcP" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BcR" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BcS" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1BcT" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1BcU" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1BcJ" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1BcK" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1BcN" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1BcM" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1BcL" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1BcH" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1Bcz" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1Bc$" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1BcC" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1BcA" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1BcB" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1BcO" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1BcV" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BcW" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BcY" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BcZ" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Bd2" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Bd1" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1Bd0" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1BcH" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bdl" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bdn" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bdo" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Bds" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1Bdr" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1Bdz" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1Bd$" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1Bdy" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1Bdv" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1Cjj">
-    <property role="3GE5qa" value="Class / Struct.Visibility" />
-    <ref role="WuzLi" to="yjel:1DC38INDGDv" resolve="ProtectedVisibilityScopeDeclaration" />
-    <node concept="11bSqf" id="ZiSbNk1Cjk" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1Cjl" role="2VODD2">
-        <node concept="3SKdUt" id="ZiSbNk1Cjo" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Cjq" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Cjr" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1CjA" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1CjC" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1CjD" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1CjF" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1CjE" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1Cjt" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1CjM" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1CjO" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1CjP" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1CjQ" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1CjR" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1CjG" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1CjH" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1CjK" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1CjJ" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1CjI" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1CjE" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1Cjw" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1Cjx" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1Cj_" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1Cjz" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1Cj$" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1CjL" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1CjS" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1CjT" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1CjV" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1CjW" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1CjZ" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1CjY" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1CjX" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1CjE" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Ckc" role="3cqZAp">
-          <node concept="l8MVK" id="ZiSbNk1Ckd" role="lcghm" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Cki" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Ckk" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Ckl" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="2Gpval" id="ZiSbNk1Cl5" role="3cqZAp">
-          <node concept="2GrKxI" id="ZiSbNk1Ckt" role="2Gsz3X">
-            <property role="TrG5h" value="elem" />
-          </node>
-          <node concept="3clFbS" id="ZiSbNk1Cl4" role="2LFqv$">
-            <node concept="1bpajm" id="ZiSbNk1CkF" role="3cqZAp" />
-            <node concept="lc7rE" id="ZiSbNk1Ckx" role="3cqZAp">
-              <node concept="l9hG8" id="ZiSbNk1Ckv" role="lcghm">
-                <node concept="2GrUjf" id="ZiSbNk1Ckw" role="lb14g">
-                  <ref role="2Gs0qQ" node="ZiSbNk1Ckt" resolve="elem" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbJ" id="ZiSbNk1Cl0" role="3cqZAp">
-              <node concept="2OqwBi" id="ZiSbNk1CkW" role="3clFbw">
-                <node concept="2OqwBi" id="ZiSbNk1CkX" role="2Oq$k0">
-                  <node concept="YCak7" id="ZiSbNk1CkY" role="2OqNvi" />
-                  <node concept="2GrUjf" id="ZiSbNk1CkV" role="2Oq$k0">
-                    <ref role="2Gs0qQ" node="ZiSbNk1Ckt" resolve="elem" />
-                  </node>
-                </node>
-                <node concept="3x8VRR" id="ZiSbNk1CkZ" role="2OqNvi" />
-              </node>
-              <node concept="3clFbS" id="ZiSbNk1Cl3" role="3clFbx">
-                <node concept="3SKdUt" id="ZiSbNk1CkP" role="3cqZAp">
-                  <node concept="1PaTwC" id="ZiSbNk1CkR" role="1aUNEU">
-                    <node concept="3oM_SD" id="ZiSbNk1CkS" role="1PaTwD">
-                      <property role="3oM_SC" value="vertical child collection: insert new-lines between the elements" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="lc7rE" id="ZiSbNk1CkT" role="3cqZAp">
-                  <node concept="l8MVK" id="ZiSbNk1CkU" role="lcghm" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="ZiSbNk1Cks" role="2GsD0m">
-            <node concept="117lpO" id="ZiSbNk1Ckr" role="2Oq$k0" />
-            <node concept="3Tsc0h" id="ZiSbNk1Cko" role="2OqNvi">
-              <ref role="3TtcxE" to="yjel:1DC38INDGD4" resolve="classMemberDeclaration" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="WtQ9Q" id="ZiSbNk1Cb3">
     <property role="3GE5qa" value="Expressions.Unary" />
     <ref role="WuzLi" to="yjel:5VT83U$LFpU" resolve="UnaryPlusExpression" />
@@ -27462,1182 +27945,6 @@
               <node concept="117lpO" id="ZiSbNk1Ccb" role="2Oq$k0" />
               <node concept="3TrEf2" id="ZiSbNk1Cc8" role="2OqNvi">
                 <ref role="3Tt5mk" to="yjel:5VT83U$LFpC" resolve="expression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BEG">
-    <property role="3GE5qa" value="Expressions.Bitwise" />
-    <ref role="WuzLi" to="yjel:5VT83U$Lr2B" resolve="BitwiseOrExpression" />
-    <node concept="11bSqf" id="ZiSbNk1BEH" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BEI" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1BER" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BEP" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BEQ" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BEO" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BEL" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1BFb" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BFe" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BFg" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BFh" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BFs" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BFu" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BFv" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1BFx" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1BFw" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1BFj" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BFC" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BFE" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BFF" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1BFG" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1BFH" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1BFy" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1BFz" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1BFA" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1BF_" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1BF$" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1BFw" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1BFm" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1BFn" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1BFr" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1BFp" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1BFq" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1BFB" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1BFI" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BFJ" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BFL" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BFM" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BFP" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BFO" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1BFN" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1BFw" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BG8" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BGa" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BGb" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BGf" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1BGe" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1BGm" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BGn" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BGl" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BGi" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1B8W">
-    <property role="3GE5qa" value="Statements.Blocks" />
-    <ref role="WuzLi" to="yjel:m1jUWoUS4a" resolve="MaybeEmptyOrDefaultBlock" />
-    <node concept="11bSqf" id="ZiSbNk1B8X" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1B8Y" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1B91" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1B90" role="lcghm">
-            <property role="lacIc" value="" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1AZr">
-    <property role="3GE5qa" value="Expressions.Bitwise" />
-    <ref role="WuzLi" to="yjel:5VT83U$L_sF" resolve="BitwiseRightShiftExpression" />
-    <node concept="11bSqf" id="ZiSbNk1AZs" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1AZt" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1AZA" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1AZ$" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1AZ_" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1AZz" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1AZw" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1AZU" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1AZX" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1AZZ" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B00" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1B0b" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1B0d" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B0e" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1B0g" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1B0f" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1B02" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1B0n" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1B0p" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B0q" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1B0r" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1B0s" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1B0h" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1B0i" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1B0l" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1B0k" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1B0j" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1B0f" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1B05" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1B06" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1B0a" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1B08" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1B09" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1B0m" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1B0t" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1B0u" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1B0w" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B0x" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1B0$" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1B0z" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1B0y" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1B0f" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1B0R" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1B0T" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B0U" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1B0Y" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1B0X" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1B15" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1B16" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1B14" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1B11" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1C17">
-    <property role="3GE5qa" value="Expressions.Relational" />
-    <ref role="WuzLi" to="yjel:5VT83U$LtAB" resolve="LessThanOrEqualToExpression" />
-    <node concept="11bSqf" id="ZiSbNk1C18" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1C19" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1C1i" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1C1g" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1C1h" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1C1f" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1C1c" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1C1A" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C1D" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C1F" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C1G" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C1R" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C1T" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C1U" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1C1W" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1C1V" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1C1I" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C23" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C25" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C26" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1C27" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1C28" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1C1X" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1C1Y" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1C21" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1C20" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1C1Z" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1C1V" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1C1L" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1C1M" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1C1Q" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1C1O" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1C1P" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1C22" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1C29" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C2a" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C2c" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C2d" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1C2g" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1C2f" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1C2e" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1C1V" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C2z" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C2_" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C2A" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1C2E" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1C2D" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1C2L" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1C2M" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1C2K" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1C2H" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BNm">
-    <property role="3GE5qa" value="Expressions.Relational" />
-    <ref role="WuzLi" to="yjel:5VT83U$LtA_" resolve="LessThanExpression" />
-    <node concept="11bSqf" id="ZiSbNk1BNn" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BNo" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1BNx" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BNv" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BNw" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BNu" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BNr" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1BNP" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BNS" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BNU" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BNV" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BO6" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BO8" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BO9" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1BOb" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1BOa" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1BNX" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BOi" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BOk" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BOl" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1BOm" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1BOn" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1BOc" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1BOd" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1BOg" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1BOf" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1BOe" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1BOa" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1BO0" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1BO1" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1BO5" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1BO3" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1BO4" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1BOh" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1BOo" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BOp" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BOr" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BOs" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BOv" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BOu" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1BOt" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1BOa" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BOM" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BOO" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BOP" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BOT" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1BOS" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1BP0" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BP1" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BOZ" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BOW" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BWW">
-    <property role="3GE5qa" value="Expressions.Arithmetic" />
-    <ref role="WuzLi" to="yjel:5VT83U$LBkU" resolve="MultiplicationExpression" />
-    <node concept="11bSqf" id="ZiSbNk1BWX" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BWY" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1BX7" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BX5" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BX6" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BX4" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BX1" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1BXr" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BXu" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BXw" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BXx" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BXG" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BXI" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BXJ" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1BXL" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1BXK" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1BXz" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BXS" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BXU" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BXV" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1BXW" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1BXX" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1BXM" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1BXN" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1BXQ" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1BXP" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1BXO" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1BXK" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1BXA" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1BXB" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1BXF" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1BXD" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1BXE" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1BXR" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1BXY" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BXZ" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BY1" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BY2" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BY5" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BY4" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1BY3" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1BXK" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BYo" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BYq" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BYr" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BYv" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1BYu" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1BYA" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BYB" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BY_" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BYy" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BhE">
-    <property role="3GE5qa" value="Expressions.Unary" />
-    <ref role="WuzLi" to="yjel:5VT83U$LFq0" resolve="UnaryDereferenceExpression" />
-    <node concept="11bSqf" id="ZiSbNk1BhF" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BhG" role="2VODD2">
-        <node concept="3SKdUt" id="ZiSbNk1BhJ" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BhL" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BhM" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BhX" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BhZ" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bi0" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1Bi2" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1Bi1" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1BhO" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bi9" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bib" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bic" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1Bid" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1Bie" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1Bi3" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1Bi4" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1Bi7" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1Bi6" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1Bi5" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1Bi1" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1BhR" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1BhS" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1BhW" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1BhU" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1BhV" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1Bi8" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1Bif" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Big" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bii" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bij" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Bim" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Bil" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1Bik" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1Bi1" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BiD" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BiF" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BiG" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BiP" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BiN" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BiO" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BiM" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BiJ" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LFpC" resolve="expression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BKT">
-    <property role="3GE5qa" value="Statements.Other" />
-    <ref role="WuzLi" to="yjel:1FYNzU$qtce" resolve="EmbeddedStatement" />
-    <node concept="11bSqf" id="ZiSbNk1BKU" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BKV" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1BKY" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1BKX" role="lcghm">
-            <property role="lacIc" value="" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1B9N">
-    <property role="3GE5qa" value="Expressions.Assignments" />
-    <ref role="WuzLi" to="yjel:2HIntxMQUw3" resolve="MultiplyAssignExpression" />
-    <node concept="11bSqf" id="ZiSbNk1B9O" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1B9P" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1B9Y" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1B9W" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1B9X" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1B9V" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1B9S" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1Bai" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bal" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Ban" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bao" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Baz" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Ba_" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BaA" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1BaC" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1BaB" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1Baq" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BaJ" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BaL" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BaM" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1BaN" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1BaO" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1BaD" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1BaE" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1BaH" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1BaG" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1BaF" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1BaB" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1Bat" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1Bau" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1Bay" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1Baw" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1Bax" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1BaI" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1BaP" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BaQ" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BaS" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BaT" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BaW" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BaV" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1BaU" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1BaB" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bbf" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bbh" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bbi" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Bbm" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1Bbl" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1Bbt" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1Bbu" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1Bbs" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1Bbp" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BAx">
-    <property role="3GE5qa" value="Expressions.Assignments" />
-    <ref role="WuzLi" to="yjel:2HIntxMQUw6" resolve="AndAssignExpression" />
-    <node concept="11bSqf" id="ZiSbNk1BAy" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BAz" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1BAG" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BAE" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BAF" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BAD" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BAA" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1BB0" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BB3" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BB5" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BB6" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BBh" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BBj" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BBk" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1BBm" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1BBl" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1BB8" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BBt" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BBv" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BBw" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1BBx" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1BBy" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1BBn" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1BBo" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1BBr" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1BBq" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1BBp" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1BBl" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1BBb" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1BBc" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1BBg" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1BBe" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1BBf" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1BBs" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1BBz" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BB$" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BBA" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BBB" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BBE" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BBD" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1BBC" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1BBl" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BBX" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BBZ" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BC0" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BC4" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1BC3" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1BCb" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BCc" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BCa" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BC7" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1Cf8">
-    <property role="3GE5qa" value="Expressions.Relational" />
-    <ref role="WuzLi" to="yjel:5VT83U$LtAC" resolve="GreaterThanOrEqualToExpression" />
-    <node concept="11bSqf" id="ZiSbNk1Cf9" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1Cfa" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1Cfj" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Cfh" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1Cfi" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1Cfg" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1Cfd" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1CfB" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1CfE" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1CfG" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1CfH" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1CfS" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1CfU" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1CfV" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1CfX" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1CfW" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1CfJ" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Cg4" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Cg6" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Cg7" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1Cg8" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1Cg9" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1CfY" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1CfZ" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1Cg2" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1Cg1" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1Cg0" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1CfW" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1CfM" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1CfN" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1CfR" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1CfP" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1CfQ" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1Cg3" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1Cga" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Cgb" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Cgd" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Cge" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Cgh" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Cgg" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1Cgf" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1CfW" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Cg$" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1CgA" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1CgB" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1CgF" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1CgE" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1CgM" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1CgN" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1CgL" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1CgI" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1CcC">
-    <property role="3GE5qa" value="Expressions.Bitwise" />
-    <ref role="WuzLi" to="yjel:5VT83U$L_sE" resolve="BitwiseLeftShiftExpression" />
-    <node concept="11bSqf" id="ZiSbNk1CcD" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1CcE" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1CcN" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1CcL" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1CcM" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1CcK" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1CcH" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1Cd7" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Cda" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Cdc" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Cdd" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Cdo" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Cdq" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Cdr" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1Cdt" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1Cds" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1Cdf" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Cd$" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1CdA" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1CdB" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1CdC" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1CdD" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1Cdu" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1Cdv" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1Cdy" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1Cdx" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1Cdw" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1Cds" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1Cdi" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1Cdj" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1Cdn" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1Cdl" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1Cdm" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1Cdz" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1CdE" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1CdF" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1CdH" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1CdI" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1CdL" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1CdK" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1CdJ" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1Cds" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Ce4" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Ce6" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Ce7" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Ceb" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1Cea" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1Cei" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1Cej" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1Ceh" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1Cee" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1C4M">
-    <property role="3GE5qa" value="Expressions.Bitwise" />
-    <ref role="WuzLi" to="yjel:5VT83U$Lr2C" resolve="BitwiseAndExpression" />
-    <node concept="11bSqf" id="ZiSbNk1C4N" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1C4O" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1C4X" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1C4V" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1C4W" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1C4U" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1C4R" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1C5h" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C5k" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C5m" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C5n" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C5y" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C5$" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C5_" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1C5B" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1C5A" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1C5p" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C5I" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C5K" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C5L" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1C5M" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1C5N" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1C5C" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1C5D" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1C5G" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1C5F" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1C5E" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1C5A" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1C5s" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1C5t" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1C5x" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1C5v" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1C5w" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1C5H" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1C5O" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C5P" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C5R" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C5S" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1C5V" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1C5U" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1C5T" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1C5A" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C6e" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C6g" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C6h" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1C6l" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1C6k" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1C6s" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1C6t" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1C6r" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1C6o" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
               </node>
             </node>
           </node>
@@ -28751,105 +28058,1008 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="ZiSbNk1B6U">
-    <property role="3GE5qa" value="Expressions.Arithmetic" />
-    <ref role="WuzLi" to="yjel:5VT83U$LBkW" resolve="ModuloExpression" />
-    <node concept="11bSqf" id="ZiSbNk1B6V" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1B6W" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1B75" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1B73" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1B74" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1B72" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1B6Z" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1B7p" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1B7s" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1B7u" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B7v" role="1PaTwD">
+  <node concept="WtQ9Q" id="ZiSbNk1Btj">
+    <property role="3GE5qa" value="Expressions.Unary" />
+    <ref role="WuzLi" to="yjel:5ZiUmPXqPzI" resolve="UnaryAddressExpression" />
+    <node concept="11bSqf" id="ZiSbNk1Btk" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1Btl" role="2VODD2">
+        <node concept="3SKdUt" id="ZiSbNk1Bto" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Btq" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Btr" role="1PaTwD">
               <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1B7E" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1B7G" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B7H" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1BtA" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BtC" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BtD" role="1PaTwD">
               <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="ZiSbNk1B7J" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1B7I" role="3cpWs9">
+        <node concept="3cpWs8" id="ZiSbNk1BtF" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1BtE" role="3cpWs9">
             <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1B7x" role="1tU5fm" />
+            <node concept="17QB3L" id="ZiSbNk1Btt" role="1tU5fm" />
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1B7Q" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1B7S" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B7T" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1BtM" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BtO" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BtP" role="1PaTwD">
               <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
             </node>
           </node>
         </node>
-        <node concept="MpOyq" id="ZiSbNk1B7U" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1B7V" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1B7K" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1B7L" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1B7O" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1B7N" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1B7M" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1B7I" resolve="returnValueAuxVar" />
+        <node concept="MpOyq" id="ZiSbNk1BtQ" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BtR" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1BtG" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1BtH" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1BtK" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1BtJ" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1BtI" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1BtE" resolve="returnValueAuxVar" />
                     </node>
-                    <node concept="2OqwBi" id="ZiSbNk1B7$" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1B7_" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1B7D" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1B7B" role="2OqNvi" />
+                    <node concept="2OqwBi" id="ZiSbNk1Btw" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1Btx" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1Bt_" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1Btz" role="2OqNvi" />
                       </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1B7C" role="2OqNvi" />
+                      <node concept="3n3YKJ" id="ZiSbNk1Bt$" role="2OqNvi" />
                     </node>
                   </node>
                 </node>
-                <node concept="3zACq4" id="ZiSbNk1B7P" role="3cqZAp" />
+                <node concept="3zACq4" id="ZiSbNk1BtL" role="3cqZAp" />
               </node>
             </node>
           </node>
-          <node concept="3clFbT" id="ZiSbNk1B7W" role="MpTkK" />
+          <node concept="3clFbT" id="ZiSbNk1BtS" role="MpTkK" />
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1B7X" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1B7Z" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B80" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1BtT" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BtV" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BtW" role="1PaTwD">
               <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="ZiSbNk1B83" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1B82" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1B81" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1B7I" resolve="returnValueAuxVar" />
+        <node concept="lc7rE" id="ZiSbNk1BtZ" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BtY" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1BtX" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1BtE" resolve="returnValueAuxVar" />
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1B8m" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1B8o" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1B8p" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1Bui" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Buk" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bul" role="1PaTwD">
               <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="ZiSbNk1B8t" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1B8s" role="lcghm">
+        <node concept="lc7rE" id="ZiSbNk1Buu" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Bus" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1But" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1Bur" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1Buo" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LFpC" resolve="expression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1ByR">
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <ref role="WuzLi" to="yjel:2HIntxMQUw4" resolve="DivideAssignExpression" />
+    <node concept="11bSqf" id="ZiSbNk1ByS" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1ByT" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1Bz2" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Bz0" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1Bz1" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1ByZ" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1ByW" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1Bzm" role="lcghm">
             <property role="lacIc" value=" " />
           </node>
-          <node concept="l9hG8" id="ZiSbNk1B8$" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1B8_" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1B8z" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1B8w" role="2OqNvi">
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bzp" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bzr" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bzs" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BzB" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BzD" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BzE" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1BzG" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1BzF" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1Bzu" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BzN" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BzP" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BzQ" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1BzR" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BzS" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1BzH" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1BzI" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1BzL" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1BzK" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1BzJ" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1BzF" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1Bzx" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1Bzy" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1BzA" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1Bz$" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1Bz_" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1BzM" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1BzT" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BzU" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BzW" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BzX" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1B$0" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BzZ" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1BzY" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1BzF" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1B$j" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1B$l" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B$m" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1B$q" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1B$p" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1B$x" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1B$y" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1B$w" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1B$t" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BLn">
+    <property role="3GE5qa" value="Expressions.Unary" />
+    <ref role="WuzLi" to="yjel:5VT83U$LFpV" resolve="UnaryMinusExpression" />
+    <node concept="11bSqf" id="ZiSbNk1BLo" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BLp" role="2VODD2">
+        <node concept="3SKdUt" id="ZiSbNk1BLs" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BLu" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BLv" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BLE" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BLG" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BLH" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1BLJ" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1BLI" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1BLx" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BLQ" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BLS" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BLT" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1BLU" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BLV" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1BLK" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1BLL" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1BLO" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1BLN" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1BLM" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1BLI" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1BL$" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1BL_" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1BLD" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1BLB" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1BLC" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1BLP" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1BLW" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BLX" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BLZ" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BM0" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BM3" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BM2" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1BM1" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1BLI" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BMm" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BMo" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BMp" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BMy" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BMw" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BMx" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BMv" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BMs" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LFpC" resolve="expression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1Chd">
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <ref role="WuzLi" to="yjel:2HIntxMQUw7" resolve="OrAssignExpression" />
+    <node concept="11bSqf" id="ZiSbNk1Che" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1Chf" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1Cho" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Chm" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1Chn" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1Chl" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1Chi" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1ChG" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1ChJ" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1ChL" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1ChM" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1ChX" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1ChZ" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Ci0" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1Ci2" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1Ci1" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1ChO" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Ci9" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Cib" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Cic" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1Cid" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1Cie" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1Ci3" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1Ci4" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1Ci7" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1Ci6" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1Ci5" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1Ci1" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1ChR" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1ChS" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1ChW" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1ChU" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1ChV" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1Ci8" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1Cif" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Cig" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Cii" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Cij" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1Cim" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Cil" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1Cik" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1Ci1" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1CiD" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1CiF" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1CiG" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1CiK" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1CiJ" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1CiR" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1CiS" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1CiQ" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1CiN" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1Bf$">
+    <property role="3GE5qa" value="Expressions.Arithmetic" />
+    <ref role="WuzLi" to="yjel:5VT83U$LBkV" resolve="DivisionExpression" />
+    <node concept="11bSqf" id="ZiSbNk1Bf_" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BfA" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1BfJ" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BfH" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BfI" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BfG" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BfD" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1Bg3" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bg6" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bg8" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bg9" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bgk" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bgm" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bgn" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1Bgp" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1Bgo" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1Bgb" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bgw" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bgy" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bgz" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1Bg$" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1Bg_" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1Bgq" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1Bgr" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1Bgu" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1Bgt" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1Bgs" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1Bgo" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1Bge" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1Bgf" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1Bgj" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1Bgh" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1Bgi" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1Bgv" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1BgA" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BgB" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BgD" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BgE" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BgH" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BgG" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1BgF" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1Bgo" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bh0" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bh2" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bh3" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1Bh7" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1Bh6" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1Bhe" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1Bhf" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1Bhd" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1Bha" role="2OqNvi">
                 <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BGL">
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <ref role="WuzLi" to="yjel:2HIntxMQUwa" resolve="RightShiftAssignExpression" />
+    <node concept="11bSqf" id="ZiSbNk1BGM" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BGN" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1BGW" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BGU" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BGV" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BGT" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BGQ" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1BHg" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BHj" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BHl" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BHm" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BHx" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BHz" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BH$" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1BHA" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1BH_" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1BHo" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BHH" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BHJ" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BHK" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1BHL" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BHM" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1BHB" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1BHC" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1BHF" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1BHE" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1BHD" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1BH_" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1BHr" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1BHs" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1BHw" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1BHu" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1BHv" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1BHG" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1BHN" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BHO" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BHQ" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BHR" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BHU" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BHT" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1BHS" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1BH_" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BId" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BIf" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BIg" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BIk" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1BIj" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1BIr" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BIs" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BIq" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BIn" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1C3d">
+    <property role="3GE5qa" value="Expressions.Prefix/Postfix" />
+    <ref role="WuzLi" to="yjel:5VT83U$LFpX" resolve="PreDecrementExpression" />
+    <node concept="11bSqf" id="ZiSbNk1C3e" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1C3f" role="2VODD2">
+        <node concept="3SKdUt" id="ZiSbNk1C3i" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C3k" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C3l" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C3w" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C3y" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C3z" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1C3_" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1C3$" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1C3n" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C3G" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C3I" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C3J" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1C3K" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1C3L" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1C3A" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1C3B" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1C3E" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1C3D" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1C3C" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1C3$" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1C3q" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1C3r" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1C3v" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1C3t" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1C3u" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1C3F" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1C3M" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C3N" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C3P" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C3Q" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1C3T" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1C3S" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1C3R" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1C3$" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C4c" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C4e" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C4f" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1C4o" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1C4m" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1C4n" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1C4l" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1C4i" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LFpC" resolve="expression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BAx">
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <ref role="WuzLi" to="yjel:2HIntxMQUw6" resolve="AndAssignExpression" />
+    <node concept="11bSqf" id="ZiSbNk1BAy" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BAz" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1BAG" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BAE" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BAF" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BAD" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BAA" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1BB0" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BB3" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BB5" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BB6" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BBh" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BBj" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BBk" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1BBm" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1BBl" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1BB8" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BBt" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BBv" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BBw" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1BBx" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BBy" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1BBn" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1BBo" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1BBr" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1BBq" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1BBp" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1BBl" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1BBb" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1BBc" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1BBg" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1BBe" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1BBf" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1BBs" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1BBz" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BB$" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BBA" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BBB" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BBE" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BBD" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1BBC" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1BBl" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BBX" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BBZ" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BC0" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BC4" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1BC3" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1BCb" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BCc" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BCa" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BC7" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BKT">
+    <property role="3GE5qa" value="Statements.Other" />
+    <ref role="WuzLi" to="yjel:1FYNzU$qtce" resolve="EmbeddedStatement" />
+    <node concept="11bSqf" id="ZiSbNk1BKU" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BKV" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1BKY" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1BKX" role="lcghm">
+            <property role="lacIc" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1C6S">
+    <property role="3GE5qa" value="Expressions.Conditional" />
+    <ref role="WuzLi" to="yjel:5VT83U$LqhN" resolve="AndExpression" />
+    <node concept="11bSqf" id="ZiSbNk1C6T" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1C6U" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1C73" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1C71" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1C72" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1C70" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1C6X" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1C7n" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C7q" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C7s" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C7t" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C7C" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C7E" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C7F" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1C7H" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1C7G" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1C7v" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C7O" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C7Q" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C7R" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1C7S" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1C7T" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1C7I" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1C7J" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1C7M" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1C7L" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1C7K" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1C7G" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1C7y" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1C7z" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1C7B" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1C7_" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1C7A" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1C7N" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1C7U" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C7V" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C7X" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C7Y" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1C81" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1C80" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1C7Z" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1C7G" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C8k" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C8m" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C8n" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1C8r" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1C8q" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1C8y" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1C8z" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1C8x" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1C8u" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BdZ">
+    <property role="3GE5qa" value="Expressions.Unary" />
+    <ref role="WuzLi" to="yjel:5VT83U$LFpZ" resolve="UnaryTildeExpression" />
+    <node concept="11bSqf" id="ZiSbNk1Be0" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1Be1" role="2VODD2">
+        <node concept="3SKdUt" id="ZiSbNk1Be4" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Be6" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Be7" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Bei" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bek" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bel" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1Ben" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1Bem" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1Be9" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Beu" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bew" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bex" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1Bey" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1Bez" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1Beo" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1Bep" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1Bes" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1Ber" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1Beq" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1Bem" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1Bec" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1Bed" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1Beh" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1Bef" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1Beg" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1Bet" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1Be$" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1Be_" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BeB" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BeC" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BeF" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BeE" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1BeD" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1Bem" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BeY" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Bf0" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Bf1" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1Bfa" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Bf8" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1Bf9" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1Bf7" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1Bf4" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LFpC" resolve="expression" />
               </node>
             </node>
           </node>
@@ -28967,6 +29177,112 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="ZiSbNk1AZr">
+    <property role="3GE5qa" value="Expressions.Bitwise" />
+    <ref role="WuzLi" to="yjel:5VT83U$L_sF" resolve="BitwiseRightShiftExpression" />
+    <node concept="11bSqf" id="ZiSbNk1AZs" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1AZt" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1AZA" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1AZ$" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1AZ_" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1AZz" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1AZw" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1AZU" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1AZX" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1AZZ" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B00" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1B0b" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1B0d" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B0e" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1B0g" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1B0f" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1B02" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1B0n" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1B0p" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B0q" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1B0r" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1B0s" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1B0h" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1B0i" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1B0l" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1B0k" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1B0j" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1B0f" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1B05" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1B06" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1B0a" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1B08" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1B09" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1B0m" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1B0t" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1B0u" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1B0w" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B0x" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1B0$" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1B0z" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1B0y" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1B0f" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1B0R" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1B0T" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1B0U" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1B0Y" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1B0X" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1B15" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1B16" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1B14" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1B11" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="WtQ9Q" id="ZiSbNk1B3A">
     <property role="3GE5qa" value="Expressions.Assignments" />
     <ref role="WuzLi" to="yjel:2HIntxMQUw8" resolve="XorAssignExpression" />
@@ -29073,89 +29389,317 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BdZ">
-    <property role="3GE5qa" value="Expressions.Unary" />
-    <ref role="WuzLi" to="yjel:5VT83U$LFpZ" resolve="UnaryTildeExpression" />
-    <node concept="11bSqf" id="ZiSbNk1Be0" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1Be1" role="2VODD2">
-        <node concept="3SKdUt" id="ZiSbNk1Be4" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Be6" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Be7" role="1PaTwD">
+  <node concept="WtQ9Q" id="ZiSbNk1Cle">
+    <property role="3GE5qa" value="Expressions.Relational" />
+    <ref role="WuzLi" to="yjel:5VT83U$LtAA" resolve="GreaterThanExpression" />
+    <node concept="11bSqf" id="ZiSbNk1Clf" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1Clg" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1Clp" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Cln" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1Clo" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1Clm" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1Clj" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1ClH" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1ClK" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1ClM" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1ClN" role="1PaTwD">
               <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bei" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bek" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bel" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1ClY" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Cm0" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Cm1" role="1PaTwD">
               <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="ZiSbNk1Ben" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1Bem" role="3cpWs9">
+        <node concept="3cpWs8" id="ZiSbNk1Cm3" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1Cm2" role="3cpWs9">
             <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1Be9" role="1tU5fm" />
+            <node concept="17QB3L" id="ZiSbNk1ClP" role="1tU5fm" />
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1Beu" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bew" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bex" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1Cma" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Cmc" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Cmd" role="1PaTwD">
               <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
             </node>
           </node>
         </node>
-        <node concept="MpOyq" id="ZiSbNk1Bey" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1Bez" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1Beo" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1Bep" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1Bes" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1Ber" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1Beq" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1Bem" resolve="returnValueAuxVar" />
+        <node concept="MpOyq" id="ZiSbNk1Cme" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1Cmf" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1Cm4" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1Cm5" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1Cm8" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1Cm7" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1Cm6" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1Cm2" resolve="returnValueAuxVar" />
                     </node>
-                    <node concept="2OqwBi" id="ZiSbNk1Bec" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1Bed" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1Beh" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1Bef" role="2OqNvi" />
+                    <node concept="2OqwBi" id="ZiSbNk1ClS" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1ClT" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1ClX" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1ClV" role="2OqNvi" />
                       </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1Beg" role="2OqNvi" />
+                      <node concept="3n3YKJ" id="ZiSbNk1ClW" role="2OqNvi" />
                     </node>
                   </node>
                 </node>
-                <node concept="3zACq4" id="ZiSbNk1Bet" role="3cqZAp" />
+                <node concept="3zACq4" id="ZiSbNk1Cm9" role="3cqZAp" />
               </node>
             </node>
           </node>
-          <node concept="3clFbT" id="ZiSbNk1Be$" role="MpTkK" />
+          <node concept="3clFbT" id="ZiSbNk1Cmg" role="MpTkK" />
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1Be_" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BeB" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BeC" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1Cmh" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1Cmj" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1Cmk" role="1PaTwD">
               <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="ZiSbNk1BeF" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BeE" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1BeD" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1Bem" resolve="returnValueAuxVar" />
+        <node concept="lc7rE" id="ZiSbNk1Cmn" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1Cmm" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1Cml" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1Cm2" resolve="returnValueAuxVar" />
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="ZiSbNk1BeY" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bf0" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bf1" role="1PaTwD">
+        <node concept="3SKdUt" id="ZiSbNk1CmE" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1CmG" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1CmH" role="1PaTwD">
               <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="ZiSbNk1Bfa" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Bf8" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1Bf9" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1Bf7" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1Bf4" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:5VT83U$LFpC" resolve="expression" />
+        <node concept="lc7rE" id="ZiSbNk1CmL" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1CmK" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1CmS" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1CmT" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1CmR" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1CmO" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1C17">
+    <property role="3GE5qa" value="Expressions.Relational" />
+    <ref role="WuzLi" to="yjel:5VT83U$LtAB" resolve="LessThanOrEqualToExpression" />
+    <node concept="11bSqf" id="ZiSbNk1C18" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1C19" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1C1i" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1C1g" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1C1h" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1C1f" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1C1c" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyW" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1C1A" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C1D" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C1F" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C1G" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C1R" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C1T" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C1U" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1C1W" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1C1V" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1C1I" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C23" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C25" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C26" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1C27" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1C28" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1C1X" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1C1Y" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1C21" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1C20" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1C1Z" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1C1V" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1C1L" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1C1M" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1C1Q" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1C1O" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1C1P" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1C22" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1C29" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C2a" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C2c" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C2d" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1C2g" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1C2f" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1C2e" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1C1V" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1C2z" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1C2_" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1C2A" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1C2E" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1C2D" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1C2L" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1C2M" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1C2K" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1C2H" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:5VT83U$LpyU" resolve="rightExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="ZiSbNk1BCA">
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <ref role="WuzLi" to="yjel:2HIntxMQUw2" resolve="MinusAssignExpression" />
+    <node concept="11bSqf" id="ZiSbNk1BCB" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BCC" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1BCL" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BCJ" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BCK" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BCI" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BCF" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="ZiSbNk1BD5" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BD8" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BDa" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BDb" role="1PaTwD">
+              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BDm" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BDo" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BDp" role="1PaTwD">
+              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ZiSbNk1BDr" role="3cqZAp">
+          <node concept="3cpWsn" id="ZiSbNk1BDq" role="3cpWs9">
+            <property role="TrG5h" value="returnValueAuxVar" />
+            <node concept="17QB3L" id="ZiSbNk1BDd" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BDy" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BD$" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BD_" role="1PaTwD">
+              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
+            </node>
+          </node>
+        </node>
+        <node concept="MpOyq" id="ZiSbNk1BDA" role="3cqZAp">
+          <node concept="3clFbS" id="ZiSbNk1BDB" role="2LFqv$">
+            <node concept="9aQIb" id="ZiSbNk1BDs" role="3cqZAp">
+              <node concept="3clFbS" id="ZiSbNk1BDt" role="9aQI4">
+                <node concept="3clFbF" id="ZiSbNk1BDw" role="3cqZAp">
+                  <node concept="37vLTI" id="ZiSbNk1BDv" role="3clFbG">
+                    <node concept="37vLTw" id="ZiSbNk1BDu" role="37vLTJ">
+                      <ref role="3cqZAo" node="ZiSbNk1BDq" resolve="returnValueAuxVar" />
+                    </node>
+                    <node concept="2OqwBi" id="ZiSbNk1BDg" role="37vLTx">
+                      <node concept="2OqwBi" id="ZiSbNk1BDh" role="2Oq$k0">
+                        <node concept="117lpO" id="ZiSbNk1BDl" role="2Oq$k0" />
+                        <node concept="2yIwOk" id="ZiSbNk1BDj" role="2OqNvi" />
+                      </node>
+                      <node concept="3n3YKJ" id="ZiSbNk1BDk" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="ZiSbNk1BDx" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="ZiSbNk1BDC" role="MpTkK" />
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BDD" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BDF" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BDG" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BDJ" role="3cqZAp">
+          <node concept="l9hG8" id="ZiSbNk1BDI" role="lcghm">
+            <node concept="37vLTw" id="ZiSbNk1BDH" role="lb14g">
+              <ref role="3cqZAo" node="ZiSbNk1BDq" resolve="returnValueAuxVar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="ZiSbNk1BE2" role="3cqZAp">
+          <node concept="1PaTwC" id="ZiSbNk1BE4" role="1aUNEU">
+            <node concept="3oM_SD" id="ZiSbNk1BE5" role="1PaTwD">
+              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="ZiSbNk1BE9" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1BE8" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="ZiSbNk1BEg" role="lcghm">
+            <node concept="2OqwBi" id="ZiSbNk1BEh" role="lb14g">
+              <node concept="117lpO" id="ZiSbNk1BEf" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZiSbNk1BEc" role="2OqNvi">
+                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
               </node>
             </node>
           </node>
@@ -29269,471 +29813,13 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BZ1">
-    <property role="3GE5qa" value="Expressions.Assignments" />
-    <ref role="WuzLi" to="yjel:2HIntxMQUw1" resolve="PlusAssignExpression" />
-    <node concept="11bSqf" id="ZiSbNk1BZ2" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BZ3" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1BZc" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BZa" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BZb" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BZ9" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BZ6" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1BZw" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BZz" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BZ_" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BZA" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BZL" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BZN" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BZO" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1BZQ" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1BZP" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1BZC" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BZX" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BZZ" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C00" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1C01" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1C02" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1BZR" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1BZS" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1BZV" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1BZU" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1BZT" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1BZP" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1BZF" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1BZG" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1BZK" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1BZI" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1BZJ" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1BZW" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1C03" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C04" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C06" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C07" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1C0a" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1C09" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1C08" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1BZP" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1C0t" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1C0v" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1C0w" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1C0$" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1C0z" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1C0F" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1C0G" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1C0E" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1C0B" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1Cnj">
-    <property role="3GE5qa" value="Expressions.Assignments" />
-    <ref role="WuzLi" to="yjel:2HIntxMQUw9" resolve="LeftShiftAssignExpression" />
-    <node concept="11bSqf" id="ZiSbNk1Cnk" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1Cnl" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1Cnu" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Cns" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1Cnt" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1Cnr" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1Cno" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1CnM" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1CnP" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1CnR" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1CnS" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Co3" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Co5" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Co6" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1Co8" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1Co7" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1CnU" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Cof" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Coh" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Coi" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1Coj" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1Cok" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1Co9" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1Coa" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1Cod" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1Coc" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1Cob" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1Co7" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1CnX" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1CnY" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1Co2" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1Co0" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1Co1" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1Coe" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1Col" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Com" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Coo" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Cop" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Cos" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Cor" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1Coq" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1Co7" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1CoJ" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1CoL" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1CoM" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1CoQ" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1CoP" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1CoX" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1CoY" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1CoW" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1CoT" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BGL">
-    <property role="3GE5qa" value="Expressions.Assignments" />
-    <ref role="WuzLi" to="yjel:2HIntxMQUwa" resolve="RightShiftAssignExpression" />
-    <node concept="11bSqf" id="ZiSbNk1BGM" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BGN" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1BGW" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BGU" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BGV" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BGT" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BGQ" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvt" resolve="leftSide" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="ZiSbNk1BHg" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BHj" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BHl" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BHm" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BHx" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BHz" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BH$" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1BHA" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1BH_" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1BHo" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BHH" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BHJ" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BHK" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1BHL" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1BHM" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1BHB" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1BHC" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1BHF" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1BHE" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1BHD" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1BH_" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1BHr" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1BHs" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1BHw" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1BHu" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1BHv" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1BHG" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1BHN" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BHO" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BHQ" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BHR" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BHU" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1BHT" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1BHS" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1BH_" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BId" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BIf" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BIg" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BIk" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1BIj" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="ZiSbNk1BIr" role="lcghm">
-            <node concept="2OqwBi" id="ZiSbNk1BIs" role="lb14g">
-              <node concept="117lpO" id="ZiSbNk1BIq" role="2Oq$k0" />
-              <node concept="3TrEf2" id="ZiSbNk1BIn" role="2OqNvi">
-                <ref role="3Tt5mk" to="yjel:2HIntxMQUvv" resolve="rightSide" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1B6s">
-    <property role="3GE5qa" value="Statements.Other" />
-    <ref role="WuzLi" to="yjel:1FYNzU$tiST" resolve="SelectionStatement" />
-    <node concept="11bSqf" id="ZiSbNk1B6t" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1B6u" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1B6x" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1B6w" role="lcghm">
-            <property role="lacIc" value="" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1BuS">
-    <property role="3GE5qa" value="Class / Struct.Visibility" />
-    <ref role="WuzLi" to="yjel:1DC38INDGD6" resolve="PublicVisibilityScopeDeclaration" />
-    <node concept="11bSqf" id="ZiSbNk1BuT" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1BuU" role="2VODD2">
-        <node concept="3SKdUt" id="ZiSbNk1BuX" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BuZ" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bv0" role="1PaTwD">
-              <property role="3oM_SC" value="Editor component follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bvb" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bvd" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bve" role="1PaTwD">
-              <property role="3oM_SC" value="Inlined query computation follows &gt;&gt;&gt;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="ZiSbNk1Bvg" role="3cqZAp">
-          <node concept="3cpWsn" id="ZiSbNk1Bvf" role="3cpWs9">
-            <property role="TrG5h" value="returnValueAuxVar" />
-            <node concept="17QB3L" id="ZiSbNk1Bv2" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bvn" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bvp" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bvq" role="1PaTwD">
-              <property role="3oM_SC" value="Simulation of a return statement (BaseLanguage does not have goto. Thus we use a loop statement and breaks):" />
-            </node>
-          </node>
-        </node>
-        <node concept="MpOyq" id="ZiSbNk1Bvr" role="3cqZAp">
-          <node concept="3clFbS" id="ZiSbNk1Bvs" role="2LFqv$">
-            <node concept="9aQIb" id="ZiSbNk1Bvh" role="3cqZAp">
-              <node concept="3clFbS" id="ZiSbNk1Bvi" role="9aQI4">
-                <node concept="3clFbF" id="ZiSbNk1Bvl" role="3cqZAp">
-                  <node concept="37vLTI" id="ZiSbNk1Bvk" role="3clFbG">
-                    <node concept="37vLTw" id="ZiSbNk1Bvj" role="37vLTJ">
-                      <ref role="3cqZAo" node="ZiSbNk1Bvf" resolve="returnValueAuxVar" />
-                    </node>
-                    <node concept="2OqwBi" id="ZiSbNk1Bv5" role="37vLTx">
-                      <node concept="2OqwBi" id="ZiSbNk1Bv6" role="2Oq$k0">
-                        <node concept="117lpO" id="ZiSbNk1Bva" role="2Oq$k0" />
-                        <node concept="2yIwOk" id="ZiSbNk1Bv8" role="2OqNvi" />
-                      </node>
-                      <node concept="3n3YKJ" id="ZiSbNk1Bv9" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3zACq4" id="ZiSbNk1Bvm" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbT" id="ZiSbNk1Bvt" role="MpTkK" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1Bvu" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1Bvw" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1Bvx" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Inlined query computation ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1Bv$" role="3cqZAp">
-          <node concept="l9hG8" id="ZiSbNk1Bvz" role="lcghm">
-            <node concept="37vLTw" id="ZiSbNk1Bvy" role="lb14g">
-              <ref role="3cqZAo" node="ZiSbNk1Bvf" resolve="returnValueAuxVar" />
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="ZiSbNk1BvL" role="3cqZAp">
-          <node concept="l8MVK" id="ZiSbNk1BvM" role="lcghm" />
-        </node>
-        <node concept="3SKdUt" id="ZiSbNk1BvR" role="3cqZAp">
-          <node concept="1PaTwC" id="ZiSbNk1BvT" role="1aUNEU">
-            <node concept="3oM_SD" id="ZiSbNk1BvU" role="1PaTwD">
-              <property role="3oM_SC" value="&lt;&lt;&lt; Editor component ends" />
-            </node>
-          </node>
-        </node>
-        <node concept="2Gpval" id="ZiSbNk1BwE" role="3cqZAp">
-          <node concept="2GrKxI" id="ZiSbNk1Bw2" role="2Gsz3X">
-            <property role="TrG5h" value="elem" />
-          </node>
-          <node concept="3clFbS" id="ZiSbNk1BwD" role="2LFqv$">
-            <node concept="1bpajm" id="ZiSbNk1Bwg" role="3cqZAp" />
-            <node concept="lc7rE" id="ZiSbNk1Bw6" role="3cqZAp">
-              <node concept="l9hG8" id="ZiSbNk1Bw4" role="lcghm">
-                <node concept="2GrUjf" id="ZiSbNk1Bw5" role="lb14g">
-                  <ref role="2Gs0qQ" node="ZiSbNk1Bw2" resolve="elem" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbJ" id="ZiSbNk1Bw_" role="3cqZAp">
-              <node concept="2OqwBi" id="ZiSbNk1Bwx" role="3clFbw">
-                <node concept="2OqwBi" id="ZiSbNk1Bwy" role="2Oq$k0">
-                  <node concept="YCak7" id="ZiSbNk1Bwz" role="2OqNvi" />
-                  <node concept="2GrUjf" id="ZiSbNk1Bww" role="2Oq$k0">
-                    <ref role="2Gs0qQ" node="ZiSbNk1Bw2" resolve="elem" />
-                  </node>
-                </node>
-                <node concept="3x8VRR" id="ZiSbNk1Bw$" role="2OqNvi" />
-              </node>
-              <node concept="3clFbS" id="ZiSbNk1BwC" role="3clFbx">
-                <node concept="3SKdUt" id="ZiSbNk1Bwq" role="3cqZAp">
-                  <node concept="1PaTwC" id="ZiSbNk1Bws" role="1aUNEU">
-                    <node concept="3oM_SD" id="ZiSbNk1Bwt" role="1PaTwD">
-                      <property role="3oM_SC" value="vertical child collection: insert new-lines between the elements" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="lc7rE" id="ZiSbNk1Bwu" role="3cqZAp">
-                  <node concept="l8MVK" id="ZiSbNk1Bwv" role="lcghm" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="ZiSbNk1Bw1" role="2GsD0m">
-            <node concept="117lpO" id="ZiSbNk1Bw0" role="2Oq$k0" />
-            <node concept="3Tsc0h" id="ZiSbNk1BvX" role="2OqNvi">
-              <ref role="3TtcxE" to="yjel:1DC38INDGD4" resolve="classMemberDeclaration" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="ZiSbNk1CeE">
-    <property role="3GE5qa" value="Statements.Declaration" />
-    <ref role="WuzLi" to="yjel:1FYNzU$mBmN" resolve="DeclarationStatement" />
-    <node concept="11bSqf" id="ZiSbNk1CeF" role="11c4hB">
-      <node concept="3clFbS" id="ZiSbNk1CeG" role="2VODD2">
-        <node concept="lc7rE" id="ZiSbNk1CeJ" role="3cqZAp">
-          <node concept="la8eA" id="ZiSbNk1CeI" role="lcghm">
+  <node concept="WtQ9Q" id="ZiSbNk1BsP">
+    <property role="3GE5qa" value="Statements.Try" />
+    <ref role="WuzLi" to="yjel:1FYNzU$y59n" resolve="TryStatement" />
+    <node concept="11bSqf" id="ZiSbNk1BsQ" role="11c4hB">
+      <node concept="3clFbS" id="ZiSbNk1BsR" role="2VODD2">
+        <node concept="lc7rE" id="ZiSbNk1BsU" role="3cqZAp">
+          <node concept="la8eA" id="ZiSbNk1BsT" role="lcghm">
             <property role="lacIc" value="" />
           </node>
         </node>
