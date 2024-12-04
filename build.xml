@@ -47,7 +47,7 @@
         <id>CppBaseLanguage</id>
         <name>CppBaseLanguage</name>
         <description>The C++ base language for MPS</description>
-        <version>0.0.9</version>
+        <version>0.1.0</version>
         <depends>com.intellij.modules.platform</depends>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
@@ -295,7 +295,7 @@
         <id>CppBaseLanguage</id>
         <name>CppBaseLanguage</name>
         <description>The C++ base language for MPS</description>
-        <version>0.0.9</version>
+        <version>0.1.0</version>
         <depends>com.intellij.modules.platform</depends>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
