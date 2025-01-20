@@ -1,4 +1,4 @@
-ext.mpsVersion = "2024.1"
+ext.mpsVersion = "2024.1.1"
 ext.mpsPlugins = [ ]
 ext.customMpsPlugins = [
     "TextGenGen-Fum": "https://github.com/Fumapps/textGenGen/releases/download/2024.1-beta3/TextGenGen.zip"
