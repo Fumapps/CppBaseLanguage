@@ -4021,7 +4021,7 @@
     <property role="3GE5qa" value="Literals.Definitions" />
     <property role="TrG5h" value="StringFragmentValue" />
     <property role="34LRSv" value="simple value" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="395HxsZwdWi" role="1TKVEl">
       <property role="IQ2nx" value="3622501686255345426" />
       <property role="TrG5h" value="value" />
