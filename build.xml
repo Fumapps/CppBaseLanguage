@@ -47,7 +47,7 @@
         <id>CppBaseLanguage</id>
         <name>CppBaseLanguage</name>
         <description>The C++ base language for MPS</description>
-        <version>2024.3.0</version>
+        <version>2025.1.0-SNAPSHOT</version>
         <depends>com.intellij.modules.platform</depends>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
@@ -295,7 +295,7 @@
         <id>CppBaseLanguage</id>
         <name>CppBaseLanguage</name>
         <description>The C++ base language for MPS</description>
-        <version>2024.3.0</version>
+        <version>2025.1.0-SNAPSHOT</version>
         <depends>com.intellij.modules.platform</depends>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
@@ -564,8 +564,10 @@
     <echo message="generating" />
     <generate fork="true" logLevel="${mps.ant.log}">      
       <settings refid="m2m-defaults" />
+      <plugin path="${artifacts.mps}/lib/mps-workbench.jar" id="com.intellij.modules.mps" />
       <plugin path="${artifacts.mps}/plugins/mps-build" id="jetbrains.mps.build" />
       <plugin path="${artifacts.mps}/plugins/mps-core" id="jetbrains.mps.core" />
+      <library file="${artifacts.mps}/languages/editor/jetbrains.mps.ide.editor.jar" />
       <library file="${artifacts.mps}/languages/workbench-stub.jar" />
       <library file="${artifacts.mps}/languages/workbench/jetbrains.mps.lang.plugin.standalone.jar" />
       <chunk>
@@ -647,7 +649,6 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.smodel.query.runtime.jar" />
-        <fileset file="${artifacts.mps}/languages/text/jetbrains.mps.lang.text.jar" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/CppBaseLanguage">
@@ -753,7 +754,6 @@
         <fileset file="${artifacts.mps}/lib/platform-loader.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/trove.jar" />
-        <fileset file="${artifacts.mps}/languages/text/jetbrains.mps.lang.text.jar" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/CppBaseLanguage.build">
