@@ -1,7 +1,7 @@
-ext.mpsVersion = "2025.2"
+ext.mpsVersion = "2025.3"
 ext.mpsPlugins = [ ]
 ext.customMpsPlugins = [
-    "TextGenGen-Fum": "https://github.com/Fumapps/textGenGen/releases/download/2025.2.0/TextGenGen.zip"
+    "TextGenGen-Fum": "https://github.com/Fumapps/textGenGen/releases/download/2025.3.0/TextGenGen.zip"
 ]
 ext.languageName = "CppBaseLanguage"
 
