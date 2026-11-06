@@ -1,7 +1,10 @@
-ext.mpsVersion = "2025.3"
+ext.mpsVersion = "2026.1"
 ext.mpsPlugins = [ ]
+
+def textGenGenPluginUrl = project.findProperty("textGenGenPluginUrl") ?: "https://github.com/Fumapps/textGenGen/releases/download/2026.1.0/TextGenGen.zip"
+
 ext.customMpsPlugins = [
-    "TextGenGen-Fum": "https://github.com/Fumapps/textGenGen/releases/download/2025.3.0/TextGenGen.zip"
+    "TextGenGen-Fum": textGenGenPluginUrl
 ]
 ext.languageName = "CppBaseLanguage"
 
