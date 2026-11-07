@@ -20,6 +20,9 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1402906326896143883" name="jetbrains.mps.lang.editor.structure.CellKeyMap_FunctionParm_selectedNode" flags="nn" index="0GJ7k" />
       <concept id="1402906326896143909" name="jetbrains.mps.lang.editor.structure.CellKeyMap_FunctionParm_selectedNodes" flags="nn" index="0GJ7U" />
@@ -437,7 +440,6 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
       </concept>
@@ -6487,7 +6489,7 @@
               <node concept="3clFbF" id="4KhT7h9rLqt" role="3cqZAp">
                 <node concept="2OqwBi" id="4KhT7h9rLsr" role="3clFbG">
                   <node concept="7Obwk" id="4KhT7h9rLqs" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="4KhT7h9rLEf" role="2OqNvi">
+                  <node concept="3zqWPK" id="VZKe5MfNg6" role="2OqNvi">
                     <ref role="37wK5l" to="puek:4KhT7h9niY6" resolve="makeSpaceForSubtypeReference" />
                   </node>
                 </node>
@@ -6551,7 +6553,7 @@
               <node concept="3clFbF" id="4KhT7h9nyQ$" role="3cqZAp">
                 <node concept="2OqwBi" id="4KhT7h9nySG" role="3clFbG">
                   <node concept="7Obwk" id="4KhT7h9nyQz" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="4KhT7h9nz4p" role="2OqNvi">
+                  <node concept="3zqWPK" id="VZKe5MfNg8" role="2OqNvi">
                     <ref role="37wK5l" to="puek:4KhT7h9niY6" resolve="makeSpaceForSubtypeReference" />
                   </node>
                 </node>
