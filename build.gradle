@@ -1,7 +1,7 @@
-ext.mpsVersion = "2026.1"
+ext.mpsVersion = "2026.2"
 ext.mpsPlugins = [ ]
 
-def textGenGenPluginUrl = project.findProperty("textGenGenPluginUrl") ?: "https://github.com/Fumapps/textGenGen/releases/download/2026.1.0/TextGenGen.zip"
+def textGenGenPluginUrl = project.findProperty("textGenGenPluginUrl") ?: "https://github.com/Fumapps/textGenGen/releases/download/2026.2.0/TextGenGen.zip"
 
 ext.customMpsPlugins = [
     "TextGenGen-Fum": textGenGenPluginUrl
